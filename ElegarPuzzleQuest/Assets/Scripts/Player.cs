@@ -19,7 +19,7 @@ public class Player : BaseCharacter
     [SerializeField]
     private ElegarSpells spell = ElegarSpells.noSpell;
     public float pushPullRange = 3f;
-
+    public float waterAOE = 1f;
 
 
     Vector2 startPosition;
@@ -69,7 +69,7 @@ public class Player : BaseCharacter
                 Push();
                 break;
             case ElegarSpells.Water:
-                //water
+                Water();
                 break;
             case ElegarSpells.Light:
                 //light
@@ -105,25 +105,46 @@ public class Player : BaseCharacter
 
     void Push()
     {
-        int layerMask = 1 << LayerMask.NameToLayer("Movable");
+        int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
         RaycastHit2D hit = Physics2D.Raycast(transform.position, castDirection, pushPullRange,layerMask);
         if (hit.collider != null)
         {
             Movable m = hit.collider.GetComponent<Movable>();
-            m.PushPull(new Vector2(m.transform.position.x + castDirection.x * m.transform.localScale.x, m.transform.position.y + castDirection.y * m.transform.localScale.y));
+            if (m)
+            {
+                m.PushPull(new Vector2(m.transform.position.x + castDirection.x * m.transform.localScale.x, m.transform.position.y + castDirection.y * m.transform.localScale.y));
+            }
         }
     }
 
     void Pull()
     {
-        int layerMask = 1 << LayerMask.NameToLayer("Movable");
+        int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
         RaycastHit2D hit = Physics2D.Raycast(transform.position, castDirection, pushPullRange, layerMask);
         if (hit.collider != null)
         {
             Movable m = hit.collider.GetComponent<Movable>();
-            m.PushPull(new Vector2(m.transform.position.x - castDirection.x * m.transform.localScale.x, m.transform.position.y - castDirection.y * m.transform.localScale.y));
+            if (m)
+            {
+                m.PushPull(new Vector2(m.transform.position.x - castDirection.x * m.transform.localScale.x, m.transform.position.y - castDirection.y * m.transform.localScale.y));
+            }
+        }
+    }
+
+    void Water()
+    {
+        int layerMask = 1 << LayerMask.NameToLayer("Interactable");
+        Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
+        RaycastHit2D hit = Physics2D.CircleCast(transform.position, waterAOE, castDirection, 0f, layerMask);
+        if (hit.collider != null)
+        {
+            Waterable m = hit.collider.GetComponent<Waterable>();
+            if (m)
+            {
+                m.Watered();
+            }
         }
     }
 

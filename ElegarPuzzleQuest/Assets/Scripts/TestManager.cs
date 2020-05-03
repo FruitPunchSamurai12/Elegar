@@ -36,6 +36,9 @@ public class TestManager : MonoBehaviour
         
     }
 
+
+    public Transform PlayerTransform() { return player.transform; }
+
     public void ChangeRoom(bool horizontal,bool positive,Vector3 newPlayerPosition)
     {
         cam.ChangeRoom(horizontal,positive);

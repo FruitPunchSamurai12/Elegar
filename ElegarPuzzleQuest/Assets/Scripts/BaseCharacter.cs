@@ -37,6 +37,15 @@ public class BaseCharacter : MonoBehaviour
         rb2d.MovePosition(transform.position + direction * speed * Time.fixedDeltaTime);
     }
 
+    public Vector2 CharacterDirection()
+    {
+        if(direction == Vector3.zero)
+        {
+            return Vector2.down;
+        }
+        return direction;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         direction = Vector3.zero;
