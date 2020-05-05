@@ -16,18 +16,18 @@ public class CameraScript : MonoBehaviour
     float timeLerpStarted;
     public float lerpDuration = 1f;
 
-    public float xOffset = 24f;
-    public float yOffset;
+    public float xOffset = 15f;
+    public float yOffset = 10f;
     // Start is called before the first frame update
     void Start()
     {
         cam = Camera.main;
-        Vector3 pos = new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
-        cam.transform.position = pos;
+        //Vector3 pos = new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
+       // cam.transform.position = pos;
         startPosition = transform.position;
         endPosition = transform.position;
-        xOffset = startTilemap.CellToWorld(startTilemap.size).x ;
-        yOffset = startTilemap.CellToWorld(startTilemap.size).y;
+        //xOffset = startTilemap.CellToWorld(startTilemap.size).x ;
+        //yOffset = startTilemap.CellToWorld(startTilemap.size).y;
     }
 
     // Update is called once per frame

@@ -15,7 +15,7 @@ TagManager:
   - 
   - Movable
   - Interactable
-  - 
+  - Player
   - 
   - 
   - 
@@ -44,9 +44,12 @@ TagManager:
   - name: Objects
     uniqueID: 3700174495
     locked: 0
-  - name: Player
-    uniqueID: 859558837
-    locked: 0
   - name: Characters
     uniqueID: 167627495
+    locked: 0
+  - name: Mask
+    uniqueID: 3340406087
+    locked: 0
+  - name: Player
+    uniqueID: 859558837
     locked: 0

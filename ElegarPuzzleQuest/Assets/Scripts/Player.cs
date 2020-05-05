@@ -15,12 +15,19 @@ using UnityEngine;
 
 public class Player : BaseCharacter
 {
+    bool isDead = false;
     public bool inControl = true;
     [SerializeField]
     private ElegarSpells spell = ElegarSpells.noSpell;
     public float pushPullRange = 3f;
     public float waterAOE = 1f;
+    [SerializeField]
+    GameObject lightEffect;
+    bool isLightOn = false;
+    public float lightAOE = 2.5f;
 
+
+    public Transform groundCheck;
 
     Vector2 startPosition;
     Vector2 endPosition;
@@ -35,25 +42,31 @@ public class Player : BaseCharacter
 
     override protected void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && spell!= ElegarSpells.noSpell)
+        if (!isDead)
         {
-            animator.SetTrigger("Spell");
+            if (Input.GetKeyDown(KeyCode.Space) && spell != ElegarSpells.noSpell)
+            {
+                animator.SetTrigger("Spell");
+            }
+            direction.x = Input.GetAxisRaw("Horizontal");
+            direction.y = Input.GetAxisRaw("Vertical");
+            base.Update();
         }
-        direction.x = Input.GetAxisRaw("Horizontal");
-        direction.y = Input.GetAxisRaw("Vertical");
-        base.Update();
     }
 
     // Update is called once per frame
     override protected void FixedUpdate()
     {
-        if (inControl)
+        if (!isDead)
         {
-            MoveCharacter();                        
-        }
-        else
-        {
-            LerpPlayer();
+            if (inControl)
+            {
+                MoveCharacter();
+            }
+            else
+            {
+                LerpPlayer();
+            }
         }
     }
 
@@ -72,7 +85,7 @@ public class Player : BaseCharacter
                 Water();
                 break;
             case ElegarSpells.Light:
-                //light
+                Light();
                 break;
             case ElegarSpells.Reflect:
                 //reflect
@@ -148,4 +161,28 @@ public class Player : BaseCharacter
         }
     }
 
+    void Light()
+    {
+        isLightOn = true;
+        lightEffect.SetActive(true);
+        int layerMask = 1 << LayerMask.NameToLayer("Interactable");
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, lightAOE,layerMask);
+        foreach(Collider2D col in colliders)
+        {
+            Lightable l = col.GetComponent<Lightable>();
+            if(l)
+            {
+                l.Light();
+            }
+        }
+    }
+
+    public void FallToDeath()
+    {
+        if (!isDead)
+        {
+            animator.SetTrigger("FallDeath");
+            isDead = true;
+        }
+    }
 }
