@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 3199574479
+    locked: 0
+  - name: Base_Colider
+    uniqueID: 1944548593
+    locked: 0
+  - name: Base_No_Colider_1
+    uniqueID: 149741645
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -52,4 +61,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 859558837
+    locked: 0
+  - name: Base_No_Colider_2
+    uniqueID: 4022168869
     locked: 0
