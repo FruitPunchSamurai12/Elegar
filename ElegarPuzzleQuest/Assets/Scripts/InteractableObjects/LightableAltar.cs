@@ -29,6 +29,10 @@ public class LightableAltar : Lightable
             lighted = true;
             animator.SetTrigger("Light");
         }
+    }
 
+    public void ScaleLights()
+    {
+        lightEffect.transform.localScale *= 1.004f;
     }
 }

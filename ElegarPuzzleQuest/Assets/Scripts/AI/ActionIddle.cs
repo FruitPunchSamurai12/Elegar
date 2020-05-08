@@ -7,7 +7,7 @@ public class ActionIddle : Action
 {
     public override void Act(BaseAIController controller)
     {
-        controller.target = controller.transform;
+        controller.target = controller.transform.position;
     }
 
 }

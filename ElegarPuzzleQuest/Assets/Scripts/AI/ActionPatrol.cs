@@ -14,7 +14,7 @@ public class ActionPatrol : Action
         }
         if (controller.aiWaypoint != null)
         {
-            controller.target = controller.aiWaypoint.transform;
+            controller.target = controller.aiWaypoint.transform.position;
         }
     }
 }

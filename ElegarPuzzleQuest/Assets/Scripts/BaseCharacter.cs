@@ -48,6 +48,12 @@ public class BaseCharacter : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        direction = Vector3.zero;
+       // direction = Vector3.zero;
     }
+
+    public void SetAnimatorTrigger(string triggerName)
+    {
+        animator.SetTrigger(triggerName);
+    }
+
 }

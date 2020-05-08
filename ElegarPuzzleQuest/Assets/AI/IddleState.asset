@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: IddleState
   m_EditorClassIdentifier: 
   TimeLimit: 0
-  actions: []
+  actions:
+  - {fileID: 11400000, guid: 9fc54ec7913dbf04489e98de08ae09d3, type: 2}
   transitions: []

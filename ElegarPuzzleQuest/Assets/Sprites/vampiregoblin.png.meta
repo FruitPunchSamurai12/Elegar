@@ -1,0 +1,5987 @@
+fileFormatVersion: 2
+guid: d96678238392a434fb6ce3d4f7140fd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7538657466448328980
+    second: vampiregoblin_0
+  - first:
+      213: 2905425286527750380
+    second: vampiregoblin_1
+  - first:
+      213: 4536108460613435759
+    second: vampiregoblin_2
+  - first:
+      213: -1518962310545194449
+    second: vampiregoblin_3
+  - first:
+      213: -7197239995605884823
+    second: vampiregoblin_4
+  - first:
+      213: -3850276326705650224
+    second: vampiregoblin_5
+  - first:
+      213: -1067380128921381747
+    second: vampiregoblin_6
+  - first:
+      213: -8786533448421503310
+    second: vampiregoblin_7
+  - first:
+      213: 7080373703740143529
+    second: vampiregoblin_8
+  - first:
+      213: -231760839213039590
+    second: vampiregoblin_9
+  - first:
+      213: 1987282872778371127
+    second: vampiregoblin_10
+  - first:
+      213: -1015175679740031124
+    second: vampiregoblin_11
+  - first:
+      213: -3601019577241076542
+    second: vampiregoblin_12
+  - first:
+      213: -4968995487236536703
+    second: vampiregoblin_13
+  - first:
+      213: -7548686993916922915
+    second: vampiregoblin_14
+  - first:
+      213: 4805185918775097026
+    second: vampiregoblin_15
+  - first:
+      213: 6542671821202698544
+    second: vampiregoblin_16
+  - first:
+      213: 1511090746174429234
+    second: vampiregoblin_17
+  - first:
+      213: -1401249747953641463
+    second: vampiregoblin_18
+  - first:
+      213: -2039413384886945513
+    second: vampiregoblin_19
+  - first:
+      213: -7842575889364328039
+    second: vampiregoblin_20
+  - first:
+      213: 6362940890116516120
+    second: vampiregoblin_21
+  - first:
+      213: 2413231723314751652
+    second: vampiregoblin_22
+  - first:
+      213: -3535047416959591628
+    second: vampiregoblin_23
+  - first:
+      213: 2029447267024885662
+    second: vampiregoblin_24
+  - first:
+      213: -1082241725250618479
+    second: vampiregoblin_25
+  - first:
+      213: 2713928843541869288
+    second: vampiregoblin_26
+  - first:
+      213: 7758096599180198611
+    second: vampiregoblin_27
+  - first:
+      213: -8031756036737844489
+    second: vampiregoblin_28
+  - first:
+      213: 380233933952399491
+    second: vampiregoblin_29
+  - first:
+      213: 6599168703364297097
+    second: vampiregoblin_30
+  - first:
+      213: -6805447939665618831
+    second: vampiregoblin_31
+  - first:
+      213: 4123562613482189054
+    second: vampiregoblin_32
+  - first:
+      213: 1869785693447460623
+    second: vampiregoblin_33
+  - first:
+      213: -3342759392534806965
+    second: vampiregoblin_34
+  - first:
+      213: -6961432310753451214
+    second: vampiregoblin_35
+  - first:
+      213: 2474338203328920952
+    second: vampiregoblin_36
+  - first:
+      213: 7906185976268910187
+    second: vampiregoblin_37
+  - first:
+      213: 382701547579904036
+    second: vampiregoblin_38
+  - first:
+      213: -2183212287189635040
+    second: vampiregoblin_39
+  - first:
+      213: -8796230773363858377
+    second: vampiregoblin_40
+  - first:
+      213: -1042169782649908165
+    second: vampiregoblin_41
+  - first:
+      213: -132455015825321214
+    second: vampiregoblin_42
+  - first:
+      213: 4878681939198543436
+    second: vampiregoblin_43
+  - first:
+      213: -1359516966186930113
+    second: vampiregoblin_44
+  - first:
+      213: -3870677907009288907
+    second: vampiregoblin_45
+  - first:
+      213: -8689132580179230712
+    second: vampiregoblin_46
+  - first:
+      213: 955513760197043970
+    second: vampiregoblin_47
+  - first:
+      213: -8528839295440405443
+    second: vampiregoblin_48
+  - first:
+      213: -5735018540294743575
+    second: vampiregoblin_49
+  - first:
+      213: 2332751451741179179
+    second: vampiregoblin_50
+  - first:
+      213: -1087333456991884012
+    second: vampiregoblin_51
+  - first:
+      213: -8371604343660093092
+    second: vampiregoblin_52
+  - first:
+      213: 6380497280906526111
+    second: vampiregoblin_53
+  - first:
+      213: -3775722715737449090
+    second: vampiregoblin_54
+  - first:
+      213: -3645410114965596394
+    second: vampiregoblin_55
+  - first:
+      213: 7873123735589715005
+    second: vampiregoblin_56
+  - first:
+      213: 6866662552813808079
+    second: vampiregoblin_57
+  - first:
+      213: 4361510873387560572
+    second: vampiregoblin_58
+  - first:
+      213: 5317750381289235080
+    second: vampiregoblin_59
+  - first:
+      213: 4623055418204442863
+    second: vampiregoblin_60
+  - first:
+      213: -4488892730347659847
+    second: vampiregoblin_61
+  - first:
+      213: 5112310059593639034
+    second: vampiregoblin_62
+  - first:
+      213: -6415225167692442781
+    second: vampiregoblin_63
+  - first:
+      213: 868944592638766440
+    second: vampiregoblin_64
+  - first:
+      213: -5846349995978167127
+    second: vampiregoblin_65
+  - first:
+      213: 6285504050656406227
+    second: vampiregoblin_66
+  - first:
+      213: 1981785719020457522
+    second: vampiregoblin_67
+  - first:
+      213: 5619508020277180037
+    second: vampiregoblin_68
+  - first:
+      213: 6308496200421242112
+    second: vampiregoblin_69
+  - first:
+      213: -1353500005091995468
+    second: vampiregoblin_70
+  - first:
+      213: -7614344019113300816
+    second: vampiregoblin_71
+  - first:
+      213: 8726794103267535116
+    second: vampiregoblin_72
+  - first:
+      213: 5360027364577902084
+    second: vampiregoblin_73
+  - first:
+      213: -4126185550043014280
+    second: vampiregoblin_74
+  - first:
+      213: 8915218235210273792
+    second: vampiregoblin_75
+  - first:
+      213: 3128787992616900373
+    second: vampiregoblin_76
+  - first:
+      213: 2896378492061648083
+    second: vampiregoblin_77
+  - first:
+      213: -8943103735194823074
+    second: vampiregoblin_78
+  - first:
+      213: 5478187171263540639
+    second: vampiregoblin_79
+  - first:
+      213: -9061877357136993148
+    second: vampiregoblin_80
+  - first:
+      213: 777477909331279
+    second: vampiregoblin_81
+  - first:
+      213: 9154438901004202162
+    second: vampiregoblin_82
+  - first:
+      213: 2834872465633498012
+    second: vampiregoblin_83
+  - first:
+      213: 7262341242843532123
+    second: vampiregoblin_84
+  - first:
+      213: 3413072309159534333
+    second: vampiregoblin_85
+  - first:
+      213: 2736683450338207384
+    second: vampiregoblin_86
+  - first:
+      213: -6554524703679183628
+    second: vampiregoblin_87
+  - first:
+      213: -8310390661599624697
+    second: vampiregoblin_88
+  - first:
+      213: 6878076363480555144
+    second: vampiregoblin_89
+  - first:
+      213: 6224255376283140444
+    second: vampiregoblin_90
+  - first:
+      213: -9116299965985819582
+    second: vampiregoblin_91
+  - first:
+      213: -5065929651296046996
+    second: vampiregoblin_92
+  - first:
+      213: -80593251993030036
+    second: vampiregoblin_93
+  - first:
+      213: -9142823187472008127
+    second: vampiregoblin_94
+  - first:
+      213: 1369842370080578018
+    second: vampiregoblin_95
+  - first:
+      213: 5608227095065498384
+    second: vampiregoblin_96
+  - first:
+      213: 1647179230274980513
+    second: vampiregoblin_97
+  - first:
+      213: -6996637366484821417
+    second: vampiregoblin_98
+  - first:
+      213: 3031171544446660669
+    second: vampiregoblin_99
+  - first:
+      213: -6142660357245017558
+    second: vampiregoblin_100
+  - first:
+      213: 6423581444084054946
+    second: vampiregoblin_101
+  - first:
+      213: 3607810014376906992
+    second: vampiregoblin_102
+  - first:
+      213: -246864348707084867
+    second: vampiregoblin_103
+  - first:
+      213: -7527246027556086674
+    second: vampiregoblin_104
+  - first:
+      213: 4602838436941339672
+    second: vampiregoblin_105
+  - first:
+      213: -6894738105509732625
+    second: vampiregoblin_106
+  - first:
+      213: 784151093964105677
+    second: vampiregoblin_107
+  - first:
+      213: 378972081971428803
+    second: vampiregoblin_108
+  - first:
+      213: 4195376449909117866
+    second: vampiregoblin_109
+  - first:
+      213: 8867669803993344933
+    second: vampiregoblin_110
+  - first:
+      213: -2899466204960095190
+    second: vampiregoblin_111
+  - first:
+      213: -8661754930396475965
+    second: vampiregoblin_112
+  - first:
+      213: 7690478731016280031
+    second: vampiregoblin_113
+  - first:
+      213: 6671602916456686470
+    second: vampiregoblin_114
+  - first:
+      213: -6748619616369908205
+    second: vampiregoblin_115
+  - first:
+      213: 2753404220280322681
+    second: vampiregoblin_116
+  - first:
+      213: -504282387257150210
+    second: vampiregoblin_117
+  - first:
+      213: 2805164340512598415
+    second: vampiregoblin_118
+  - first:
+      213: -7219401252143183828
+    second: vampiregoblin_119
+  - first:
+      213: 3837731528049890089
+    second: vampiregoblin_120
+  - first:
+      213: 8888320854168736903
+    second: vampiregoblin_121
+  - first:
+      213: -5418402476826532747
+    second: vampiregoblin_122
+  - first:
+      213: -8483106422319232523
+    second: vampiregoblin_123
+  - first:
+      213: -1950380378747883
+    second: vampiregoblin_124
+  - first:
+      213: -8623884319369508937
+    second: vampiregoblin_125
+  - first:
+      213: -4657260286778007222
+    second: vampiregoblin_126
+  - first:
+      213: 665426551073226741
+    second: vampiregoblin_127
+  - first:
+      213: -7478976167424770029
+    second: vampiregoblin_128
+  - first:
+      213: 1301524601811259730
+    second: vampiregoblin_129
+  - first:
+      213: 6685502026636515390
+    second: vampiregoblin_130
+  - first:
+      213: 1469225356431732144
+    second: vampiregoblin_131
+  - first:
+      213: -4988838116157683283
+    second: vampiregoblin_132
+  - first:
+      213: 819053290581336822
+    second: vampiregoblin_133
+  - first:
+      213: -8078340646291083012
+    second: vampiregoblin_134
+  - first:
+      213: -6885353803160039931
+    second: vampiregoblin_135
+  - first:
+      213: -5574371666716940437
+    second: vampiregoblin_136
+  - first:
+      213: 8875268602392095266
+    second: vampiregoblin_137
+  - first:
+      213: 3070128882613191648
+    second: vampiregoblin_138
+  - first:
+      213: -7377498212052647865
+    second: vampiregoblin_139
+  - first:
+      213: -8869341755134546206
+    second: vampiregoblin_140
+  - first:
+      213: -5006160066105227698
+    second: vampiregoblin_141
+  - first:
+      213: -6812918767947221173
+    second: vampiregoblin_142
+  - first:
+      213: 3950230093088611713
+    second: vampiregoblin_143
+  - first:
+      213: -2514396817373690565
+    second: vampiregoblin_144
+  - first:
+      213: 853472659490062755
+    second: vampiregoblin_145
+  - first:
+      213: -602338328195114597
+    second: vampiregoblin_146
+  - first:
+      213: 7366446059238218485
+    second: vampiregoblin_147
+  - first:
+      213: 5261316853946178738
+    second: vampiregoblin_148
+  - first:
+      213: -3452147714400414392
+    second: vampiregoblin_149
+  - first:
+      213: -2361170896232576299
+    second: vampiregoblin_150
+  - first:
+      213: 229319794386246686
+    second: vampiregoblin_151
+  - first:
+      213: 1024974258052571223
+    second: vampiregoblin_152
+  - first:
+      213: 864747885694595791
+    second: vampiregoblin_153
+  - first:
+      213: 3801528786247204629
+    second: vampiregoblin_154
+  - first:
+      213: -1381740777027895988
+    second: vampiregoblin_155
+  - first:
+      213: 5721001265410859343
+    second: vampiregoblin_156
+  - first:
+      213: 8173599972370646502
+    second: vampiregoblin_157
+  - first:
+      213: -8509635931170498494
+    second: vampiregoblin_158
+  - first:
+      213: 3217625243273654991
+    second: vampiregoblin_159
+  - first:
+      213: 863295651705668943
+    second: vampiregoblin_160
+  - first:
+      213: -5573893666378798004
+    second: vampiregoblin_161
+  - first:
+      213: -842871081238181575
+    second: vampiregoblin_162
+  - first:
+      213: -8865151244010237956
+    second: vampiregoblin_163
+  - first:
+      213: -6441031618913054252
+    second: vampiregoblin_164
+  - first:
+      213: -6024592826791257080
+    second: vampiregoblin_165
+  - first:
+      213: -4197894411630340273
+    second: vampiregoblin_166
+  - first:
+      213: -6771809617213395931
+    second: vampiregoblin_167
+  - first:
+      213: 8094461806482317240
+    second: vampiregoblin_168
+  - first:
+      213: 6871901908049695732
+    second: vampiregoblin_169
+  - first:
+      213: 1820061207302291834
+    second: vampiregoblin_170
+  - first:
+      213: 4485362916110872986
+    second: vampiregoblin_171
+  - first:
+      213: -8339671723036698999
+    second: vampiregoblin_172
+  - first:
+      213: 7919939981157008781
+    second: vampiregoblin_173
+  - first:
+      213: -6450309716830005304
+    second: vampiregoblin_174
+  - first:
+      213: -4777418478002742203
+    second: vampiregoblin_175
+  - first:
+      213: 1336079586340107959
+    second: vampiregoblin_176
+  - first:
+      213: -5252326409591501776
+    second: vampiregoblin_177
+  - first:
+      213: -2316984889972355260
+    second: vampiregoblin_178
+  - first:
+      213: -7696177901677306877
+    second: vampiregoblin_179
+  - first:
+      213: -6511715456051816520
+    second: vampiregoblin_180
+  - first:
+      213: 8539313205304877501
+    second: vampiregoblin_181
+  - first:
+      213: 8274200883961175422
+    second: vampiregoblin_182
+  - first:
+      213: -1819332453639287893
+    second: vampiregoblin_183
+  - first:
+      213: -8745350866570469478
+    second: vampiregoblin_184
+  - first:
+      213: -3925814308236179824
+    second: vampiregoblin_185
+  - first:
+      213: -2485080510739241919
+    second: vampiregoblin_186
+  - first:
+      213: -5228202313762778887
+    second: vampiregoblin_187
+  - first:
+      213: -1593678606889689938
+    second: vampiregoblin_188
+  - first:
+      213: 4639201985316971826
+    second: vampiregoblin_189
+  - first:
+      213: -4698513968928446099
+    second: vampiregoblin_190
+  - first:
+      213: 9164799728336331027
+    second: vampiregoblin_191
+  - first:
+      213: -8381074395025627456
+    second: vampiregoblin_192
+  - first:
+      213: -8964719243522368842
+    second: vampiregoblin_193
+  - first:
+      213: -5400378744437636071
+    second: vampiregoblin_194
+  - first:
+      213: -3273506943604595043
+    second: vampiregoblin_195
+  - first:
+      213: 9029071804492745857
+    second: vampiregoblin_196
+  - first:
+      213: -7475569645624634715
+    second: vampiregoblin_197
+  - first:
+      213: -8417583424447232480
+    second: vampiregoblin_198
+  - first:
+      213: -3500852167347113244
+    second: vampiregoblin_199
+  - first:
+      213: 7195799776875701860
+    second: vampiregoblin_200
+  - first:
+      213: 3207490915935921484
+    second: vampiregoblin_201
+  - first:
+      213: 4778387354116592849
+    second: vampiregoblin_202
+  - first:
+      213: -6766352726801219403
+    second: vampiregoblin_203
+  - first:
+      213: 5078382127340359403
+    second: vampiregoblin_204
+  - first:
+      213: 4827606503191864572
+    second: vampiregoblin_205
+  - first:
+      213: 2989408874774752949
+    second: vampiregoblin_206
+  - first:
+      213: 6651262785079847781
+    second: vampiregoblin_207
+  - first:
+      213: -7361008504237594326
+    second: vampiregoblin_208
+  - first:
+      213: 5912408692475969597
+    second: vampiregoblin_209
+  - first:
+      213: 856447742675781412
+    second: vampiregoblin_210
+  - first:
+      213: 1077729190619844262
+    second: vampiregoblin_211
+  - first:
+      213: -8896245432079337961
+    second: vampiregoblin_212
+  - first:
+      213: 3765145664120376793
+    second: vampiregoblin_213
+  - first:
+      213: -3320177500613540434
+    second: vampiregoblin_214
+  - first:
+      213: 4150590049772487117
+    second: vampiregoblin_215
+  - first:
+      213: -2338161069915711674
+    second: vampiregoblin_216
+  - first:
+      213: 2751631145527349642
+    second: vampiregoblin_217
+  - first:
+      213: -3333967809962342048
+    second: vampiregoblin_218
+  - first:
+      213: -7190036134263897826
+    second: vampiregoblin_219
+  - first:
+      213: -794078220677473193
+    second: vampiregoblin_220
+  - first:
+      213: 5374290406275605020
+    second: vampiregoblin_221
+  - first:
+      213: 634230773794571232
+    second: vampiregoblin_222
+  - first:
+      213: 7147128246906965499
+    second: vampiregoblin_223
+  - first:
+      213: 6712931652539393798
+    second: vampiregoblin_224
+  - first:
+      213: 4905751772998013819
+    second: vampiregoblin_225
+  - first:
+      213: 4065374332798978661
+    second: vampiregoblin_226
+  - first:
+      213: 118961869623502733
+    second: vampiregoblin_227
+  - first:
+      213: 8038910453642928679
+    second: vampiregoblin_228
+  - first:
+      213: 5134994511514561880
+    second: vampiregoblin_229
+  - first:
+      213: 7066560833903809804
+    second: vampiregoblin_230
+  - first:
+      213: -341636857130237093
+    second: vampiregoblin_231
+  - first:
+      213: 1608654789549116824
+    second: vampiregoblin_232
+  - first:
+      213: -5632625099155586098
+    second: vampiregoblin_233
+  - first:
+      213: -1794388937977356479
+    second: vampiregoblin_234
+  - first:
+      213: -6029170405082613400
+    second: vampiregoblin_235
+  - first:
+      213: 6285755155431372110
+    second: vampiregoblin_236
+  - first:
+      213: 6206187641715143263
+    second: vampiregoblin_237
+  - first:
+      213: -7601924725658609764
+    second: vampiregoblin_238
+  - first:
+      213: -8157696119268754406
+    second: vampiregoblin_239
+  - first:
+      213: 7339338665022223348
+    second: vampiregoblin_240
+  - first:
+      213: 7620621779003829953
+    second: vampiregoblin_241
+  - first:
+      213: 8916798194676236671
+    second: vampiregoblin_242
+  - first:
+      213: -2035250010182905392
+    second: vampiregoblin_243
+  - first:
+      213: -5731122820615253825
+    second: vampiregoblin_244
+  - first:
+      213: -8314403040111713
+    second: vampiregoblin_245
+  - first:
+      213: 3753084345439612
+    second: vampiregoblin_246
+  - first:
+      213: -8920250186780138658
+    second: vampiregoblin_247
+  - first:
+      213: -1659334106016749314
+    second: vampiregoblin_248
+  - first:
+      213: -690725927699501702
+    second: vampiregoblin_249
+  - first:
+      213: -2518943502767810349
+    second: vampiregoblin_250
+  - first:
+      213: -9092227618020317481
+    second: vampiregoblin_251
+  - first:
+      213: 3120638364394575279
+    second: vampiregoblin_252
+  - first:
+      213: -546173182705844190
+    second: vampiregoblin_253
+  - first:
+      213: -1751131953889383577
+    second: vampiregoblin_254
+  - first:
+      213: 7476436893490834483
+    second: vampiregoblin_255
+  - first:
+      213: 1655573397011843538
+    second: vampiregoblin_256
+  - first:
+      213: 4157456650318764808
+    second: vampiregoblin_257
+  - first:
+      213: -7796815958301799414
+    second: vampiregoblin_258
+  - first:
+      213: 2183714490518257569
+    second: vampiregoblin_259
+  - first:
+      213: -356097161782842302
+    second: vampiregoblin_260
+  - first:
+      213: 6283460678075067023
+    second: vampiregoblin_261
+  - first:
+      213: 6517161940503944956
+    second: vampiregoblin_262
+  - first:
+      213: -1655108388311109843
+    second: vampiregoblin_263
+  - first:
+      213: 3118536009634693387
+    second: vampiregoblin_264
+  - first:
+      213: -4494623257244509309
+    second: vampiregoblin_265
+  - first:
+      213: -8568139263773374439
+    second: vampiregoblin_266
+  - first:
+      213: 7715992030978488172
+    second: vampiregoblin_267
+  - first:
+      213: 6995188566944082167
+    second: vampiregoblin_268
+  - first:
+      213: -4920860405256303825
+    second: vampiregoblin_269
+  - first:
+      213: -5906481487130495281
+    second: vampiregoblin_270
+  - first:
+      213: -3407481152704035537
+    second: vampiregoblin_271
+  - first:
+      213: 8421518690377875889
+    second: vampiregoblin_272
+  - first:
+      213: 6255557318847066297
+    second: vampiregoblin_273
+  - first:
+      213: 4157523184956450296
+    second: vampiregoblin_274
+  - first:
+      213: -1031631517431666421
+    second: vampiregoblin_275
+  - first:
+      213: 2634616858829385144
+    second: vampiregoblin_276
+  - first:
+      213: 5337087338173944407
+    second: vampiregoblin_277
+  - first:
+      213: -1578459989364197031
+    second: vampiregoblin_278
+  - first:
+      213: 6788660091135459622
+    second: vampiregoblin_279
+  - first:
+      213: -5798294896690322777
+    second: vampiregoblin_280
+  - first:
+      213: -8470786387301367714
+    second: vampiregoblin_281
+  - first:
+      213: 5209852590079559467
+    second: vampiregoblin_282
+  - first:
+      213: 8315776563574974669
+    second: vampiregoblin_283
+  - first:
+      213: 6906088091829200864
+    second: vampiregoblin_284
+  - first:
+      213: -8445367517574943308
+    second: vampiregoblin_285
+  - first:
+      213: 137883325142770028
+    second: vampiregoblin_286
+  - first:
+      213: -990503121965940013
+    second: vampiregoblin_287
+  - first:
+      213: -5677088168008923661
+    second: vampiregoblin_288
+  - first:
+      213: 6316264586554007235
+    second: vampiregoblin_289
+  - first:
+      213: 4290237924557446557
+    second: vampiregoblin_290
+  - first:
+      213: -5875889585941528002
+    second: vampiregoblin_291
+  - first:
+      213: -5407647536358934953
+    second: vampiregoblin_292
+  - first:
+      213: 2188808908964113110
+    second: vampiregoblin_293
+  - first:
+      213: -3794464813583227007
+    second: vampiregoblin_294
+  - first:
+      213: -236085611559122585
+    second: vampiregoblin_295
+  - first:
+      213: 1573340030542212784
+    second: vampiregoblin_296
+  - first:
+      213: 4612380415967303112
+    second: vampiregoblin_297
+  - first:
+      213: 2622610851812714803
+    second: vampiregoblin_298
+  - first:
+      213: -622498105393976463
+    second: vampiregoblin_299
+  - first:
+      213: 2894598693074781683
+    second: vampiregoblin_300
+  - first:
+      213: -818282606193767095
+    second: vampiregoblin_301
+  - first:
+      213: -2387166621257511914
+    second: vampiregoblin_302
+  - first:
+      213: 5729474237789484911
+    second: vampiregoblin_303
+  - first:
+      213: -5761286764386007457
+    second: vampiregoblin_304
+  - first:
+      213: -4274238597302651140
+    second: vampiregoblin_305
+  - first:
+      213: 8154968419672478476
+    second: vampiregoblin_306
+  - first:
+      213: 5338317931925222948
+    second: vampiregoblin_307
+  - first:
+      213: -3746415937997450807
+    second: vampiregoblin_308
+  - first:
+      213: -7545210902790062796
+    second: vampiregoblin_309
+  - first:
+      213: 9071345155435796118
+    second: vampiregoblin_310
+  - first:
+      213: 7500371118907648705
+    second: vampiregoblin_311
+  - first:
+      213: -3290368269562569401
+    second: vampiregoblin_312
+  - first:
+      213: 9023205172604114243
+    second: vampiregoblin_313
+  - first:
+      213: 8971800512061213731
+    second: vampiregoblin_314
+  - first:
+      213: -5772420264745735408
+    second: vampiregoblin_315
+  - first:
+      213: -6966658788555393469
+    second: vampiregoblin_316
+  - first:
+      213: 511744469156489555
+    second: vampiregoblin_317
+  - first:
+      213: 6022017101074124210
+    second: vampiregoblin_318
+  - first:
+      213: -7616542034439211989
+    second: vampiregoblin_319
+  - first:
+      213: 6534983651675177604
+    second: vampiregoblin_320
+  - first:
+      213: 1399318556255753571
+    second: vampiregoblin_321
+  - first:
+      213: 5587768373543735763
+    second: vampiregoblin_322
+  - first:
+      213: 1926210913717984129
+    second: vampiregoblin_323
+  - first:
+      213: 8640255930413364444
+    second: vampiregoblin_324
+  - first:
+      213: 9183867640724837910
+    second: vampiregoblin_325
+  - first:
+      213: 5855266925701614704
+    second: vampiregoblin_326
+  - first:
+      213: 3348444801921794878
+    second: vampiregoblin_327
+  - first:
+      213: -7239446198703261750
+    second: vampiregoblin_328
+  - first:
+      213: 1492805911010770795
+    second: vampiregoblin_329
+  - first:
+      213: 481956110392926212
+    second: vampiregoblin_330
+  - first:
+      213: -719170601906860468
+    second: vampiregoblin_331
+  - first:
+      213: 2288276396930406054
+    second: vampiregoblin_332
+  - first:
+      213: 8832038251037727003
+    second: vampiregoblin_333
+  - first:
+      213: 7613902165173862964
+    second: vampiregoblin_334
+  - first:
+      213: 826477250638468859
+    second: vampiregoblin_335
+  - first:
+      213: 3996717310975696742
+    second: vampiregoblin_336
+  - first:
+      213: 8746585012311349791
+    second: vampiregoblin_337
+  - first:
+      213: 865673917647570207
+    second: vampiregoblin_338
+  - first:
+      213: -5610143074677327062
+    second: vampiregoblin_339
+  - first:
+      213: -5813497115835247175
+    second: vampiregoblin_340
+  - first:
+      213: 3057364808867302850
+    second: vampiregoblin_341
+  - first:
+      213: -3380977220604444725
+    second: vampiregoblin_342
+  - first:
+      213: -3348994576064414152
+    second: vampiregoblin_343
+  - first:
+      213: 9220405733620800954
+    second: vampiregoblin_344
+  - first:
+      213: 7951089391006646338
+    second: vampiregoblin_345
+  - first:
+      213: -5451426678208764479
+    second: vampiregoblin_346
+  - first:
+      213: 7458724190813086920
+    second: vampiregoblin_347
+  - first:
+      213: 6185407066737267361
+    second: vampiregoblin_348
+  - first:
+      213: 3365170430201432262
+    second: vampiregoblin_349
+  - first:
+      213: -2330043844646604070
+    second: vampiregoblin_350
+  - first:
+      213: -3553476571304616579
+    second: vampiregoblin_351
+  - first:
+      213: 6556944519936230166
+    second: vampiregoblin_352
+  - first:
+      213: 3747549265150438489
+    second: vampiregoblin_353
+  - first:
+      213: -6566265229763437022
+    second: vampiregoblin_354
+  - first:
+      213: -8264978784030412192
+    second: vampiregoblin_355
+  - first:
+      213: -3398210046327039825
+    second: vampiregoblin_356
+  - first:
+      213: -6079975055841378365
+    second: vampiregoblin_357
+  - first:
+      213: -5304669247335301042
+    second: vampiregoblin_358
+  - first:
+      213: 7395658548510424327
+    second: vampiregoblin_359
+  - first:
+      213: 3991948064819908259
+    second: vampiregoblin_360
+  - first:
+      213: 6007882503307918354
+    second: vampiregoblin_361
+  - first:
+      213: -4562851889305382747
+    second: vampiregoblin_362
+  - first:
+      213: -1097604625754354941
+    second: vampiregoblin_363
+  - first:
+      213: 1257725907899881674
+    second: vampiregoblin_364
+  - first:
+      213: 5675927758686855301
+    second: vampiregoblin_365
+  - first:
+      213: -1233256160070444232
+    second: vampiregoblin_366
+  - first:
+      213: 2261369953717695759
+    second: vampiregoblin_367
+  - first:
+      213: -4298265100934064524
+    second: vampiregoblin_368
+  - first:
+      213: -7304345227373706137
+    second: vampiregoblin_369
+  - first:
+      213: 6808989196083380940
+    second: vampiregoblin_370
+  - first:
+      213: -3550761286785650547
+    second: vampiregoblin_371
+  - first:
+      213: -734411928123277920
+    second: vampiregoblin_372
+  - first:
+      213: 2994791271025326119
+    second: vampiregoblin_373
+  - first:
+      213: -1010141582445584377
+    second: vampiregoblin_374
+  - first:
+      213: -8671731121454756157
+    second: vampiregoblin_375
+  - first:
+      213: 5435944752494179573
+    second: vampiregoblin_376
+  - first:
+      213: -6916444905400420225
+    second: vampiregoblin_377
+  - first:
+      213: -6055529964436109408
+    second: vampiregoblin_378
+  - first:
+      213: -240264532005238280
+    second: vampiregoblin_379
+  - first:
+      213: 4763721474952897649
+    second: vampiregoblin_380
+  - first:
+      213: 3716749577332022611
+    second: vampiregoblin_381
+  - first:
+      213: 9036901418968581609
+    second: vampiregoblin_382
+  - first:
+      213: -1508886592767535351
+    second: vampiregoblin_383
+  - first:
+      213: 7071999227091102192
+    second: vampiregoblin_384
+  - first:
+      213: -3170752329572707223
+    second: vampiregoblin_385
+  - first:
+      213: -6326747713435623036
+    second: vampiregoblin_386
+  - first:
+      213: -7228120040747094247
+    second: vampiregoblin_387
+  - first:
+      213: -2666929690980869202
+    second: vampiregoblin_388
+  - first:
+      213: -5968157572236281704
+    second: vampiregoblin_389
+  - first:
+      213: -5485131766052492042
+    second: vampiregoblin_390
+  - first:
+      213: 3555861743118092504
+    second: vampiregoblin_391
+  - first:
+      213: -4959110738183134069
+    second: vampiregoblin_392
+  - first:
+      213: -3803642759184680344
+    second: vampiregoblin_393
+  - first:
+      213: 1295712080203777181
+    second: vampiregoblin_394
+  - first:
+      213: 8924333007770162958
+    second: vampiregoblin_395
+  - first:
+      213: -1077361176196926744
+    second: vampiregoblin_396
+  - first:
+      213: 2746119586385636404
+    second: vampiregoblin_397
+  - first:
+      213: 2900176487078568868
+    second: vampiregoblin_398
+  - first:
+      213: 7637671268912623367
+    second: vampiregoblin_399
+  - first:
+      213: -6273744749286697910
+    second: vampiregoblin_400
+  - first:
+      213: 7340536987303932224
+    second: vampiregoblin_401
+  - first:
+      213: -479477913578308232
+    second: vampiregoblin_402
+  - first:
+      213: -6349181880052128510
+    second: vampiregoblin_403
+  - first:
+      213: -9173319063046359289
+    second: vampiregoblin_404
+  - first:
+      213: -8238545240418183880
+    second: vampiregoblin_405
+  - first:
+      213: -2814713962087691207
+    second: vampiregoblin_406
+  - first:
+      213: 4396721260923292000
+    second: vampiregoblin_407
+  - first:
+      213: 527642239747444325
+    second: vampiregoblin_408
+  - first:
+      213: 1633598188033094343
+    second: vampiregoblin_409
+  - first:
+      213: 3544284982432656524
+    second: vampiregoblin_410
+  - first:
+      213: 607826892968766030
+    second: vampiregoblin_411
+  - first:
+      213: 5946355282247837278
+    second: vampiregoblin_412
+  - first:
+      213: 6921841922297067440
+    second: vampiregoblin_413
+  - first:
+      213: 8671924715049665175
+    second: vampiregoblin_414
+  - first:
+      213: 4667274891969385727
+    second: vampiregoblin_415
+  - first:
+      213: 3122964760294015324
+    second: vampiregoblin_416
+  - first:
+      213: -832755794270946741
+    second: vampiregoblin_417
+  - first:
+      213: -7238642253098424562
+    second: vampiregoblin_418
+  - first:
+      213: -4479800747983178165
+    second: vampiregoblin_419
+  - first:
+      213: -4425033351967409367
+    second: vampiregoblin_420
+  - first:
+      213: 4942658928080422282
+    second: vampiregoblin_421
+  - first:
+      213: 1823292494264106624
+    second: vampiregoblin_422
+  - first:
+      213: -7074166374534691195
+    second: vampiregoblin_423
+  - first:
+      213: 5087093731857130592
+    second: vampiregoblin_424
+  - first:
+      213: 5238472000223869941
+    second: vampiregoblin_425
+  - first:
+      213: -4418506065084622568
+    second: vampiregoblin_426
+  - first:
+      213: 2460768409577534237
+    second: vampiregoblin_427
+  - first:
+      213: -6720485173851746351
+    second: vampiregoblin_428
+  - first:
+      213: -332601872999982602
+    second: vampiregoblin_429
+  - first:
+      213: -2574288897885278538
+    second: vampiregoblin_430
+  - first:
+      213: 4154072354040905912
+    second: vampiregoblin_431
+  - first:
+      213: -3389318038144480361
+    second: vampiregoblin_432
+  - first:
+      213: -6039139155280116216
+    second: vampiregoblin_433
+  - first:
+      213: -13285909340926705
+    second: vampiregoblin_434
+  - first:
+      213: -980020127012494721
+    second: vampiregoblin_435
+  - first:
+      213: 3295724605469651100
+    second: vampiregoblin_436
+  - first:
+      213: 3407752129770737017
+    second: vampiregoblin_437
+  - first:
+      213: -7874462410670602437
+    second: vampiregoblin_438
+  - first:
+      213: -6004393469240423774
+    second: vampiregoblin_439
+  - first:
+      213: -2991966353633745560
+    second: vampiregoblin_440
+  - first:
+      213: -4601789811829355903
+    second: vampiregoblin_441
+  - first:
+      213: 2776466095603446970
+    second: vampiregoblin_442
+  - first:
+      213: 3811453432244705216
+    second: vampiregoblin_443
+  - first:
+      213: -1749469291162672492
+    second: vampiregoblin_444
+  - first:
+      213: -9125448694736187289
+    second: vampiregoblin_445
+  - first:
+      213: 5236918479565249401
+    second: vampiregoblin_446
+  - first:
+      213: -4124803251700346367
+    second: vampiregoblin_447
+  - first:
+      213: 4512388967839767367
+    second: vampiregoblin_448
+  - first:
+      213: -1860439506674691598
+    second: vampiregoblin_449
+  - first:
+      213: -7644266556190526787
+    second: vampiregoblin_450
+  - first:
+      213: -7785085028536970671
+    second: vampiregoblin_451
+  - first:
+      213: -1182354430394330361
+    second: vampiregoblin_452
+  - first:
+      213: 9074332694201539373
+    second: vampiregoblin_453
+  - first:
+      213: -3961359617119519370
+    second: vampiregoblin_454
+  - first:
+      213: 8765067444802226797
+    second: vampiregoblin_455
+  - first:
+      213: 8894311950449352063
+    second: vampiregoblin_456
+  - first:
+      213: 3721262433168763174
+    second: vampiregoblin_457
+  - first:
+      213: 8203085060322109048
+    second: vampiregoblin_458
+  - first:
+      213: -501184404060631645
+    second: vampiregoblin_459
+  - first:
+      213: 4715515012599051882
+    second: vampiregoblin_460
+  - first:
+      213: -240454512400974778
+    second: vampiregoblin_461
+  - first:
+      213: -7948583940152088924
+    second: vampiregoblin_462
+  - first:
+      213: 4421587658010236066
+    second: vampiregoblin_463
+  - first:
+      213: 3358499057631999113
+    second: vampiregoblin_464
+  - first:
+      213: -7046267750163076187
+    second: vampiregoblin_465
+  - first:
+      213: 5277592816473250197
+    second: vampiregoblin_466
+  - first:
+      213: 424398857589650664
+    second: vampiregoblin_467
+  - first:
+      213: -6492248946496437289
+    second: vampiregoblin_468
+  - first:
+      213: -8219733687709640951
+    second: vampiregoblin_469
+  - first:
+      213: -5952226815317280686
+    second: vampiregoblin_470
+  - first:
+      213: -2435193939855514855
+    second: vampiregoblin_471
+  - first:
+      213: -5609950416449602918
+    second: vampiregoblin_472
+  - first:
+      213: 1823383337149524869
+    second: vampiregoblin_473
+  - first:
+      213: -716116941599864937
+    second: vampiregoblin_474
+  - first:
+      213: 6904903649955553223
+    second: vampiregoblin_475
+  - first:
+      213: 7152133496797302989
+    second: vampiregoblin_476
+  - first:
+      213: 8602867433560210458
+    second: vampiregoblin_477
+  - first:
+      213: -937962982610400421
+    second: vampiregoblin_478
+  - first:
+      213: 1654933066664207252
+    second: vampiregoblin_479
+  - first:
+      213: -2653242417322206665
+    second: vampiregoblin_480
+  - first:
+      213: 3940478182242554024
+    second: vampiregoblin_481
+  - first:
+      213: 5952816002810226617
+    second: vampiregoblin_482
+  - first:
+      213: -917899713685540818
+    second: vampiregoblin_483
+  - first:
+      213: -6731161215402626881
+    second: vampiregoblin_484
+  - first:
+      213: -3974960290858421226
+    second: vampiregoblin_485
+  - first:
+      213: -5256482785229113269
+    second: vampiregoblin_486
+  - first:
+      213: 8502246262439346569
+    second: vampiregoblin_487
+  - first:
+      213: 1318667855963419416
+    second: vampiregoblin_488
+  - first:
+      213: -8557787426736746389
+    second: vampiregoblin_489
+  - first:
+      213: 5302580323275545126
+    second: vampiregoblin_490
+  - first:
+      213: -6157642764465011102
+    second: vampiregoblin_491
+  - first:
+      213: -2710492461652456063
+    second: vampiregoblin_492
+  - first:
+      213: 2404311302981939131
+    second: vampiregoblin_493
+  - first:
+      213: 913894815603084491
+    second: vampiregoblin_494
+  - first:
+      213: -4768928756580017454
+    second: vampiregoblin_495
+  - first:
+      213: -1623380442276661754
+    second: vampiregoblin_496
+  - first:
+      213: 3952011133385852453
+    second: vampiregoblin_497
+  - first:
+      213: 4540452833905341561
+    second: vampiregoblin_498
+  - first:
+      213: -2603017340748585730
+    second: vampiregoblin_499
+  - first:
+      213: -3124962684903005454
+    second: vampiregoblin_500
+  - first:
+      213: -8754142146785315714
+    second: vampiregoblin_501
+  - first:
+      213: -86640776571824638
+    second: vampiregoblin_502
+  - first:
+      213: -7065285755750578557
+    second: vampiregoblin_503
+  - first:
+      213: 5020817629482724611
+    second: vampiregoblin_504
+  - first:
+      213: 8807707320566356468
+    second: vampiregoblin_505
+  - first:
+      213: 2373992540682854199
+    second: vampiregoblin_506
+  - first:
+      213: -3581648131656951209
+    second: vampiregoblin_507
+  - first:
+      213: -4415228600533752570
+    second: vampiregoblin_508
+  - first:
+      213: -7662428901351779182
+    second: vampiregoblin_509
+  - first:
+      213: 3122266604246275364
+    second: vampiregoblin_510
+  - first:
+      213: 5536368758307976738
+    second: vampiregoblin_511
+  - first:
+      213: 3403777660522095019
+    second: vampiregoblin_512
+  - first:
+      213: -238226817276258611
+    second: vampiregoblin_513
+  - first:
+      213: 3439951490966879264
+    second: vampiregoblin_514
+  - first:
+      213: 6384577589541615349
+    second: vampiregoblin_515
+  - first:
+      213: 844488921708982968
+    second: vampiregoblin_516
+  - first:
+      213: -6408874667581572092
+    second: vampiregoblin_517
+  - first:
+      213: 6167521586243000754
+    second: vampiregoblin_518
+  - first:
+      213: -7846729330058914977
+    second: vampiregoblin_519
+  - first:
+      213: 300404856923240907
+    second: vampiregoblin_520
+  - first:
+      213: -5926020344116581166
+    second: vampiregoblin_521
+  - first:
+      213: -4944505910271777847
+    second: vampiregoblin_522
+  - first:
+      213: -4559642925350969679
+    second: vampiregoblin_523
+  - first:
+      213: -2187378057506728811
+    second: vampiregoblin_524
+  - first:
+      213: -8943331598608919424
+    second: vampiregoblin_525
+  - first:
+      213: 7279360330329637334
+    second: vampiregoblin_526
+  - first:
+      213: -1121331078185425895
+    second: vampiregoblin_527
+  - first:
+      213: 6921995634398620905
+    second: vampiregoblin_528
+  - first:
+      213: 3885252156961150009
+    second: vampiregoblin_529
+  - first:
+      213: -1866319564012721075
+    second: vampiregoblin_530
+  - first:
+      213: 375092003192583734
+    second: vampiregoblin_531
+  - first:
+      213: 625864502788896174
+    second: vampiregoblin_532
+  - first:
+      213: 8834533108401372281
+    second: vampiregoblin_533
+  - first:
+      213: -6716630571077129868
+    second: vampiregoblin_534
+  - first:
+      213: 6956071190961397238
+    second: vampiregoblin_535
+  - first:
+      213: 9103249799405814497
+    second: vampiregoblin_536
+  - first:
+      213: 7130814826347451156
+    second: vampiregoblin_537
+  - first:
+      213: -9008161060070917023
+    second: vampiregoblin_538
+  - first:
+      213: -5476637583534665203
+    second: vampiregoblin_539
+  - first:
+      213: 6230764011280776121
+    second: vampiregoblin_540
+  - first:
+      213: 5103642853766744855
+    second: vampiregoblin_541
+  - first:
+      213: -6128690876724393772
+    second: vampiregoblin_542
+  - first:
+      213: -1890082325887139664
+    second: vampiregoblin_543
+  - first:
+      213: 4706590929585020270
+    second: vampiregoblin_544
+  - first:
+      213: 2544237651503866893
+    second: vampiregoblin_545
+  - first:
+      213: 3591675977728827684
+    second: vampiregoblin_546
+  - first:
+      213: -6945208750590171539
+    second: vampiregoblin_547
+  - first:
+      213: 7099206460190134204
+    second: vampiregoblin_548
+  - first:
+      213: -4463173946767982786
+    second: vampiregoblin_549
+  - first:
+      213: 1185457846686717182
+    second: vampiregoblin_550
+  - first:
+      213: 8156367700672959219
+    second: vampiregoblin_551
+  - first:
+      213: -2845610580290268048
+    second: vampiregoblin_552
+  - first:
+      213: 5322474766464382242
+    second: vampiregoblin_553
+  - first:
+      213: 4725303525798529024
+    second: vampiregoblin_554
+  - first:
+      213: 9195854148662930597
+    second: vampiregoblin_555
+  - first:
+      213: -8443948967234026782
+    second: vampiregoblin_556
+  - first:
+      213: 8297405393526521992
+    second: vampiregoblin_557
+  - first:
+      213: -5347262759846728035
+    second: vampiregoblin_558
+  - first:
+      213: 8918027291138858349
+    second: vampiregoblin_559
+  - first:
+      213: -8102677050777390200
+    second: vampiregoblin_560
+  - first:
+      213: -6437461462873250255
+    second: vampiregoblin_561
+  - first:
+      213: -769024341648580532
+    second: vampiregoblin_562
+  - first:
+      213: 8076244798242361029
+    second: vampiregoblin_563
+  - first:
+      213: -3519668979000255397
+    second: vampiregoblin_564
+  - first:
+      213: -355298419583882672
+    second: vampiregoblin_565
+  - first:
+      213: -3576375116973981140
+    second: vampiregoblin_566
+  - first:
+      213: -5263926884316154454
+    second: vampiregoblin_567
+  - first:
+      213: 469091130670066793
+    second: vampiregoblin_568
+  - first:
+      213: 8257757063995362185
+    second: vampiregoblin_569
+  - first:
+      213: 6317865414151429516
+    second: vampiregoblin_570
+  - first:
+      213: 4276141318008259592
+    second: vampiregoblin_571
+  - first:
+      213: -1993461321112594842
+    second: vampiregoblin_572
+  - first:
+      213: 6694550598019603415
+    second: vampiregoblin_573
+  - first:
+      213: -7395450557874069393
+    second: vampiregoblin_574
+  - first:
+      213: -7917257211441303743
+    second: vampiregoblin_575
+  - first:
+      213: 5907144363685958755
+    second: vampiregoblin_576
+  - first:
+      213: -3332750256165480525
+    second: vampiregoblin_577
+  - first:
+      213: -1234435870234331852
+    second: vampiregoblin_578
+  - first:
+      213: -7657869509244440757
+    second: vampiregoblin_579
+  - first:
+      213: -2065410794361273965
+    second: vampiregoblin_580
+  - first:
+      213: -1634125085379620568
+    second: vampiregoblin_581
+  - first:
+      213: -3502477631250349008
+    second: vampiregoblin_582
+  - first:
+      213: 555593693550737095
+    second: vampiregoblin_583
+  - first:
+      213: -5951139653360933832
+    second: vampiregoblin_584
+  - first:
+      213: 6403023695727085125
+    second: vampiregoblin_585
+  - first:
+      213: 2344384524525739449
+    second: vampiregoblin_586
+  - first:
+      213: -5981992149427640904
+    second: vampiregoblin_587
+  - first:
+      213: 3213398569608627992
+    second: vampiregoblin_588
+  - first:
+      213: 3694589432956055977
+    second: vampiregoblin_589
+  - first:
+      213: 2596152909034761151
+    second: vampiregoblin_590
+  - first:
+      213: 3880162021503069925
+    second: vampiregoblin_591
+  - first:
+      213: -8381996783663663460
+    second: vampiregoblin_592
+  - first:
+      213: 3717288307806787197
+    second: vampiregoblin_593
+  - first:
+      213: -592070633242594161
+    second: vampiregoblin_594
+  - first:
+      213: 3284313111375016847
+    second: vampiregoblin_595
+  - first:
+      213: 7558864771185016723
+    second: vampiregoblin_596
+  - first:
+      213: -8411552745614693145
+    second: vampiregoblin_597
+  - first:
+      213: -7063324455932516369
+    second: vampiregoblin_598
+  - first:
+      213: -5923065245104548700
+    second: vampiregoblin_599
+  - first:
+      213: -3381899921458346439
+    second: vampiregoblin_600
+  - first:
+      213: 4620465272057814605
+    second: vampiregoblin_601
+  - first:
+      213: 3164176739770672505
+    second: vampiregoblin_602
+  - first:
+      213: -654123175216511538
+    second: vampiregoblin_603
+  - first:
+      213: -6000496717880869895
+    second: vampiregoblin_604
+  - first:
+      213: 3482675741011104298
+    second: vampiregoblin_605
+  - first:
+      213: 4124238431877957161
+    second: vampiregoblin_606
+  - first:
+      213: 1483217920249601511
+    second: vampiregoblin_607
+  - first:
+      213: -1294927397871653420
+    second: vampiregoblin_608
+  - first:
+      213: -2881224199110014064
+    second: vampiregoblin_609
+  - first:
+      213: 3042132177132088990
+    second: vampiregoblin_610
+  - first:
+      213: -2770618755268789649
+    second: vampiregoblin_611
+  - first:
+      213: 2969096420315914661
+    second: vampiregoblin_612
+  - first:
+      213: 4046473247761548086
+    second: vampiregoblin_613
+  - first:
+      213: -9029493661153620754
+    second: vampiregoblin_614
+  - first:
+      213: 3454699564330744302
+    second: vampiregoblin_615
+  - first:
+      213: -5020358777570363859
+    second: vampiregoblin_616
+  - first:
+      213: -8502720943358225245
+    second: vampiregoblin_617
+  - first:
+      213: 3062861757655278257
+    second: vampiregoblin_618
+  - first:
+      213: 7790990818869282587
+    second: vampiregoblin_619
+  - first:
+      213: -8516617011795815218
+    second: vampiregoblin_620
+  - first:
+      213: -3828610761721322580
+    second: vampiregoblin_621
+  - first:
+      213: 8939742222279896840
+    second: vampiregoblin_622
+  - first:
+      213: -5041377076850419239
+    second: vampiregoblin_623
+  - first:
+      213: -2126926625661007693
+    second: vampiregoblin_624
+  - first:
+      213: 2052239405473423783
+    second: vampiregoblin_625
+  - first:
+      213: -1067044864030810675
+    second: vampiregoblin_626
+  - first:
+      213: 2827811562644599066
+    second: vampiregoblin_627
+  - first:
+      213: -3497319317808495598
+    second: vampiregoblin_628
+  - first:
+      213: 5123356294749650738
+    second: vampiregoblin_629
+  - first:
+      213: 2520805461660264884
+    second: vampiregoblin_630
+  - first:
+      213: -1933760301088395076
+    second: vampiregoblin_631
+  - first:
+      213: 8779068791718779827
+    second: vampiregoblin_632
+  - first:
+      213: 4452881284529195040
+    second: vampiregoblin_633
+  - first:
+      213: 1485491283282991857
+    second: vampiregoblin_634
+  - first:
+      213: 6791284017157948751
+    second: vampiregoblin_635
+  - first:
+      213: 7821006551484557909
+    second: vampiregoblin_636
+  - first:
+      213: 5042568021409962689
+    second: vampiregoblin_637
+  - first:
+      213: 6037302197012259194
+    second: vampiregoblin_638
+  - first:
+      213: -2790245705826959886
+    second: vampiregoblin_639
+  - first:
+      213: 1074111246810259383
+    second: vampiregoblin_640
+  - first:
+      213: -2444872878398956386
+    second: vampiregoblin_641
+  - first:
+      213: -3676446749191954152
+    second: vampiregoblin_642
+  - first:
+      213: -666339945187483348
+    second: vampiregoblin_643
+  - first:
+      213: -4701830213638656886
+    second: vampiregoblin_644
+  - first:
+      213: 7686461818303197587
+    second: vampiregoblin_645
+  - first:
+      213: -4889279951195819316
+    second: vampiregoblin_646
+  - first:
+      213: 1469714929769373046
+    second: vampiregoblin_647
+  - first:
+      213: 7028012404871036258
+    second: vampiregoblin_648
+  - first:
+      213: -3757026677608732423
+    second: vampiregoblin_649
+  - first:
+      213: 7029875737201838195
+    second: vampiregoblin_650
+  - first:
+      213: -4834030342716177972
+    second: vampiregoblin_651
+  - first:
+      213: 8186594935984492440
+    second: vampiregoblin_652
+  - first:
+      213: 4370361344210826849
+    second: vampiregoblin_653
+  - first:
+      213: -2703352675413765059
+    second: vampiregoblin_654
+  - first:
+      213: 1123594518569208739
+    second: vampiregoblin_655
+  - first:
+      213: 1600099385221903253
+    second: vampiregoblin_656
+  - first:
+      213: -7253823685312612953
+    second: vampiregoblin_657
+  - first:
+      213: -9073041688943338506
+    second: vampiregoblin_658
+  - first:
+      213: 6846701933256933577
+    second: vampiregoblin_659
+  - first:
+      213: -5744025814203502632
+    second: vampiregoblin_660
+  - first:
+      213: 5827400658143183373
+    second: vampiregoblin_661
+  - first:
+      213: 2460692296424068672
+    second: vampiregoblin_662
+  - first:
+      213: -6459179257019331853
+    second: vampiregoblin_663
+  - first:
+      213: 2433174188661075748
+    second: vampiregoblin_664
+  - first:
+      213: 3087137435079118250
+    second: vampiregoblin_665
+  - first:
+      213: 2786244172544502449
+    second: vampiregoblin_666
+  - first:
+      213: 7085265084505587362
+    second: vampiregoblin_667
+  - first:
+      213: 6929849192132699452
+    second: vampiregoblin_668
+  - first:
+      213: -2158629858886951964
+    second: vampiregoblin_669
+  - first:
+      213: -7398190963097314695
+    second: vampiregoblin_670
+  - first:
+      213: 6125795029568907673
+    second: vampiregoblin_671
+  - first:
+      213: -5190583350709750438
+    second: vampiregoblin_672
+  - first:
+      213: -910486306188808243
+    second: vampiregoblin_673
+  - first:
+      213: -7192744149683807675
+    second: vampiregoblin_674
+  - first:
+      213: 575415130514668470
+    second: vampiregoblin_675
+  - first:
+      213: 6123576200179349198
+    second: vampiregoblin_676
+  - first:
+      213: 1897198867291668035
+    second: vampiregoblin_677
+  - first:
+      213: -6397198057915313978
+    second: vampiregoblin_678
+  - first:
+      213: 1635213569554343506
+    second: vampiregoblin_679
+  - first:
+      213: 4823555405523925839
+    second: vampiregoblin_680
+  - first:
+      213: -2568188509773471379
+    second: vampiregoblin_681
+  - first:
+      213: 1701275055723749702
+    second: vampiregoblin_682
+  - first:
+      213: 7370165590816288030
+    second: vampiregoblin_683
+  - first:
+      213: -3462091163743125260
+    second: vampiregoblin_684
+  - first:
+      213: -8113484122616800484
+    second: vampiregoblin_685
+  - first:
+      213: 1734812452982935839
+    second: vampiregoblin_686
+  - first:
+      213: 7962868226225856391
+    second: vampiregoblin_687
+  - first:
+      213: -3326594619683281315
+    second: vampiregoblin_688
+  - first:
+      213: -1191862928671301375
+    second: vampiregoblin_689
+  - first:
+      213: -7696747317138266276
+    second: vampiregoblin_690
+  - first:
+      213: 4994789779265348404
+    second: vampiregoblin_691
+  - first:
+      213: 2026065573668456193
+    second: vampiregoblin_692
+  - first:
+      213: 4374187453833482576
+    second: vampiregoblin_693
+  - first:
+      213: -6763811999257682032
+    second: vampiregoblin_694
+  - first:
+      213: 675185067500015797
+    second: vampiregoblin_695
+  - first:
+      213: 7153852766395895409
+    second: vampiregoblin_696
+  - first:
+      213: 3079443520557652529
+    second: vampiregoblin_697
+  - first:
+      213: 4700090666772311407
+    second: vampiregoblin_698
+  - first:
+      213: -8912329905075150056
+    second: vampiregoblin_699
+  - first:
+      213: -6627091012826729699
+    second: vampiregoblin_700
+  - first:
+      213: 8754700140232990539
+    second: vampiregoblin_701
+  - first:
+      213: -1094037709639036849
+    second: vampiregoblin_702
+  - first:
+      213: -8589641709458871975
+    second: vampiregoblin_703
+  - first:
+      213: 8031818529742788772
+    second: vampiregoblin_704
+  - first:
+      213: 920205591155314917
+    second: vampiregoblin_705
+  - first:
+      213: -6591885958523354057
+    second: vampiregoblin_706
+  - first:
+      213: 7703674732098615979
+    second: vampiregoblin_707
+  - first:
+      213: 8434241407236161293
+    second: vampiregoblin_708
+  - first:
+      213: -8091997045090034927
+    second: vampiregoblin_709
+  - first:
+      213: -5336080309135133932
+    second: vampiregoblin_710
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vampiregoblin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6400dc9fe416790800000000000000
+      internalID: -7538657466448328980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce09cec87e4225820800000000000000
+      internalID: 2905425286527750380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6102819c9e73fe30800000000000000
+      internalID: 4536108460613435759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f224fbc83df8beae0800000000000000
+      internalID: -1518962310545194449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9606daa4b544e1c90800000000000000
+      internalID: -7197239995605884823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d52d9b9412119ac0800000000000000
+      internalID: -3850276326705650224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84945f8d67ef21f0800000000000000
+      internalID: -1067380128921381747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be8fb7b166ff0680800000000000000
+      internalID: -8786533448421503310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7b270ce5a824260800000000000000
+      internalID: 7080373703740143529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a104cd1aebe98ccf0800000000000000
+      internalID: -231760839213039590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7303c246e3f349b10800000000000000
+      internalID: 1987282872778371127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fca70191f59e1f0800000000000000
+      internalID: -1015175679740031124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc715506cb960ec0800000000000000
+      internalID: -3601019577241076542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1864fb46ee49a0bb0800000000000000
+      internalID: -4968995487236536703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd378f67c2dad3790800000000000000
+      internalID: -7548686993916922915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c67c4852237fa240800000000000000
+      internalID: 4805185918775097026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031beb85b5d3cca50800000000000000
+      internalID: 6542671821202698544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2385b1d070978f410800000000000000
+      internalID: 1511090746174429234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9081e9347c2cd8ce0800000000000000
+      internalID: -1401249747953641463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719f2abe45c82b3e0800000000000000
+      internalID: -2039413384886945513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9916566c7c2992390800000000000000
+      internalID: -7842575889364328039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819e33af605bd4850800000000000000
+      internalID: 6362940890116516120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a821ec67758d7120800000000000000
+      internalID: 2413231723314751652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b16ff8a1df0fec0800000000000000
+      internalID: -3535047416959591628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97d761798b0a2c10800000000000000
+      internalID: 2029447267024885662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bb45582ea1bf0f0800000000000000
+      internalID: -1082241725250618479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2fff877efc9a520800000000000000
+      internalID: 2713928843541869288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d24d47b0cb4aab60800000000000000
+      internalID: 7758096599180198611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa34ab4078798090800000000000000
+      internalID: -8031756036737844489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38838c49fbcd64500800000000000000
+      internalID: 380233933952399491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98177e8c8f4f49b50800000000000000
+      internalID: 6599168703364297097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17811dad7213e81a0800000000000000
+      internalID: -6805447939665618831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0ffa17956d93930800000000000000
+      internalID: 4123562613482189054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f071b008e20d2f910800000000000000
+      internalID: 1869785693447460623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ebc5e0b022c91d0800000000000000
+      internalID: -3342759392534806965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2332d955236046f90800000000000000
+      internalID: -6961432310753451214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d399f7c7d965220800000000000000
+      internalID: 2474338203328920952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eeea3b14a68bd60800000000000000
+      internalID: 7906185976268910187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4201e76a701af4500800000000000000
+      internalID: 382701547579904036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0203bc0fdfba3b1e0800000000000000
+      internalID: -2183212287189635040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734a94f47b28de580800000000000000
+      internalID: -8796230773363858377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b349185ba187981f0800000000000000
+      internalID: -1042169782649908165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20353096ddc692ef0800000000000000
+      internalID: -132455015825321214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c460b06106f84b340800000000000000
+      internalID: 4878681939198543436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30bf44b586022de0800000000000000
+      internalID: -1359516966186930113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53542c883f6984ac0800000000000000
+      internalID: -3870677907009288907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800c42094fff96780800000000000000
+      internalID: -8689132580179230712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207ea8ec3baa24d00800000000000000
+      internalID: 955513760197043970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cb1e839d973a980800000000000000
+      internalID: -8528839295440405443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9d375e50f1960b0800000000000000
+      internalID: -5735018540294743575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d4f4ef5199f5020800000000000000
+      internalID: 2332751451741179179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de9975bf309e0f0800000000000000
+      internalID: -1087333456991884012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51e500443612db80800000000000000
+      internalID: -8371604343660093092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d77ceb8741c8850800000000000000
+      internalID: 6380497280906526111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d9816d130f99bc0800000000000000
+      internalID: -3775722715737449090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6171cdc80d6e86dc0800000000000000
+      internalID: -3645410114965596394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c758ce254f24d60800000000000000
+      internalID: 7873123735589715005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9a1fce5394b4f50800000000000000
+      internalID: 6866662552813808079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ee444f703378c30800000000000000
+      internalID: 4361510873387560572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88261f01cc17cc940800000000000000
+      internalID: 5317750381289235080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0550ba864682040800000000000000
+      internalID: 4623055418204442863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd5bcc48df34b1c0800000000000000
+      internalID: -4488892730347659847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a742cbbb9e292f640800000000000000
+      internalID: 5112310059593639034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363db8503ba88f6a0800000000000000
+      internalID: -6415225167692442781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86deabdc08c1f0c00800000000000000
+      internalID: 868944592638766440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac6d1967a79ddea0800000000000000
+      internalID: -5846349995978167127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da67adc1a89a3750800000000000000
+      internalID: 6285504050656406227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e082b8c97b08b10800000000000000
+      internalID: 1981785719020457522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586741165c08cfd40800000000000000
+      internalID: 5619508020277180037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0057205ded74c8750800000000000000
+      internalID: 6308496200421242112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b09001aae6673de0800000000000000
+      internalID: -1353500005091995468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bca127057a645690800000000000000
+      internalID: -7614344019113300816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c092c39100dcb1970800000000000000
+      internalID: 8726794103267535116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ef90c4d74a26a40800000000000000
+      internalID: 5360027364577902084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b165c8a18dcb6c0800000000000000
+      internalID: -4126185550043014280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0041bc400c739bb70800000000000000
+      internalID: 8915218235210273792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517107d2a10bb6b20800000000000000
+      internalID: 3128787992616900373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d48a6294e0023820800000000000000
+      internalID: 2896378492061648083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e565e321986b3e380800000000000000
+      internalID: -8943103735194823074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9de344253e660c40800000000000000
+      internalID: 5478187171263540639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484a1b93e8ebd3280800000000000000
+      internalID: -9061877357136993148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d3b9eac13c20000800000000000000
+      internalID: 777477909331279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b07f5c9da91b0f70800000000000000
+      internalID: 9154438901004202162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93de99dc7d775720800000000000000
+      internalID: 2834872465633498012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8b5102e409c460800000000000000
+      internalID: 7262341242843532123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe1d249e2bad5f20800000000000000
+      internalID: 3413072309159534333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89669183917aaf520800000000000000
+      internalID: 2736683450338207384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f40ea56286a905a0800000000000000
+      internalID: -6554524703679183628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70281ae39bf8bac80800000000000000
+      internalID: -8310390661599624697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ed44fc206d37f50800000000000000
+      internalID: 6878076363480555144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c510ca6894ff06650800000000000000
+      internalID: 6224255376283140444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244728d2b756c7180800000000000000
+      internalID: -9116299965985819582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60716592d332b9b0800000000000000
+      internalID: -5065929651296046996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6279a34ddca1eef0800000000000000
+      internalID: -80593251993030036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cb68270ca2e1180800000000000000
+      internalID: -9142823187472008127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e99eeab068a20310800000000000000
+      internalID: 1369842370080578018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013991d44dc64dd40800000000000000
+      internalID: 5608227095065498384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa01f568c4fbd610800000000000000
+      internalID: 1647179230274980513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a927c8263f6ee90800000000000000
+      internalID: -6996637366484821417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30f308b572e01a20800000000000000
+      internalID: 3031171544446660669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22698643f2e0caa0800000000000000
+      internalID: -6142660357245017558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abbb603a45252950800000000000000
+      internalID: 6423581444084054946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f05804d714811230800000000000000
+      internalID: 3607810014376906992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db52b9bce26f29cf0800000000000000
+      internalID: -246864348707084867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c9c867e99d98790800000000000000
+      internalID: -7527246027556086674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c1768eb2190ef30800000000000000
+      internalID: 4602838436941339672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee1eb11938f050a0800000000000000
+      internalID: -6894738105509732625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7e6fde34dd1ea00800000000000000
+      internalID: 784151093964105677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd72b5c911624500800000000000000
+      internalID: 378972081971428803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa35fd337a8f83a30800000000000000
+      internalID: 4195376449909117866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab2b7c24ba401b70800000000000000
+      internalID: 8867669803993344933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a248a1f39d603c7d0800000000000000
+      internalID: -2899466204960095190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdca3268c34bc780800000000000000
+      internalID: -8661754930396475965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd71ce2f8a11aba60800000000000000
+      internalID: 7690478731016280031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6836cdd318b469c50800000000000000
+      internalID: 6671602916456686470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316e902f6361852a0800000000000000
+      internalID: -6748619616369908205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97abed8dc8e063620800000000000000
+      internalID: 2753404220280322681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef43d0137dd6009f0800000000000000
+      internalID: -504282387257150210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89a8d4fa12fde620800000000000000
+      internalID: 2805164340512598415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28cefaafc88fcb90800000000000000
+      internalID: -7219401252143183828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9231bb8dd7c524530800000000000000
+      internalID: 3837731528049890089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7849c6a79b8a95b70800000000000000
+      internalID: 8888320854168736903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57468aeb7a7fdc4b0800000000000000
+      internalID: -5418402476826532747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9c3d187a3f54a80800000000000000
+      internalID: -8483106422319232523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c095ea32219fff0800000000000000
+      internalID: -1950380378747883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b74bef17eec15880800000000000000
+      internalID: -8623884319369508937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a412014c1761e5fb0800000000000000
+      internalID: -4657260286778007222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff35d03ce11c3900800000000000000
+      internalID: 665426551073226741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310c8011dc6553890800000000000000
+      internalID: -7478976167424770029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2515465cab1ff0210800000000000000
+      internalID: 1301524601811259730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38d2d20caca7cc50800000000000000
+      internalID: 6685502026636515390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd2c196dacb36410800000000000000
+      internalID: 1469225356431732144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da90e745a2614cab0800000000000000
+      internalID: -4988838116157683283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f22735d0acdd5b00800000000000000
+      internalID: 819053290581336822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0783babf7f3ef80800000000000000
+      internalID: -8078340646291083012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ec2c9323f4270a0800000000000000
+      internalID: -6885353803160039931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a55fd08ad3a2b0800000000000000
+      internalID: -5574371666716940437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a22cb45c94b2b70800000000000000
+      internalID: 8875268602392095266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e383d6d3f94b9a20800000000000000
+      internalID: 3070128882613191648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740c58bb67cdd9990800000000000000
+      internalID: -7377498212052647865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee6aad5aa4c9e480800000000000000
+      internalID: -8869341755134546206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e464d0391fb868ab0800000000000000
+      internalID: -5006160066105227698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47f9e81a76a371a0800000000000000
+      internalID: -6812918767947221173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dda97275902d630800000000000000
+      internalID: 3950230093088611713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35811c9a611b1dd0800000000000000
+      internalID: -2514396817373690565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1c966acd428db00800000000000000
+      internalID: 853472659490062755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99d3595b7014a7f0800000000000000
+      internalID: -602338328195114597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa58f969afda3660800000000000000
+      internalID: 7366446059238218485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcdc329dc3f30940800000000000000
+      internalID: 5261316853946178738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8459cfaa1f18710d0800000000000000
+      internalID: -3452147714400414392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da0114749f6b3fd0800000000000000
+      internalID: -2361170896232576299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c9b545325be2300800000000000000
+      internalID: 229319794386246686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750a42b38a0793e00800000000000000
+      internalID: 1024974258052571223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2b813de93300c00800000000000000
+      internalID: 864747885694595791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fbfab2a4eb1c430800000000000000
+      internalID: 3801528786247204629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d7495851213dce0800000000000000
+      internalID: -1381740777027895988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41ef58f654156f40800000000000000
+      internalID: 5721001265410859343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e58b498ed57e6170800000000000000
+      internalID: 8173599972370646502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2489ea2e433b7e980800000000000000
+      internalID: -8509635931170498494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2f7ad6c1d47ac20800000000000000
+      internalID: 3217625243273654991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f454e0042da0bfb00800000000000000
+      internalID: 863295651705668943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c21bffd3d85a2b0800000000000000
+      internalID: -5573893666378798004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9394953a7358d44f0800000000000000
+      internalID: -842871081238181575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff48a4c9e7a8f480800000000000000
+      internalID: -8865151244010237956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1d0af5edbdc96a0800000000000000
+      internalID: -6441031618913054252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c9db26eb8546ca0800000000000000
+      internalID: -6024592826791257080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f471d2626451eb5c0800000000000000
+      internalID: -4197894411630340273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ceb6f1803b502a0800000000000000
+      internalID: -6771809617213395931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf585f602e455070800000000000000
+      internalID: 8094461806482317240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f391a06066ed5f50800000000000000
+      internalID: 6871901908049695732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71c8b26608224910800000000000000
+      internalID: 1820061207302291834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91bf77cec53f3e30800000000000000
+      internalID: 4485362916110872986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986170dd0c8834c80800000000000000
+      internalID: -8339671723036698999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d850743837749ed60800000000000000
+      internalID: 7919939981157008781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7d81ddc75eb76a0800000000000000
+      internalID: -6450309716830005304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c5243c43333bdb0800000000000000
+      internalID: -4777418478002742203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6f37f0e45ba8210800000000000000
+      internalID: 1336079586340107959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vampiregoblin_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c45ef55fcfb17b0800000000000000
+      internalID: -5252326409591501776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

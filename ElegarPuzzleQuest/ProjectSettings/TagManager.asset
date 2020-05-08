@@ -16,7 +16,7 @@ TagManager:
   - Movable
   - Interactable
   - Player
-  - 
+  - Characters
   - 
   - 
   - 
@@ -64,4 +64,7 @@ TagManager:
     locked: 0
   - name: Base_No_Colider_2
     uniqueID: 4022168869
+    locked: 0
+  - name: Effects
+    uniqueID: 3593245899
     locked: 0

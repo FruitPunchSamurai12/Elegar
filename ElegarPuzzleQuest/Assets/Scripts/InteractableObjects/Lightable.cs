@@ -9,6 +9,7 @@ public class Lightable : MonoBehaviour
 
     protected bool lighted = false;
 
+    public bool Lit() { return lighted; }
 
     public virtual void Light()
     {

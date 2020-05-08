@@ -15,7 +15,16 @@ using UnityEngine;
 
 public class Player : BaseCharacter
 {
+    public int currentLife = 3;
+    public int maxLife = 3;
     bool isDead = false;
+    public bool isInvulnerable = false;
+    [SerializeField]
+    SpriteRenderer renderer;
+    float InvulnerabilityDuration = 3f;
+    float InvulnerabilityTimer = 0f;
+
+
     public bool inControl = true;
     [SerializeField]
     private ElegarSpells spell = ElegarSpells.noSpell;
@@ -51,6 +60,10 @@ public class Player : BaseCharacter
             direction.x = Input.GetAxisRaw("Horizontal");
             direction.y = Input.GetAxisRaw("Vertical");
             base.Update();
+        }
+        if(isInvulnerable)
+        {
+            Blink();
         }
     }
 
@@ -182,7 +195,28 @@ public class Player : BaseCharacter
         if (!isDead)
         {
             animator.SetTrigger("FallDeath");
+            rb2d.position = groundCheck.position;
             isDead = true;
         }
+    }
+
+    void Blink()//toggle the renderer on and off to blink
+    {
+        if (InvulnerabilityTimer < InvulnerabilityDuration)
+        {
+            renderer.enabled = !renderer.enabled;
+            InvulnerabilityTimer += Time.deltaTime;
+        }
+        else
+        {
+            renderer.enabled = true;
+            InvulnerabilityTimer = 0;
+            isInvulnerable = false;
+        }
+    }
+
+    public void TakeDamage(int damageValue)
+    {
+        currentLife -= damageValue;
     }
 }
