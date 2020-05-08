@@ -5,8 +5,10 @@ using UnityEngine.Tilemaps;
 
 public class CameraScript : MonoBehaviour
 {
+
+
     [SerializeField]
-    Tilemap startTilemap;
+    SpriteRenderer bg;
 
     Camera cam;
 
@@ -21,13 +23,12 @@ public class CameraScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         cam = Camera.main;
-        //Vector3 pos = new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
-       // cam.transform.position = pos;
+        Vector3 pos = bg.transform.position;//new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
+        cam.transform.position = new Vector3(pos.x, pos.y, -10f);
         startPosition = transform.position;
         endPosition = transform.position;
-        //xOffset = startTilemap.CellToWorld(startTilemap.size).x ;
-        //yOffset = startTilemap.CellToWorld(startTilemap.size).y;
     }
 
     // Update is called once per frame
