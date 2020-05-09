@@ -47,11 +47,17 @@ TagManager:
   - name: BG
     uniqueID: 3199574479
     locked: 0
+  - name: Above_BG_Below_Base_Colider_0
+    uniqueID: 1620806395
+    locked: 0
   - name: Above_BG_Below_Base_Colider
     uniqueID: 1287439625
     locked: 0
   - name: Base_Colider
     uniqueID: 1944548593
+    locked: 0
+  - name: Above_Base_Colider_Below_NC1
+    uniqueID: 2298220135
     locked: 0
   - name: Base_No_Colider_1
     uniqueID: 149741645
