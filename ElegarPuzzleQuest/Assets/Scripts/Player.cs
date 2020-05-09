@@ -109,6 +109,11 @@ public class Player : BaseCharacter
         }
     }
 
+    public void EquipSpell(ElegarSpells s)
+    {
+        spell = s;
+    }
+
     void LerpPlayer()
     {
         float timeSinceStarted = Time.time - timeLerpStarted;
