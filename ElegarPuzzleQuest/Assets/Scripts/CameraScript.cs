@@ -6,9 +6,8 @@ using UnityEngine.Tilemaps;
 public class CameraScript : MonoBehaviour
 {
 
-
     [SerializeField]
-    SpriteRenderer bg;
+    Transform startingPosition;
 
     Camera cam;
 
@@ -25,7 +24,7 @@ public class CameraScript : MonoBehaviour
     {
         
         cam = Camera.main;
-        Vector3 pos = bg.transform.position;//new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
+        Vector3 pos = startingPosition.position;//new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
         cam.transform.position = new Vector3(pos.x, pos.y, -10f);
         startPosition = transform.position;
         endPosition = transform.position;

@@ -24,6 +24,8 @@ public class Player : BaseCharacter
     float InvulnerabilityDuration = 3f;
     float InvulnerabilityTimer = 0f;
 
+    public bool sliding = false;
+    Vector3 slidingDirection;
 
     public bool inControl = true;
     [SerializeField]
@@ -53,13 +55,16 @@ public class Player : BaseCharacter
     {
         if (!isDead)
         {
-            if (Input.GetKeyDown(KeyCode.Space) && spell != ElegarSpells.noSpell)
+            if (!sliding)
             {
-                animator.SetTrigger("Spell");
+                if (Input.GetKeyDown(KeyCode.Space) && spell != ElegarSpells.noSpell)
+                {
+                    animator.SetTrigger("Spell");
+                }
+                direction.x = Input.GetAxisRaw("Horizontal");
+                direction.y = Input.GetAxisRaw("Vertical");
+                base.Update();
             }
-            direction.x = Input.GetAxisRaw("Horizontal");
-            direction.y = Input.GetAxisRaw("Vertical");
-            base.Update();
         }
         if(isInvulnerable)
         {
@@ -72,7 +77,11 @@ public class Player : BaseCharacter
     {
         if (!isDead)
         {
-            if (inControl)
+             if(sliding)
+            {
+                Slide();
+            }
+            else if (inControl)
             {
                 MoveCharacter();
             }
@@ -219,6 +228,46 @@ public class Player : BaseCharacter
             isInvulnerable = false;
         }
     }
+
+    void Slide()
+    {
+        rb2d.MovePosition(transform.position + slidingDirection * speed * Time.fixedDeltaTime);
+    }
+
+    public void StartSliding()
+    {
+        if (sliding || direction == Vector3.zero)
+        {
+            return;
+        }
+        sliding = true;
+        Vector2 temp = new Vector2(direction.x, direction.y);
+        if (temp == Vector2.down || temp == Vector2.up || temp == Vector2.left || temp == Vector2.right)
+        {
+            slidingDirection = direction;
+        }
+        else
+        {
+            if(temp.x>temp.y)
+            {
+                slidingDirection = new Vector3(temp.x, 0f, 0f);
+            }
+            else if (temp.y > temp.x)
+            {
+                slidingDirection = new Vector3(0f, temp.y, 0f);
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(sliding)
+        {
+            sliding = false;
+        }
+    }
+
+
 
     public void TakeDamage(int damageValue)
     {
