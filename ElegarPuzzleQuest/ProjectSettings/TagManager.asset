@@ -62,6 +62,9 @@ TagManager:
   - name: Base_No_Colider_1
     uniqueID: 149741645
     locked: 0
+  - name: Base_Colider_1.5
+    uniqueID: 833228615
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
