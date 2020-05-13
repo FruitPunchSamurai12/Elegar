@@ -34,7 +34,12 @@ public class DoorTrigger : MonoBehaviour
             if (p.inControl)
             {
                 //Vector2 connectingRoomCenter = new Vector2(connectingRoom.CellToWorld(connectingRoom.origin).x + connectingRoom.CellToWorld(connectingRoom.size).x / 2f, connectingRoom.CellToWorld(connectingRoom.origin).y + connectingRoom.CellToWorld(connectingRoom.size).y / 2f);
+                if(p.sliding)
+                {
+                    p.sliding = false;
+                }
                 TestManager.Instance.ChangeRoom(horizontal,positive, newPlayerPosition.localPosition);
+
             }
         }
     }

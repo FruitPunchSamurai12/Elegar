@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d69d5ac70b1fa264f8b879ba530090eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTilemap: {fileID: 0}
+  startingPosition: {fileID: 0}
   lerpDuration: 1
-  xOffset: 0
-  yOffset: 0
+  xOffset: 15
+  yOffset: 10

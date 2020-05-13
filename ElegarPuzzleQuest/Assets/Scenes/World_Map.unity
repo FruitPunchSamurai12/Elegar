@@ -6755,14 +6755,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8749065997331056378, guid: cfc30aa72a87a8f4eacfd6ea8da276f5,
         type: 3}
-      propertyPath: startTilemap
+      propertyPath: startingPosition
       value: 
-      objectReference: {fileID: 212475920}
-    - target: {fileID: 8749065997331056378, guid: cfc30aa72a87a8f4eacfd6ea8da276f5,
-        type: 3}
-      propertyPath: bg
-      value: 
-      objectReference: {fileID: 1170838335}
+      objectReference: {fileID: 1170838334}
     - target: {fileID: 8749065997331056378, guid: cfc30aa72a87a8f4eacfd6ea8da276f5,
         type: 3}
       propertyPath: xOffset
