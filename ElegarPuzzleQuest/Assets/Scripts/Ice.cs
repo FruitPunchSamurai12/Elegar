@@ -10,6 +10,14 @@ public class Ice : MonoBehaviour
         {
             collision.GetComponent<Player>().StartSliding();
         }
+        else
+        {
+            Movable m = collision.GetComponent<Movable>();
+            if(m)
+            {
+                m.onIce = true;
+            }
+        }
 
     }
 
@@ -18,6 +26,14 @@ public class Ice : MonoBehaviour
         if (collision.tag == "Player")
         {
             collision.GetComponent<Player>().sliding = false;
+        }
+        else
+        {
+            Movable m = collision.GetComponent<Movable>();
+            if (m)
+            {
+                m.onIce = false;
+            }
         }
     }
 

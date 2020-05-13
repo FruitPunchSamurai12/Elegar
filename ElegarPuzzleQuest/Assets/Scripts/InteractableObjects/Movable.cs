@@ -7,8 +7,29 @@ public class Movable : MonoBehaviour
 
     [SerializeField]
     Rigidbody2D rb2d;
+    [SerializeField]
+    BoxCollider2D defaultCollider;
+    [SerializeField]
+    SpriteRenderer renderer;
+    [SerializeField]
+    Sprite underwaterRock;
+    [SerializeField]
+    string underwaterLayerName;
+    [SerializeField]
+    BoxCollider2D underwaterCollider1;
+    [SerializeField]
+    BoxCollider2D underwaterCollider2;
 
-    bool isMoving = false;
+    bool underwater = false;
+
+    public bool onIce = false;
+    public float slideSpeed = 7f;
+    Vector3 slideDirection;
+
+    [SerializeField]
+    private bool isMoving = false;
+    [SerializeField]
+    bool isSliding = false;
     Vector2 startPosition;
     Vector2 endPosition;
     float timeLerpStarted;
@@ -17,20 +38,46 @@ public class Movable : MonoBehaviour
 
     public void PushPull(Vector2 endPos)
     {
-        if (!isMoving)
+        if (!isMoving && !underwater)
         {
+            if(onIce)
+            {
+                isSliding = true;
+            }
             startPosition = transform.position;
             endPosition = endPos;
-            timeLerpStarted = Time.time;
+            timeLerpStarted = Time.time;           
+            slideDirection = (endPos - startPosition).normalized;
             isMoving = true;
             rb2d.isKinematic = false;
         }
     }
 
+    public void UnderWater()
+    {
+        if (!underwater)
+        {
+            underwater = true;
+            renderer.sortingLayerName = underwaterLayerName;
+            renderer.sprite = underwaterRock;
+            defaultCollider.enabled = false;
+            underwaterCollider1.enabled = true;
+            underwaterCollider2.enabled = true;
+        }
+    }
+
     private void FixedUpdate()
     {
-        if(isMoving)
+        if(isSliding)
         {
+            rb2d.MovePosition(transform.position + slideDirection * slideSpeed * Time.fixedDeltaTime);
+        }
+        else if(isMoving)
+        {
+            if(onIce)
+            {
+                isSliding = true;
+            }
             float timeSinceStarted = Time.time - timeLerpStarted;
             float percentageComplete = timeSinceStarted / lerpDuration;
             Vector2 newPos = Vector2.Lerp(startPosition, endPosition, percentageComplete);
@@ -40,6 +87,18 @@ public class Movable : MonoBehaviour
                 isMoving = false;
                 rb2d.isKinematic = true;
             }
+        }
+    }
+
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(isSliding)
+        {
+            isSliding = false;
+            isMoving = false;
+            rb2d.isKinematic = true;
         }
     }
 }

@@ -26,6 +26,11 @@ public class Player : BaseCharacter
 
     public bool sliding = false;
     Vector3 slidingDirection;
+    private float noMovementThreshold = 0.0001f;
+    private const int noMovementFrames = 2;
+    Vector3[] previousLocations = new Vector3[noMovementFrames];
+
+
 
     public bool inControl = true;
     [SerializeField]
@@ -44,10 +49,13 @@ public class Player : BaseCharacter
     Vector2 endPosition;
     float timeLerpStarted;
     public float lerpDuration = 1f;
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-
+        //For good measure, set the previous locations
+        for (int i = 0; i < previousLocations.Length; i++)
+        {
+            previousLocations[i] = Vector3.zero;
+        }
     }
 
 
@@ -64,7 +72,7 @@ public class Player : BaseCharacter
                 direction.x = Input.GetAxisRaw("Horizontal");
                 direction.y = Input.GetAxisRaw("Vertical");
                 base.Update();
-            }
+            }           
         }
         if(isInvulnerable)
         {
@@ -77,13 +85,36 @@ public class Player : BaseCharacter
     {
         if (!isDead)
         {
-             if(sliding)
+            //Store the newest vector at the end of the list of vectors
+            for (int i = 0; i < previousLocations.Length - 1; i++)
+            {
+                previousLocations[i] = previousLocations[i + 1];
+            }
+            previousLocations[previousLocations.Length - 1] = transform.position;
+
+            if (sliding)
             {
                 Slide();
+                //Check the distances between the points in your previous locations
+                //If for the past several updates, there are no movements smaller than the threshold,
+                //you can most likely assume that the object is not moving
+                for (int i = 0; i < previousLocations.Length - 1; i++)
+                {
+                    if (Vector3.Distance(previousLocations[i], previousLocations[i + 1]) >= noMovementThreshold)
+                    {
+                        //The minimum movement has been detected between frames
+                        sliding = true;
+                        break;
+                    }
+                    else
+                    {
+                        StopSliding();
+                    }
+                }
             }
             else if (inControl)
             {
-                MoveCharacter();
+                MoveCharacter();              
             }
             else
             {
@@ -263,10 +294,26 @@ public class Player : BaseCharacter
     {
         if(sliding)
         {
-            sliding = false;
+           // sliding = false;
         }
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (sliding)
+        {
+           // Invoke("StopSliding", 0.5f);
+        }
+    }
+
+    void StopSliding()
+    {
+        if (sliding)
+        {
+            sliding = false;
+            direction = Vector3.zero;
+        }
+    }
 
 
     public void TakeDamage(int damageValue)

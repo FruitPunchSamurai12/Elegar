@@ -5,12 +5,12 @@ using UnityEngine;
 public class Waterable : MonoBehaviour
 {
     [SerializeField]
-    Animator animator;
+    protected Animator animator;
 
-    bool watered = false;
+    protected bool watered = false;
 
 
-    public void Watered()
+    public virtual void Watered()
     {
         if (!watered)
         {

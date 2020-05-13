@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6192260159339453332}
   - component: {fileID: 6192260159339453331}
   - component: {fileID: 6192260159339453335}
+  - component: {fileID: 242394471358696566}
+  - component: {fileID: 2449091466117510706}
   m_Layer: 9
   m_Name: Movable
   m_TagString: Untagged
@@ -123,6 +125,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2d: {fileID: 6192260159339453335}
+  defaultCollider: {fileID: 6192260159339453332}
+  renderer: {fileID: 6192260159339453333}
+  underwaterRock: {fileID: 21300000, guid: 971aadc3ee2d4154e8e3b2a903fc954a, type: 3}
+  underwaterLayerName: Above_Base_Colider_Below_NC1
+  underwaterCollider1: {fileID: 242394471358696566}
+  underwaterCollider2: {fileID: 2449091466117510706}
+  onIce: 0
+  slideSpeed: 7
+  isMoving: 0
+  isSliding: 0
   lerpDuration: 0.5
 --- !u!50 &6192260159339453335
 Rigidbody2D:
@@ -145,3 +157,55 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!61 &242394471358696566
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192260159339453334}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.46658117, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8, y: 0.8}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.06921014, y: 0.8}
+  m_EdgeRadius: 0
+--- !u!61 &2449091466117510706
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192260159339453334}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.47501338, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8, y: 0.8}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.04672447, y: 0.8}
+  m_EdgeRadius: 0
