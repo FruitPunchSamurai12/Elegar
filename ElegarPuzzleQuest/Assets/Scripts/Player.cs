@@ -208,8 +208,8 @@ public class Player : BaseCharacter
     {
         int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
-        RaycastHit2D hit = Physics2D.CircleCast(transform.position, waterAOE, castDirection, 0f, layerMask);
-        if (hit.collider != null)
+        RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, waterAOE, castDirection, 0f, layerMask);
+        foreach(RaycastHit2D hit in hits)
         {
             Waterable m = hit.collider.GetComponent<Waterable>();
             if (m)
@@ -218,6 +218,7 @@ public class Player : BaseCharacter
             }
         }
     }
+
 
     void Light()
     {
