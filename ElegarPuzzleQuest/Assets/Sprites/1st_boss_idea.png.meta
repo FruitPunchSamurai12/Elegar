@@ -1,0 +1,5984 @@
+fileFormatVersion: 2
+guid: 8905a995f57e01b428b654584ba224d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -435972657057578071
+    second: 1st_boss_idea_0
+  - first:
+      213: -282024365966713051
+    second: 1st_boss_idea_1
+  - first:
+      213: 2300622783976827771
+    second: 1st_boss_idea_2
+  - first:
+      213: 3319959954759299777
+    second: 1st_boss_idea_3
+  - first:
+      213: -4600809076961948167
+    second: 1st_boss_idea_4
+  - first:
+      213: -1261969182955836678
+    second: 1st_boss_idea_5
+  - first:
+      213: -3999859265484062690
+    second: 1st_boss_idea_6
+  - first:
+      213: 7665182514332031537
+    second: 1st_boss_idea_7
+  - first:
+      213: -5219572704877991076
+    second: 1st_boss_idea_8
+  - first:
+      213: 3431441673947849048
+    second: 1st_boss_idea_9
+  - first:
+      213: 237434986022694538
+    second: 1st_boss_idea_10
+  - first:
+      213: 3450546060479016441
+    second: 1st_boss_idea_11
+  - first:
+      213: -5496169252592085041
+    second: 1st_boss_idea_12
+  - first:
+      213: 6802870068133495846
+    second: 1st_boss_idea_13
+  - first:
+      213: -5732960992292665050
+    second: 1st_boss_idea_14
+  - first:
+      213: 5250313874135973386
+    second: 1st_boss_idea_15
+  - first:
+      213: -2584284498785209910
+    second: 1st_boss_idea_16
+  - first:
+      213: -8075949857126445555
+    second: 1st_boss_idea_17
+  - first:
+      213: 1690501879523071612
+    second: 1st_boss_idea_18
+  - first:
+      213: -7361360496834924226
+    second: 1st_boss_idea_19
+  - first:
+      213: -6330136109370804566
+    second: 1st_boss_idea_20
+  - first:
+      213: -9134607252661169020
+    second: 1st_boss_idea_21
+  - first:
+      213: -5513607854136665859
+    second: 1st_boss_idea_22
+  - first:
+      213: 1350879917625895652
+    second: 1st_boss_idea_23
+  - first:
+      213: -3798176219649974821
+    second: 1st_boss_idea_24
+  - first:
+      213: 9083735738398098047
+    second: 1st_boss_idea_25
+  - first:
+      213: 4078904806802927437
+    second: 1st_boss_idea_26
+  - first:
+      213: 1147715449840244898
+    second: 1st_boss_idea_27
+  - first:
+      213: -1753823622641879276
+    second: 1st_boss_idea_28
+  - first:
+      213: 2355125018504221322
+    second: 1st_boss_idea_29
+  - first:
+      213: -3439749703050132032
+    second: 1st_boss_idea_30
+  - first:
+      213: -7737987900456784024
+    second: 1st_boss_idea_31
+  - first:
+      213: 7527784714618097837
+    second: 1st_boss_idea_32
+  - first:
+      213: -1537928784530580792
+    second: 1st_boss_idea_33
+  - first:
+      213: 7371584138912480118
+    second: 1st_boss_idea_34
+  - first:
+      213: 2993973947503288728
+    second: 1st_boss_idea_35
+  - first:
+      213: -7858761184837896757
+    second: 1st_boss_idea_36
+  - first:
+      213: -1187000364287251804
+    second: 1st_boss_idea_37
+  - first:
+      213: 7819346702274819922
+    second: 1st_boss_idea_38
+  - first:
+      213: 2379883888098603123
+    second: 1st_boss_idea_39
+  - first:
+      213: 8238131660279079120
+    second: 1st_boss_idea_40
+  - first:
+      213: 7333229963837818683
+    second: 1st_boss_idea_41
+  - first:
+      213: -426005720778147254
+    second: 1st_boss_idea_42
+  - first:
+      213: 4430873957505482583
+    second: 1st_boss_idea_43
+  - first:
+      213: 814229629476579902
+    second: 1st_boss_idea_44
+  - first:
+      213: -937328649221691905
+    second: 1st_boss_idea_45
+  - first:
+      213: -7891967458770235806
+    second: 1st_boss_idea_46
+  - first:
+      213: 1204849681326740217
+    second: 1st_boss_idea_47
+  - first:
+      213: 1582418801072999706
+    second: 1st_boss_idea_48
+  - first:
+      213: -2301553040610384140
+    second: 1st_boss_idea_49
+  - first:
+      213: -7452074873227129604
+    second: 1st_boss_idea_50
+  - first:
+      213: 3818583786221786386
+    second: 1st_boss_idea_51
+  - first:
+      213: -3426917902922451285
+    second: 1st_boss_idea_52
+  - first:
+      213: 1250701800962682893
+    second: 1st_boss_idea_53
+  - first:
+      213: 3946678237988569528
+    second: 1st_boss_idea_54
+  - first:
+      213: 7514139166426069171
+    second: 1st_boss_idea_55
+  - first:
+      213: 8315218296771761720
+    second: 1st_boss_idea_56
+  - first:
+      213: 4845921734463638042
+    second: 1st_boss_idea_57
+  - first:
+      213: 5200971822580489255
+    second: 1st_boss_idea_58
+  - first:
+      213: -7911143239120057089
+    second: 1st_boss_idea_59
+  - first:
+      213: -3884188721734018513
+    second: 1st_boss_idea_60
+  - first:
+      213: 5342710293902221417
+    second: 1st_boss_idea_61
+  - first:
+      213: -6934074327920088041
+    second: 1st_boss_idea_62
+  - first:
+      213: 6269805713184868330
+    second: 1st_boss_idea_63
+  - first:
+      213: -1067580975053142387
+    second: 1st_boss_idea_64
+  - first:
+      213: 56589494800064246
+    second: 1st_boss_idea_65
+  - first:
+      213: 7984977870950749060
+    second: 1st_boss_idea_66
+  - first:
+      213: -8329086697145944050
+    second: 1st_boss_idea_67
+  - first:
+      213: 6436747284688853279
+    second: 1st_boss_idea_68
+  - first:
+      213: 6527585724856817624
+    second: 1st_boss_idea_69
+  - first:
+      213: -4318534138537848789
+    second: 1st_boss_idea_70
+  - first:
+      213: -1290339239396340613
+    second: 1st_boss_idea_71
+  - first:
+      213: 9057688125064501646
+    second: 1st_boss_idea_72
+  - first:
+      213: 2485326809456535594
+    second: 1st_boss_idea_73
+  - first:
+      213: -4227672462005536741
+    second: 1st_boss_idea_74
+  - first:
+      213: -8344571687815433817
+    second: 1st_boss_idea_75
+  - first:
+      213: -2972181801908385318
+    second: 1st_boss_idea_76
+  - first:
+      213: -6845708624766590515
+    second: 1st_boss_idea_77
+  - first:
+      213: -5909566059394251949
+    second: 1st_boss_idea_78
+  - first:
+      213: -2275356432926266455
+    second: 1st_boss_idea_79
+  - first:
+      213: -7731902582705406377
+    second: 1st_boss_idea_80
+  - first:
+      213: -7491115458084871878
+    second: 1st_boss_idea_81
+  - first:
+      213: -7977961158593675276
+    second: 1st_boss_idea_82
+  - first:
+      213: -9175530579706901302
+    second: 1st_boss_idea_83
+  - first:
+      213: 1846707845871902755
+    second: 1st_boss_idea_84
+  - first:
+      213: 8266385949007000694
+    second: 1st_boss_idea_85
+  - first:
+      213: 3902458775786616575
+    second: 1st_boss_idea_86
+  - first:
+      213: -7661761614584806043
+    second: 1st_boss_idea_87
+  - first:
+      213: -1157820640386706836
+    second: 1st_boss_idea_88
+  - first:
+      213: -6886215719347947842
+    second: 1st_boss_idea_89
+  - first:
+      213: 201137953678057576
+    second: 1st_boss_idea_90
+  - first:
+      213: 5095838200901948096
+    second: 1st_boss_idea_91
+  - first:
+      213: -9148440477228179525
+    second: 1st_boss_idea_92
+  - first:
+      213: -2812372293519092844
+    second: 1st_boss_idea_93
+  - first:
+      213: 306657790724742276
+    second: 1st_boss_idea_94
+  - first:
+      213: -9110875350870555296
+    second: 1st_boss_idea_95
+  - first:
+      213: -1864021282943791009
+    second: 1st_boss_idea_96
+  - first:
+      213: 6718833523137084309
+    second: 1st_boss_idea_97
+  - first:
+      213: -3145188809329328497
+    second: 1st_boss_idea_98
+  - first:
+      213: -3814104783692645308
+    second: 1st_boss_idea_99
+  - first:
+      213: -4155920981742031856
+    second: 1st_boss_idea_100
+  - first:
+      213: 3650426136820000756
+    second: 1st_boss_idea_101
+  - first:
+      213: -2962045144943582870
+    second: 1st_boss_idea_102
+  - first:
+      213: -2337185634429276776
+    second: 1st_boss_idea_103
+  - first:
+      213: -440784821999334305
+    second: 1st_boss_idea_104
+  - first:
+      213: 7391508631912718893
+    second: 1st_boss_idea_105
+  - first:
+      213: -5296218523592905706
+    second: 1st_boss_idea_106
+  - first:
+      213: -9088882237708673241
+    second: 1st_boss_idea_107
+  - first:
+      213: -4629767885527282387
+    second: 1st_boss_idea_108
+  - first:
+      213: -3043889586792628764
+    second: 1st_boss_idea_109
+  - first:
+      213: 5385557518333649505
+    second: 1st_boss_idea_110
+  - first:
+      213: 2478516279665630751
+    second: 1st_boss_idea_111
+  - first:
+      213: 443609579212026115
+    second: 1st_boss_idea_112
+  - first:
+      213: -4373070854653925999
+    second: 1st_boss_idea_113
+  - first:
+      213: 7989677870979612134
+    second: 1st_boss_idea_114
+  - first:
+      213: 3125809375602653601
+    second: 1st_boss_idea_115
+  - first:
+      213: 3849989076936138952
+    second: 1st_boss_idea_116
+  - first:
+      213: 8870336163349187521
+    second: 1st_boss_idea_117
+  - first:
+      213: 6097176569114624748
+    second: 1st_boss_idea_118
+  - first:
+      213: 1866351832151991265
+    second: 1st_boss_idea_119
+  - first:
+      213: 470416749876819151
+    second: 1st_boss_idea_120
+  - first:
+      213: 6473351084676800707
+    second: 1st_boss_idea_121
+  - first:
+      213: 4708065305388340932
+    second: 1st_boss_idea_122
+  - first:
+      213: -5172366913171330947
+    second: 1st_boss_idea_123
+  - first:
+      213: -138362103675142700
+    second: 1st_boss_idea_124
+  - first:
+      213: 6600067755995652096
+    second: 1st_boss_idea_125
+  - first:
+      213: 7016269496462423552
+    second: 1st_boss_idea_126
+  - first:
+      213: -6760485012410755316
+    second: 1st_boss_idea_127
+  - first:
+      213: -6772245049760729663
+    second: 1st_boss_idea_128
+  - first:
+      213: -6790760940828616053
+    second: 1st_boss_idea_129
+  - first:
+      213: 3217708564511466003
+    second: 1st_boss_idea_130
+  - first:
+      213: 2816010433759350192
+    second: 1st_boss_idea_131
+  - first:
+      213: -7578255082065358526
+    second: 1st_boss_idea_132
+  - first:
+      213: 1203427600833046739
+    second: 1st_boss_idea_133
+  - first:
+      213: -7090166186966262915
+    second: 1st_boss_idea_134
+  - first:
+      213: -2629211115999870522
+    second: 1st_boss_idea_135
+  - first:
+      213: 983262821500298019
+    second: 1st_boss_idea_136
+  - first:
+      213: 2181045117810252459
+    second: 1st_boss_idea_137
+  - first:
+      213: 5547499775627714876
+    second: 1st_boss_idea_138
+  - first:
+      213: 9064408888500916705
+    second: 1st_boss_idea_139
+  - first:
+      213: 3170556031477293942
+    second: 1st_boss_idea_140
+  - first:
+      213: -8667370839159468303
+    second: 1st_boss_idea_141
+  - first:
+      213: 8844084250414694621
+    second: 1st_boss_idea_142
+  - first:
+      213: -5963053601555973090
+    second: 1st_boss_idea_143
+  - first:
+      213: 5376379512052028981
+    second: 1st_boss_idea_144
+  - first:
+      213: -7259554913024316376
+    second: 1st_boss_idea_145
+  - first:
+      213: -4098099378522703709
+    second: 1st_boss_idea_146
+  - first:
+      213: 7016475153351242310
+    second: 1st_boss_idea_147
+  - first:
+      213: -2732436661944934400
+    second: 1st_boss_idea_148
+  - first:
+      213: -1461679742563628732
+    second: 1st_boss_idea_149
+  - first:
+      213: -695510320904852074
+    second: 1st_boss_idea_150
+  - first:
+      213: 8901197449939662444
+    second: 1st_boss_idea_151
+  - first:
+      213: -8433125226473079991
+    second: 1st_boss_idea_152
+  - first:
+      213: -7822572140367077579
+    second: 1st_boss_idea_153
+  - first:
+      213: 3277743139371370659
+    second: 1st_boss_idea_154
+  - first:
+      213: -7638376322408775927
+    second: 1st_boss_idea_155
+  - first:
+      213: -4755059949684586472
+    second: 1st_boss_idea_156
+  - first:
+      213: 2018988446298113955
+    second: 1st_boss_idea_157
+  - first:
+      213: -7090393628657475674
+    second: 1st_boss_idea_158
+  - first:
+      213: -8683713097981032561
+    second: 1st_boss_idea_159
+  - first:
+      213: 3861691091076704196
+    second: 1st_boss_idea_160
+  - first:
+      213: 3325441744418476324
+    second: 1st_boss_idea_161
+  - first:
+      213: -2619852153838959241
+    second: 1st_boss_idea_162
+  - first:
+      213: 4592291526366415240
+    second: 1st_boss_idea_163
+  - first:
+      213: -1185777806513113566
+    second: 1st_boss_idea_164
+  - first:
+      213: 3933633329991244875
+    second: 1st_boss_idea_165
+  - first:
+      213: -7479482343645399710
+    second: 1st_boss_idea_166
+  - first:
+      213: -1797743550600629082
+    second: 1st_boss_idea_167
+  - first:
+      213: 4120577667642186988
+    second: 1st_boss_idea_168
+  - first:
+      213: -3133151835444121313
+    second: 1st_boss_idea_169
+  - first:
+      213: 5983733423971444686
+    second: 1st_boss_idea_170
+  - first:
+      213: -8286090542424490260
+    second: 1st_boss_idea_171
+  - first:
+      213: -1984985418961369898
+    second: 1st_boss_idea_172
+  - first:
+      213: 4341710481113404433
+    second: 1st_boss_idea_173
+  - first:
+      213: -5068043083435523474
+    second: 1st_boss_idea_174
+  - first:
+      213: 5866025427852672095
+    second: 1st_boss_idea_175
+  - first:
+      213: 339374453636849100
+    second: 1st_boss_idea_176
+  - first:
+      213: -4498988685877892258
+    second: 1st_boss_idea_177
+  - first:
+      213: 4126239796579716617
+    second: 1st_boss_idea_178
+  - first:
+      213: 6477596150591786887
+    second: 1st_boss_idea_179
+  - first:
+      213: -6592611394780605846
+    second: 1st_boss_idea_180
+  - first:
+      213: -3993381911870758629
+    second: 1st_boss_idea_181
+  - first:
+      213: -2076012610744564545
+    second: 1st_boss_idea_182
+  - first:
+      213: 4761772459436988936
+    second: 1st_boss_idea_183
+  - first:
+      213: -1778513623345325968
+    second: 1st_boss_idea_184
+  - first:
+      213: 3437174075432108567
+    second: 1st_boss_idea_185
+  - first:
+      213: -8907370205594483514
+    second: 1st_boss_idea_186
+  - first:
+      213: -901246718968547661
+    second: 1st_boss_idea_187
+  - first:
+      213: 1685792569952085653
+    second: 1st_boss_idea_188
+  - first:
+      213: -5638814793140602125
+    second: 1st_boss_idea_189
+  - first:
+      213: 7822554430946589025
+    second: 1st_boss_idea_190
+  - first:
+      213: 4813919863833551486
+    second: 1st_boss_idea_191
+  - first:
+      213: -6118408340344026641
+    second: 1st_boss_idea_192
+  - first:
+      213: -4432672578574300552
+    second: 1st_boss_idea_193
+  - first:
+      213: 8884213818666235299
+    second: 1st_boss_idea_194
+  - first:
+      213: -3261829978123737647
+    second: 1st_boss_idea_195
+  - first:
+      213: 1932459036420513464
+    second: 1st_boss_idea_196
+  - first:
+      213: 2027785446500330794
+    second: 1st_boss_idea_197
+  - first:
+      213: -8374664176965298419
+    second: 1st_boss_idea_198
+  - first:
+      213: 8731904631676583209
+    second: 1st_boss_idea_199
+  - first:
+      213: 3907364551688250298
+    second: 1st_boss_idea_200
+  - first:
+      213: -4701753749819663094
+    second: 1st_boss_idea_201
+  - first:
+      213: -5224699194803013219
+    second: 1st_boss_idea_202
+  - first:
+      213: -2370021511039520092
+    second: 1st_boss_idea_203
+  - first:
+      213: 5749914656166512129
+    second: 1st_boss_idea_204
+  - first:
+      213: -8300485488295140708
+    second: 1st_boss_idea_205
+  - first:
+      213: -5696922742807266222
+    second: 1st_boss_idea_206
+  - first:
+      213: 8823075766444709308
+    second: 1st_boss_idea_207
+  - first:
+      213: -5930118513044486090
+    second: 1st_boss_idea_208
+  - first:
+      213: -4322724575277261131
+    second: 1st_boss_idea_209
+  - first:
+      213: 5651218271300216997
+    second: 1st_boss_idea_210
+  - first:
+      213: 4491948897335708938
+    second: 1st_boss_idea_211
+  - first:
+      213: -2859536887234083236
+    second: 1st_boss_idea_212
+  - first:
+      213: -981666514867585233
+    second: 1st_boss_idea_213
+  - first:
+      213: -7469264960307813361
+    second: 1st_boss_idea_214
+  - first:
+      213: 1198256212659824147
+    second: 1st_boss_idea_215
+  - first:
+      213: -4376483327963876796
+    second: 1st_boss_idea_216
+  - first:
+      213: 8444327723918922253
+    second: 1st_boss_idea_217
+  - first:
+      213: 8795417780657577376
+    second: 1st_boss_idea_218
+  - first:
+      213: 3704590243088536079
+    second: 1st_boss_idea_219
+  - first:
+      213: 660704182911077321
+    second: 1st_boss_idea_220
+  - first:
+      213: -5216659069902204113
+    second: 1st_boss_idea_221
+  - first:
+      213: 3527066136010375852
+    second: 1st_boss_idea_222
+  - first:
+      213: -224015760079392052
+    second: 1st_boss_idea_223
+  - first:
+      213: -1611557137370009449
+    second: 1st_boss_idea_224
+  - first:
+      213: 9027656743601255165
+    second: 1st_boss_idea_225
+  - first:
+      213: 8225247146176505514
+    second: 1st_boss_idea_226
+  - first:
+      213: -4512711791143661886
+    second: 1st_boss_idea_227
+  - first:
+      213: 1666514766983104500
+    second: 1st_boss_idea_228
+  - first:
+      213: -3327682959540320800
+    second: 1st_boss_idea_229
+  - first:
+      213: 7277429273350683279
+    second: 1st_boss_idea_230
+  - first:
+      213: -6092760137051700967
+    second: 1st_boss_idea_231
+  - first:
+      213: 8197002424423062256
+    second: 1st_boss_idea_232
+  - first:
+      213: -4921985491092411472
+    second: 1st_boss_idea_233
+  - first:
+      213: -4702679164162348766
+    second: 1st_boss_idea_234
+  - first:
+      213: -6189052088444776886
+    second: 1st_boss_idea_235
+  - first:
+      213: -6310233543530402543
+    second: 1st_boss_idea_236
+  - first:
+      213: 590796215547123612
+    second: 1st_boss_idea_237
+  - first:
+      213: -1263661738619325148
+    second: 1st_boss_idea_238
+  - first:
+      213: -1090767614573786731
+    second: 1st_boss_idea_239
+  - first:
+      213: -5799993832512502240
+    second: 1st_boss_idea_240
+  - first:
+      213: -6275125503510507322
+    second: 1st_boss_idea_241
+  - first:
+      213: 2678607968199280472
+    second: 1st_boss_idea_242
+  - first:
+      213: 5300806920410135714
+    second: 1st_boss_idea_243
+  - first:
+      213: 8248869845578200713
+    second: 1st_boss_idea_244
+  - first:
+      213: 5354071391848774710
+    second: 1st_boss_idea_245
+  - first:
+      213: -4613745858669949858
+    second: 1st_boss_idea_246
+  - first:
+      213: 1244292869415013360
+    second: 1st_boss_idea_247
+  - first:
+      213: -2175436071588696569
+    second: 1st_boss_idea_248
+  - first:
+      213: -8442062920495191626
+    second: 1st_boss_idea_249
+  - first:
+      213: -6599004258791721114
+    second: 1st_boss_idea_250
+  - first:
+      213: 9115541832901300373
+    second: 1st_boss_idea_251
+  - first:
+      213: 1213178374237629082
+    second: 1st_boss_idea_252
+  - first:
+      213: -6730355845962207207
+    second: 1st_boss_idea_253
+  - first:
+      213: 3677053328102675836
+    second: 1st_boss_idea_254
+  - first:
+      213: -7513119122325688427
+    second: 1st_boss_idea_255
+  - first:
+      213: 2381558720211814209
+    second: 1st_boss_idea_256
+  - first:
+      213: -730211340069656
+    second: 1st_boss_idea_257
+  - first:
+      213: -5078507993480803796
+    second: 1st_boss_idea_258
+  - first:
+      213: -9173862714394932580
+    second: 1st_boss_idea_259
+  - first:
+      213: -2471445615711535322
+    second: 1st_boss_idea_260
+  - first:
+      213: -827365553424220282
+    second: 1st_boss_idea_261
+  - first:
+      213: 7834362169422795184
+    second: 1st_boss_idea_262
+  - first:
+      213: -1602225779846425223
+    second: 1st_boss_idea_263
+  - first:
+      213: 8471140743117592037
+    second: 1st_boss_idea_264
+  - first:
+      213: 6532853898649152669
+    second: 1st_boss_idea_265
+  - first:
+      213: -3734357253690820951
+    second: 1st_boss_idea_266
+  - first:
+      213: -5266637555751066432
+    second: 1st_boss_idea_267
+  - first:
+      213: -436550701453707194
+    second: 1st_boss_idea_268
+  - first:
+      213: -8822921053092416509
+    second: 1st_boss_idea_269
+  - first:
+      213: 5776044393694100097
+    second: 1st_boss_idea_270
+  - first:
+      213: -4736368738250404422
+    second: 1st_boss_idea_271
+  - first:
+      213: 7721521203255717126
+    second: 1st_boss_idea_272
+  - first:
+      213: -3645856031136533946
+    second: 1st_boss_idea_273
+  - first:
+      213: -120494703160378493
+    second: 1st_boss_idea_274
+  - first:
+      213: -8374618326866302251
+    second: 1st_boss_idea_275
+  - first:
+      213: 572499809740706537
+    second: 1st_boss_idea_276
+  - first:
+      213: -7227503187473565203
+    second: 1st_boss_idea_277
+  - first:
+      213: 3798353924575929322
+    second: 1st_boss_idea_278
+  - first:
+      213: 3912313228486892161
+    second: 1st_boss_idea_279
+  - first:
+      213: 8622667030421822949
+    second: 1st_boss_idea_280
+  - first:
+      213: 3511202191759489268
+    second: 1st_boss_idea_281
+  - first:
+      213: -8493210476215275146
+    second: 1st_boss_idea_282
+  - first:
+      213: 962547947918911172
+    second: 1st_boss_idea_283
+  - first:
+      213: 9145309272034115841
+    second: 1st_boss_idea_284
+  - first:
+      213: 1793881422400533018
+    second: 1st_boss_idea_285
+  - first:
+      213: -6173630407756483175
+    second: 1st_boss_idea_286
+  - first:
+      213: -5939110843913188936
+    second: 1st_boss_idea_287
+  - first:
+      213: 2701537693454345245
+    second: 1st_boss_idea_288
+  - first:
+      213: 7043482326306054726
+    second: 1st_boss_idea_289
+  - first:
+      213: 128850418146940407
+    second: 1st_boss_idea_290
+  - first:
+      213: -2256847865066229426
+    second: 1st_boss_idea_291
+  - first:
+      213: -217592193300948076
+    second: 1st_boss_idea_292
+  - first:
+      213: -8027486369423277017
+    second: 1st_boss_idea_293
+  - first:
+      213: 6769375292171552906
+    second: 1st_boss_idea_294
+  - first:
+      213: 817316383374470614
+    second: 1st_boss_idea_295
+  - first:
+      213: 6354429471699586879
+    second: 1st_boss_idea_296
+  - first:
+      213: 7006624140905509621
+    second: 1st_boss_idea_297
+  - first:
+      213: 7444431950832046179
+    second: 1st_boss_idea_298
+  - first:
+      213: 7252020921521258058
+    second: 1st_boss_idea_299
+  - first:
+      213: 7143640796893446599
+    second: 1st_boss_idea_300
+  - first:
+      213: -1990368639215827068
+    second: 1st_boss_idea_301
+  - first:
+      213: -1727928995564536098
+    second: 1st_boss_idea_302
+  - first:
+      213: 5312676220836498579
+    second: 1st_boss_idea_303
+  - first:
+      213: -1711903036727824905
+    second: 1st_boss_idea_304
+  - first:
+      213: 4091435196452844887
+    second: 1st_boss_idea_305
+  - first:
+      213: 848613567808422052
+    second: 1st_boss_idea_306
+  - first:
+      213: -6049066351798092796
+    second: 1st_boss_idea_307
+  - first:
+      213: 4097028880793840715
+    second: 1st_boss_idea_308
+  - first:
+      213: 2020638845382331733
+    second: 1st_boss_idea_309
+  - first:
+      213: -7012692949015919688
+    second: 1st_boss_idea_310
+  - first:
+      213: -2316912703279181322
+    second: 1st_boss_idea_311
+  - first:
+      213: 1856442145879482929
+    second: 1st_boss_idea_312
+  - first:
+      213: -687557371189770570
+    second: 1st_boss_idea_313
+  - first:
+      213: -2293630625320562183
+    second: 1st_boss_idea_314
+  - first:
+      213: -1536021634018024190
+    second: 1st_boss_idea_315
+  - first:
+      213: -1135656528221559201
+    second: 1st_boss_idea_316
+  - first:
+      213: 6454837762127813700
+    second: 1st_boss_idea_317
+  - first:
+      213: 6267114025490782625
+    second: 1st_boss_idea_318
+  - first:
+      213: -4086069250837984589
+    second: 1st_boss_idea_319
+  - first:
+      213: 8573579337286743287
+    second: 1st_boss_idea_320
+  - first:
+      213: -3321806153569157907
+    second: 1st_boss_idea_321
+  - first:
+      213: -3675506300216024975
+    second: 1st_boss_idea_322
+  - first:
+      213: -8603637292287324655
+    second: 1st_boss_idea_323
+  - first:
+      213: -8844411115707776339
+    second: 1st_boss_idea_324
+  - first:
+      213: -2749630222682122883
+    second: 1st_boss_idea_325
+  - first:
+      213: -2770313533638892758
+    second: 1st_boss_idea_326
+  - first:
+      213: -5044770157060955156
+    second: 1st_boss_idea_327
+  - first:
+      213: 7760434965255495043
+    second: 1st_boss_idea_328
+  - first:
+      213: -6576074400198174642
+    second: 1st_boss_idea_329
+  - first:
+      213: 6363481058912433366
+    second: 1st_boss_idea_330
+  - first:
+      213: -7169206794480489034
+    second: 1st_boss_idea_331
+  - first:
+      213: 6610190272811727809
+    second: 1st_boss_idea_332
+  - first:
+      213: 5286347665592160240
+    second: 1st_boss_idea_333
+  - first:
+      213: 7020863767578120527
+    second: 1st_boss_idea_334
+  - first:
+      213: 6656887363611686988
+    second: 1st_boss_idea_335
+  - first:
+      213: 5863702519305585374
+    second: 1st_boss_idea_336
+  - first:
+      213: 5461534028588747540
+    second: 1st_boss_idea_337
+  - first:
+      213: 7583482545096970155
+    second: 1st_boss_idea_338
+  - first:
+      213: -8411413153837045412
+    second: 1st_boss_idea_339
+  - first:
+      213: -2700857314200763272
+    second: 1st_boss_idea_340
+  - first:
+      213: -3547508734650260612
+    second: 1st_boss_idea_341
+  - first:
+      213: 5723380670017897175
+    second: 1st_boss_idea_342
+  - first:
+      213: 861615013489831045
+    second: 1st_boss_idea_343
+  - first:
+      213: -9186637034440170699
+    second: 1st_boss_idea_344
+  - first:
+      213: 5008857275105346509
+    second: 1st_boss_idea_345
+  - first:
+      213: 6392406135852439452
+    second: 1st_boss_idea_346
+  - first:
+      213: -4293347204214050969
+    second: 1st_boss_idea_347
+  - first:
+      213: -4445429494182879670
+    second: 1st_boss_idea_348
+  - first:
+      213: 3701962895921431519
+    second: 1st_boss_idea_349
+  - first:
+      213: 2625448680746129248
+    second: 1st_boss_idea_350
+  - first:
+      213: -6577216518168743654
+    second: 1st_boss_idea_351
+  - first:
+      213: 2094467532356493758
+    second: 1st_boss_idea_352
+  - first:
+      213: -1018053898734095157
+    second: 1st_boss_idea_353
+  - first:
+      213: -82459839355890173
+    second: 1st_boss_idea_354
+  - first:
+      213: 9164158955724436654
+    second: 1st_boss_idea_355
+  - first:
+      213: 5746796099019052352
+    second: 1st_boss_idea_356
+  - first:
+      213: -3318358293375303
+    second: 1st_boss_idea_357
+  - first:
+      213: 7869102391544346194
+    second: 1st_boss_idea_358
+  - first:
+      213: -6073868498089035401
+    second: 1st_boss_idea_359
+  - first:
+      213: 4767991616566767578
+    second: 1st_boss_idea_360
+  - first:
+      213: 9009817638109553174
+    second: 1st_boss_idea_361
+  - first:
+      213: -2787804589432482358
+    second: 1st_boss_idea_362
+  - first:
+      213: 6606688203219354132
+    second: 1st_boss_idea_363
+  - first:
+      213: -3051008065656137895
+    second: 1st_boss_idea_364
+  - first:
+      213: 9124534046173895318
+    second: 1st_boss_idea_365
+  - first:
+      213: -484970357707781406
+    second: 1st_boss_idea_366
+  - first:
+      213: -198638236870682532
+    second: 1st_boss_idea_367
+  - first:
+      213: -6301387938253858376
+    second: 1st_boss_idea_368
+  - first:
+      213: -5404992236042404051
+    second: 1st_boss_idea_369
+  - first:
+      213: 8385137261160211716
+    second: 1st_boss_idea_370
+  - first:
+      213: 8630965193499680848
+    second: 1st_boss_idea_371
+  - first:
+      213: 7399800916712925584
+    second: 1st_boss_idea_372
+  - first:
+      213: 7978370936979489389
+    second: 1st_boss_idea_373
+  - first:
+      213: -7572867996045406827
+    second: 1st_boss_idea_374
+  - first:
+      213: -6113060590151219590
+    second: 1st_boss_idea_375
+  - first:
+      213: -1307946845371231330
+    second: 1st_boss_idea_376
+  - first:
+      213: -2602058779145741783
+    second: 1st_boss_idea_377
+  - first:
+      213: -9184468413121378077
+    second: 1st_boss_idea_378
+  - first:
+      213: 7522613497711618224
+    second: 1st_boss_idea_379
+  - first:
+      213: 2347155046553728881
+    second: 1st_boss_idea_380
+  - first:
+      213: 8995079195696215867
+    second: 1st_boss_idea_381
+  - first:
+      213: -772580319662067378
+    second: 1st_boss_idea_382
+  - first:
+      213: 1704018994140604993
+    second: 1st_boss_idea_383
+  - first:
+      213: -372711842601453599
+    second: 1st_boss_idea_384
+  - first:
+      213: 9014087767173990580
+    second: 1st_boss_idea_385
+  - first:
+      213: -7767276384665480243
+    second: 1st_boss_idea_386
+  - first:
+      213: -3994801237192579814
+    second: 1st_boss_idea_387
+  - first:
+      213: 1315279836954178537
+    second: 1st_boss_idea_388
+  - first:
+      213: 1997511273640018791
+    second: 1st_boss_idea_389
+  - first:
+      213: -1259520569767075432
+    second: 1st_boss_idea_390
+  - first:
+      213: -8423713852915003832
+    second: 1st_boss_idea_391
+  - first:
+      213: -1107026191349693514
+    second: 1st_boss_idea_392
+  - first:
+      213: 1600866963799958798
+    second: 1st_boss_idea_393
+  - first:
+      213: -900393849361841633
+    second: 1st_boss_idea_394
+  - first:
+      213: 9021850748371709782
+    second: 1st_boss_idea_395
+  - first:
+      213: -3557128416878279651
+    second: 1st_boss_idea_396
+  - first:
+      213: 2753706555376845234
+    second: 1st_boss_idea_397
+  - first:
+      213: 1936484400230608260
+    second: 1st_boss_idea_398
+  - first:
+      213: -1526410111066796762
+    second: 1st_boss_idea_399
+  - first:
+      213: -4280154491891681748
+    second: 1st_boss_idea_400
+  - first:
+      213: -1482143462148457641
+    second: 1st_boss_idea_401
+  - first:
+      213: -6862024528596420798
+    second: 1st_boss_idea_402
+  - first:
+      213: -2738805682692533611
+    second: 1st_boss_idea_403
+  - first:
+      213: -8179676254697522776
+    second: 1st_boss_idea_404
+  - first:
+      213: -1302219323289958621
+    second: 1st_boss_idea_405
+  - first:
+      213: 5043719926433812232
+    second: 1st_boss_idea_406
+  - first:
+      213: -6272401941842828323
+    second: 1st_boss_idea_407
+  - first:
+      213: -8220832799437943948
+    second: 1st_boss_idea_408
+  - first:
+      213: -6621947328484484338
+    second: 1st_boss_idea_409
+  - first:
+      213: 8817655065356901845
+    second: 1st_boss_idea_410
+  - first:
+      213: -4954947078484972836
+    second: 1st_boss_idea_411
+  - first:
+      213: -2201578959929878904
+    second: 1st_boss_idea_412
+  - first:
+      213: -5184173194996863313
+    second: 1st_boss_idea_413
+  - first:
+      213: 4273660174772108253
+    second: 1st_boss_idea_414
+  - first:
+      213: -4680989309974046795
+    second: 1st_boss_idea_415
+  - first:
+      213: 8859251095128919971
+    second: 1st_boss_idea_416
+  - first:
+      213: -2934877939145292751
+    second: 1st_boss_idea_417
+  - first:
+      213: 3784079478383151681
+    second: 1st_boss_idea_418
+  - first:
+      213: -4350117664226825087
+    second: 1st_boss_idea_419
+  - first:
+      213: 3930274049823914972
+    second: 1st_boss_idea_420
+  - first:
+      213: 5935456418861741544
+    second: 1st_boss_idea_421
+  - first:
+      213: -4652975681944358054
+    second: 1st_boss_idea_422
+  - first:
+      213: 3224240143916061879
+    second: 1st_boss_idea_423
+  - first:
+      213: 8799259442392074142
+    second: 1st_boss_idea_424
+  - first:
+      213: 3305046237038975764
+    second: 1st_boss_idea_425
+  - first:
+      213: 4783904529254652761
+    second: 1st_boss_idea_426
+  - first:
+      213: -4217224939656424666
+    second: 1st_boss_idea_427
+  - first:
+      213: 3278822054984515143
+    second: 1st_boss_idea_428
+  - first:
+      213: -4975231054534491825
+    second: 1st_boss_idea_429
+  - first:
+      213: -7533460107618920345
+    second: 1st_boss_idea_430
+  - first:
+      213: -5487075546778106300
+    second: 1st_boss_idea_431
+  - first:
+      213: 6232873044178652681
+    second: 1st_boss_idea_432
+  - first:
+      213: 3306918085639800351
+    second: 1st_boss_idea_433
+  - first:
+      213: -1923704742041021740
+    second: 1st_boss_idea_434
+  - first:
+      213: -6630040823881305434
+    second: 1st_boss_idea_435
+  - first:
+      213: -1966139635139577061
+    second: 1st_boss_idea_436
+  - first:
+      213: -3750449514284926008
+    second: 1st_boss_idea_437
+  - first:
+      213: 1195682182043271662
+    second: 1st_boss_idea_438
+  - first:
+      213: -120956988524781446
+    second: 1st_boss_idea_439
+  - first:
+      213: -9014016120801855923
+    second: 1st_boss_idea_440
+  - first:
+      213: 3291502380326544871
+    second: 1st_boss_idea_441
+  - first:
+      213: -460935837552689036
+    second: 1st_boss_idea_442
+  - first:
+      213: 9030229389356717654
+    second: 1st_boss_idea_443
+  - first:
+      213: 2280298022421426206
+    second: 1st_boss_idea_444
+  - first:
+      213: 3936037506301112860
+    second: 1st_boss_idea_445
+  - first:
+      213: 1143610633648785821
+    second: 1st_boss_idea_446
+  - first:
+      213: 9001306688284549508
+    second: 1st_boss_idea_447
+  - first:
+      213: -8560112826873093206
+    second: 1st_boss_idea_448
+  - first:
+      213: -3465886220992113683
+    second: 1st_boss_idea_449
+  - first:
+      213: -418759268185132623
+    second: 1st_boss_idea_450
+  - first:
+      213: 8066503405074504878
+    second: 1st_boss_idea_451
+  - first:
+      213: 298783571936602649
+    second: 1st_boss_idea_452
+  - first:
+      213: 2693203572661172594
+    second: 1st_boss_idea_453
+  - first:
+      213: -2041946388492212745
+    second: 1st_boss_idea_454
+  - first:
+      213: 394737564849118741
+    second: 1st_boss_idea_455
+  - first:
+      213: -8794870939689737033
+    second: 1st_boss_idea_456
+  - first:
+      213: 6112418290730106062
+    second: 1st_boss_idea_457
+  - first:
+      213: -9051969979239348004
+    second: 1st_boss_idea_458
+  - first:
+      213: -7310801377963014595
+    second: 1st_boss_idea_459
+  - first:
+      213: 2155238047459785038
+    second: 1st_boss_idea_460
+  - first:
+      213: 2930339482554648818
+    second: 1st_boss_idea_461
+  - first:
+      213: 6416703406226320492
+    second: 1st_boss_idea_462
+  - first:
+      213: -150250993059943267
+    second: 1st_boss_idea_463
+  - first:
+      213: -8984688381878784063
+    second: 1st_boss_idea_464
+  - first:
+      213: 669422938741789611
+    second: 1st_boss_idea_465
+  - first:
+      213: 1590316762325586837
+    second: 1st_boss_idea_466
+  - first:
+      213: 7782574024579357619
+    second: 1st_boss_idea_467
+  - first:
+      213: -6117040330283180490
+    second: 1st_boss_idea_468
+  - first:
+      213: -2377255946640256990
+    second: 1st_boss_idea_469
+  - first:
+      213: 5506443144572638562
+    second: 1st_boss_idea_470
+  - first:
+      213: -7190376816459143012
+    second: 1st_boss_idea_471
+  - first:
+      213: 9154418330189697767
+    second: 1st_boss_idea_472
+  - first:
+      213: 8630442375429832653
+    second: 1st_boss_idea_473
+  - first:
+      213: -5184297455002358784
+    second: 1st_boss_idea_474
+  - first:
+      213: 6178088622496086207
+    second: 1st_boss_idea_475
+  - first:
+      213: -4591222067458501708
+    second: 1st_boss_idea_476
+  - first:
+      213: -3931877864113705606
+    second: 1st_boss_idea_477
+  - first:
+      213: 8196686626210634400
+    second: 1st_boss_idea_478
+  - first:
+      213: 6062279338302275452
+    second: 1st_boss_idea_479
+  - first:
+      213: 3887692238185481428
+    second: 1st_boss_idea_480
+  - first:
+      213: 7768506797401453939
+    second: 1st_boss_idea_481
+  - first:
+      213: -9032542468080645876
+    second: 1st_boss_idea_482
+  - first:
+      213: 7427005334089797702
+    second: 1st_boss_idea_483
+  - first:
+      213: 6673669298281063980
+    second: 1st_boss_idea_484
+  - first:
+      213: -232128979539658830
+    second: 1st_boss_idea_485
+  - first:
+      213: 2461334878539407232
+    second: 1st_boss_idea_486
+  - first:
+      213: 4163599608767358109
+    second: 1st_boss_idea_487
+  - first:
+      213: 1139855279192728947
+    second: 1st_boss_idea_488
+  - first:
+      213: 9120263986393573793
+    second: 1st_boss_idea_489
+  - first:
+      213: -582963705273665106
+    second: 1st_boss_idea_490
+  - first:
+      213: 6682309466597454214
+    second: 1st_boss_idea_491
+  - first:
+      213: 133455960108600253
+    second: 1st_boss_idea_492
+  - first:
+      213: 1858806473676797570
+    second: 1st_boss_idea_493
+  - first:
+      213: 5210765017646124449
+    second: 1st_boss_idea_494
+  - first:
+      213: -5006935650037271152
+    second: 1st_boss_idea_495
+  - first:
+      213: -3918729724515913760
+    second: 1st_boss_idea_496
+  - first:
+      213: 6670072979056769927
+    second: 1st_boss_idea_497
+  - first:
+      213: -7116906307709492777
+    second: 1st_boss_idea_498
+  - first:
+      213: -8618360667850723464
+    second: 1st_boss_idea_499
+  - first:
+      213: 903438302875108273
+    second: 1st_boss_idea_500
+  - first:
+      213: -756092688665179489
+    second: 1st_boss_idea_501
+  - first:
+      213: -2163130086086429415
+    second: 1st_boss_idea_502
+  - first:
+      213: -7267515143365967684
+    second: 1st_boss_idea_503
+  - first:
+      213: -833071129741054610
+    second: 1st_boss_idea_504
+  - first:
+      213: 6210183016790182977
+    second: 1st_boss_idea_505
+  - first:
+      213: 8991760322626988856
+    second: 1st_boss_idea_506
+  - first:
+      213: -1684854261642621185
+    second: 1st_boss_idea_507
+  - first:
+      213: 14301648451823513
+    second: 1st_boss_idea_508
+  - first:
+      213: -1211975508661061345
+    second: 1st_boss_idea_509
+  - first:
+      213: -2550685971489364545
+    second: 1st_boss_idea_510
+  - first:
+      213: 6844002272723807137
+    second: 1st_boss_idea_511
+  - first:
+      213: -2188533123492990345
+    second: 1st_boss_idea_512
+  - first:
+      213: 7013553047204967704
+    second: 1st_boss_idea_513
+  - first:
+      213: 9197031037384949393
+    second: 1st_boss_idea_514
+  - first:
+      213: 25278011881638839
+    second: 1st_boss_idea_515
+  - first:
+      213: -5115736765749675774
+    second: 1st_boss_idea_516
+  - first:
+      213: 240276286813359521
+    second: 1st_boss_idea_517
+  - first:
+      213: -1513613903279694741
+    second: 1st_boss_idea_518
+  - first:
+      213: -3579642386815317201
+    second: 1st_boss_idea_519
+  - first:
+      213: 7949450669698751576
+    second: 1st_boss_idea_520
+  - first:
+      213: 37783891782861783
+    second: 1st_boss_idea_521
+  - first:
+      213: -727027505799593796
+    second: 1st_boss_idea_522
+  - first:
+      213: 7818704997131590628
+    second: 1st_boss_idea_523
+  - first:
+      213: 7195126361591606660
+    second: 1st_boss_idea_524
+  - first:
+      213: -560358443585209507
+    second: 1st_boss_idea_525
+  - first:
+      213: -6597559871065069831
+    second: 1st_boss_idea_526
+  - first:
+      213: 152798917683285464
+    second: 1st_boss_idea_527
+  - first:
+      213: -7494964775896559581
+    second: 1st_boss_idea_528
+  - first:
+      213: -4356117958021761115
+    second: 1st_boss_idea_529
+  - first:
+      213: 3362798030253385410
+    second: 1st_boss_idea_530
+  - first:
+      213: 7130856242390718351
+    second: 1st_boss_idea_531
+  - first:
+      213: 953538132039233084
+    second: 1st_boss_idea_532
+  - first:
+      213: -8440385569424958055
+    second: 1st_boss_idea_533
+  - first:
+      213: 311379936523270623
+    second: 1st_boss_idea_534
+  - first:
+      213: -7012531755434551065
+    second: 1st_boss_idea_535
+  - first:
+      213: 2582218683050072499
+    second: 1st_boss_idea_536
+  - first:
+      213: 3383823425922302515
+    second: 1st_boss_idea_537
+  - first:
+      213: 5469866121237260336
+    second: 1st_boss_idea_538
+  - first:
+      213: 1230993511453166728
+    second: 1st_boss_idea_539
+  - first:
+      213: -4308625087266368530
+    second: 1st_boss_idea_540
+  - first:
+      213: -7523382300593551025
+    second: 1st_boss_idea_541
+  - first:
+      213: 8526707908507424180
+    second: 1st_boss_idea_542
+  - first:
+      213: -5495588887265872450
+    second: 1st_boss_idea_543
+  - first:
+      213: -5501481822011181278
+    second: 1st_boss_idea_544
+  - first:
+      213: 7659434377104245737
+    second: 1st_boss_idea_545
+  - first:
+      213: -9015987733131954766
+    second: 1st_boss_idea_546
+  - first:
+      213: -7949257065676962023
+    second: 1st_boss_idea_547
+  - first:
+      213: 6363137045987712084
+    second: 1st_boss_idea_548
+  - first:
+      213: 5584204013906800134
+    second: 1st_boss_idea_549
+  - first:
+      213: -1073948084356920674
+    second: 1st_boss_idea_550
+  - first:
+      213: 7240718880875287376
+    second: 1st_boss_idea_551
+  - first:
+      213: 4971915803593711789
+    second: 1st_boss_idea_552
+  - first:
+      213: 9124948223108880348
+    second: 1st_boss_idea_553
+  - first:
+      213: 5266257679711741132
+    second: 1st_boss_idea_554
+  - first:
+      213: 1038978236420970547
+    second: 1st_boss_idea_555
+  - first:
+      213: 2078326348601107172
+    second: 1st_boss_idea_556
+  - first:
+      213: -8407565217184033749
+    second: 1st_boss_idea_557
+  - first:
+      213: -1527318986503582618
+    second: 1st_boss_idea_558
+  - first:
+      213: 2635205742647472500
+    second: 1st_boss_idea_559
+  - first:
+      213: -6207222102964594971
+    second: 1st_boss_idea_560
+  - first:
+      213: -2385857631636138133
+    second: 1st_boss_idea_561
+  - first:
+      213: 8932398621325398256
+    second: 1st_boss_idea_562
+  - first:
+      213: 5378961187310132286
+    second: 1st_boss_idea_563
+  - first:
+      213: -8048121194041995716
+    second: 1st_boss_idea_564
+  - first:
+      213: 1174453720195642185
+    second: 1st_boss_idea_565
+  - first:
+      213: -4803759676152509173
+    second: 1st_boss_idea_566
+  - first:
+      213: -8114090681575019389
+    second: 1st_boss_idea_567
+  - first:
+      213: -8149018627716754637
+    second: 1st_boss_idea_568
+  - first:
+      213: 6012465291191990304
+    second: 1st_boss_idea_569
+  - first:
+      213: 2755225260806043108
+    second: 1st_boss_idea_570
+  - first:
+      213: 7578440436221407172
+    second: 1st_boss_idea_571
+  - first:
+      213: -6597631423209298837
+    second: 1st_boss_idea_572
+  - first:
+      213: -5903995602993700672
+    second: 1st_boss_idea_573
+  - first:
+      213: -91425974755489493
+    second: 1st_boss_idea_574
+  - first:
+      213: 3859834718888228035
+    second: 1st_boss_idea_575
+  - first:
+      213: 2031268331602986812
+    second: 1st_boss_idea_576
+  - first:
+      213: -4569824952521224347
+    second: 1st_boss_idea_577
+  - first:
+      213: -6727016629002827804
+    second: 1st_boss_idea_578
+  - first:
+      213: -8539698381862976821
+    second: 1st_boss_idea_579
+  - first:
+      213: -6707272112729452193
+    second: 1st_boss_idea_580
+  - first:
+      213: 8105748092987580805
+    second: 1st_boss_idea_581
+  - first:
+      213: 7241213886369276589
+    second: 1st_boss_idea_582
+  - first:
+      213: 8470885932780923731
+    second: 1st_boss_idea_583
+  - first:
+      213: 5415656454209833928
+    second: 1st_boss_idea_584
+  - first:
+      213: 7995076980223883864
+    second: 1st_boss_idea_585
+  - first:
+      213: 4050393785255300420
+    second: 1st_boss_idea_586
+  - first:
+      213: -8550222423525545272
+    second: 1st_boss_idea_587
+  - first:
+      213: 7645912585581516214
+    second: 1st_boss_idea_588
+  - first:
+      213: -5440522822237566471
+    second: 1st_boss_idea_589
+  - first:
+      213: -1800888255350223552
+    second: 1st_boss_idea_590
+  - first:
+      213: -600567476460138449
+    second: 1st_boss_idea_591
+  - first:
+      213: -5148035666970348774
+    second: 1st_boss_idea_592
+  - first:
+      213: -5052650937059943173
+    second: 1st_boss_idea_593
+  - first:
+      213: -2170444817400394462
+    second: 1st_boss_idea_594
+  - first:
+      213: -2292290218416226750
+    second: 1st_boss_idea_595
+  - first:
+      213: 1879750192290185028
+    second: 1st_boss_idea_596
+  - first:
+      213: 4315633627839394427
+    second: 1st_boss_idea_597
+  - first:
+      213: -2946908163024253426
+    second: 1st_boss_idea_598
+  - first:
+      213: -7972624679827944143
+    second: 1st_boss_idea_599
+  - first:
+      213: 5848727705505157342
+    second: 1st_boss_idea_600
+  - first:
+      213: 8311594563498140227
+    second: 1st_boss_idea_601
+  - first:
+      213: -4513169187132994136
+    second: 1st_boss_idea_602
+  - first:
+      213: -7399910151532027241
+    second: 1st_boss_idea_603
+  - first:
+      213: 7291357758289080075
+    second: 1st_boss_idea_604
+  - first:
+      213: -6899788604530615584
+    second: 1st_boss_idea_605
+  - first:
+      213: 8784480289557779604
+    second: 1st_boss_idea_606
+  - first:
+      213: -7172487339404275089
+    second: 1st_boss_idea_607
+  - first:
+      213: 9090236871791033368
+    second: 1st_boss_idea_608
+  - first:
+      213: 5453061322655924914
+    second: 1st_boss_idea_609
+  - first:
+      213: -214819002925059573
+    second: 1st_boss_idea_610
+  - first:
+      213: 6446452491059344660
+    second: 1st_boss_idea_611
+  - first:
+      213: 6007913216616229366
+    second: 1st_boss_idea_612
+  - first:
+      213: 5317885337403811873
+    second: 1st_boss_idea_613
+  - first:
+      213: -3574974897708637631
+    second: 1st_boss_idea_614
+  - first:
+      213: 4813829445201953309
+    second: 1st_boss_idea_615
+  - first:
+      213: -6898602616093420743
+    second: 1st_boss_idea_616
+  - first:
+      213: 6105959851733768874
+    second: 1st_boss_idea_617
+  - first:
+      213: -1787101012159423446
+    second: 1st_boss_idea_618
+  - first:
+      213: 6290936951071306973
+    second: 1st_boss_idea_619
+  - first:
+      213: -8081817634595921614
+    second: 1st_boss_idea_620
+  - first:
+      213: 2365346244672694317
+    second: 1st_boss_idea_621
+  - first:
+      213: 3196755989918576954
+    second: 1st_boss_idea_622
+  - first:
+      213: 2919513046002570899
+    second: 1st_boss_idea_623
+  - first:
+      213: 3840097248377965107
+    second: 1st_boss_idea_624
+  - first:
+      213: 6305940560453362078
+    second: 1st_boss_idea_625
+  - first:
+      213: -7414405106174609904
+    second: 1st_boss_idea_626
+  - first:
+      213: 8700495001574952557
+    second: 1st_boss_idea_627
+  - first:
+      213: -2766843973923491407
+    second: 1st_boss_idea_628
+  - first:
+      213: 5217917924957410253
+    second: 1st_boss_idea_629
+  - first:
+      213: -3043793745569042425
+    second: 1st_boss_idea_630
+  - first:
+      213: -3145513711057132351
+    second: 1st_boss_idea_631
+  - first:
+      213: -5855217663827138371
+    second: 1st_boss_idea_632
+  - first:
+      213: -8975072170956901299
+    second: 1st_boss_idea_633
+  - first:
+      213: -8127328969887223372
+    second: 1st_boss_idea_634
+  - first:
+      213: -520165651424632352
+    second: 1st_boss_idea_635
+  - first:
+      213: 2216769184401235681
+    second: 1st_boss_idea_636
+  - first:
+      213: 9147082774081690684
+    second: 1st_boss_idea_637
+  - first:
+      213: 3600947460315197234
+    second: 1st_boss_idea_638
+  - first:
+      213: 9078211255563970928
+    second: 1st_boss_idea_639
+  - first:
+      213: -2247632837540562638
+    second: 1st_boss_idea_640
+  - first:
+      213: -4843573733194525807
+    second: 1st_boss_idea_641
+  - first:
+      213: 3011895042302966370
+    second: 1st_boss_idea_642
+  - first:
+      213: 7944272433192487145
+    second: 1st_boss_idea_643
+  - first:
+      213: 87555302352913489
+    second: 1st_boss_idea_644
+  - first:
+      213: -4750811519889550140
+    second: 1st_boss_idea_645
+  - first:
+      213: 579503141840835394
+    second: 1st_boss_idea_646
+  - first:
+      213: -8484008854870276979
+    second: 1st_boss_idea_647
+  - first:
+      213: 8780326397691118001
+    second: 1st_boss_idea_648
+  - first:
+      213: -5061551700679189033
+    second: 1st_boss_idea_649
+  - first:
+      213: 527905301092088455
+    second: 1st_boss_idea_650
+  - first:
+      213: 7439647345455196383
+    second: 1st_boss_idea_651
+  - first:
+      213: -2578892680386635483
+    second: 1st_boss_idea_652
+  - first:
+      213: 2123327387603454010
+    second: 1st_boss_idea_653
+  - first:
+      213: 716441310111351329
+    second: 1st_boss_idea_654
+  - first:
+      213: 8557585742546189741
+    second: 1st_boss_idea_655
+  - first:
+      213: 4197849914624048483
+    second: 1st_boss_idea_656
+  - first:
+      213: -6185024824058185711
+    second: 1st_boss_idea_657
+  - first:
+      213: -4814354479434165806
+    second: 1st_boss_idea_658
+  - first:
+      213: -6398354291046053756
+    second: 1st_boss_idea_659
+  - first:
+      213: 833761078001837049
+    second: 1st_boss_idea_660
+  - first:
+      213: 8359442748767519069
+    second: 1st_boss_idea_661
+  - first:
+      213: -6521499394397874376
+    second: 1st_boss_idea_662
+  - first:
+      213: -3384242824650808844
+    second: 1st_boss_idea_663
+  - first:
+      213: -8693715336302198485
+    second: 1st_boss_idea_664
+  - first:
+      213: -484223573540760098
+    second: 1st_boss_idea_665
+  - first:
+      213: -1235916425581364601
+    second: 1st_boss_idea_666
+  - first:
+      213: -7559438126214569112
+    second: 1st_boss_idea_667
+  - first:
+      213: -2059956588087894997
+    second: 1st_boss_idea_668
+  - first:
+      213: -3891430928723200405
+    second: 1st_boss_idea_669
+  - first:
+      213: 8012359224265593622
+    second: 1st_boss_idea_670
+  - first:
+      213: -9159401667287246707
+    second: 1st_boss_idea_671
+  - first:
+      213: -7529310186799713978
+    second: 1st_boss_idea_672
+  - first:
+      213: -8462102051970209430
+    second: 1st_boss_idea_673
+  - first:
+      213: 4590037356038015105
+    second: 1st_boss_idea_674
+  - first:
+      213: 2484533262251590277
+    second: 1st_boss_idea_675
+  - first:
+      213: -4277234227387473812
+    second: 1st_boss_idea_676
+  - first:
+      213: 2203117574222152633
+    second: 1st_boss_idea_677
+  - first:
+      213: 7566235153130307621
+    second: 1st_boss_idea_678
+  - first:
+      213: 2229832775915991255
+    second: 1st_boss_idea_679
+  - first:
+      213: 5465383893067919740
+    second: 1st_boss_idea_680
+  - first:
+      213: -1872926093395858397
+    second: 1st_boss_idea_681
+  - first:
+      213: 1381498929793841796
+    second: 1st_boss_idea_682
+  - first:
+      213: 6111010639120345317
+    second: 1st_boss_idea_683
+  - first:
+      213: -172896197894547004
+    second: 1st_boss_idea_684
+  - first:
+      213: -7907518204292622676
+    second: 1st_boss_idea_685
+  - first:
+      213: 8877703534511301466
+    second: 1st_boss_idea_686
+  - first:
+      213: 5604528467003834831
+    second: 1st_boss_idea_687
+  - first:
+      213: -9200537442218314382
+    second: 1st_boss_idea_688
+  - first:
+      213: 3109824497924822577
+    second: 1st_boss_idea_689
+  - first:
+      213: -6765242956883530478
+    second: 1st_boss_idea_690
+  - first:
+      213: -5045467449761916822
+    second: 1st_boss_idea_691
+  - first:
+      213: 6930959591376443464
+    second: 1st_boss_idea_692
+  - first:
+      213: 9014280710574052586
+    second: 1st_boss_idea_693
+  - first:
+      213: 5739111398832509672
+    second: 1st_boss_idea_694
+  - first:
+      213: -404260690163864404
+    second: 1st_boss_idea_695
+  - first:
+      213: -8668798901019328182
+    second: 1st_boss_idea_696
+  - first:
+      213: 2261341831551125222
+    second: 1st_boss_idea_697
+  - first:
+      213: -6773174866627769680
+    second: 1st_boss_idea_698
+  - first:
+      213: 6179092304832570528
+    second: 1st_boss_idea_699
+  - first:
+      213: -5813511628459520452
+    second: 1st_boss_idea_700
+  - first:
+      213: -8398093686471849499
+    second: 1st_boss_idea_701
+  - first:
+      213: 5510840867008830529
+    second: 1st_boss_idea_702
+  - first:
+      213: 357843179262562672
+    second: 1st_boss_idea_703
+  - first:
+      213: -6589009717216086816
+    second: 1st_boss_idea_704
+  - first:
+      213: -1125537909937820283
+    second: 1st_boss_idea_705
+  - first:
+      213: -184281514999258774
+    second: 1st_boss_idea_706
+  - first:
+      213: 1412489011064947866
+    second: 1st_boss_idea_707
+  - first:
+      213: -6570252357563295186
+    second: 1st_boss_idea_708
+  - first:
+      213: -6627557934958615037
+    second: 1st_boss_idea_709
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1st_boss_idea_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3cc44ad2d13f9f0800000000000000
+      internalID: -435972657057578071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f9c88555c061cf0800000000000000
+      internalID: -282024365966713051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7beb199b347def10800000000000000
+      internalID: 2300622783976827771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c233fb2dfdd21e20800000000000000
+      internalID: 3319959954759299777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd4a484584a620c0800000000000000
+      internalID: -4600809076961948167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa6d6cd6b59c7ee0800000000000000
+      internalID: -1261969182955836678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e108441b035ad78c0800000000000000
+      internalID: -3999859265484062690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13adb4982e2306a60800000000000000
+      internalID: 7665182514332031537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b2c66874a5097b0800000000000000
+      internalID: -5219572704877991076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851222b950eee9f20800000000000000
+      internalID: 3431441673947849048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ee12f9cd98b4300800000000000000
+      internalID: 237434986022694538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fda9f73c5dc2ef20800000000000000
+      internalID: 3450546060479016441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc713d94f2fa9b3b0800000000000000
+      internalID: -5496169252592085041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240c38a846a86e50800000000000000
+      internalID: 6802870068133495846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629893f1a5e6070b0800000000000000
+      internalID: -5732960992292665050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0efd23b6acdcd840800000000000000
+      internalID: 5250313874135973386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1fb53c0f6c22cd0800000000000000
+      internalID: -2584284498785209910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e8c16a4667cef80800000000000000
+      internalID: -8075949857126445555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c765a15b08ed57710800000000000000
+      internalID: 1690501879523071612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31bf8a51a137d990800000000000000
+      internalID: -7361360496834924226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6741d3fb6d628a0800000000000000
+      internalID: -6330136109370804566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4849c66d91b5b3180800000000000000
+      internalID: -9134607252661169020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df851677edabb73b0800000000000000
+      internalID: -5513607854136665859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaec48b02a4fb210800000000000000
+      internalID: 1350879917625895652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd5d611ada2a4bc0800000000000000
+      internalID: -3798176219649974821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f724db0c689ef0e70800000000000000
+      internalID: 9083735738398098047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f2f129f4e2b9830800000000000000
+      internalID: 4078904806802927437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a894faee118def00800000000000000
+      internalID: 1147715449840244898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417fdb515ba29a7e0800000000000000
+      internalID: -1753823622641879276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a825491f9b51fa020800000000000000
+      internalID: 2355125018504221322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c50171aedd8340d0800000000000000
+      internalID: -3439749703050132032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fa00d80052d9490800000000000000
+      internalID: -7737987900456784024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da05d646050187860800000000000000
+      internalID: 7527784714618097837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cad4343bed28aae0800000000000000
+      internalID: -1537928784530580792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b38cfc7b02d4660800000000000000
+      internalID: 7371584138912480118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89125b7417bbc8920800000000000000
+      internalID: 2993973947503288728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5fb13075210f290800000000000000
+      internalID: -7858761184837896757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa266a257de68fe0800000000000000
+      internalID: -1187000364287251804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25776b4a566e38c60800000000000000
+      internalID: 7819346702274819922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370facc79cb070120800000000000000
+      internalID: 2379883888098603123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d065d7f819b35270800000000000000
+      internalID: 8238131660279079120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37cdca8ccdd4c560800000000000000
+      internalID: 7333229963837818683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4afbb4dd06861af0800000000000000
+      internalID: -426005720778147254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fb4a97360ad7d30800000000000000
+      internalID: 4430873957505482583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3aac86b889bc4b00800000000000000
+      internalID: 814229629476579902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff528594f80fdf2f0800000000000000
+      internalID: -937328649221691905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ece01e8691a7290800000000000000
+      internalID: -7891967458770235806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2193fc66c78b010800000000000000
+      internalID: 1204849681326740217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d0bdbf381e5f510800000000000000
+      internalID: 1582418801072999706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6a2b624bd3f00e0800000000000000
+      internalID: -2301553040610384140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfccea5b269e49890800000000000000
+      internalID: -7452074873227129604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215d0dac8b55ef430800000000000000
+      internalID: 3818583786221786386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba671e9e2542170d0800000000000000
+      internalID: -3426917902922451285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00725659a26b5110800000000000000
+      internalID: 1250701800962682893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1c21272fa65c630800000000000000
+      internalID: 3946678237988569528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8fcaf92c5974860800000000000000
+      internalID: 7514139166426069171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836d8e82cf6956370800000000000000
+      internalID: 8315218296771761720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1acc08842c204340800000000000000
+      internalID: 4845921734463638042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cd9b311509d2840800000000000000
+      internalID: 5200971822580489255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc04099329f53290800000000000000
+      internalID: -7911143239120057089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a1778dfe6981ac0800000000000000
+      internalID: -3884188721734018513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9606dd594be152a40800000000000000
+      internalID: 5342710293902221417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cea26132835cf90800000000000000
+      internalID: -6934074327920088041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae74919c313d20750800000000000000
+      internalID: 6269805713184868330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d860efc62c03f21f0800000000000000
+      internalID: -1067580975053142387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe939f78db09c000800000000000000
+      internalID: 56589494800064246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483df51411750de60800000000000000
+      internalID: 7984977870950749060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e083f2147c3296c80800000000000000
+      internalID: -8329086697145944050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19d6d45d8be35950800000000000000
+      internalID: 6436747284688853279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d75003d1a4a69a50800000000000000
+      internalID: 6527585724856817624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20dd02e41c7114c0800000000000000
+      internalID: -4318534138537848789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c880c5c4bc71ee0800000000000000
+      internalID: -1290339239396340613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e895ebc2c5f53bd70800000000000000
+      internalID: 9057688125064501646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28696cb097ad7220800000000000000
+      internalID: 2485326809456535594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1875738b4a4455c0800000000000000
+      internalID: -4227672462005536741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1baf8e240223c80800000000000000
+      internalID: -8344571687815433817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9ce510660b0c6d0800000000000000
+      internalID: -2972181801908385318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1a5f0a6482ff0a0800000000000000
+      internalID: -6845708624766590515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353c91daaf00dfda0800000000000000
+      internalID: -5909566059394251949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aba70e216f4c60e0800000000000000
+      internalID: -2275356432926266455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e3beff093c2b490800000000000000
+      internalID: -7731902582705406377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31e9653e263a0890800000000000000
+      internalID: -7491115458084871878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fff8266896984190800000000000000
+      internalID: -7977961158593675276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc06d24d87f9a080800000000000000
+      internalID: -9175530579706901302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3202f156003d0a910800000000000000
+      internalID: 1846707845871902755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674b7d2393a18b270800000000000000
+      internalID: 8266385949007000694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6fd599491582630800000000000000
+      internalID: 3902458775786616575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56503f0c764fba590800000000000000
+      internalID: -7661761614584806043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62922013489eefe0800000000000000
+      internalID: -1157820640386706836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6fd89b94f3f60a0800000000000000
+      internalID: -6886215719347947842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86064d737e59ac200800000000000000
+      internalID: 201137953678057576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c250a548dd08b640800000000000000
+      internalID: 5095838200901948096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf52024bd53a0180800000000000000
+      internalID: -9148440477228179525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493d4a4bc4278f8d0800000000000000
+      internalID: -2812372293519092844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c11cbc2a7714400800000000000000
+      internalID: 306657790724742276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0658f7ec32baf8180800000000000000
+      internalID: -9110875350870555296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f501e58e48aa126e0800000000000000
+      internalID: -1864021282943791009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b729bcd771e3d50800000000000000
+      internalID: 6718833523137084309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e346c117b0a54d0800000000000000
+      internalID: -3145188809329328497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cb1ef38e3911bc0800000000000000
+      internalID: -3814104783692645308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c6ca8d2e33356c0800000000000000
+      internalID: -4155920981742031856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f725fb0b3be8a230800000000000000
+      internalID: 3650426136820000756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61a7fe52a3b4e6d0800000000000000
+      internalID: -2962045144943582870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d62b56c06a09fd0800000000000000
+      internalID: -2337185634429276776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c885e2a8402e9f0800000000000000
+      internalID: -440784821999334305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22246750f9e39660800000000000000
+      internalID: 7391508631912718893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ca668305d0086b0800000000000000
+      internalID: -5296218523592905706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f540082cdcdd180800000000000000
+      internalID: -9088882237708673241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d82ae33a2cfbfb0800000000000000
+      internalID: -4629767885527282387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edf6bb4c8ee1c5d0800000000000000
+      internalID: -3043889586792628764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16226bd67085dba40800000000000000
+      internalID: 5385557518333649505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e1e73bc65756220800000000000000
+      internalID: 2478516279665630751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301b4ebdf84082600800000000000000
+      internalID: 443609579212026115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1952dba2a3bbf43c0800000000000000
+      internalID: -4373070854653925999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edf98941b901ee60800000000000000
+      internalID: 7989677870979612134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9b16cd01b116b20800000000000000
+      internalID: 3125809375602653601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0a9e7daa8ed6530800000000000000
+      internalID: 3849989076936138952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbcab65eb3c91b70800000000000000
+      internalID: 8870336163349187521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce289ee09c58d9450800000000000000
+      internalID: 6097176569114624748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3a15d5a1d96e910800000000000000
+      internalID: 1866351832151991265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc43dc8aa81478600800000000000000
+      internalID: 470416749876819151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0ec84a386f5d950800000000000000
+      internalID: 6473351084676800707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6530b6378665140800000000000000
+      internalID: 4708065305388340932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78607462bf0838b0800000000000000
+      internalID: -5172366913171330947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd31185660741ef0800000000000000
+      internalID: -138362103675142700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00061a9c7a6289b50800000000000000
+      internalID: 6600067755995652096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0063d09eeebce5160800000000000000
+      internalID: 7016269496462423552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0797e523beed22a0800000000000000
+      internalID: -6760485012410755316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c53d1512072402a0800000000000000
+      internalID: -6772245049760729663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a105f37ee52c1a0800000000000000
+      internalID: -6790760940828616053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312207a24e897ac20800000000000000
+      internalID: 3217708564511466003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd0504d19a741720800000000000000
+      internalID: 2816010433759350192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24112387721a4d690800000000000000
+      internalID: -7578255082065358526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8ed84e60f63b010800000000000000
+      internalID: 1203427600833046739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bd3631b6baa9d90800000000000000
+      internalID: -7090166186966262915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1c15f8b6a238bd0800000000000000
+      internalID: -2629211115999870522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323af5c935045ad00800000000000000
+      internalID: 983262821500298019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa1e2e9af0a44e10800000000000000
+      internalID: 2181045117810252459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3169dd67adacfc40800000000000000
+      internalID: 5547499775627714876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e19df9dbdf3bcd70800000000000000
+      internalID: 9064408888500916705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6732dac89e3100c20800000000000000
+      internalID: 3170556031477293942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe025bb42057b780800000000000000
+      internalID: -8667370839159468303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0489d84cf7cba70800000000000000
+      internalID: 8844084250414694621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c74aec75afe3da0800000000000000
+      internalID: -5963053601555973090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5369c815eacbc9a40800000000000000
+      internalID: 5376379512052028981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c6eb5f441e04b90800000000000000
+      internalID: -7259554913024316376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8b7e0f350a027c0800000000000000
+      internalID: -4098099378522703709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642fad22af68f5160800000000000000
+      internalID: 7016475153351242310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000a481455f641ad0800000000000000
+      internalID: -2732436661944934400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4494c19b40217bbe0800000000000000
+      internalID: -1461679742563628732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d29d05c0d0956f0800000000000000
+      internalID: -695510320904852074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66344f8be7678b70800000000000000
+      internalID: 8901197449939662444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bbfa1894587fa80800000000000000
+      internalID: -8433125226473079991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f9d878514a07390800000000000000
+      internalID: -7822572140367077579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8443fd402ec7d20800000000000000
+      internalID: 3277743139371370659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ff11264390ff590800000000000000
+      internalID: -7638376322408775927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8180d5d4b22a20eb0800000000000000
+      internalID: -4755059949684586472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7873b7b43e40c10800000000000000
+      internalID: 2018988446298113955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af9d2eaf8cd99d90800000000000000
+      internalID: -7090393628657475674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f870f6712f04d7780800000000000000
+      internalID: -8683713097981032561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7eae3569b779530800000000000000
+      internalID: 3861691091076704196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4219159c5a7562e20800000000000000
+      internalID: 3325441744418476324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775036eb85a64abd0800000000000000
+      internalID: -2619852153838959241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8894b1eefc81bbf30800000000000000
+      internalID: 4592291526366415240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2267e341e554b8fe0800000000000000
+      internalID: -1185777806513113566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cd3ce1ca2179630800000000000000
+      internalID: 3933633329991244875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265b53bbf6a833890800000000000000
+      internalID: -7479482343645399710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4333df3c12d07e0800000000000000
+      internalID: -1797743550600629082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec58359e8b3f2930800000000000000
+      internalID: 4120577667642186988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f117dfc710fc484d0800000000000000
+      internalID: -3133151835444121313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7237e88dd7a0350800000000000000
+      internalID: 5983733423971444686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee7012ad84e10d80800000000000000
+      internalID: -8286090542424490260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d44a72474ae374e0800000000000000
+      internalID: -1984985418961369898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114da50edaad04c30800000000000000
+      internalID: 4341710481113404433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e624371daa1baa9b0800000000000000
+      internalID: -5068043083435523474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c319e0c0f486150800000000000000
+      internalID: 5866025427852672095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdddda7443b5b400800000000000000
+      internalID: 339374453636849100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1st_boss_idea_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b2fb970a16091c0800000000000000
+      internalID: -4498988685877892258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

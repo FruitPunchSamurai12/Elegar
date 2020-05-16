@@ -25,6 +25,7 @@ public class FloorButton : MonoBehaviour
         }
     }
 
+    public bool IsPressed() { return isPressed; }
 
     private void OnTriggerStay2D(Collider2D collision)
     {

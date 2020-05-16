@@ -1,0 +1,614 @@
+fileFormatVersion: 2
+guid: 6d9c9568574f3244eb29374f878935ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8391722426962169789
+    second: RollingBoulder0_0
+  - first:
+      213: 3241033720868421040
+    second: RollingBoulder0_1
+  - first:
+      213: -6410007381237941482
+    second: RollingBoulder0_2
+  - first:
+      213: 563146711976258312
+    second: RollingBoulder0_3
+  - first:
+      213: -721140762014510569
+    second: RollingBoulder0_4
+  - first:
+      213: 2328356006053541308
+    second: RollingBoulder0_5
+  - first:
+      213: 652229875267855647
+    second: RollingBoulder0_6
+  - first:
+      213: -4385563252059563090
+    second: RollingBoulder0_7
+  - first:
+      213: 5842793266379102962
+    second: RollingBoulder0_8
+  - first:
+      213: -6601236502332312929
+    second: RollingBoulder0_9
+  - first:
+      213: -1752512167698111260
+    second: RollingBoulder0_10
+  - first:
+      213: -6958413467822349946
+    second: RollingBoulder0_11
+  - first:
+      213: 804089752190939256
+    second: RollingBoulder0_12
+  - first:
+      213: -890817785291392510
+    second: RollingBoulder0_13
+  - first:
+      213: -5143442390587334051
+    second: RollingBoulder0_14
+  - first:
+      213: -406498772759529446
+    second: RollingBoulder0_15
+  - first:
+      213: -7091684283646767411
+    second: RollingBoulder0_16
+  - first:
+      213: 2544955428446499184
+    second: RollingBoulder0_17
+  - first:
+      213: -6075469995747155548
+    second: RollingBoulder0_18
+  - first:
+      213: 7129412973068763385
+    second: RollingBoulder0_19
+  - first:
+      213: -5976070173374117162
+    second: RollingBoulder0_20
+  - first:
+      213: -6295647915842031204
+    second: RollingBoulder0_21
+  - first:
+      213: -1289327527870634977
+    second: RollingBoulder0_22
+  - first:
+      213: 4042088599690227357
+    second: RollingBoulder0_23
+  - first:
+      213: -5073062408649007145
+    second: RollingBoulder0_24
+  - first:
+      213: -5028905861070117060
+    second: RollingBoulder0_25
+  - first:
+      213: -209663006520856008
+    second: RollingBoulder0_26
+  - first:
+      213: -2911389238885567548
+    second: RollingBoulder0_27
+  - first:
+      213: 1444410524253156230
+    second: RollingBoulder0_28
+  - first:
+      213: -7063205780316141935
+    second: RollingBoulder0_29
+  - first:
+      213: 3474886589529959210
+    second: RollingBoulder0_30
+  - first:
+      213: -3032735217545191424
+    second: RollingBoulder0_31
+  - first:
+      213: -6958729723164831825
+    second: RollingBoulder0_32
+  - first:
+      213: 7500036109257404434
+    second: RollingBoulder0_33
+  - first:
+      213: 3246051359467504115
+    second: RollingBoulder0_34
+  - first:
+      213: -5475287694987371277
+    second: RollingBoulder0_35
+  - first:
+      213: 4123346450026532774
+    second: RollingBoulder0_36
+  - first:
+      213: -8488837896403319450
+    second: RollingBoulder0_37
+  - first:
+      213: -5173861598027376820
+    second: RollingBoulder0_38
+  - first:
+      213: -5717994867031433097
+    second: RollingBoulder0_39
+  - first:
+      213: 1325734143981357848
+    second: RollingBoulder0_40
+  - first:
+      213: -6528761195362363369
+    second: RollingBoulder0_41
+  - first:
+      213: 7300440062263135697
+    second: RollingBoulder0_42
+  - first:
+      213: -5100416411861565816
+    second: RollingBoulder0_43
+  - first:
+      213: -339119005575622057
+    second: RollingBoulder0_44
+  - first:
+      213: 5665378440239522994
+    second: RollingBoulder0_45
+  - first:
+      213: -8360452601332662158
+    second: RollingBoulder0_46
+  - first:
+      213: -7268995975278057726
+    second: RollingBoulder0_47
+  - first:
+      213: -4926044077667266664
+    second: RollingBoulder0_48
+  - first:
+      213: -5837456887596305183
+    second: RollingBoulder0_49
+  - first:
+      213: 8387143777229771704
+    second: RollingBoulder0_50
+  - first:
+      213: 3260252296426102112
+    second: RollingBoulder0_51
+  - first:
+      213: 8150061171119609213
+    second: RollingBoulder0_52
+  - first:
+      213: 6339606854590877950
+    second: RollingBoulder0_53
+  - first:
+      213: 5511602535739002687
+    second: RollingBoulder0_54
+  - first:
+      213: 9090391809659044753
+    second: RollingBoulder0_55
+  - first:
+      213: -6463804656742511565
+    second: RollingBoulder0_56
+  - first:
+      213: 7487324872180380323
+    second: RollingBoulder0_57
+  - first:
+      213: -960609649267358989
+    second: RollingBoulder0_58
+  - first:
+      213: 1367628394665809459
+    second: RollingBoulder0_59
+  - first:
+      213: -1307535952072392231
+    second: RollingBoulder0_60
+  - first:
+      213: -2668058759233831162
+    second: RollingBoulder0_61
+  - first:
+      213: -4196170156385101195
+    second: RollingBoulder0_62
+  - first:
+      213: -6479477343990050960
+    second: RollingBoulder0_63
+  - first:
+      213: 1493528599931772180
+    second: RollingBoulder0_64
+  - first:
+      213: -1917377190028307122
+    second: RollingBoulder0_65
+  - first:
+      213: 6522813508447943692
+    second: RollingBoulder0_66
+  - first:
+      213: 7789098633897298179
+    second: RollingBoulder0_67
+  - first:
+      213: 5969854582259726172
+    second: RollingBoulder0_68
+  - first:
+      213: -8233242923476072183
+    second: RollingBoulder0_69
+  - first:
+      213: -766088406520139031
+    second: RollingBoulder0_0
+  - first:
+      213: -2456301897907718981
+    second: RollingBoulder0_1
+  - first:
+      213: 2833909516730162742
+    second: RollingBoulder0_2
+  - first:
+      213: 6010469603051768906
+    second: RollingBoulder0_3
+  - first:
+      213: -5838996198413454714
+    second: RollingBoulder0_4
+  - first:
+      213: 9198240256266647434
+    second: RollingBoulder0_5
+  - first:
+      213: 8108235849136500262
+    second: RollingBoulder0_6
+  - first:
+      213: 2857354047577686404
+    second: RollingBoulder0_7
+  - first:
+      213: -2017076803360334868
+    second: RollingBoulder0_8
+  - first:
+      213: 1961595361266433155
+    second: RollingBoulder0_9
+  - first:
+      213: -8437270321458458396
+    second: RollingBoulder0_10
+  - first:
+      213: 4289074714641669049
+    second: RollingBoulder0_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 320
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RollingBoulder0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e272d637ae4e55f0800000000000000
+      internalID: -766088406520139031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4b71a107679edd0800000000000000
+      internalID: -2456301897907718981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63edc46d0b1145720800000000000000
+      internalID: 2833909516730162742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c0f27524a796350800000000000000
+      internalID: 6010469603051768906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682b5b4d4e7b7fea0800000000000000
+      internalID: -5838996198413454714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87b87957c6b6af70800000000000000
+      internalID: 9198240256266647434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e6ed6ab8d368070800000000000000
+      internalID: 8108235849136500262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_7
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481846b0e5c57a720800000000000000
+      internalID: 2857354047577686404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebd6039557e104e0800000000000000
+      internalID: -2017076803360334868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cf65d869cf83b10800000000000000
+      internalID: 1961595361266433155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0d58f585bc8ea80800000000000000
+      internalID: -8437270321458458396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBoulder0_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb935d7abad58b30800000000000000
+      internalID: 4289074714641669049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
