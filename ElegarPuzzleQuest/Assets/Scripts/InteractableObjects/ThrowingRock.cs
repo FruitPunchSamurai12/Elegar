@@ -7,6 +7,9 @@ public class ThrowingRock : MonoBehaviour
     [SerializeField]
     Collider2D col;
 
+    [SerializeField]
+    Animator animator;
+
     bool initialized = false;
     bool landed = false;
     bool done = false;
@@ -91,9 +94,14 @@ public class ThrowingRock : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            animator.SetTrigger("Break");
+            col.enabled = false;
         }
-        Debug.Log(collision.collider.name);
+    }
+
+    public void DestroyObject()
+    {
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -110,12 +118,14 @@ public class ThrowingRock : MonoBehaviour
                     p.TakeDamage(damage);
                     p.isInvulnerable = true;
                 }
-                Destroy(gameObject);
+                animator.SetTrigger("Break");
+                col.enabled = false;
             }
         }
         else if(collision.tag != "Switch")
         {
-            Destroy(gameObject);
+            animator.SetTrigger("Break");
+            col.enabled = false;
         }
     }
 }

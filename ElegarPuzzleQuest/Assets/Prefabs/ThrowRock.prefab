@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   col: {fileID: 5447213348620700279}
-  explodable: {fileID: 0}
+  animator: {fileID: 2209736032057380093}
   flyingDuration: 1.5
   slidingDuration: 1
   colliderActivationLimit: 0.99
