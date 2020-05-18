@@ -125,6 +125,10 @@ public class BaseAIController : BaseCharacter
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(damage == 0)
+        {
+            return;
+        }
         if (collision.collider.tag == "Player")
         {
             Player p = collision.collider.GetComponent<Player>();

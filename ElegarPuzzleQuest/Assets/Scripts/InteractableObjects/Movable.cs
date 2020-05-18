@@ -50,6 +50,7 @@ public class Movable : MonoBehaviour
             slideDirection = (endPos - startPosition).normalized;
             isMoving = true;
             rb2d.isKinematic = false;
+            rb2d.mass = 10000f;
         }
     }
 
@@ -81,7 +82,7 @@ public class Movable : MonoBehaviour
             float timeSinceStarted = Time.time - timeLerpStarted;
             float percentageComplete = timeSinceStarted / lerpDuration;
             Vector2 newPos = Vector2.Lerp(startPosition, endPosition, percentageComplete);
-            rb2d.MovePosition(new Vector2(newPos.x, newPos.y));
+            rb2d.MovePosition(new Vector2(newPos.x, newPos.y));          
             if (percentageComplete >= 1f)
             {
                 isMoving = false;
@@ -94,11 +95,12 @@ public class Movable : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(isSliding)
+        if(isSliding )
         {
             isSliding = false;
             isMoving = false;
             rb2d.isKinematic = true;
         }
+
     }
 }
