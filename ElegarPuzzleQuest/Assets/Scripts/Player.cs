@@ -291,21 +291,6 @@ public class Player : BaseCharacter
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(sliding)
-        {
-           // sliding = false;
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (sliding)
-        {
-           // Invoke("StopSliding", 0.5f);
-        }
-    }
 
     void StopSliding()
     {
