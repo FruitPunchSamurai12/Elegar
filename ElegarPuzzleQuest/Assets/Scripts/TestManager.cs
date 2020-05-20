@@ -33,7 +33,26 @@ public class TestManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Alpha1) )
+        {
+            player.EquipSpell(ElegarSpells.Push);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            player.EquipSpell(ElegarSpells.Pull);
+        }
+        else if(Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            player.EquipSpell(ElegarSpells.Water);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            player.EquipSpell(ElegarSpells.Light);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            player.EquipSpell(ElegarSpells.Reflect);
+        }
     }
 
 

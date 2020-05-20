@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053ad87c2c5aaaa4db33cda1e5004640, type: 3}
   m_Name: Boss2Iddle
   m_EditorClassIdentifier: 
-  TimeLimit: 5
+  TimeLimit: 0.5
   actions:
   - {fileID: 11400000, guid: 9fc54ec7913dbf04489e98de08ae09d3, type: 2}
-  transitions: []
+  transitions:
+  - decision: {fileID: 11400000, guid: c81ae46045b91e64b96678a5f5885291, type: 2}
+    trueState: {fileID: 11400000, guid: 0bf60b9dcb1e4fe46b0a45876a71d103, type: 2}
+    falseState: {fileID: 11400000}

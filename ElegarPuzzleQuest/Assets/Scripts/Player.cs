@@ -306,4 +306,15 @@ public class Player : BaseCharacter
     {
         currentLife -= damageValue;
     }
+
+    public void SlowPlayer(float duration)
+    {
+        speed = speed / 2f;
+        Invoke("SpeedToNormal", duration);
+    }
+
+    void SpeedToNormal()
+    {
+        speed = 2f * speed;
+    }
 }

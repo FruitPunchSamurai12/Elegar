@@ -56,4 +56,17 @@ public class BaseCharacter : MonoBehaviour
         animator.SetTrigger(triggerName);
     }
 
+    public void FreezeUnfreezeMovement(bool freeze)
+    {
+        if(freeze)
+        {
+            rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
+        }
+        else
+        {
+            rb2d.constraints = RigidbodyConstraints2D.None;
+            rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
+    }
+
 }
