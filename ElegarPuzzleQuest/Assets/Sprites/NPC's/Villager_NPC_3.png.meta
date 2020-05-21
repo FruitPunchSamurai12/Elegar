@@ -1,0 +1,4910 @@
+fileFormatVersion: 2
+guid: 27b8676f465426343bdad62fadc6eb09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7760925818213062397
+    second: Villager_NPC_3_0
+  - first:
+      213: 6978369198496501099
+    second: Villager_NPC_3_1
+  - first:
+      213: 6908786804526291987
+    second: Villager_NPC_3_2
+  - first:
+      213: -5461533376522696982
+    second: Villager_NPC_3_3
+  - first:
+      213: 236240820266021078
+    second: Villager_NPC_3_4
+  - first:
+      213: 9093038324976445858
+    second: Villager_NPC_3_5
+  - first:
+      213: -2092757818217326083
+    second: Villager_NPC_3_6
+  - first:
+      213: 8773961006942980526
+    second: Villager_NPC_3_7
+  - first:
+      213: 1345717522082997502
+    second: Villager_NPC_3_8
+  - first:
+      213: 7506000723339777630
+    second: Villager_NPC_3_9
+  - first:
+      213: -4581718223207638174
+    second: Villager_NPC_3_10
+  - first:
+      213: 608424186437040591
+    second: Villager_NPC_3_11
+  - first:
+      213: 9004492185675279187
+    second: Villager_NPC_3_12
+  - first:
+      213: 8720769467265268447
+    second: Villager_NPC_3_13
+  - first:
+      213: -5573480681762108780
+    second: Villager_NPC_3_14
+  - first:
+      213: -5796278349830905843
+    second: Villager_NPC_3_15
+  - first:
+      213: -3680053561664470751
+    second: Villager_NPC_3_16
+  - first:
+      213: 5478188928812511653
+    second: Villager_NPC_3_17
+  - first:
+      213: 8245464495855050536
+    second: Villager_NPC_3_18
+  - first:
+      213: 4052188587063964878
+    second: Villager_NPC_3_19
+  - first:
+      213: 7856581545351511347
+    second: Villager_NPC_3_20
+  - first:
+      213: -4787275544611772656
+    second: Villager_NPC_3_21
+  - first:
+      213: -986068540806463039
+    second: Villager_NPC_3_22
+  - first:
+      213: 4617186473000442942
+    second: Villager_NPC_3_23
+  - first:
+      213: 9156144628493805126
+    second: Villager_NPC_3_24
+  - first:
+      213: -4887997561115165087
+    second: Villager_NPC_3_25
+  - first:
+      213: 3700637257591074279
+    second: Villager_NPC_3_26
+  - first:
+      213: 673768208674707088
+    second: Villager_NPC_3_27
+  - first:
+      213: 5376228957410276896
+    second: Villager_NPC_3_28
+  - first:
+      213: -6781139600973638714
+    second: Villager_NPC_3_29
+  - first:
+      213: -6005933336982421708
+    second: Villager_NPC_3_30
+  - first:
+      213: -2528269577661241263
+    second: Villager_NPC_3_31
+  - first:
+      213: -6711394969444602532
+    second: Villager_NPC_3_32
+  - first:
+      213: -5604320229845747599
+    second: Villager_NPC_3_33
+  - first:
+      213: -7582926262926568104
+    second: Villager_NPC_3_34
+  - first:
+      213: -1596140981857970799
+    second: Villager_NPC_3_35
+  - first:
+      213: 7247983922553610557
+    second: Villager_NPC_3_36
+  - first:
+      213: 5828008471842268217
+    second: Villager_NPC_3_37
+  - first:
+      213: 7623007248970865588
+    second: Villager_NPC_3_38
+  - first:
+      213: -6728700945130007035
+    second: Villager_NPC_3_39
+  - first:
+      213: 4032704502325522201
+    second: Villager_NPC_3_40
+  - first:
+      213: 40594338837037753
+    second: Villager_NPC_3_41
+  - first:
+      213: 1177317272754478003
+    second: Villager_NPC_3_42
+  - first:
+      213: 1656259284745131755
+    second: Villager_NPC_3_43
+  - first:
+      213: 8705262938287822827
+    second: Villager_NPC_3_44
+  - first:
+      213: -910757442840730373
+    second: Villager_NPC_3_45
+  - first:
+      213: 4249359240964893480
+    second: Villager_NPC_3_46
+  - first:
+      213: 2356769825170177517
+    second: Villager_NPC_3_47
+  - first:
+      213: 7790836367883549843
+    second: Villager_NPC_3_48
+  - first:
+      213: -6161196043521293180
+    second: Villager_NPC_3_49
+  - first:
+      213: -4742573548458268365
+    second: Villager_NPC_3_50
+  - first:
+      213: -8095369590911663310
+    second: Villager_NPC_3_51
+  - first:
+      213: -9186131833245124579
+    second: Villager_NPC_3_52
+  - first:
+      213: 5515143867220205513
+    second: Villager_NPC_3_53
+  - first:
+      213: 5239368006273110143
+    second: Villager_NPC_3_54
+  - first:
+      213: 906038480203576101
+    second: Villager_NPC_3_55
+  - first:
+      213: -6423129020800004111
+    second: Villager_NPC_3_56
+  - first:
+      213: 7393488537493911368
+    second: Villager_NPC_3_57
+  - first:
+      213: -8448508088307379643
+    second: Villager_NPC_3_58
+  - first:
+      213: -7036722083990667483
+    second: Villager_NPC_3_59
+  - first:
+      213: -3452794172581154358
+    second: Villager_NPC_3_60
+  - first:
+      213: 657560416787297872
+    second: Villager_NPC_3_61
+  - first:
+      213: -4567150309399930623
+    second: Villager_NPC_3_62
+  - first:
+      213: 6396706879991667321
+    second: Villager_NPC_3_63
+  - first:
+      213: 4554042766174343639
+    second: Villager_NPC_3_64
+  - first:
+      213: 3196998877966781313
+    second: Villager_NPC_3_65
+  - first:
+      213: -5465522994316328053
+    second: Villager_NPC_3_66
+  - first:
+      213: 2669867057928975964
+    second: Villager_NPC_3_67
+  - first:
+      213: 3613382300462726658
+    second: Villager_NPC_3_68
+  - first:
+      213: 2202994876903775374
+    second: Villager_NPC_3_69
+  - first:
+      213: 1352339705592056921
+    second: Villager_NPC_3_70
+  - first:
+      213: 7973179059400953653
+    second: Villager_NPC_3_71
+  - first:
+      213: -5165244786836113263
+    second: Villager_NPC_3_72
+  - first:
+      213: 3657131199771776108
+    second: Villager_NPC_3_73
+  - first:
+      213: -6760085845514148713
+    second: Villager_NPC_3_74
+  - first:
+      213: -3487139271010905919
+    second: Villager_NPC_3_75
+  - first:
+      213: 7987090597843137345
+    second: Villager_NPC_3_76
+  - first:
+      213: -7890243893927557816
+    second: Villager_NPC_3_77
+  - first:
+      213: -3345515802844182165
+    second: Villager_NPC_3_78
+  - first:
+      213: 8830287490999820843
+    second: Villager_NPC_3_79
+  - first:
+      213: -8120725891634457883
+    second: Villager_NPC_3_80
+  - first:
+      213: 1075326595629091236
+    second: Villager_NPC_3_81
+  - first:
+      213: 3979520495322523836
+    second: Villager_NPC_3_82
+  - first:
+      213: 11086334689744587
+    second: Villager_NPC_3_83
+  - first:
+      213: 8921503320750510417
+    second: Villager_NPC_3_84
+  - first:
+      213: 6655327439627047101
+    second: Villager_NPC_3_85
+  - first:
+      213: -541767853962485784
+    second: Villager_NPC_3_86
+  - first:
+      213: 4821877959199548001
+    second: Villager_NPC_3_87
+  - first:
+      213: -4323528817135362201
+    second: Villager_NPC_3_88
+  - first:
+      213: -783533158844106831
+    second: Villager_NPC_3_89
+  - first:
+      213: 6486353190877200405
+    second: Villager_NPC_3_90
+  - first:
+      213: 7671961607943982529
+    second: Villager_NPC_3_91
+  - first:
+      213: 8189708065381727621
+    second: Villager_NPC_3_92
+  - first:
+      213: -9139904625776104334
+    second: Villager_NPC_3_93
+  - first:
+      213: -5067605159918535495
+    second: Villager_NPC_3_94
+  - first:
+      213: -6240113425462061134
+    second: Villager_NPC_3_95
+  - first:
+      213: -8183628148058329708
+    second: Villager_NPC_3_96
+  - first:
+      213: -8725514720324061315
+    second: Villager_NPC_3_97
+  - first:
+      213: -4245877353031149459
+    second: Villager_NPC_3_98
+  - first:
+      213: -7459072178962100065
+    second: Villager_NPC_3_99
+  - first:
+      213: -7049450784810485524
+    second: Villager_NPC_3_100
+  - first:
+      213: -6876948006863367995
+    second: Villager_NPC_3_101
+  - first:
+      213: -4354108298456540304
+    second: Villager_NPC_3_102
+  - first:
+      213: 3333449221685300165
+    second: Villager_NPC_3_103
+  - first:
+      213: -2959266819812636099
+    second: Villager_NPC_3_104
+  - first:
+      213: -3730908910983909278
+    second: Villager_NPC_3_105
+  - first:
+      213: 566524237689262507
+    second: Villager_NPC_3_106
+  - first:
+      213: -2990537121054119895
+    second: Villager_NPC_3_107
+  - first:
+      213: 5410074355789989712
+    second: Villager_NPC_3_108
+  - first:
+      213: 2661812229133034084
+    second: Villager_NPC_3_109
+  - first:
+      213: 788848261994250393
+    second: Villager_NPC_3_110
+  - first:
+      213: -3093096920691612006
+    second: Villager_NPC_3_111
+  - first:
+      213: -1078294214658872109
+    second: Villager_NPC_3_112
+  - first:
+      213: 3443578391038296568
+    second: Villager_NPC_3_113
+  - first:
+      213: 290782969800793091
+    second: Villager_NPC_3_114
+  - first:
+      213: -4873836119743936724
+    second: Villager_NPC_3_115
+  - first:
+      213: -365379008578288919
+    second: Villager_NPC_3_116
+  - first:
+      213: 5888592208250186103
+    second: Villager_NPC_3_117
+  - first:
+      213: 7149435786066242252
+    second: Villager_NPC_3_118
+  - first:
+      213: -8534369988330142590
+    second: Villager_NPC_3_119
+  - first:
+      213: -535351068642064749
+    second: Villager_NPC_3_120
+  - first:
+      213: -7425661064238878949
+    second: Villager_NPC_3_121
+  - first:
+      213: 5871504916221208286
+    second: Villager_NPC_3_122
+  - first:
+      213: -2443896826098478198
+    second: Villager_NPC_3_123
+  - first:
+      213: 3654746305543682902
+    second: Villager_NPC_3_124
+  - first:
+      213: 7735325959516299282
+    second: Villager_NPC_3_125
+  - first:
+      213: -656444354229040773
+    second: Villager_NPC_3_126
+  - first:
+      213: 4792314422694407600
+    second: Villager_NPC_3_127
+  - first:
+      213: -760679271357977467
+    second: Villager_NPC_3_128
+  - first:
+      213: -4633101895106429466
+    second: Villager_NPC_3_129
+  - first:
+      213: -5972898788547648297
+    second: Villager_NPC_3_130
+  - first:
+      213: -2124689174626005699
+    second: Villager_NPC_3_131
+  - first:
+      213: 2400827669815165896
+    second: Villager_NPC_3_132
+  - first:
+      213: -5033021532425821128
+    second: Villager_NPC_3_133
+  - first:
+      213: -3620639904914924213
+    second: Villager_NPC_3_134
+  - first:
+      213: 5138480033522286061
+    second: Villager_NPC_3_135
+  - first:
+      213: 5938467228318984256
+    second: Villager_NPC_3_136
+  - first:
+      213: -1298266974560428235
+    second: Villager_NPC_3_137
+  - first:
+      213: -2443726891174584655
+    second: Villager_NPC_3_138
+  - first:
+      213: -5837903757061257045
+    second: Villager_NPC_3_139
+  - first:
+      213: -5087475873938809322
+    second: Villager_NPC_3_140
+  - first:
+      213: -7498237247362778893
+    second: Villager_NPC_3_141
+  - first:
+      213: -5120146248721707639
+    second: Villager_NPC_3_142
+  - first:
+      213: 1464583270471255295
+    second: Villager_NPC_3_143
+  - first:
+      213: -18083222358696815
+    second: Villager_NPC_3_144
+  - first:
+      213: 1900614660543432851
+    second: Villager_NPC_3_145
+  - first:
+      213: -7465972073631605623
+    second: Villager_NPC_3_146
+  - first:
+      213: 4423189328931868048
+    second: Villager_NPC_3_147
+  - first:
+      213: -2340112512271375946
+    second: Villager_NPC_3_148
+  - first:
+      213: -2079741156329497972
+    second: Villager_NPC_3_149
+  - first:
+      213: 4567807169787484807
+    second: Villager_NPC_3_150
+  - first:
+      213: 7890390807081296028
+    second: Villager_NPC_3_151
+  - first:
+      213: -6641032287923184221
+    second: Villager_NPC_3_152
+  - first:
+      213: -1331042358516163991
+    second: Villager_NPC_3_153
+  - first:
+      213: -1846908304606858567
+    second: Villager_NPC_3_154
+  - first:
+      213: -6533002736754913429
+    second: Villager_NPC_3_155
+  - first:
+      213: 4639858272512080963
+    second: Villager_NPC_3_156
+  - first:
+      213: 2717347378122837796
+    second: Villager_NPC_3_157
+  - first:
+      213: -6136317553139897909
+    second: Villager_NPC_3_158
+  - first:
+      213: -7247319640856050793
+    second: Villager_NPC_3_159
+  - first:
+      213: 7551220848380500180
+    second: Villager_NPC_3_160
+  - first:
+      213: -1337594167091254440
+    second: Villager_NPC_3_161
+  - first:
+      213: -5191156702056479923
+    second: Villager_NPC_3_162
+  - first:
+      213: -4661048381643489966
+    second: Villager_NPC_3_163
+  - first:
+      213: 2147695465835572951
+    second: Villager_NPC_3_164
+  - first:
+      213: 7252661820240089563
+    second: Villager_NPC_3_165
+  - first:
+      213: -1755074355435182898
+    second: Villager_NPC_3_166
+  - first:
+      213: -3459380119408611349
+    second: Villager_NPC_3_167
+  - first:
+      213: 430922150162946080
+    second: Villager_NPC_3_168
+  - first:
+      213: -4776236254066824245
+    second: Villager_NPC_3_169
+  - first:
+      213: -1260240935380700932
+    second: Villager_NPC_3_170
+  - first:
+      213: -8732134804408413518
+    second: Villager_NPC_3_171
+  - first:
+      213: 4565430699060460580
+    second: Villager_NPC_3_172
+  - first:
+      213: 4860615159506549840
+    second: Villager_NPC_3_173
+  - first:
+      213: -9152527128967148417
+    second: Villager_NPC_3_174
+  - first:
+      213: 3998798251319344436
+    second: Villager_NPC_3_175
+  - first:
+      213: 3269127639258751415
+    second: Villager_NPC_3_176
+  - first:
+      213: 8754421697267281019
+    second: Villager_NPC_3_177
+  - first:
+      213: 9149768012950153095
+    second: Villager_NPC_3_0
+  - first:
+      213: 481328600361608598
+    second: Villager_NPC_3_1
+  - first:
+      213: -8075291162482078008
+    second: Villager_NPC_3_2
+  - first:
+      213: -3169645403106089341
+    second: Villager_NPC_3_3
+  - first:
+      213: 8202737626063983857
+    second: Villager_NPC_3_4
+  - first:
+      213: -4042365136262342387
+    second: Villager_NPC_3_5
+  - first:
+      213: -8005830164382387982
+    second: Villager_NPC_3_6
+  - first:
+      213: -4898199135622233623
+    second: Villager_NPC_3_7
+  - first:
+      213: 5829990292115665757
+    second: Villager_NPC_3_8
+  - first:
+      213: -8975653763232630752
+    second: Villager_NPC_3_9
+  - first:
+      213: -8685352488374541155
+    second: Villager_NPC_3_10
+  - first:
+      213: -4714281035294324856
+    second: Villager_NPC_3_11
+  - first:
+      213: 2723056403824160880
+    second: Villager_NPC_3_12
+  - first:
+      213: 8469969842216786665
+    second: Villager_NPC_3_13
+  - first:
+      213: 3041609333057948727
+    second: Villager_NPC_3_14
+  - first:
+      213: -650234733396530369
+    second: Villager_NPC_3_15
+  - first:
+      213: -2730392839661936807
+    second: Villager_NPC_3_16
+  - first:
+      213: -684405977990736499
+    second: Villager_NPC_3_17
+  - first:
+      213: -8806559432579005248
+    second: Villager_NPC_3_18
+  - first:
+      213: 4962405314839643737
+    second: Villager_NPC_3_19
+  - first:
+      213: 859409859459596270
+    second: Villager_NPC_3_20
+  - first:
+      213: -4240061695850607217
+    second: Villager_NPC_3_21
+  - first:
+      213: -5388109406510416966
+    second: Villager_NPC_3_22
+  - first:
+      213: -7188275637699692549
+    second: Villager_NPC_3_23
+  - first:
+      213: 960061516247843722
+    second: Villager_NPC_3_24
+  - first:
+      213: -4240924975523466562
+    second: Villager_NPC_3_25
+  - first:
+      213: 705101230198193928
+    second: Villager_NPC_3_26
+  - first:
+      213: -7153752683362498145
+    second: Villager_NPC_3_27
+  - first:
+      213: -2301936245112154740
+    second: Villager_NPC_3_28
+  - first:
+      213: 5148365390849661684
+    second: Villager_NPC_3_29
+  - first:
+      213: 4962402794361480530
+    second: Villager_NPC_3_30
+  - first:
+      213: -8584800042992363248
+    second: Villager_NPC_3_31
+  - first:
+      213: 2633763385761060143
+    second: Villager_NPC_3_32
+  - first:
+      213: -3261911916419377280
+    second: Villager_NPC_3_33
+  - first:
+      213: 3011387400811041288
+    second: Villager_NPC_3_34
+  - first:
+      213: 208458344503016807
+    second: Villager_NPC_3_35
+  - first:
+      213: -8555396565128488461
+    second: Villager_NPC_3_36
+  - first:
+      213: -1219393218922151210
+    second: Villager_NPC_3_37
+  - first:
+      213: 6829979691046293581
+    second: Villager_NPC_3_38
+  - first:
+      213: -7570434446844992933
+    second: Villager_NPC_3_39
+  - first:
+      213: -8126344980562717335
+    second: Villager_NPC_3_40
+  - first:
+      213: -3961888860634573784
+    second: Villager_NPC_3_41
+  - first:
+      213: -5337774745211782089
+    second: Villager_NPC_3_42
+  - first:
+      213: -5808791642866453924
+    second: Villager_NPC_3_43
+  - first:
+      213: 127091654871259361
+    second: Villager_NPC_3_44
+  - first:
+      213: -8650542960795012324
+    second: Villager_NPC_3_45
+  - first:
+      213: -8997387976769703852
+    second: Villager_NPC_3_46
+  - first:
+      213: -8417039173764263510
+    second: Villager_NPC_3_47
+  - first:
+      213: -1260045950170835892
+    second: Villager_NPC_3_48
+  - first:
+      213: 2957267607637340956
+    second: Villager_NPC_3_49
+  - first:
+      213: -2099545078186250038
+    second: Villager_NPC_3_50
+  - first:
+      213: -7996950871601822801
+    second: Villager_NPC_3_51
+  - first:
+      213: 9194282802685713185
+    second: Villager_NPC_3_52
+  - first:
+      213: 5525702964609612399
+    second: Villager_NPC_3_53
+  - first:
+      213: -5568576060207171820
+    second: Villager_NPC_3_54
+  - first:
+      213: 4603156606784969983
+    second: Villager_NPC_3_55
+  - first:
+      213: -897101584641573458
+    second: Villager_NPC_3_56
+  - first:
+      213: 8158468819730835000
+    second: Villager_NPC_3_57
+  - first:
+      213: -8834497480889638108
+    second: Villager_NPC_3_58
+  - first:
+      213: -8940246409796644792
+    second: Villager_NPC_3_59
+  - first:
+      213: 5996238469320893528
+    second: Villager_NPC_3_60
+  - first:
+      213: -8801579402209039850
+    second: Villager_NPC_3_61
+  - first:
+      213: 4010306301443178954
+    second: Villager_NPC_3_62
+  - first:
+      213: 190862514390183391
+    second: Villager_NPC_3_63
+  - first:
+      213: -911472211830319098
+    second: Villager_NPC_3_64
+  - first:
+      213: -3723303394820603141
+    second: Villager_NPC_3_65
+  - first:
+      213: 7580352998029475300
+    second: Villager_NPC_3_66
+  - first:
+      213: -7679155914564408334
+    second: Villager_NPC_3_67
+  - first:
+      213: 246715092654575779
+    second: Villager_NPC_3_68
+  - first:
+      213: 7831541928530687620
+    second: Villager_NPC_3_69
+  - first:
+      213: 4474861306787222373
+    second: Villager_NPC_3_70
+  - first:
+      213: 4500784003272389517
+    second: Villager_NPC_3_71
+  - first:
+      213: -7253093810703800595
+    second: Villager_NPC_3_72
+  - first:
+      213: 4814127657118800297
+    second: Villager_NPC_3_73
+  - first:
+      213: -583895752857662992
+    second: Villager_NPC_3_74
+  - first:
+      213: -4699991361520356966
+    second: Villager_NPC_3_75
+  - first:
+      213: -7029523101570572814
+    second: Villager_NPC_3_76
+  - first:
+      213: 68513663573403194
+    second: Villager_NPC_3_77
+  - first:
+      213: -6366037045179384697
+    second: Villager_NPC_3_78
+  - first:
+      213: 7604974801601562995
+    second: Villager_NPC_3_79
+  - first:
+      213: 3200310619612259551
+    second: Villager_NPC_3_80
+  - first:
+      213: 4245328778573366720
+    second: Villager_NPC_3_81
+  - first:
+      213: 3973386684097645155
+    second: Villager_NPC_3_82
+  - first:
+      213: -6236255926665077522
+    second: Villager_NPC_3_83
+  - first:
+      213: 439184684488436377
+    second: Villager_NPC_3_84
+  - first:
+      213: -6142750419293802176
+    second: Villager_NPC_3_85
+  - first:
+      213: -3317158876514719238
+    second: Villager_NPC_3_86
+  - first:
+      213: -7527424900366282727
+    second: Villager_NPC_3_87
+  - first:
+      213: -4363459208296845227
+    second: Villager_NPC_3_88
+  - first:
+      213: -8683286140963107447
+    second: Villager_NPC_3_89
+  - first:
+      213: 5302410206545375733
+    second: Villager_NPC_3_90
+  - first:
+      213: -5077678321879175691
+    second: Villager_NPC_3_91
+  - first:
+      213: -2637629029962990963
+    second: Villager_NPC_3_92
+  - first:
+      213: 52689484920279302
+    second: Villager_NPC_3_93
+  - first:
+      213: 6628575656653340131
+    second: Villager_NPC_3_94
+  - first:
+      213: -5165860360076522368
+    second: Villager_NPC_3_95
+  - first:
+      213: 948255596444665691
+    second: Villager_NPC_3_96
+  - first:
+      213: 1863257230221761932
+    second: Villager_NPC_3_97
+  - first:
+      213: -4954478871473815398
+    second: Villager_NPC_3_98
+  - first:
+      213: 1457318552433573803
+    second: Villager_NPC_3_99
+  - first:
+      213: -5797397800520961284
+    second: Villager_NPC_3_100
+  - first:
+      213: 5053393459300533084
+    second: Villager_NPC_3_101
+  - first:
+      213: -8536985891541519368
+    second: Villager_NPC_3_102
+  - first:
+      213: 8315337974933984006
+    second: Villager_NPC_3_103
+  - first:
+      213: 2493598517855080721
+    second: Villager_NPC_3_104
+  - first:
+      213: 7063957448619103404
+    second: Villager_NPC_3_105
+  - first:
+      213: 4169978003965325273
+    second: Villager_NPC_3_106
+  - first:
+      213: 889508884419002880
+    second: Villager_NPC_3_107
+  - first:
+      213: -4063456743856918481
+    second: Villager_NPC_3_108
+  - first:
+      213: 2777909860458779011
+    second: Villager_NPC_3_109
+  - first:
+      213: -5122823636458958186
+    second: Villager_NPC_3_110
+  - first:
+      213: -1533610216799876563
+    second: Villager_NPC_3_111
+  - first:
+      213: -8116523360468630178
+    second: Villager_NPC_3_112
+  - first:
+      213: 8904587424901915995
+    second: Villager_NPC_3_113
+  - first:
+      213: -6189972800669132227
+    second: Villager_NPC_3_114
+  - first:
+      213: -7754816749600769479
+    second: Villager_NPC_3_115
+  - first:
+      213: -4008227290983127207
+    second: Villager_NPC_3_116
+  - first:
+      213: -3029442414918759026
+    second: Villager_NPC_3_117
+  - first:
+      213: 9175366524002127735
+    second: Villager_NPC_3_118
+  - first:
+      213: 9125875136401965382
+    second: Villager_NPC_3_119
+  - first:
+      213: -4550183840495463376
+    second: Villager_NPC_3_120
+  - first:
+      213: -374103927488007826
+    second: Villager_NPC_3_121
+  - first:
+      213: 3189724050162421489
+    second: Villager_NPC_3_122
+  - first:
+      213: 9013867768810692218
+    second: Villager_NPC_3_123
+  - first:
+      213: 7509347379196382922
+    second: Villager_NPC_3_124
+  - first:
+      213: 8094723997461542836
+    second: Villager_NPC_3_125
+  - first:
+      213: 8237495948363750864
+    second: Villager_NPC_3_126
+  - first:
+      213: 4405772473748749088
+    second: Villager_NPC_3_127
+  - first:
+      213: -8043177005019337291
+    second: Villager_NPC_3_128
+  - first:
+      213: -6469939572341170900
+    second: Villager_NPC_3_129
+  - first:
+      213: 4680516432760993080
+    second: Villager_NPC_3_130
+  - first:
+      213: -4556609328381841162
+    second: Villager_NPC_3_131
+  - first:
+      213: 1726979609064122288
+    second: Villager_NPC_3_132
+  - first:
+      213: 7047169111497414560
+    second: Villager_NPC_3_133
+  - first:
+      213: 2359382340872092123
+    second: Villager_NPC_3_134
+  - first:
+      213: -3021471337136128032
+    second: Villager_NPC_3_135
+  - first:
+      213: 6394369775817851227
+    second: Villager_NPC_3_136
+  - first:
+      213: -8104602556073140566
+    second: Villager_NPC_3_137
+  - first:
+      213: 3825682242572556498
+    second: Villager_NPC_3_138
+  - first:
+      213: 3478957056108370914
+    second: Villager_NPC_3_139
+  - first:
+      213: -8064209040374142705
+    second: Villager_NPC_3_140
+  - first:
+      213: 4515556648091257488
+    second: Villager_NPC_3_141
+  - first:
+      213: -3143563503162592604
+    second: Villager_NPC_3_142
+  - first:
+      213: -1637038683412833662
+    second: Villager_NPC_3_143
+  - first:
+      213: -9189836058245400378
+    second: Villager_NPC_3_144
+  - first:
+      213: -4591978929630671170
+    second: Villager_NPC_3_145
+  - first:
+      213: 3216241351508907226
+    second: Villager_NPC_3_146
+  - first:
+      213: 1482224000227303743
+    second: Villager_NPC_3_147
+  - first:
+      213: -700431930624198373
+    second: Villager_NPC_3_148
+  - first:
+      213: -9011503359068962647
+    second: Villager_NPC_3_149
+  - first:
+      213: -3966411662559992844
+    second: Villager_NPC_3_150
+  - first:
+      213: 2165500786272658169
+    second: Villager_NPC_3_151
+  - first:
+      213: -8853248088038273439
+    second: Villager_NPC_3_152
+  - first:
+      213: 915163691369294887
+    second: Villager_NPC_3_153
+  - first:
+      213: 4856714066621706690
+    second: Villager_NPC_3_154
+  - first:
+      213: -2553592686400705618
+    second: Villager_NPC_3_155
+  - first:
+      213: -2816449216037683667
+    second: Villager_NPC_3_156
+  - first:
+      213: -8956783767858261282
+    second: Villager_NPC_3_157
+  - first:
+      213: 4102183282357809421
+    second: Villager_NPC_3_158
+  - first:
+      213: -646511400614768910
+    second: Villager_NPC_3_159
+  - first:
+      213: 1249616170880264349
+    second: Villager_NPC_3_160
+  - first:
+      213: -1196465526552670803
+    second: Villager_NPC_3_161
+  - first:
+      213: 8824206882734160728
+    second: Villager_NPC_3_162
+  - first:
+      213: -8487031073773160238
+    second: Villager_NPC_3_163
+  - first:
+      213: -7486454700270644087
+    second: Villager_NPC_3_164
+  - first:
+      213: 8106912225613946345
+    second: Villager_NPC_3_165
+  - first:
+      213: 727797685546442390
+    second: Villager_NPC_3_166
+  - first:
+      213: 6629997676078776464
+    second: Villager_NPC_3_167
+  - first:
+      213: 3957398838128606225
+    second: Villager_NPC_3_168
+  - first:
+      213: 5389565006817707527
+    second: Villager_NPC_3_169
+  - first:
+      213: -5277248873312719491
+    second: Villager_NPC_3_170
+  - first:
+      213: -1308621693108879540
+    second: Villager_NPC_3_171
+  - first:
+      213: 7497824378191820480
+    second: Villager_NPC_3_172
+  - first:
+      213: 5113632677418691147
+    second: Villager_NPC_3_173
+  - first:
+      213: 4132821191355841300
+    second: Villager_NPC_3_174
+  - first:
+      213: 5851979039764862288
+    second: Villager_NPC_3_175
+  - first:
+      213: -933454757702783690
+    second: Villager_NPC_3_176
+  - first:
+      213: 5622386017607455574
+    second: Villager_NPC_3_177
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Villager_NPC_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787202db7818afe70800000000000000
+      internalID: 9149768012950153095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6952ac4dfc50ea600800000000000000
+      internalID: 481328600361608598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce8762f87dceef80800000000000000
+      internalID: -8075291162482078008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38669e3ac482304d0800000000000000
+      internalID: -3169645403106089341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f45643396af5d170800000000000000
+      internalID: 8202737626063983857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09d8a07352a6e7c0800000000000000
+      internalID: -4042365136262342387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f071e7d1e395e090800000000000000
+      internalID: -8005830164382387982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e18c1286d9160cb0800000000000000
+      internalID: -4898199135622233623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53b785384948e050800000000000000
+      internalID: 5829990292115665757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028fe971572107380800000000000000
+      internalID: -8975653763232630752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d946165cded677780800000000000000
+      internalID: -8685352488374541155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887cbef2062839eb0800000000000000
+      internalID: -4714281035294324856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070ba453f5d3ac520800000000000000
+      internalID: 2723056403824160880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea5a9712b06b8570800000000000000
+      internalID: 8469969842216786665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c8e62c297f53a20800000000000000
+      internalID: 3041609333057948727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b674f74f6e9f6f0800000000000000
+      internalID: -650234733396530369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f1ea6bd22bb1ad0800000000000000
+      internalID: -2730392839661936807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8555bf93608086f0800000000000000
+      internalID: -684405977990736499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c443cfead0d8c580800000000000000
+      internalID: -8806559432579005248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956078687510ed440800000000000000
+      internalID: 4962405314839643737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefbe8db6bc3deb00800000000000000
+      internalID: 859409859459596270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d85193a564825c0800000000000000
+      internalID: -4240061695850607217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb710eca079935b0800000000000000
+      internalID: -5388109406510416966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7b053846d1e3c90800000000000000
+      internalID: -7188275637699692549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83c976ccd2d25d00800000000000000
+      internalID: 960061516247843722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb277d244353525c0800000000000000
+      internalID: -4240924975523466562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f77a445d509c900800000000000000
+      internalID: 705101230198193928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f994e2136d3c8bc90800000000000000
+      internalID: -7153752683362498145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c855e766e21ed00e0800000000000000
+      internalID: -2301936245112154740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa5287bb0ba27740800000000000000
+      internalID: 5148365390849661684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255625eac0ffdd440800000000000000
+      internalID: 4962402794361480530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0199ea958d9acd880800000000000000
+      internalID: -8584800042992363248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25d7b658d10d8420800000000000000
+      internalID: 2633763385761060143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0879535f46c5bb2d0800000000000000
+      internalID: -3261911916419377280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802dd62d2e89ac920800000000000000
+      internalID: 3011387400811041288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d719682c794e200800000000000000
+      internalID: 208458344503016807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f95be60720254980800000000000000
+      internalID: -8555396565128488461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d200a8f358d31fe0800000000000000
+      internalID: -1219393218922151210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4052fb9756f8ce50800000000000000
+      internalID: 6829979691046293581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b526c600bf960f690800000000000000
+      internalID: -7570434446844992933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965d74f9b4c693f80800000000000000
+      internalID: -8126344980562717335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8249c4e721b8409c0800000000000000
+      internalID: -3961888860634573784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cb994662a6ce5b0800000000000000
+      internalID: -5337774745211782089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52ffa0f6c6036fa0800000000000000
+      internalID: -5808791642866453924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8948ecf2583c100800000000000000
+      internalID: 127091654871259361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13be8b720913f780800000000000000
+      internalID: -8650542960795012324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450754a2e4bd22380800000000000000
+      internalID: -8997387976769703852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1db33877ba03b80800000000000000
+      internalID: -8417039173764263510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44d56362ea638ee0800000000000000
+      internalID: -1260045950170835892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c133efa88335a0920800000000000000
+      internalID: 2957267607637340956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0f9c010eaecd2e0800000000000000
+      internalID: -2099545078186250038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa34ceb4d8f150190800000000000000
+      internalID: -7996950871601822801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b9092ee77a89f70800000000000000
+      internalID: 9194282802685713185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6af0e3e19d3fac40800000000000000
+      internalID: 5525702964609612399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4177b9aa39178b2b0800000000000000
+      internalID: -5568576060207171820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc19e89b82b1ef30800000000000000
+      internalID: 4603156606784969983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadbfff9cdadc83f0800000000000000
+      internalID: -897101584641573458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83628278a24b83170800000000000000
+      internalID: 8158468819730835000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4236d7a295f856580800000000000000
+      internalID: -8834497480889638108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8401c9bf14ddde380800000000000000
+      internalID: -8940246409796644792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85467605e1be63350800000000000000
+      internalID: 5996238469320893528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a6fec9a228ad580800000000000000
+      internalID: -8801579402209039850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1080a655877a730800000000000000
+      internalID: 4010306301443178954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd2a23127416a200800000000000000
+      internalID: 190862514390183391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608d63f3adcc953f0800000000000000
+      internalID: -911472211830319098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf246b01a4b245cc0800000000000000
+      internalID: -3723303394820603141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed3d97a3e2d23960800000000000000
+      internalID: 7580352998029475300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb6c81b1682e6590800000000000000
+      internalID: -7679155914564408334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a05762d1128c6300800000000000000
+      internalID: 246715092654575779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48636a504e93fac60800000000000000
+      internalID: 7831541928530687620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563513256a6e91e30800000000000000
+      internalID: 4474861306787222373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83bfcd643ff57e30800000000000000
+      internalID: 4500784003272389517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de66a629b95d75b90800000000000000
+      internalID: -7253093810703800595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a913f909973fc240800000000000000
+      internalID: 4814127657118800297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f94f0908e595e7f0800000000000000
+      internalID: -583895752857662992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91bc2122c646ceb0800000000000000
+      internalID: -4699991361520356966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fddb7eabfd127e90800000000000000
+      internalID: -7029523101570572814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36ad8360d863f000800000000000000
+      internalID: 68513663573403194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cfa1f390b47a7a0800000000000000
+      internalID: -6366037045179384697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37902470a4c4a8960800000000000000
+      internalID: 7604974801601562995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd426e47d89c96c20800000000000000
+      internalID: 3200310619612259551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5cb9908007aea30800000000000000
+      internalID: 4245328778573366720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a48e4232e442730800000000000000
+      internalID: 3973386684097645155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec14ba964e5479a0800000000000000
+      internalID: -6236255926665077522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99aa9b5c42c481600800000000000000
+      internalID: 439184684488436377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0417c121a0190caa0800000000000000
+      internalID: -6142750419293802176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af96ecda39517f1d0800000000000000
+      internalID: -3317158876514719238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910dc346fe6398790800000000000000
+      internalID: -7527424900366282727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5503f89f7f0e173c0800000000000000
+      internalID: -4363459208296845227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d42d4c245ce7780800000000000000
+      internalID: -8683286140963107447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1fa8e4df1f59940800000000000000
+      internalID: 5302410206545375733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fda0bc08767889b0800000000000000
+      internalID: -5077678321879175691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a3ccb3f52456bd0800000000000000
+      internalID: -2637629029962990963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6015210bec03bb000800000000000000
+      internalID: 52689484920279302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edbf95a07e6dfb50800000000000000
+      internalID: 6628575656653340131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c0e565f5d2f48b0800000000000000
+      internalID: -5165860360076522368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b574c5ed071e82d00800000000000000
+      internalID: 948255596444665691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ddb84349e9bd910800000000000000
+      internalID: 1863257230221761932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9000a267b72e3bb0800000000000000
+      internalID: -4954478871473815398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafb362908f693410800000000000000
+      internalID: 1457318552433573803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf231569a618b8fa0800000000000000
+      internalID: -5797397800520961284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5304e3c392412640800000000000000
+      internalID: 5053393459300533084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f375220098868980800000000000000
+      internalID: -8536985891541519368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6039147e4d3066370800000000000000
+      internalID: 8315337974933984006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111513de3aa0b9220800000000000000
+      internalID: 2493598517855080721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca49a618fd7380260800000000000000
+      internalID: 7063957448619103404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfab8fa6ecbed930800000000000000
+      internalID: 4169978003965325273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00249581e9b285c00800000000000000
+      internalID: 889508884419002880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f203e3ede93bb97c0800000000000000
+      internalID: -4063456743856918481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38153b2dc4e1d8620800000000000000
+      internalID: 2777909860458779011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69293e56b0318e8b0800000000000000
+      internalID: -5122823636458958186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2acbbb12a587bae0800000000000000
+      internalID: -1533610216799876563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e558b10c1015c5f80800000000000000
+      internalID: -8116523360468630178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5560bc9513739b70800000000000000
+      internalID: 8904587424901915995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a59ce988cc81aa0800000000000000
+      internalID: -6189972800669132227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93afbc5c04b516490800000000000000
+      internalID: -7754816749600769479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957acede38aef58c0800000000000000
+      internalID: -4008227290983127207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d044f9c2245f5d0800000000000000
+      internalID: -3029442414918759026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f482b8d33755f70800000000000000
+      internalID: 9175366524002127735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6410fc9e51f95ae70800000000000000
+      internalID: 9125875136401965382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0349b8ca7ef7ad0c0800000000000000
+      internalID: -4550183840495463376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61bff4c57aeecaf0800000000000000
+      internalID: -374103927488007826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe837daf1d244c20800000000000000
+      internalID: 3189724050162421489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7edd4c6af0b71d70800000000000000
+      internalID: 9013867768810692218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acec208b7af863860800000000000000
+      internalID: 7509347379196382922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77687869c365070800000000000000
+      internalID: 8094723997461542836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddd0f0cbe6715270800000000000000
+      internalID: 8237495948363750864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bfcfad8b2742d30800000000000000
+      internalID: 4405772473748749088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd6b36e025e06090800000000000000
+      internalID: -8043177005019337291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d9c58fc382636a0800000000000000
+      internalID: -6469939572341170900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835f81ca5e884f040800000000000000
+      internalID: 4680516432760993080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0b19135fba3c0c0800000000000000
+      internalID: -4556609328381841162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b72c94fdc677f710800000000000000
+      internalID: 1726979609064122288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a798ea28f29cc160800000000000000
+      internalID: 7047169111497414560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9b20d0db53eb020800000000000000
+      internalID: 2359382340872092123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eff9fac3d39116d0800000000000000
+      internalID: -3021471337136128032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b510e1aae6d5db850800000000000000
+      internalID: 6394369775817851227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae998f4aeaa68f80800000000000000
+      internalID: -8104602556073140566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d89e04fabd871530800000000000000
+      internalID: 3825682242572556498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb9d2e920db74030800000000000000
+      internalID: 3478957056108370914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0961029a9c261090800000000000000
+      internalID: -8064209040374142705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a02a4d8da7aae30800000000000000
+      internalID: 4515556648091257488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a27c1136a1df54d0800000000000000
+      internalID: -3143563503162592604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ada97adf11849e0800000000000000
+      internalID: -1637038683412833662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8f43c7bc4277080800000000000000
+      internalID: -9189836058245400378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe094b2e730640c0800000000000000
+      internalID: -4591978929630671170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad45c94087262ac20800000000000000
+      internalID: 3216241351508907226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f316b1300eae19410800000000000000
+      internalID: 1482224000227303743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19bdc1ced09746f0800000000000000
+      internalID: -700431930624198373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0847e9075b0f280800000000000000
+      internalID: -9011503359068962647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3252c9b9974f8c0800000000000000
+      internalID: -3966411662559992844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f26c96ed776d0e10800000000000000
+      internalID: 2165500786272658169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e821c35c1f22580800000000000000
+      internalID: -8853248088038273439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ce66f478053bc00800000000000000
+      internalID: 915163691369294887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c131ac26b3866340800000000000000
+      internalID: 4856714066621706690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabec023bf0df8cd0800000000000000
+      internalID: -2553592686400705618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e75263c56f9e8d0800000000000000
+      internalID: -2816449216037683667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2d2d24e9c13b380800000000000000
+      internalID: -8956783767858261282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01bb7406f1ede830800000000000000
+      internalID: 4102183282357809421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fecd177e412707f0800000000000000
+      internalID: -646511400614768910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98e6e26947875110800000000000000
+      internalID: 1249616170880264349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadc3d751fc456fe0800000000000000
+      internalID: -1196465526552670803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b3ded3861e57a70800000000000000
+      internalID: 8824206882734160728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d87c026432083a80800000000000000
+      internalID: -8487031073773160238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98490537d15ca1890800000000000000
+      internalID: -7486454700270644087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed9df887b9818070800000000000000
+      internalID: 8106912225613946345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ed8539328a91a00800000000000000
+      internalID: 727797685546442390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090475852cb720c50800000000000000
+      internalID: 6629997676078776464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cf23da6418be630800000000000000
+      internalID: 3957398838128606225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706ce3d81d49bca40800000000000000
+      internalID: 5389565006817707527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d6dda1c1273c6b0800000000000000
+      internalID: -5277248873312719491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fffd4e087d6dde0800000000000000
+      internalID: -1308621693108879540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6336afb8f9d0860800000000000000
+      internalID: 7497824378191820480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4aee51b3d547f640800000000000000
+      internalID: 5113632677418691147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bb8f61afaba5930800000000000000
+      internalID: 4132821191355841300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055573a7ee7663150800000000000000
+      internalID: 5851979039764862288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d2a31f7d3bb03f0800000000000000
+      internalID: -933454757702783690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_NPC_3_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6539d995b4ab60e40800000000000000
+      internalID: 5622386017607455574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
