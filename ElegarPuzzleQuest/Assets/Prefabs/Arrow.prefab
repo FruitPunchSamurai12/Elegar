@@ -101,7 +101,7 @@ MonoBehaviour:
   phase2: 0
   interpolationDuration: 0.2
   interpolationDuration2: 1
-  phase2Distance: 5
+  phase2Distance: 0
   colliderActivationLimit: 0.6
   xInterpolation1: 0
   yInterpolation1: 0
@@ -143,7 +143,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.16365385}
+  m_Offset: {x: 0, y: -0.23472363}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -154,7 +154,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.14266205, y: 0.4851923}
+  m_Size: {x: 0.14266205, y: 0.23401415}
   m_EdgeRadius: 0
 --- !u!50 &-4055463401057761725
 Rigidbody2D:
