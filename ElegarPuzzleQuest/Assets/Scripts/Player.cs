@@ -291,21 +291,6 @@ public class Player : BaseCharacter
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(sliding)
-        {
-           // sliding = false;
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (sliding)
-        {
-           // Invoke("StopSliding", 0.5f);
-        }
-    }
 
     void StopSliding()
     {
@@ -320,5 +305,16 @@ public class Player : BaseCharacter
     public void TakeDamage(int damageValue)
     {
         currentLife -= damageValue;
+    }
+
+    public void SlowPlayer(float duration)
+    {
+        speed = speed / 2f;
+        Invoke("SpeedToNormal", duration);
+    }
+
+    void SpeedToNormal()
+    {
+        speed = 2f * speed;
     }
 }

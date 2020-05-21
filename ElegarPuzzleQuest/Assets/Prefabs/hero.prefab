@@ -138,8 +138,8 @@ MonoBehaviour:
   renderer: {fileID: 2619253654096979081}
   sliding: 0
   inControl: 1
-  spell: 4
-  pushPullRange: 5
+  spell: 1
+  pushPullRange: 3
   waterAOE: 1.5
   lightEffect: {fileID: 2619253654181215368}
   lightAOE: 2

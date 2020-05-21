@@ -2,21 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Math = UnityEngine.Mathf;
-
-
-static public class Easings
-{
-    /// <summary>
-    /// Constant Pi.
-    /// </summary>
-    private const float PI = Math.PI;
-
-    /// <summary>
-    /// Constant Pi / 2.
-    /// </summary>
-    private const float HALFPI = Math.PI / 2.0f;
-
-    /// <summary>
+ 
+/// <summary>
     /// Easing Functions enumeration
     /// </summary>
     public enum Functions
@@ -53,6 +40,20 @@ static public class Easings
         BounceEaseOut,
         BounceEaseInOut
     }
+
+static public class Easings
+{
+    /// <summary>
+    /// Constant Pi.
+    /// </summary>
+    private const float PI = Math.PI;
+
+    /// <summary>
+    /// Constant Pi / 2.
+    /// </summary>
+    private const float HALFPI = Math.PI / 2.0f;
+
+   
 
     /// <summary>
     /// Interpolate using the specified function.
