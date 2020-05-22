@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Movable : MonoBehaviour
 {
+    [SerializeField]//the prefab for the tornado effect
+    GameObject tornado;
+    //reference to the instantiated tornado effect
+    Effects tornadoEffect = null;
 
     [SerializeField]
     Rigidbody2D rb2d;
@@ -51,6 +55,9 @@ public class Movable : MonoBehaviour
             isMoving = true;
             rb2d.isKinematic = false;
             rb2d.mass = 10000f;
+            GameObject t = Instantiate(tornado, transform);
+            t.transform.localPosition = Vector3.zero;
+            tornadoEffect = t.GetComponent<Effects>();
         }
     }
 
@@ -87,6 +94,10 @@ public class Movable : MonoBehaviour
             {
                 isMoving = false;
                 rb2d.isKinematic = true;
+                if(tornadoEffect)
+                {
+                    tornadoEffect.DestroyEffect();
+                }
             }
         }
     }
@@ -100,6 +111,10 @@ public class Movable : MonoBehaviour
             isSliding = false;
             isMoving = false;
             rb2d.isKinematic = true;
+            if (tornadoEffect)
+            {
+                tornadoEffect.DestroyEffect();
+            }
         }
 
     }

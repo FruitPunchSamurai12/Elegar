@@ -21,7 +21,7 @@ public class Player : BaseCharacter
     public bool isInvulnerable = false;
     [SerializeField]
     SpriteRenderer renderer;
-    float InvulnerabilityDuration = 3f;
+    public float InvulnerabilityDuration = 2f;
     float InvulnerabilityTimer = 0f;
 
     public bool sliding = false;
@@ -30,13 +30,17 @@ public class Player : BaseCharacter
     private const int noMovementFrames = 2;
     Vector3[] previousLocations = new Vector3[noMovementFrames];
 
-
+    public bool hasKey = false;
 
     public bool inControl = true;
     [SerializeField]
     private ElegarSpells spell = ElegarSpells.noSpell;
     public float pushPullRange = 3f;
+
+    [SerializeField]//the prefab for the effect
+    GameObject waterEffect;
     public float waterAOE = 1f;
+    public float waterRange = 1f;
     [SerializeField]
     GameObject lightEffect;
     bool isLightOn = false;
@@ -208,7 +212,8 @@ public class Player : BaseCharacter
     {
         int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
-        RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, waterAOE, castDirection, 0f, layerMask);
+        RaycastHit2D[] hits = Physics2D.CircleCastAll((Vector2)transform.position+(castDirection*waterRange), waterAOE, castDirection, 0f, layerMask);
+        Instantiate(waterEffect, (Vector2)transform.position + (castDirection * waterRange), Quaternion.identity);
         foreach(RaycastHit2D hit in hits)
         {
             Waterable m = hit.collider.GetComponent<Waterable>();
