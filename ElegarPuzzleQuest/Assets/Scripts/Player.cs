@@ -33,19 +33,26 @@ public class Player : BaseCharacter
     public bool hasKey = false;
 
     public bool inControl = true;
+    public bool changingRoom = false;
     [SerializeField]
     private ElegarSpells spell = ElegarSpells.noSpell;
+    //push pull stuff
     public float pushPullRange = 3f;
-
+    //water stuff
     [SerializeField]//the prefab for the effect
     GameObject waterEffect;
     public float waterAOE = 1f;
     public float waterRange = 1f;
     [SerializeField]
     GameObject lightEffect;
+    [SerializeField]
+    GameObject lightAnimation;
     bool isLightOn = false;
     public float lightAOE = 2.5f;
 
+
+    [SerializeField]
+    GameObject playerSlideDownCliffAnimation;
 
     public Transform groundCheck;
 
@@ -120,7 +127,7 @@ public class Player : BaseCharacter
             {
                 MoveCharacter();              
             }
-            else
+            else if(changingRoom)
             {
                 LerpPlayer();
             }
@@ -167,6 +174,7 @@ public class Player : BaseCharacter
         if (percentageComplete >= 1f)
         {
             inControl = true;
+            changingRoom = false;
         }
     }
 
@@ -176,6 +184,7 @@ public class Player : BaseCharacter
         startPosition = transform.position;
         endPosition = new Vector2(transform.position.x + offset.x,transform.position.y + offset.y);
         inControl = false;
+        changingRoom = true;
     }
 
     void Push()
@@ -231,6 +240,7 @@ public class Player : BaseCharacter
         lightEffect.SetActive(true);
         int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, lightAOE,layerMask);
+        Instantiate(lightAnimation, transform.position, Quaternion.identity);
         foreach(Collider2D col in colliders)
         {
             Lightable l = col.GetComponent<Lightable>();
@@ -240,6 +250,8 @@ public class Player : BaseCharacter
             }
         }
     }
+
+
 
     public void FallToDeath()
     {
@@ -322,4 +334,20 @@ public class Player : BaseCharacter
     {
         speed = 2f * speed;
     }
+
+    public void PlayerSlideDownTheCliff()
+    {
+        inControl = false;
+        renderer.enabled = false;
+        transform.position = new Vector2(-43.14f, -10.21f);
+        Destroy(Instantiate(playerSlideDownCliffAnimation), 1f);
+        Invoke("ReOpenSpriteRenderer", 1f);
+    }
+
+    void ReOpenSpriteRenderer()
+    {
+        renderer.enabled = true;
+        inControl = true;
+    }
+    
 }

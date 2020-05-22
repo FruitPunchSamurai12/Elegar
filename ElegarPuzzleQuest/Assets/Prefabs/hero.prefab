@@ -136,12 +136,17 @@ MonoBehaviour:
   maxLife: 3
   isInvulnerable: 0
   renderer: {fileID: 2619253654096979081}
+  InvulnerabilityDuration: 2
   sliding: 0
+  hasKey: 0
   inControl: 1
   spell: 1
   pushPullRange: 3
+  waterEffect: {fileID: 0}
   waterAOE: 1.5
+  waterRange: 1
   lightEffect: {fileID: 2619253654181215368}
+  lightAnimation: {fileID: 0}
   lightAOE: 2
   groundCheck: {fileID: 1539289658}
   lerpDuration: 1
