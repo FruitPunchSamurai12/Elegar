@@ -50,7 +50,8 @@ public class Player : BaseCharacter
     bool isLightOn = false;
     public float lightAOE = 2.5f;
 
-
+   //used in level 2 
+    public GameObject hideShadow;
     [SerializeField]
     GameObject playerSlideDownCliffAnimation;
 
@@ -348,6 +349,20 @@ public class Player : BaseCharacter
     {
         renderer.enabled = true;
         inControl = true;
+    }
+
+    public void HideInBush(bool hide)
+    {
+        if(hide)
+        {
+            hideShadow.SetActive(true);
+            renderer.enabled = false;
+        }
+        else
+        {
+            hideShadow.SetActive(false);
+            renderer.enabled = true;
+        }
     }
     
 }
