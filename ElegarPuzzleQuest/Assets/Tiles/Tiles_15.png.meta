@@ -1,154 +1,193 @@
 fileFormatVersion: 2
-guid: 20e7f9b357432254d94aac80f0d7137b
+guid: de07a31a0c75d314dab6611c2dbde907
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4170555087457116640
-    second: tileset_dungeon_0
+      213: 8137230419613941074
+    second: sloppymess_0
   - first:
-      213: 4693019658330564282
-    second: tileset_dungeon_1
+      213: 4974110660635959346
+    second: sloppymess_1
   - first:
-      213: 1836251499754214093
-    second: tileset_dungeon_2
+      213: -7235982747611169759
+    second: sloppymess_2
   - first:
-      213: -887103245037669355
-    second: tileset_dungeon_3
+      213: -1071325658822659358
+    second: sloppymess_3
   - first:
-      213: -1586751073771575769
-    second: tileset_dungeon_4
+      213: 5955422432069937740
+    second: sloppymess_4
   - first:
-      213: 3483803907885721410
-    second: tileset_dungeon_5
+      213: 2817562191900762107
+    second: sloppymess_5
   - first:
-      213: 9027350698208149292
-    second: tileset_dungeon_6
+      213: -4008586409878977265
+    second: sloppymess_6
   - first:
-      213: -6493159094153906343
-    second: tileset_dungeon_7
+      213: -7840755983755641017
+    second: sloppymess_7
   - first:
-      213: -443537862409895617
-    second: tileset_dungeon_8
+      213: 3120245035744828404
+    second: sloppymess_8
   - first:
-      213: -7139307309767073233
-    second: tileset_dungeon_9
+      213: 1532933202101226130
+    second: sloppymess_9
   - first:
-      213: -4820552560579832791
-    second: tileset_dungeon_10
+      213: 3648955894448180220
+    second: sloppymess_10
   - first:
-      213: 8691523824438052742
-    second: tileset_dungeon_11
+      213: -3899802092172542574
+    second: sloppymess_11
   - first:
-      213: 5311970170732194665
-    second: tileset_dungeon_12
+      213: -3598946515668829843
+    second: sloppymess_12
   - first:
-      213: 5912711938803718596
-    second: tileset_dungeon_13
+      213: 1592811863801254412
+    second: sloppymess_13
   - first:
-      213: -8650521493311892024
-    second: tileset_dungeon_14
+      213: 7335986854870536626
+    second: sloppymess_14
   - first:
-      213: -2347064146693634305
-    second: tileset_dungeon_15
+      213: 3896137361950487371
+    second: sloppymess_15
   - first:
-      213: 7374803789854556362
-    second: tileset_dungeon_16
+      213: 8716371860543208621
+    second: sloppymess_16
   - first:
-      213: 302566366810190604
-    second: tileset_dungeon_17
+      213: 7031248964281969503
+    second: sloppymess_17
   - first:
-      213: -4822892497430143628
-    second: tileset_dungeon_18
+      213: -4155250093799170595
+    second: sloppymess_18
   - first:
-      213: -3727002655181885784
-    second: tileset_dungeon_19
+      213: 2318109274067529362
+    second: sloppymess_19
   - first:
-      213: 769945094620378288
-    second: tileset_dungeon_20
+      213: 8751896860534742900
+    second: sloppymess_20
   - first:
-      213: 5792420479177666896
-    second: tileset_dungeon_21
+      213: -988225771335106220
+    second: sloppymess_21
   - first:
-      213: 5815692676043715705
-    second: tileset_dungeon_22
+      213: -5535449672663593581
+    second: sloppymess_22
   - first:
-      213: -6499017830206215050
-    second: tileset_dungeon_23
+      213: 4579693510854664589
+    second: sloppymess_23
   - first:
-      213: 2698617947219458041
-    second: tileset_dungeon_24
+      213: 3951142281563471347
+    second: sloppymess_24
   - first:
-      213: -7309622429717128527
-    second: tileset_dungeon_25
+      213: 842438769652101007
+    second: sloppymess_25
   - first:
-      213: 117673594298486427
-    second: tileset_dungeon_26
+      213: 3770067762348306370
+    second: sloppymess_26
   - first:
-      213: 3279088705448880411
-    second: tileset_dungeon_27
+      213: -5140274658170651347
+    second: sloppymess_27
   - first:
-      213: -3031307906575769487
-    second: tileset_dungeon_28
+      213: -3540130650776035936
+    second: sloppymess_28
   - first:
-      213: -4007826451262851744
-    second: tileset_dungeon_29
+      213: -8092470999708154248
+    second: sloppymess_29
   - first:
-      213: -8126788274282228521
-    second: tileset_dungeon_30
+      213: -8171075739203309874
+    second: sloppymess_30
   - first:
-      213: -1910697870135096236
-    second: tileset_dungeon_31
+      213: -8627300737599663589
+    second: sloppymess_31
   - first:
-      213: 6131687971799480424
-    second: tileset_dungeon_32
+      213: -6893248484193533871
+    second: sloppymess_32
   - first:
-      213: -1271152098432255538
-    second: tileset_dungeon_33
+      213: 1401986054992747765
+    second: sloppymess_33
   - first:
-      213: -3256372209794200012
-    second: tileset_dungeon_34
+      213: 2382520069162307044
+    second: sloppymess_34
   - first:
-      213: -472994131761971759
-    second: tileset_dungeon_35
+      213: 7327421286341139438
+    second: sloppymess_35
   - first:
-      213: 660559792249440876
-    second: tileset_dungeon_36
+      213: 555931115405826814
+    second: sloppymess_36
   - first:
-      213: 8655477434947692621
-    second: tileset_dungeon_37
+      213: -8132208446521464902
+    second: sloppymess_37
   - first:
-      213: -1448032412989791189
-    second: tileset_dungeon_38
+      213: 7814060187922103981
+    second: sloppymess_38
   - first:
-      213: 2563228223318416060
-    second: tileset_dungeon_39
+      213: 4015349685571127179
+    second: sloppymess_39
   - first:
-      213: -2336358387269611956
-    second: tileset_dungeon_40
+      213: 4731937338821595153
+    second: sloppymess_40
   - first:
-      213: 3191488296516291494
-    second: tileset_dungeon_41
+      213: -8389258190056631735
+    second: sloppymess_41
   - first:
-      213: 2228560182512649470
-    second: tileset_dungeon_42
+      213: 4011282990266379989
+    second: sloppymess_42
   - first:
-      213: -8237007452588438253
-    second: tileset_dungeon_43
+      213: 5510553503437420581
+    second: sloppymess_43
   - first:
-      213: 3546525903179774367
-    second: tileset_dungeon_44
+      213: 6401625507176677404
+    second: sloppymess_44
   - first:
-      213: -5032027706720086520
-    second: tileset_dungeon_45
+      213: 4954274445164996541
+    second: sloppymess_45
   - first:
-      213: -6356178407401083550
-    second: tileset_dungeon_46
+      213: -2295600522840733955
+    second: sloppymess_46
   - first:
-      213: -2253748373665902629
-    second: tileset_dungeon_47
+      213: 2410100970953612278
+    second: sloppymess_47
   - first:
-      213: -796035559688046695
-    second: tileset_dungeon_48
+      213: -8023955066494395718
+    second: sloppymess_48
+  - first:
+      213: 5494181117402660172
+    second: sloppymess_49
+  - first:
+      213: -7209431197226599288
+    second: sloppymess_50
+  - first:
+      213: 903148713382389465
+    second: sloppymess_51
+  - first:
+      213: -308372397986794428
+    second: sloppymess_52
+  - first:
+      213: 3493074531742453491
+    second: sloppymess_53
+  - first:
+      213: 6630664770406701685
+    second: sloppymess_54
+  - first:
+      213: -6232942861678399902
+    second: sloppymess_55
+  - first:
+      213: -6082147348714114285
+    second: sloppymess_56
+  - first:
+      213: -1375033555445285108
+    second: sloppymess_57
+  - first:
+      213: 6152441100662934991
+    second: sloppymess_58
+  - first:
+      213: -390146364281097983
+    second: sloppymess_59
+  - first:
+      213: -5732438148515215915
+    second: sloppymess_60
+  - first:
+      213: -1069965365046938138
+    second: sloppymess_61
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -211,7 +250,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -223,7 +262,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -246,28 +285,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset_dungeon_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02e9be79e363f16c0800000000000000
-      internalID: -4170555087457116640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_dungeon_1
+      name: sloppymess_0
       rect:
         serializedVersion: 2
         x: 32
@@ -281,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab6e7bab384f02140800000000000000
-      internalID: 4693019658330564282
+      spriteID: 25d779824ff3de070800000000000000
+      internalID: 8137230419613941074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_2
+      name: sloppymess_1
       rect:
         serializedVersion: 2
         x: 64
@@ -302,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2d029920dab7910800000000000000
-      internalID: 1836251499754214093
+      spriteID: 230a0b8ba47970540800000000000000
+      internalID: 4974110660635959346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_3
+      name: sloppymess_2
       rect:
         serializedVersion: 2
         x: 96
@@ -323,14 +341,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514fe687c4060b3f0800000000000000
-      internalID: -887103245037669355
+      spriteID: 12cf7c76700a49b90800000000000000
+      internalID: -7235982747611169759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_4
+      name: sloppymess_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e23d1b4df2e121f0800000000000000
+      internalID: -1071325658822659358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_4
       rect:
         serializedVersion: 2
         x: 160
@@ -344,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72620ec2e4abaf9e0800000000000000
-      internalID: -1586751073771575769
+      spriteID: c4aebe61629e5a250800000000000000
+      internalID: 5955422432069937740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_5
+      name: sloppymess_5
       rect:
         serializedVersion: 2
         x: 192
@@ -365,14 +404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24765ac3235f85030800000000000000
-      internalID: 3483803907885721410
+      spriteID: bffd0dca2edf91720800000000000000
+      internalID: 2817562191900762107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_6
+      name: sloppymess_6
       rect:
         serializedVersion: 2
         x: 224
@@ -386,14 +425,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2f329d81a7974d70800000000000000
-      internalID: 9027350698208149292
+      spriteID: f0584bb06e3ae58c0800000000000000
+      internalID: -4008586409878977265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_7
+      name: sloppymess_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ff9b199f9003390800000000000000
+      internalID: -7840755983755641017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_8
       rect:
         serializedVersion: 2
         x: 0
@@ -407,14 +467,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 957fbd2c43aa3e5a0800000000000000
-      internalID: -6493159094153906343
+      spriteID: 4fb1fb704565d4b20800000000000000
+      internalID: 3120245035744828404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_8
+      name: sloppymess_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a45af10a2164510800000000000000
+      internalID: 1532933202101226130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_10
       rect:
         serializedVersion: 2
         x: 64
@@ -428,14 +509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f314f920aac38d9f0800000000000000
-      internalID: -443537862409895617
+      spriteID: cfbc6a19d02b3a230800000000000000
+      internalID: 3648955894448180220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_9
+      name: sloppymess_11
       rect:
         serializedVersion: 2
         x: 96
@@ -449,14 +530,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f22ebf2d3d51cec90800000000000000
-      internalID: -7139307309767073233
+      spriteID: 29dfab1c8ae11e9c0800000000000000
+      internalID: -3899802092172542574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_10
+      name: sloppymess_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69fde74639fd0ec0800000000000000
+      internalID: -3598946515668829843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_13
       rect:
         serializedVersion: 2
         x: 160
@@ -470,14 +572,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9241a8d8cf4f91db0800000000000000
-      internalID: -4820552560579832791
+      spriteID: c02d6e773fdca1610800000000000000
+      internalID: 1592811863801254412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_11
+      name: sloppymess_14
       rect:
         serializedVersion: 2
         x: 192
@@ -491,14 +593,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68789706ede7e9870800000000000000
-      internalID: 8691523824438052742
+      spriteID: 2b15e714d29aec560800000000000000
+      internalID: 7335986854870536626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_12
+      name: sloppymess_15
       rect:
         serializedVersion: 2
         x: 224
@@ -512,14 +614,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96ba6fbe9b8e7b940800000000000000
-      internalID: 5311970170732194665
+      spriteID: b43bf2fb94cd11630800000000000000
+      internalID: 3896137361950487371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_13
+      name: sloppymess_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac73ed9606c6f870800000000000000
+      internalID: 8716371860543208621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_17
       rect:
         serializedVersion: 2
         x: 0
@@ -533,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c95b937e2c2e0250800000000000000
-      internalID: 5912711938803718596
+      spriteID: f5b2c5b0ea3049160800000000000000
+      internalID: 7031248964281969503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_14
+      name: sloppymess_18
       rect:
         serializedVersion: 2
         x: 32
@@ -554,14 +677,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c55345c88c23f780800000000000000
-      internalID: -8650521493311892024
+      spriteID: ddd113e1e069556c0800000000000000
+      internalID: -4155250093799170595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_15
+      name: sloppymess_19
       rect:
         serializedVersion: 2
         x: 64
@@ -575,14 +698,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff64547089d8d6fd0800000000000000
-      internalID: -2347064146693634305
+      spriteID: 29e65575a149b2020800000000000000
+      internalID: 2318109274067529362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_16
+      name: sloppymess_20
       rect:
         serializedVersion: 2
         x: 96
@@ -596,14 +719,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac04c7639f0985660800000000000000
-      internalID: 7374803789854556362
+      spriteID: 47f970b33dbf47970800000000000000
+      internalID: 8751896860534742900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_17
+      name: sloppymess_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4514fa595ed1942f0800000000000000
+      internalID: -988225771335106220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_22
       rect:
         serializedVersion: 2
         x: 160
@@ -617,14 +761,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c03b3bee18ee23400800000000000000
-      internalID: 302566366810190604
+      spriteID: 39d85dcc9d12e23b0800000000000000
+      internalID: -5535449672663593581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_18
+      name: sloppymess_23
       rect:
         serializedVersion: 2
         x: 192
@@ -638,14 +782,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47d97cc83d4a11db0800000000000000
-      internalID: -4822892497430143628
+      spriteID: d8167aedbf65e8f30800000000000000
+      internalID: 4579693510854664589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_19
+      name: sloppymess_24
       rect:
         serializedVersion: 2
         x: 224
@@ -659,14 +803,224 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ae22f4e4d6074cc0800000000000000
-      internalID: -3727002655181885784
+      spriteID: 3fdfd9598f645d630800000000000000
+      internalID: 3951142281563471347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_20
+      name: sloppymess_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f612af891f0bb00800000000000000
+      internalID: 842438769652101007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf2ce9b7a8f15430800000000000000
+      internalID: 3770067762348306370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dbbc7ce631aa8b0800000000000000
+      internalID: -5140274658170651347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad9506fdedeedec0800000000000000
+      internalID: -3540130650776035936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876ce336084c1bf80800000000000000
+      internalID: -8092470999708154248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece69fb48e18a9e80800000000000000
+      internalID: -8171075739203309874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1218e440bba54880800000000000000
+      internalID: -8627300737599663589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150052f86034650a0800000000000000
+      internalID: -6893248484193533871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcd4e393ead47310800000000000000
+      internalID: 1401986054992747765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed88a83169601120800000000000000
+      internalID: 2382520069162307044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_35
       rect:
         serializedVersion: 2
         x: 0
@@ -680,14 +1034,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b4f665fbf46faa00800000000000000
-      internalID: 769945094620378288
+      spriteID: eebdffb66da30b560800000000000000
+      internalID: 7327421286341139438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_21
+      name: sloppymess_36
       rect:
         serializedVersion: 2
         x: 32
@@ -701,14 +1055,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 051351b7cbfc26050800000000000000
-      internalID: 5792420479177666896
+      spriteID: efad95d676017b700800000000000000
+      internalID: 555931115405826814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_22
+      name: sloppymess_37
       rect:
         serializedVersion: 2
         x: 64
@@ -722,14 +1076,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9743d6e0dad75b050800000000000000
-      internalID: 5815692676043715705
+      spriteID: ab728a11187942f80800000000000000
+      internalID: -8132208446521464902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_23
+      name: sloppymess_38
       rect:
         serializedVersion: 2
         x: 96
@@ -743,14 +1097,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67ce0a977b9dec5a0800000000000000
-      internalID: -6499017830206215050
+      spriteID: dae7e9a175e117c60800000000000000
+      internalID: 7814060187922103981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_24
+      name: sloppymess_39
       rect:
         serializedVersion: 2
         x: 128
@@ -764,14 +1118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f77280a9ba637520800000000000000
-      internalID: 2698617947219458041
+      spriteID: b878179c34369b730800000000000000
+      internalID: 4015349685571127179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_25
+      name: sloppymess_40
       rect:
         serializedVersion: 2
         x: 160
@@ -785,17 +1139,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ba9b72d0210f8a90800000000000000
-      internalID: -7309622429717128527
+      spriteID: 1105ed350f73ba140800000000000000
+      internalID: 4731937338821595153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_26
+      name: sloppymess_41
       rect:
         serializedVersion: 2
-        x: 192
+        x: 224
         y: 96
         width: 32
         height: 32
@@ -806,14 +1160,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9eca93b28f02a100800000000000000
-      internalID: 117673594298486427
+      spriteID: 94253a4df1e539b80800000000000000
+      internalID: -8389258190056631735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_27
+      name: sloppymess_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dee46080a0faa730800000000000000
+      internalID: 4011282990266379989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_43
       rect:
         serializedVersion: 2
         x: 0
@@ -827,14 +1202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b19a643edc9a18d20800000000000000
-      internalID: 3279088705448880411
+      spriteID: 528fb28173b697c40800000000000000
+      internalID: 5510553503437420581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_28
+      name: sloppymess_44
       rect:
         serializedVersion: 2
         x: 32
@@ -848,14 +1223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 170e7bff481aee5d0800000000000000
-      internalID: -3031307906575769487
+      spriteID: c1088544b7427d850800000000000000
+      internalID: 6401625507176677404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_29
+      name: sloppymess_45
       rect:
         serializedVersion: 2
         x: 64
@@ -869,14 +1244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0653013b3175168c0800000000000000
-      internalID: -4007826451262851744
+      spriteID: db7ead7eb5e11c440800000000000000
+      internalID: 4954274445164996541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_30
+      name: sloppymess_46
       rect:
         serializedVersion: 2
         x: 96
@@ -890,14 +1265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d419924f19d73f80800000000000000
-      internalID: -8126788274282228521
+      spriteID: df680e1bc736420e0800000000000000
+      internalID: -2295600522840733955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_31
+      name: sloppymess_47
       rect:
         serializedVersion: 2
         x: 128
@@ -911,14 +1286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45c80811966db75e0800000000000000
-      internalID: -1910697870135096236
+      spriteID: 6fb93865016627120800000000000000
+      internalID: 2410100970953612278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_32
+      name: sloppymess_48
       rect:
         serializedVersion: 2
         x: 160
@@ -932,14 +1307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 868b4a829b1281550800000000000000
-      internalID: 6131687971799480424
+      spriteID: abad7e7316f25a090800000000000000
+      internalID: -8023955066494395718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_33
+      name: sloppymess_49
       rect:
         serializedVersion: 2
         x: 192
@@ -953,14 +1328,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec9f37db6e5fb5ee0800000000000000
-      internalID: -1271152098432255538
+      spriteID: c4db17aed904f3c40800000000000000
+      internalID: 5494181117402660172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_34
+      name: sloppymess_50
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c70b8f584f2fb90800000000000000
+      internalID: -7209431197226599288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6228048f0a88c00800000000000000
+      internalID: 903148713382389465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_52
       rect:
         serializedVersion: 2
         x: 0
@@ -974,14 +1391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43e43ca6aba0fc2d0800000000000000
-      internalID: -3256372209794200012
+      spriteID: 444367710f078bbf0800000000000000
+      internalID: -308372397986794428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_35
+      name: sloppymess_53
       rect:
         serializedVersion: 2
         x: 32
@@ -995,14 +1412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ddbb7bd7569f69f0800000000000000
-      internalID: -472994131761971759
+      spriteID: 3fe097e87c4e97030800000000000000
+      internalID: 3493074531742453491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_36
+      name: sloppymess_54
       rect:
         serializedVersion: 2
         x: 64
@@ -1016,14 +1433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a0fe991a7ca2900800000000000000
-      internalID: 660559792249440876
+      spriteID: 57ad9c85a7ad40c50800000000000000
+      internalID: 6630664770406701685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_37
+      name: sloppymess_55
       rect:
         serializedVersion: 2
         x: 96
@@ -1037,56 +1454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d48677f4ede6e1870800000000000000
-      internalID: 8655477434947692621
+      spriteID: 26e2a58ad732089a0800000000000000
+      internalID: -6232942861678399902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_38
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b24ed70413e87ebe0800000000000000
-      internalID: -1448032412989791189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_dungeon_39
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cba56211d7a629320800000000000000
-      internalID: 2563228223318416060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_dungeon_40
+      name: sloppymess_56
       rect:
         serializedVersion: 2
         x: 192
@@ -1100,14 +1475,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4e4ac2ec66939fd0800000000000000
-      internalID: -2336358387269611956
+      spriteID: 313bf40063fd79ba0800000000000000
+      internalID: -6082147348714114285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_41
+      name: sloppymess_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ff07d3446eaece0800000000000000
+      internalID: -1375033555445285108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sloppymess_58
       rect:
         serializedVersion: 2
         x: 0
@@ -1121,14 +1517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ab8baa42b17a4c20800000000000000
-      internalID: 3191488296516291494
+      spriteID: fcd0782859cd16550800000000000000
+      internalID: 6152441100662934991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_42
+      name: sloppymess_59
       rect:
         serializedVersion: 2
         x: 32
@@ -1142,98 +1538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef40f37bdaf6dee10800000000000000
-      internalID: 2228560182512649470
+      spriteID: 1017d92e2fbe59af0800000000000000
+      internalID: -390146364281097983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_43
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31d88380d5540bd80800000000000000
-      internalID: -8237007452588438253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_dungeon_44
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9970c5c48ac73130800000000000000
-      internalID: 3546525903179774367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_dungeon_45
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80696092675aa2ab0800000000000000
-      internalID: -5032027706720086520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_dungeon_46
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26da9d93a615ac7a0800000000000000
-      internalID: -6356178407401083550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_dungeon_47
+      name: sloppymess_60
       rect:
         serializedVersion: 2
         x: 192
@@ -1247,14 +1559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdf87868bc319b0e0800000000000000
-      internalID: -2253748373665902629
+      spriteID: 5d54adc20e94270b0800000000000000
+      internalID: -5732438148515215915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_dungeon_48
+      name: sloppymess_61
       rect:
         serializedVersion: 2
         x: 224
@@ -1268,8 +1580,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997f63440e9e3f4f0800000000000000
-      internalID: -796035559688046695
+      spriteID: 6e5f76e5b28b621f0800000000000000
+      internalID: -1069965365046938138
       vertices: []
       indices: 
       edges: []
