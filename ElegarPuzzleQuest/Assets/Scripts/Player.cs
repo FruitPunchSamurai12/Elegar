@@ -21,7 +21,7 @@ public class Player : BaseCharacter
     public bool isInvulnerable = false;
     [SerializeField]
     SpriteRenderer renderer;
-    float InvulnerabilityDuration = 3f;
+    public float InvulnerabilityDuration = 2f;
     float InvulnerabilityTimer = 0f;
 
     public bool sliding = false;
@@ -30,18 +30,30 @@ public class Player : BaseCharacter
     private const int noMovementFrames = 2;
     Vector3[] previousLocations = new Vector3[noMovementFrames];
 
-
+    public bool hasKey = false;
 
     public bool inControl = true;
+    public bool changingRoom = false;
     [SerializeField]
     private ElegarSpells spell = ElegarSpells.noSpell;
+    //push pull stuff
     public float pushPullRange = 3f;
+    //water stuff
+    [SerializeField]//the prefab for the effect
+    GameObject waterEffect;
     public float waterAOE = 1f;
+    public float waterRange = 1f;
     [SerializeField]
     GameObject lightEffect;
+    [SerializeField]
+    GameObject lightAnimation;
     bool isLightOn = false;
     public float lightAOE = 2.5f;
 
+   //used in level 2 
+    public GameObject hideShadow;
+    [SerializeField]
+    GameObject playerSlideDownCliffAnimation;
 
     public Transform groundCheck;
 
@@ -116,7 +128,7 @@ public class Player : BaseCharacter
             {
                 MoveCharacter();              
             }
-            else
+            else if(changingRoom)
             {
                 LerpPlayer();
             }
@@ -163,6 +175,7 @@ public class Player : BaseCharacter
         if (percentageComplete >= 1f)
         {
             inControl = true;
+            changingRoom = false;
         }
     }
 
@@ -172,6 +185,7 @@ public class Player : BaseCharacter
         startPosition = transform.position;
         endPosition = new Vector2(transform.position.x + offset.x,transform.position.y + offset.y);
         inControl = false;
+        changingRoom = true;
     }
 
     void Push()
@@ -208,7 +222,8 @@ public class Player : BaseCharacter
     {
         int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
-        RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, waterAOE, castDirection, 0f, layerMask);
+        RaycastHit2D[] hits = Physics2D.CircleCastAll((Vector2)transform.position+(castDirection*waterRange), waterAOE, castDirection, 0f, layerMask);
+        Instantiate(waterEffect, (Vector2)transform.position + (castDirection * waterRange), Quaternion.identity);
         foreach(RaycastHit2D hit in hits)
         {
             Waterable m = hit.collider.GetComponent<Waterable>();
@@ -226,6 +241,7 @@ public class Player : BaseCharacter
         lightEffect.SetActive(true);
         int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, lightAOE,layerMask);
+        Instantiate(lightAnimation, transform.position, Quaternion.identity);
         foreach(Collider2D col in colliders)
         {
             Lightable l = col.GetComponent<Lightable>();
@@ -235,6 +251,8 @@ public class Player : BaseCharacter
             }
         }
     }
+
+
 
     public void FallToDeath()
     {
@@ -317,4 +335,34 @@ public class Player : BaseCharacter
     {
         speed = 2f * speed;
     }
+
+    public void PlayerSlideDownTheCliff()
+    {
+        inControl = false;
+        renderer.enabled = false;
+        transform.position = new Vector2(-43.14f, -10.21f);
+        Destroy(Instantiate(playerSlideDownCliffAnimation), 1f);
+        Invoke("ReOpenSpriteRenderer", 1f);
+    }
+
+    void ReOpenSpriteRenderer()
+    {
+        renderer.enabled = true;
+        inControl = true;
+    }
+
+    public void HideInBush(bool hide)
+    {
+        if(hide)
+        {
+            hideShadow.SetActive(true);
+            renderer.enabled = false;
+        }
+        else
+        {
+            hideShadow.SetActive(false);
+            renderer.enabled = true;
+        }
+    }
+    
 }
