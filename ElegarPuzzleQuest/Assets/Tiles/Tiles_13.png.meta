@@ -1,193 +1,241 @@
 fileFormatVersion: 2
-guid: de07a31a0c75d314dab6611c2dbde907
+guid: 4598fc3aecbef8448bb5c8b14458aeb6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8137230419613941074
-    second: sloppymess_0
+      213: 1592217504460004516
+    second: summer_pine_tree_tiles_0
   - first:
-      213: 4974110660635959346
-    second: sloppymess_1
+      213: 9160588945296905867
+    second: summer_pine_tree_tiles_1
   - first:
-      213: -7235982747611169759
-    second: sloppymess_2
+      213: -2516261759758463111
+    second: summer_pine_tree_tiles_2
   - first:
-      213: -1071325658822659358
-    second: sloppymess_3
+      213: 3532526619200268506
+    second: summer_pine_tree_tiles_3
   - first:
-      213: 5955422432069937740
-    second: sloppymess_4
+      213: -7367472007871177818
+    second: summer_pine_tree_tiles_4
   - first:
-      213: 2817562191900762107
-    second: sloppymess_5
+      213: 3715098075826356123
+    second: summer_pine_tree_tiles_5
   - first:
-      213: -4008586409878977265
-    second: sloppymess_6
+      213: 258903730918635735
+    second: summer_pine_tree_tiles_6
   - first:
-      213: -7840755983755641017
-    second: sloppymess_7
+      213: -233762330332144478
+    second: summer_pine_tree_tiles_7
   - first:
-      213: 3120245035744828404
-    second: sloppymess_8
+      213: -4806526649021649936
+    second: summer_pine_tree_tiles_8
   - first:
-      213: 1532933202101226130
-    second: sloppymess_9
+      213: 5977626185959961112
+    second: summer_pine_tree_tiles_9
   - first:
-      213: 3648955894448180220
-    second: sloppymess_10
+      213: 2579653549909724940
+    second: summer_pine_tree_tiles_10
   - first:
-      213: -3899802092172542574
-    second: sloppymess_11
+      213: 785001660727518787
+    second: summer_pine_tree_tiles_11
   - first:
-      213: -3598946515668829843
-    second: sloppymess_12
+      213: -8711770925939154754
+    second: summer_pine_tree_tiles_12
   - first:
-      213: 1592811863801254412
-    second: sloppymess_13
+      213: 10959239596636806
+    second: summer_pine_tree_tiles_13
   - first:
-      213: 7335986854870536626
-    second: sloppymess_14
+      213: 5654599487529886249
+    second: summer_pine_tree_tiles_14
   - first:
-      213: 3896137361950487371
-    second: sloppymess_15
+      213: -8247447911233049294
+    second: summer_pine_tree_tiles_15
   - first:
-      213: 8716371860543208621
-    second: sloppymess_16
+      213: -3471081539600652842
+    second: summer_pine_tree_tiles_16
   - first:
-      213: 7031248964281969503
-    second: sloppymess_17
+      213: -5865472967765539208
+    second: summer_pine_tree_tiles_17
   - first:
-      213: -4155250093799170595
-    second: sloppymess_18
+      213: 2041074932987013960
+    second: summer_pine_tree_tiles_18
   - first:
-      213: 2318109274067529362
-    second: sloppymess_19
+      213: 3290104318588091680
+    second: summer_pine_tree_tiles_19
   - first:
-      213: 8751896860534742900
-    second: sloppymess_20
+      213: -4644983672431203495
+    second: summer_pine_tree_tiles_20
   - first:
-      213: -988225771335106220
-    second: sloppymess_21
+      213: 2205814299674301345
+    second: summer_pine_tree_tiles_21
   - first:
-      213: -5535449672663593581
-    second: sloppymess_22
+      213: -632860177734710975
+    second: summer_pine_tree_tiles_22
   - first:
-      213: 4579693510854664589
-    second: sloppymess_23
+      213: 2021711667898113817
+    second: summer_pine_tree_tiles_23
   - first:
-      213: 3951142281563471347
-    second: sloppymess_24
+      213: 3610366143395142120
+    second: summer_pine_tree_tiles_24
   - first:
-      213: 842438769652101007
-    second: sloppymess_25
+      213: -8462762284840798217
+    second: summer_pine_tree_tiles_25
   - first:
-      213: 3770067762348306370
-    second: sloppymess_26
+      213: 4463728121224450496
+    second: summer_pine_tree_tiles_26
   - first:
-      213: -5140274658170651347
-    second: sloppymess_27
+      213: 6203925772982580005
+    second: summer_pine_tree_tiles_27
   - first:
-      213: -3540130650776035936
-    second: sloppymess_28
+      213: 4508580303434586154
+    second: summer_pine_tree_tiles_28
   - first:
-      213: -8092470999708154248
-    second: sloppymess_29
+      213: 9052214292201889448
+    second: summer_pine_tree_tiles_29
   - first:
-      213: -8171075739203309874
-    second: sloppymess_30
+      213: -6872055178064626505
+    second: summer_pine_tree_tiles_30
   - first:
-      213: -8627300737599663589
-    second: sloppymess_31
+      213: -3723200211116976802
+    second: summer_pine_tree_tiles_31
   - first:
-      213: -6893248484193533871
-    second: sloppymess_32
+      213: 3111671945804103304
+    second: summer_pine_tree_tiles_32
   - first:
-      213: 1401986054992747765
-    second: sloppymess_33
+      213: 3458640496276292542
+    second: summer_pine_tree_tiles_33
   - first:
-      213: 2382520069162307044
-    second: sloppymess_34
+      213: -5382231391319101720
+    second: summer_pine_tree_tiles_34
   - first:
-      213: 7327421286341139438
-    second: sloppymess_35
+      213: -1184511038669692518
+    second: summer_pine_tree_tiles_35
   - first:
-      213: 555931115405826814
-    second: sloppymess_36
+      213: 4671101310112815001
+    second: summer_pine_tree_tiles_36
   - first:
-      213: -8132208446521464902
-    second: sloppymess_37
+      213: -2747015669223893573
+    second: summer_pine_tree_tiles_37
   - first:
-      213: 7814060187922103981
-    second: sloppymess_38
+      213: -87672293119397612
+    second: summer_pine_tree_tiles_38
   - first:
-      213: 4015349685571127179
-    second: sloppymess_39
+      213: -7394653261612471730
+    second: summer_pine_tree_tiles_39
   - first:
-      213: 4731937338821595153
-    second: sloppymess_40
+      213: 4490010917550256316
+    second: summer_pine_tree_tiles_40
   - first:
-      213: -8389258190056631735
-    second: sloppymess_41
+      213: 9007253068033127094
+    second: summer_pine_tree_tiles_41
   - first:
-      213: 4011282990266379989
-    second: sloppymess_42
+      213: 6685962992052181139
+    second: summer_pine_tree_tiles_42
   - first:
-      213: 5510553503437420581
-    second: sloppymess_43
+      213: -3672036467028098542
+    second: summer_pine_tree_tiles_43
   - first:
-      213: 6401625507176677404
-    second: sloppymess_44
+      213: 655496769065163448
+    second: summer_pine_tree_tiles_44
   - first:
-      213: 4954274445164996541
-    second: sloppymess_45
+      213: -5085548920511286353
+    second: summer_pine_tree_tiles_45
   - first:
-      213: -2295600522840733955
-    second: sloppymess_46
+      213: 1328331705305633657
+    second: summer_pine_tree_tiles_46
   - first:
-      213: 2410100970953612278
-    second: sloppymess_47
+      213: -867250693431248630
+    second: summer_pine_tree_tiles_47
   - first:
-      213: -8023955066494395718
-    second: sloppymess_48
+      213: -8754175752265592302
+    second: summer_pine_tree_tiles_48
   - first:
-      213: 5494181117402660172
-    second: sloppymess_49
+      213: 5796962491643797476
+    second: summer_pine_tree_tiles_49
   - first:
-      213: -7209431197226599288
-    second: sloppymess_50
+      213: 1663125371553426341
+    second: summer_pine_tree_tiles_50
   - first:
-      213: 903148713382389465
-    second: sloppymess_51
+      213: 6327210459537723159
+    second: summer_pine_tree_tiles_51
   - first:
-      213: -308372397986794428
-    second: sloppymess_52
+      213: -6448709390534256686
+    second: summer_pine_tree_tiles_52
   - first:
-      213: 3493074531742453491
-    second: sloppymess_53
+      213: 6160276170637303679
+    second: summer_pine_tree_tiles_53
   - first:
-      213: 6630664770406701685
-    second: sloppymess_54
+      213: 2782217235449986901
+    second: summer_pine_tree_tiles_54
   - first:
-      213: -6232942861678399902
-    second: sloppymess_55
+      213: -6038335970092131997
+    second: summer_pine_tree_tiles_55
   - first:
-      213: -6082147348714114285
-    second: sloppymess_56
+      213: 3498000105491652062
+    second: summer_pine_tree_tiles_56
   - first:
-      213: -1375033555445285108
-    second: sloppymess_57
+      213: -58398044572961397
+    second: summer_pine_tree_tiles_57
   - first:
-      213: 6152441100662934991
-    second: sloppymess_58
+      213: 4791949910914875772
+    second: summer_pine_tree_tiles_58
   - first:
-      213: -390146364281097983
-    second: sloppymess_59
+      213: 1839548637807126718
+    second: summer_pine_tree_tiles_59
   - first:
-      213: -5732438148515215915
-    second: sloppymess_60
+      213: 5330244061891622404
+    second: summer_pine_tree_tiles_60
   - first:
-      213: -1069965365046938138
-    second: sloppymess_61
+      213: -4905829054617065200
+    second: summer_pine_tree_tiles_61
+  - first:
+      213: -7175123015411783373
+    second: summer_pine_tree_tiles_62
+  - first:
+      213: 1272952936008422185
+    second: summer_pine_tree_tiles_63
+  - first:
+      213: -7799091586682208341
+    second: summer_pine_tree_tiles_64
+  - first:
+      213: -3146237552067334946
+    second: summer_pine_tree_tiles_65
+  - first:
+      213: 4952717810675684920
+    second: summer_pine_tree_tiles_66
+  - first:
+      213: -8206442200858937369
+    second: summer_pine_tree_tiles_67
+  - first:
+      213: 5532436305519068180
+    second: summer_pine_tree_tiles_68
+  - first:
+      213: -7381657402804975109
+    second: summer_pine_tree_tiles_69
+  - first:
+      213: 284434099391214778
+    second: summer_pine_tree_tiles_70
+  - first:
+      213: -7307905983048745872
+    second: summer_pine_tree_tiles_71
+  - first:
+      213: -3345018608394936220
+    second: summer_pine_tree_tiles_72
+  - first:
+      213: 981751321904396231
+    second: summer_pine_tree_tiles_73
+  - first:
+      213: -8211479202698337635
+    second: summer_pine_tree_tiles_74
+  - first:
+      213: -946013775154534497
+    second: summer_pine_tree_tiles_75
+  - first:
+      213: -8005234535015365294
+    second: summer_pine_tree_tiles_76
+  - first:
+      213: -730197485501564365
+    second: summer_pine_tree_tiles_77
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -250,7 +298,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -262,7 +310,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -274,7 +322,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -285,7 +333,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sloppymess_0
+      name: summer_pine_tree_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac5f766261b81610800000000000000
+      internalID: 1592217504460004516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_1
       rect:
         serializedVersion: 2
         x: 32
@@ -299,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25d779824ff3de070800000000000000
-      internalID: 8137230419613941074
+      spriteID: b86dac16c13f02f70800000000000000
+      internalID: 9160588945296905867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_1
+      name: summer_pine_tree_tiles_2
       rect:
         serializedVersion: 2
         x: 64
@@ -320,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 230a0b8ba47970540800000000000000
-      internalID: 4974110660635959346
+      spriteID: 97f82bfd241741dd0800000000000000
+      internalID: -2516261759758463111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_2
+      name: summer_pine_tree_tiles_3
       rect:
         serializedVersion: 2
         x: 96
@@ -341,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12cf7c76700a49b90800000000000000
-      internalID: -7235982747611169759
+      spriteID: ad82b097e3e060130800000000000000
+      internalID: 3532526619200268506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_3
+      name: summer_pine_tree_tiles_4
       rect:
         serializedVersion: 2
         x: 128
@@ -362,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e23d1b4df2e121f0800000000000000
-      internalID: -1071325658822659358
+      spriteID: 6ab543e4e3b71c990800000000000000
+      internalID: -7367472007871177818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_4
+      name: summer_pine_tree_tiles_5
       rect:
         serializedVersion: 2
         x: 160
@@ -383,35 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4aebe61629e5a250800000000000000
-      internalID: 5955422432069937740
+      spriteID: b9ffd5b340eae8330800000000000000
+      internalID: 3715098075826356123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_5
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bffd0dca2edf91720800000000000000
-      internalID: 2817562191900762107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sloppymess_6
+      name: summer_pine_tree_tiles_6
       rect:
         serializedVersion: 2
         x: 224
@@ -425,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0584bb06e3ae58c0800000000000000
-      internalID: -4008586409878977265
+      spriteID: 7d8bd60529fc79300800000000000000
+      internalID: 258903730918635735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_7
+      name: summer_pine_tree_tiles_7
       rect:
         serializedVersion: 2
         x: 256
@@ -446,14 +494,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74ff9b199f9003390800000000000000
-      internalID: -7840755983755641017
+      spriteID: 2ac5faa266281ccf0800000000000000
+      internalID: -233762330332144478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_8
+      name: summer_pine_tree_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbad919a79cb4db0800000000000000
+      internalID: -4806526649021649936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8127736685bc4f250800000000000000
+      internalID: 5977626185959961112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_10
       rect:
         serializedVersion: 2
         x: 0
@@ -467,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fb1fb704565d4b20800000000000000
-      internalID: 3120245035744828404
+      spriteID: c0fc1fd6c35ccc320800000000000000
+      internalID: 2579653549909724940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_9
+      name: summer_pine_tree_tiles_11
       rect:
         serializedVersion: 2
         x: 32
@@ -488,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a45af10a2164510800000000000000
-      internalID: 1532933202101226130
+      spriteID: 34661cfe9d2e4ea00800000000000000
+      internalID: 785001660727518787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_10
+      name: summer_pine_tree_tiles_12
       rect:
         serializedVersion: 2
         x: 64
@@ -509,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfbc6a19d02b3a230800000000000000
-      internalID: 3648955894448180220
+      spriteID: eb022d2ff72991780800000000000000
+      internalID: -8711770925939154754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_11
+      name: summer_pine_tree_tiles_13
       rect:
         serializedVersion: 2
         x: 96
@@ -530,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29dfab1c8ae11e9c0800000000000000
-      internalID: -3899802092172542574
+      spriteID: 68a7a2fce5fe62000800000000000000
+      internalID: 10959239596636806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_12
+      name: summer_pine_tree_tiles_14
       rect:
         serializedVersion: 2
         x: 128
@@ -551,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69fde74639fd0ec0800000000000000
-      internalID: -3598946515668829843
+      spriteID: 9222359464c297e40800000000000000
+      internalID: 5654599487529886249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_13
+      name: summer_pine_tree_tiles_15
       rect:
         serializedVersion: 2
         x: 160
@@ -572,14 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c02d6e773fdca1610800000000000000
-      internalID: 1592811863801254412
+      spriteID: 23daa6352dd2b8d80800000000000000
+      internalID: -8247447911233049294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_14
+      name: summer_pine_tree_tiles_16
       rect:
         serializedVersion: 2
         x: 192
@@ -593,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b15e714d29aec560800000000000000
-      internalID: 7335986854870536626
+      spriteID: 6d5efa5fabd34dfc0800000000000000
+      internalID: -3471081539600652842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_15
+      name: summer_pine_tree_tiles_17
       rect:
         serializedVersion: 2
         x: 224
@@ -614,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b43bf2fb94cd11630800000000000000
-      internalID: 3896137361950487371
+      spriteID: 876cda49967a99ea0800000000000000
+      internalID: -5865472967765539208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_16
+      name: summer_pine_tree_tiles_18
       rect:
         serializedVersion: 2
         x: 256
@@ -635,14 +725,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dac73ed9606c6f870800000000000000
-      internalID: 8716371860543208621
+      spriteID: 84b25a466da535c10800000000000000
+      internalID: 2041074932987013960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_17
+      name: summer_pine_tree_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dfb6f227cc8ad20800000000000000
+      internalID: 3290104318588091680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95baf39c5f3b98fb0800000000000000
+      internalID: -4644983672431203495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_21
       rect:
         serializedVersion: 2
         x: 0
@@ -656,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5b2c5b0ea3049160800000000000000
-      internalID: 7031248964281969503
+      spriteID: 1a3509c2b60ac9e10800000000000000
+      internalID: 2205814299674301345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_18
+      name: summer_pine_tree_tiles_22
       rect:
         serializedVersion: 2
         x: 32
@@ -677,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddd113e1e069556c0800000000000000
-      internalID: -4155250093799170595
+      spriteID: 149c1a97501a737f0800000000000000
+      internalID: -632860177734710975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_19
+      name: summer_pine_tree_tiles_23
       rect:
         serializedVersion: 2
         x: 64
@@ -698,14 +830,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29e65575a149b2020800000000000000
-      internalID: 2318109274067529362
+      spriteID: 91f545bec009e0c10800000000000000
+      internalID: 2021711667898113817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_20
+      name: summer_pine_tree_tiles_24
       rect:
         serializedVersion: 2
         x: 96
@@ -719,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47f970b33dbf47970800000000000000
-      internalID: 8751896860534742900
+      spriteID: 8e91a2ef0e89a1230800000000000000
+      internalID: 3610366143395142120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_21
+      name: summer_pine_tree_tiles_25
       rect:
         serializedVersion: 2
         x: 128
@@ -740,14 +872,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4514fa595ed1942f0800000000000000
-      internalID: -988225771335106220
+      spriteID: 7f7bd712a8a3e8a80800000000000000
+      internalID: -8462762284840798217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_22
+      name: summer_pine_tree_tiles_26
       rect:
         serializedVersion: 2
         x: 160
@@ -761,14 +893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39d85dcc9d12e23b0800000000000000
-      internalID: -5535449672663593581
+      spriteID: 0c1518f831952fd30800000000000000
+      internalID: 4463728121224450496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_23
+      name: summer_pine_tree_tiles_27
       rect:
         serializedVersion: 2
         x: 192
@@ -782,14 +914,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8167aedbf65e8f30800000000000000
-      internalID: 4579693510854664589
+      spriteID: 5237487ee95c81650800000000000000
+      internalID: 6203925772982580005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_24
+      name: summer_pine_tree_tiles_28
       rect:
         serializedVersion: 2
         x: 224
@@ -803,14 +935,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fdfd9598f645d630800000000000000
-      internalID: 3951142281563471347
+      spriteID: a289a8306e1b19e30800000000000000
+      internalID: 4508580303434586154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_25
+      name: summer_pine_tree_tiles_29
       rect:
         serializedVersion: 2
         x: 256
@@ -824,14 +956,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8f612af891f0bb00800000000000000
-      internalID: 842438769652101007
+      spriteID: 8ae586520fcef9d70800000000000000
+      internalID: 9052214292201889448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_26
+      name: summer_pine_tree_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcf29aa93e81a0a0800000000000000
+      internalID: -6872055178064626505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5596b46229845cc0800000000000000
+      internalID: -3723200211116976802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_32
       rect:
         serializedVersion: 2
         x: 0
@@ -845,14 +1019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cf2ce9b7a8f15430800000000000000
-      internalID: 3770067762348306370
+      spriteID: 88eb33bf521ee2b20800000000000000
+      internalID: 3111671945804103304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_27
+      name: summer_pine_tree_tiles_33
       rect:
         serializedVersion: 2
         x: 32
@@ -866,14 +1040,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2dbbc7ce631aa8b0800000000000000
-      internalID: -5140274658170651347
+      spriteID: eb3445ae43f8fff20800000000000000
+      internalID: 3458640496276292542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_28
+      name: summer_pine_tree_tiles_34
       rect:
         serializedVersion: 2
         x: 64
@@ -887,14 +1061,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ad9506fdedeedec0800000000000000
-      internalID: -3540130650776035936
+      spriteID: 8eee77dd0197e45b0800000000000000
+      internalID: -5382231391319101720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_29
+      name: summer_pine_tree_tiles_35
       rect:
         serializedVersion: 2
         x: 96
@@ -908,14 +1082,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 876ce336084c1bf80800000000000000
-      internalID: -8092470999708154248
+      spriteID: a9160937c75cf8fe0800000000000000
+      internalID: -1184511038669692518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_30
+      name: summer_pine_tree_tiles_36
       rect:
         serializedVersion: 2
         x: 128
@@ -929,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ece69fb48e18a9e80800000000000000
-      internalID: -8171075739203309874
+      spriteID: 997d22b94e513d040800000000000000
+      internalID: 4671101310112815001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_31
+      name: summer_pine_tree_tiles_37
       rect:
         serializedVersion: 2
         x: 160
@@ -950,35 +1124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1218e440bba54880800000000000000
-      internalID: -8627300737599663589
+      spriteID: bb55a7b9dc3a0e9d0800000000000000
+      internalID: -2747015669223893573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_32
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 150052f86034650a0800000000000000
-      internalID: -6893248484193533871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sloppymess_33
+      name: summer_pine_tree_tiles_38
       rect:
         serializedVersion: 2
         x: 224
@@ -992,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fcd4e393ead47310800000000000000
-      internalID: 1401986054992747765
+      spriteID: 41179ff838688cef0800000000000000
+      internalID: -87672293119397612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_34
+      name: summer_pine_tree_tiles_39
       rect:
         serializedVersion: 2
         x: 256
@@ -1013,14 +1166,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ed88a83169601120800000000000000
-      internalID: 2382520069162307044
+      spriteID: e4aa760890ae06990800000000000000
+      internalID: -7394653261612471730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_35
+      name: summer_pine_tree_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb07532f329bf4e30800000000000000
+      internalID: 4490010917550256316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2792261f0300d70800000000000000
+      internalID: 9007253068033127094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_42
       rect:
         serializedVersion: 2
         x: 0
@@ -1034,14 +1229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eebdffb66da30b560800000000000000
-      internalID: 7327421286341139438
+      spriteID: 3989da2eaef49cc50800000000000000
+      internalID: 6685962992052181139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_36
+      name: summer_pine_tree_tiles_43
       rect:
         serializedVersion: 2
         x: 32
@@ -1055,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efad95d676017b700800000000000000
-      internalID: 555931115405826814
+      spriteID: 212828cd94e4a0dc0800000000000000
+      internalID: -3672036467028098542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_37
+      name: summer_pine_tree_tiles_44
       rect:
         serializedVersion: 2
         x: 64
@@ -1076,14 +1271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab728a11187942f80800000000000000
-      internalID: -8132208446521464902
+      spriteID: 8ba9b87a6dac81900800000000000000
+      internalID: 655496769065163448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_38
+      name: summer_pine_tree_tiles_45
       rect:
         serializedVersion: 2
         x: 96
@@ -1097,14 +1292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dae7e9a175e117c60800000000000000
-      internalID: 7814060187922103981
+      spriteID: fa3bd0183308c69b0800000000000000
+      internalID: -5085548920511286353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_39
+      name: summer_pine_tree_tiles_46
       rect:
         serializedVersion: 2
         x: 128
@@ -1118,14 +1313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b878179c34369b730800000000000000
-      internalID: 4015349685571127179
+      spriteID: 97391aee5ae2f6210800000000000000
+      internalID: 1328331705305633657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_40
+      name: summer_pine_tree_tiles_47
       rect:
         serializedVersion: 2
         x: 160
@@ -1139,14 +1334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1105ed350f73ba140800000000000000
-      internalID: 4731937338821595153
+      spriteID: a09b1d6d618e6f3f0800000000000000
+      internalID: -867250693431248630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_41
+      name: summer_pine_tree_tiles_48
       rect:
         serializedVersion: 2
         x: 224
@@ -1160,14 +1355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94253a4df1e539b80800000000000000
-      internalID: -8389258190056631735
+      spriteID: 2121fd0f88be28680800000000000000
+      internalID: -8754175752265592302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_42
+      name: summer_pine_tree_tiles_49
       rect:
         serializedVersion: 2
         x: 256
@@ -1181,14 +1376,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dee46080a0faa730800000000000000
-      internalID: 4011282990266379989
+      spriteID: 4ef11ba2ca2f27050800000000000000
+      internalID: 5796962491643797476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_43
+      name: summer_pine_tree_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aba16cb6bb941710800000000000000
+      internalID: 1663125371553426341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fc1e3d364cec750800000000000000
+      internalID: 6327210459537723159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_52
       rect:
         serializedVersion: 2
         x: 0
@@ -1202,35 +1439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 528fb28173b697c40800000000000000
-      internalID: 5510553503437420581
+      spriteID: 2d7da7dd9f49186a0800000000000000
+      internalID: -6448709390534256686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_44
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1088544b7427d850800000000000000
-      internalID: 6401625507176677404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sloppymess_45
+      name: summer_pine_tree_tiles_53
       rect:
         serializedVersion: 2
         x: 64
@@ -1244,14 +1460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db7ead7eb5e11c440800000000000000
-      internalID: 4954274445164996541
+      spriteID: f7fd325e982bd7550800000000000000
+      internalID: 6160276170637303679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_46
+      name: summer_pine_tree_tiles_54
       rect:
         serializedVersion: 2
         x: 96
@@ -1265,14 +1481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df680e1bc736420e0800000000000000
-      internalID: -2295600522840733955
+      spriteID: 55f37f6b5db6c9620800000000000000
+      internalID: 2782217235449986901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_47
+      name: summer_pine_tree_tiles_55
       rect:
         serializedVersion: 2
         x: 128
@@ -1286,14 +1502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fb93865016627120800000000000000
-      internalID: 2410100970953612278
+      spriteID: 369d13c7d65833ca0800000000000000
+      internalID: -6038335970092131997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_48
+      name: summer_pine_tree_tiles_56
       rect:
         serializedVersion: 2
         x: 160
@@ -1307,14 +1523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abad7e7316f25a090800000000000000
-      internalID: -8023955066494395718
+      spriteID: edddb1010946b8030800000000000000
+      internalID: 3498000105491652062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_49
+      name: summer_pine_tree_tiles_57
       rect:
         serializedVersion: 2
         x: 192
@@ -1328,14 +1544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4db17aed904f3c40800000000000000
-      internalID: 5494181117402660172
+      spriteID: b85b6a1b947803ff0800000000000000
+      internalID: -58398044572961397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_50
+      name: summer_pine_tree_tiles_58
       rect:
         serializedVersion: 2
         x: 224
@@ -1349,14 +1565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88c70b8f584f2fb90800000000000000
-      internalID: -7209431197226599288
+      spriteID: c71cb8d1e0d608240800000000000000
+      internalID: 4791949910914875772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_51
+      name: summer_pine_tree_tiles_59
       rect:
         serializedVersion: 2
         x: 256
@@ -1370,14 +1586,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d6228048f0a88c00800000000000000
-      internalID: 903148713382389465
+      spriteID: eb82c8f5db3678910800000000000000
+      internalID: 1839548637807126718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_52
+      name: summer_pine_tree_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4067f23cbb4d8f940800000000000000
+      internalID: 5330244061891622404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01962ce877efaebb0800000000000000
+      internalID: -4905829054617065200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_62
       rect:
         serializedVersion: 2
         x: 0
@@ -1391,14 +1649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 444367710f078bbf0800000000000000
-      internalID: -308372397986794428
+      spriteID: 339a6a602a7dc6c90800000000000000
+      internalID: -7175123015411783373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_53
+      name: summer_pine_tree_tiles_63
       rect:
         serializedVersion: 2
         x: 32
@@ -1412,14 +1670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe097e87c4e97030800000000000000
-      internalID: 3493074531742453491
+      spriteID: 923929e63ff6aa110800000000000000
+      internalID: 1272952936008422185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_54
+      name: summer_pine_tree_tiles_64
       rect:
         serializedVersion: 2
         x: 64
@@ -1433,14 +1691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57ad9c85a7ad40c50800000000000000
-      internalID: 6630664770406701685
+      spriteID: bafb115f58f04c390800000000000000
+      internalID: -7799091586682208341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_55
+      name: summer_pine_tree_tiles_65
       rect:
         serializedVersion: 2
         x: 96
@@ -1454,14 +1712,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e2a58ad732089a0800000000000000
-      internalID: -6232942861678399902
+      spriteID: edc280aad915654d0800000000000000
+      internalID: -3146237552067334946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_56
+      name: summer_pine_tree_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8361312bb969bb440800000000000000
+      internalID: 4952717810675684920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_67
       rect:
         serializedVersion: 2
         x: 192
@@ -1475,14 +1754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 313bf40063fd79ba0800000000000000
-      internalID: -6082147348714114285
+      spriteID: 7e737044c4cdc1e80800000000000000
+      internalID: -8206442200858937369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_57
+      name: summer_pine_tree_tiles_68
       rect:
         serializedVersion: 2
         x: 224
@@ -1496,14 +1775,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ff07d3446eaece0800000000000000
-      internalID: -1375033555445285108
+      spriteID: 41440fcf18927cc40800000000000000
+      internalID: 5532436305519068180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_58
+      name: summer_pine_tree_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf94d2ca3b51f8990800000000000000
+      internalID: -7381657402804975109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b8307e4382f300800000000000000
+      internalID: 284434099391214778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c7d643a3a159a90800000000000000
+      internalID: -7307905983048745872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1517,14 +1859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcd0782859cd16550800000000000000
-      internalID: 6152441100662934991
+      spriteID: 4606c8f5c4b1491d0800000000000000
+      internalID: -3345018608394936220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_59
+      name: summer_pine_tree_tiles_73
       rect:
         serializedVersion: 2
         x: 32
@@ -1538,17 +1880,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1017d92e2fbe59af0800000000000000
-      internalID: -390146364281097983
+      spriteID: 7c7b1ef20a1ef9d00800000000000000
+      internalID: 981751321904396231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_60
+      name: summer_pine_tree_tiles_74
       rect:
         serializedVersion: 2
-        x: 192
+        x: 64
         y: 0
         width: 32
         height: 32
@@ -1559,17 +1901,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d54adc20e94270b0800000000000000
-      internalID: -5732438148515215915
+      spriteID: d9268a2eb27fa0e80800000000000000
+      internalID: -8211479202698337635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sloppymess_61
+      name: summer_pine_tree_tiles_75
       rect:
         serializedVersion: 2
-        x: 224
+        x: 96
         y: 0
         width: 32
         height: 32
@@ -1580,8 +1922,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e5f76e5b28b621f0800000000000000
-      internalID: -1069965365046938138
+      spriteID: f97a943db751fd2f0800000000000000
+      internalID: -946013775154534497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25548bc9a91b7e090800000000000000
+      internalID: -8005234535015365294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_pine_tree_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33abbc47141ddd5f0800000000000000
+      internalID: -730197485501564365
       vertices: []
       indices: 
       edges: []
