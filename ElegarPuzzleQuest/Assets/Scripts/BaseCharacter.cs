@@ -56,7 +56,7 @@ public class BaseCharacter : MonoBehaviour
         animator.SetTrigger(triggerName);
     }
 
-    public void FreezeUnfreezeMovement(bool freeze)
+    public void ToggleFreezeMovement(bool freeze)
     {
         if(freeze)
         {

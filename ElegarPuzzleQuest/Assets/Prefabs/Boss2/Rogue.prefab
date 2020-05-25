@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4688940087678215485}
   - component: {fileID: 4688940087678215486}
   - component: {fileID: 4688940087678215487}
+  - component: {fileID: 1513487086}
   m_Layer: 0
   m_Name: Rogue
   m_TagString: Untagged
@@ -72,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 167627495
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5837028f677561c40abae2e66afcd8a9, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -147,7 +148,7 @@ MonoBehaviour:
   damage: 0
   state: {fileID: 11400000, guid: 4c994b2f28c16d649b0fb21225fecf10, type: 2}
   stateTime: 0
-  target: {x: 0, y: 0}
+  target: {x: -59.22, y: 4.12}
   nextWaypointDistance: 1.2
   aiWaypoint: {fileID: 0}
   seeker: {fileID: 4688940087678215486}
@@ -195,3 +196,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.19}
   m_Size: {x: 0.38, y: 0.52}
   m_Direction: 0
+--- !u!114 &1513487086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4688940087678215475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 160b3a8820e5b714ca8f7a5f93282f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrows: {fileID: 1360551328841103482, guid: 8e6043057515d764ca4bf0a2208ba83d, type: 3}
+  animator: {fileID: 4688940087678215474}

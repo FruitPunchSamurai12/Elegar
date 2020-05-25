@@ -7,7 +7,7 @@ public class ActionLookAtPlayer : Action
 {
     public override void Act(BaseAIController controller)
     {
-        controller.FreezeUnfreezeMovement(true);
+        controller.ToggleFreezeMovement(true);
         controller.target = TestManager.Instance.PlayerTransform().position;      
     }
 }

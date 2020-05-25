@@ -3,7 +3,10 @@ using Pathfinding;
 
 public class BaseAIController : BaseCharacter
 {
-    
+    public Collider2D col;
+
+    //where is the ai eyes
+    public Transform eyesPos;
 
     //How far the ai can see
     public float sightRange = 10f;
@@ -34,7 +37,12 @@ public class BaseAIController : BaseCharacter
     //Used as points in the map for the ai to travel to
     public AIWaypoint aiWaypoint = null;
 
+    //dialogue box for talking npcs
+    public AIDialogueBox dialogue;
+    public GameObject dialogueBox;
 
+
+    //These are stuff for the Pathfinding system
     Path path;
     int currentWaypoint = 0;
     bool reachedEndOfPath = false;

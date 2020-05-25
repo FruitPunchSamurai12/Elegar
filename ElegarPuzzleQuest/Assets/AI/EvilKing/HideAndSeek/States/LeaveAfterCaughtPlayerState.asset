@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 053ad87c2c5aaaa4db33cda1e5004640, type: 3}
+  m_Name: LeaveAfterCaughtPlayerState
+  m_EditorClassIdentifier: 
+  TimeLimit: 0
+  actions:
+  - {fileID: 11400000, guid: 6b330dc0eefe8bc4a99e52879a0d3945, type: 2}
+  - {fileID: 11400000, guid: 57e4af63d21945c4e823a8be92baa1bb, type: 2}
+  - {fileID: 11400000, guid: 72d8f744d3f95ed40a6d152a9aeed09a, type: 2}
+  - {fileID: 11400000, guid: 17536871e1311d14194c93cc66824230, type: 2}
+  - {fileID: 11400000, guid: 6326915e4744a49479ebe60f9905aab6, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 156ed8042df10e442a2ffc12bade2845, type: 2}
+    trueState: {fileID: 11400000, guid: 3767c22f47a56414abaa9c1ef9cf1380, type: 2}
+    falseState: {fileID: 11400000}

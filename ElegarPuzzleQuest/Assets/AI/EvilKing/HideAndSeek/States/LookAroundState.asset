@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 053ad87c2c5aaaa4db33cda1e5004640, type: 3}
+  m_Name: LookAroundState
+  m_EditorClassIdentifier: 
+  TimeLimit: 3
+  actions:
+  - {fileID: 11400000, guid: 969230af6b312d545a207be26b45cf88, type: 2}
+  - {fileID: 11400000, guid: 11b76948c513ab04baa2796d61cfb17f, type: 2}
+  - {fileID: 11400000, guid: f694885462ecfaf45a427aba03729e9b, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 34d2de782d0095a4492d26a606705208, type: 2}
+    trueState: {fileID: 11400000, guid: 62b55a193ca1dcd428235ec33c36dadf, type: 2}
+    falseState: {fileID: 11400000}
+  - decision: {fileID: 11400000, guid: c81ae46045b91e64b96678a5f5885291, type: 2}
+    trueState: {fileID: 11400000, guid: de6e988668021b644a5ae067a0c0f0af, type: 2}
+    falseState: {fileID: 11400000}
