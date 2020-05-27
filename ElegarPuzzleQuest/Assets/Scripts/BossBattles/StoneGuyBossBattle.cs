@@ -16,10 +16,19 @@ public class StoneGuyBossBattle : MonoBehaviour
     [SerializeField]
     AIState bossDeathState;
 
+    [SerializeField]
+    Level3 level3;
+
     bool victory = false;
+
+
 
     private void Update()
     {
+        if (level3.levelPassed)
+        {
+            victory = true;
+        }
         if(!victory)
         {
             if(AllButtonsPressed())
@@ -31,6 +40,7 @@ public class StoneGuyBossBattle : MonoBehaviour
                     ai.ChangeAIState(bossDeathState);
                 }
                 victory = true;
+                level3.BossDown();
             }
         }
     }

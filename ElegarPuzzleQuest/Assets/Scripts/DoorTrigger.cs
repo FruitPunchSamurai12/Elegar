@@ -7,15 +7,20 @@ public class DoorTrigger : MonoBehaviour
 {
     public bool horizontal = false;
     public bool positive = false;
-
+    
     [SerializeField]
     Transform newPlayerPosition;
+    [SerializeField]
+    Level currentLevel;
+    [SerializeField]
+    Level nextLevel;
 
+    Collider2D col;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        col = GetComponent<Collider2D>();
     }
 
 
@@ -39,8 +44,26 @@ public class DoorTrigger : MonoBehaviour
                     p.sliding = false;
                 }
                 TestManager.Instance.ChangeRoom(horizontal,positive, newPlayerPosition.localPosition);
-
+                currentLevel.ExitLevel(this);
+                nextLevel.EnterLevel(this);
             }
         }
+    }
+
+    public void InvisibleWall(bool wall)
+    {
+        if(wall)
+        {
+            Invoke("MakeInvisibleWall", 1f);
+        }
+        else
+        {
+            col.isTrigger = true;
+        }
+    }
+
+    void MakeInvisibleWall()
+    {
+        col.isTrigger = false;
     }
 }

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Portal_Entry_Animation
+  m_Name: Iddle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,14 +19,12 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 0.033333335
+    - time: 0
       value: {fileID: 21300000, guid: b80ade4ebbc461b4b93368c26baee99c, type: 3}
     - time: 0.16666667
       value: {fileID: 21300000, guid: 834f4e4cb44c050498241406d29b71b3, type: 3}
-    - time: 0.3
+    - time: 0.33333334
       value: {fileID: 21300000, guid: b80ade4ebbc461b4b93368c26baee99c, type: 3}
-    - time: 0.43333334
-      value: {fileID: 21300000, guid: 834f4e4cb44c050498241406d29b71b3, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -49,13 +47,12 @@ AnimationClip:
     - {fileID: 21300000, guid: b80ade4ebbc461b4b93368c26baee99c, type: 3}
     - {fileID: 21300000, guid: 834f4e4cb44c050498241406d29b71b3, type: 3}
     - {fileID: 21300000, guid: b80ade4ebbc461b4b93368c26baee99c, type: 3}
-    - {fileID: 21300000, guid: 834f4e4cb44c050498241406d29b71b3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.45000002
+    m_StopTime: 0.35000002
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

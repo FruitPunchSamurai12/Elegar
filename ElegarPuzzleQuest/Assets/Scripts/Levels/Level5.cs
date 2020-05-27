@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level5 : MonoBehaviour
+public class Level5 : Level
 {
    
     

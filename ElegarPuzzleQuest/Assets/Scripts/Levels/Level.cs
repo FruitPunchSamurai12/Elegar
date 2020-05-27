@@ -4,15 +4,62 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int ID = 0;
+    public bool levelPassed = false;
+    public GameObject[] importantObjects;
+    public Vector2[] importantObjectsStartingPositions;
+
+    private void Start()
     {
-        
+        levelPassed = LevelManager.Instance.IsLevelPassed(ID);
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void EnterLevel(DoorTrigger door)
     {
-        
+        if(levelPassed)
+        {
+            EnterPassedLevel();
+        }
+        else
+        {
+            EnterNotPassedLevel();
+        }
     }
+
+    public virtual void ExitLevel(DoorTrigger door)
+    {
+
+    }
+
+    protected virtual void EnterPassedLevel()
+    {
+
+    }
+
+    protected void ActivateAllImportantObjects()
+    {
+        foreach(GameObject obj in importantObjects)
+        {
+            obj.SetActive(true);
+        }
+    }
+
+    protected void DeActivateAllImportantObjects()
+    {
+        foreach (GameObject obj in importantObjects)
+        {
+            obj.SetActive(false);
+        }
+    }
+
+    protected virtual void EnterNotPassedLevel()
+    {
+        int i = 0;
+        foreach (GameObject obj in importantObjects)
+        {
+            obj.transform.position = importantObjectsStartingPositions[i];
+            i++;
+        }
+    }
+
 }

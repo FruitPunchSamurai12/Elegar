@@ -241,7 +241,7 @@ public class Player : BaseCharacter
         lightEffect.SetActive(true);
         int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, lightAOE,layerMask);
-        Instantiate(lightAnimation, transform.position, Quaternion.identity);
+        Instantiate(lightAnimation, transform.position, Quaternion.identity,transform);
         foreach(Collider2D col in colliders)
         {
             Lightable l = col.GetComponent<Lightable>();
