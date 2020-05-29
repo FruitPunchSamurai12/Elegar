@@ -35,6 +35,7 @@ public class Level2 : Level
         if(door == doorTo3)
         {
             levelPassed = true;
+            LevelManager.Instance.SetLevelPassed(levelPassed, ID);
         }
         BBEG.SetActive(false);
         

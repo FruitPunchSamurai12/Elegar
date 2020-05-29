@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Level5 : Level
 {
-   
+    [SerializeField]
+    DoorTrigger doorTo6;
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,6 +16,16 @@ public class Level5 : Level
             {
                 p.PlayerSlideDownTheCliff();
             }
+        }
+    }
+
+    public override void ExitLevel(DoorTrigger door)
+    {
+        if (door == doorTo6)
+        {
+            levelPassed = true;
+            SentImportantObjectsPositionsToLevelManager();
+            LevelManager.Instance.SetLevelPassed(levelPassed, ID);
         }
     }
 }

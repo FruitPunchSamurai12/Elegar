@@ -62,4 +62,21 @@ public class Level : MonoBehaviour
         }
     }
 
+    protected void SentImportantObjectsPositionsToLevelManager()
+    {
+        Vector2[] positions = new Vector2[importantObjects.Length];
+        int i = 0;
+        foreach (GameObject obj in importantObjects)
+        {
+            if (i < positions.Length)
+            {
+                positions[i] = obj.transform.position;
+                i++;
+            }
+        }
+        LevelManager.Instance.SetImportantObjectPositions(positions, ID);
+    }
+
+
+
 }

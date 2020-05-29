@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Level11 : Level
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    DoorTrigger doorTo12;
 
-    // Update is called once per frame
-    void Update()
+    public override void ExitLevel(DoorTrigger door)
     {
-        
+        if (door == doorTo12)
+        {
+            levelPassed = true;
+            LevelManager.Instance.SetLevelPassed(levelPassed, ID);
+        }
     }
 }

@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Level9 : Level
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    Movable m;
+
+
+
+    protected override void EnterPassedLevel()
     {
-        
+        base.EnterPassedLevel();
+        m.UnderWater();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void RockInWater()
     {
-        
+        levelPassed = true;
+        SentImportantObjectsPositionsToLevelManager();
+        LevelManager.Instance.SetLevelPassed(levelPassed, ID);
     }
+
 }

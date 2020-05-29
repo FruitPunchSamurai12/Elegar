@@ -31,6 +31,9 @@ public class FlameLordBossBattle : MonoBehaviour
     public float delayBetweenExplosions = 0.1f;
     int explosionsIndex = 0;
 
+    [SerializeField]
+    Level12 lvl;
+
     private void Update()
     {
         if(!firesLit)
@@ -47,6 +50,13 @@ public class FlameLordBossBattle : MonoBehaviour
             if(lerpStarted)
             {
                 LerpBossDissolve();
+            }
+        }
+        if(lvl.levelPassed)
+        {
+            if(fence)
+            {
+                Destroy(fence);
             }
         }
     }
@@ -96,6 +106,7 @@ public class FlameLordBossBattle : MonoBehaviour
                 lerpEnded = true;
                 Destroy(flameLord);
                 Destroy(fence);
+                lvl.BossExploded();
                 dissolveM.SetFloat("_Threshold", 0);
             }
         }

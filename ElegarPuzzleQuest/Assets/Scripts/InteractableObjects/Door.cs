@@ -8,16 +8,25 @@ public class Door : MonoBehaviour
     Animator animator;
     bool closed = true;
 
+    [SerializeField]
+    Level6 lvl;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
         {
             Player p = collision.GetComponent<Player>();
-            if(p.hasKey && closed)
+            if(lvl.levelPassed && closed)
             {
                 animator.SetTrigger("Open");
                 closed = false;
             }
         }
+    }
+
+    public void OpenDoor()
+    {
+        animator.SetTrigger("Open");
+        closed = false;
     }
 }

@@ -30,8 +30,6 @@ public class Player : BaseCharacter
     private const int noMovementFrames = 2;
     Vector3[] previousLocations = new Vector3[noMovementFrames];
 
-    public bool hasKey = false;
-
     public bool inControl = true;
     public bool changingRoom = false;
     [SerializeField]

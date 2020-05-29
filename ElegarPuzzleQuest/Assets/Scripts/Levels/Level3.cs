@@ -25,6 +25,7 @@ public class Level3 : Level
     public void BossDown()
     {
         levelPassed = true;
+        LevelManager.Instance.SetLevelPassed(levelPassed, ID);
         doorTo2.InvisibleWall(false);
     }
 }

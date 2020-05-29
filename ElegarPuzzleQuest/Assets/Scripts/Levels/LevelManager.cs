@@ -13,11 +13,11 @@ public class LevelManager : MonoBehaviour
     bool[] levelsPassed;
 
 
-    public Transform[] level4Transforms;
-    public Transform[] level5Transforms;
-    public Transform[] level7Transforms;
-    public Transform[] level9Transforms;
-    public Transform[] level15Transforms;
+    public Vector2[] level4Positions;
+    public Vector2[] level5Positions;
+    public Vector2[] level7Positions;
+    public Vector2[] level9Positions;
+    public Vector2[] level15Positions;
 
     public bool IsLevelPassed(int currentLevel)
     {
@@ -29,20 +29,52 @@ public class LevelManager : MonoBehaviour
         return false;
     }
 
-    public Transform[] GetImportantObjectsTransforms(int currentLevel)
+    public void SetLevelPassed(bool passed, int currentLevel)
+    {
+        if(currentLevel-1<levelsPassed.Length && currentLevel>0)
+        {
+            levelsPassed[currentLevel - 1] = passed;
+        }
+    }
+
+    public void SetImportantObjectPositions(Vector2[] positions,int currentLevel)
+    {
+        switch (currentLevel)
+        {
+            case 4:
+                level4Positions = positions;
+                break;
+            case 5:
+                 level5Positions = positions;
+                break;
+            case 7:
+                 level7Positions = positions;
+                break;
+            case 9:
+                 level9Positions = positions;
+                break;
+            case 15:
+                 level15Positions = positions;
+                break;
+            default:
+                break;
+        }
+    }
+
+    public Vector2[] GetImportantObjectsTransforms(int currentLevel)
     {
         switch(currentLevel)
         {
             case 4:
-                return level4Transforms;
+                return level4Positions;
             case 5:
-                return level5Transforms;
+                return level5Positions;
             case 7:
-                return level7Transforms;
+                return level7Positions;
             case 9:
-                return level9Transforms;
+                return level9Positions;
             case 15:
-                return level15Transforms;
+                return level15Positions;
             default:
                 return null;
         }

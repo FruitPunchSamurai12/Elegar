@@ -37,5 +37,6 @@ public class Level1 : Level
         rupert.ExitRupert();
         Destroy(portal, 1f);
         levelPassed = true;
+        LevelManager.Instance.SetLevelPassed(levelPassed, ID);
     }
 }

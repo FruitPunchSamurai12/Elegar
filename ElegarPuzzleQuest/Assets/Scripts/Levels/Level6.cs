@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Level6 : Level
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    Door door;
+
+    protected override void EnterPassedLevel()
     {
-        
+        door.OpenDoor();
+        DeActivateAllImportantObjects();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GotKey()
     {
-        
+        levelPassed = true;
+        LevelManager.Instance.SetLevelPassed(levelPassed, ID);
     }
 }

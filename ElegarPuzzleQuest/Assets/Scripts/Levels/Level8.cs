@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class Level8 : Level
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    DoorTrigger doorTo9;
+
+    [SerializeField]
+    GameObject fireObstacle;
+
+    private void Update()
     {
-        
+        if(fireObstacle)
+        {
+            doorTo9.InvisibleWall(true);
+        }
+        else
+        {
+            levelPassed = true;
+            LevelManager.Instance.SetLevelPassed(levelPassed, ID);
+            doorTo9.InvisibleWall(false);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

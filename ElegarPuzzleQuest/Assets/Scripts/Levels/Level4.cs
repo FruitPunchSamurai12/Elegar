@@ -7,6 +7,18 @@ public class Level4 : Level
     [SerializeField]
     FloorButton button;
 
+    [SerializeField]
+    DoorTrigger doorTo5;
+
+    [SerializeField]
+    DoorTrigger doorTo7;
+
+    [SerializeField]
+    DoorTrigger doorFrom7;
+
+    [SerializeField]
+    GameObject fireObstacle;
+
     bool doorIsOpen = false;
 
     [SerializeField]
@@ -20,12 +32,23 @@ public class Level4 : Level
     // Update is called once per frame
     void Update()
     {
+        if(fireObstacle == null)
+        {
+            doorTo7.InvisibleWall(false);
+            doorFrom7.InvisibleWall(false);
+        }
+        else
+        {
+            doorTo7.InvisibleWall(true);
+            doorFrom7.InvisibleWall(true);
+        }
+
         if (button.IsPressed())
         {
             if (!doorIsOpen)
             {
                 fenceDoor.SetTrigger("Open");
-                doorIsOpen = true;
+                doorIsOpen = true;           
             }
         }
         else
@@ -36,5 +59,15 @@ public class Level4 : Level
                 doorIsOpen = false;
             }
         }
+    }
+
+    public override void ExitLevel(DoorTrigger door)
+    {
+        if (door == doorTo5)
+        {
+            levelPassed = true;
+            SentImportantObjectsPositionsToLevelManager();
+            LevelManager.Instance.SetLevelPassed(levelPassed, ID);
+        }      
     }
 }

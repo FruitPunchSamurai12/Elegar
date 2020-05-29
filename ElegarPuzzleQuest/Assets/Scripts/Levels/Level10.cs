@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class Level10 : Level
 {
-    // Start is called before the first frame update
-    void Start()
+    public void PlantGrew()
     {
-        
+        levelPassed = true;
+        LevelManager.Instance.SetLevelPassed(levelPassed, ID);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

@@ -7,6 +7,9 @@ public class Key : MonoBehaviour
     [SerializeField]
     float yLimit;
 
+    [SerializeField]
+    Level6 lvl;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +30,7 @@ public class Key : MonoBehaviour
         if(collision.tag == "Player")
         {
             Player p = collision.GetComponent<Player>();
-            p.hasKey = true;
+            lvl.levelPassed = true;
             Destroy(gameObject);
         }
     }

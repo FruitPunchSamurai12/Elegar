@@ -10,6 +10,9 @@ public class RogueFightManager : MonoBehaviour
     [SerializeField]
     GameObject bones;
 
+    [SerializeField]
+    Level7 lvl;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +28,10 @@ public class RogueFightManager : MonoBehaviour
             {
                 bones.SetActive(true);
             }
+        }
+        if(lvl.levelPassed)
+        {
+            bones.SetActive(true);
         }
     }
 }
