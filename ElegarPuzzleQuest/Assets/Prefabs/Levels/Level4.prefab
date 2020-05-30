@@ -48,7 +48,7 @@ MonoBehaviour:
   importantObjects:
   - {fileID: 0}
   importantObjectsStartingPositions:
-  - {x: -40, y: 0.24}
+  - {x: -40, y: -2.8}
   button: {fileID: 0}
   doorTo5: {fileID: 0}
   doorTo7: {fileID: 0}

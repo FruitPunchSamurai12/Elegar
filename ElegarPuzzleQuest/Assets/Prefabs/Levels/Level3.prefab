@@ -45,6 +45,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 3
   levelPassed: 0
-  importantObjects: []
-  importantObjectsStartingPositions: []
+  importantObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  importantObjectsStartingPositions:
+  - {x: -32.00867, y: 4.056388}
+  - {x: -26.03, y: 4.79}
+  - {x: -37, y: 0.5}
   doorTo2: {fileID: 0}
