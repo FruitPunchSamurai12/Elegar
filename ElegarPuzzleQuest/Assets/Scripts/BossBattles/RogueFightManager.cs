@@ -27,6 +27,7 @@ public class RogueFightManager : MonoBehaviour
             if(rogue.Drowned())
             {
                 bones.SetActive(true);
+                lvl.RogueDrowned();
             }
         }
         if(lvl.levelPassed)

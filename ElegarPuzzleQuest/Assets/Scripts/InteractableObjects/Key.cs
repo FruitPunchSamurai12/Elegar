@@ -30,7 +30,7 @@ public class Key : MonoBehaviour
         if(collision.tag == "Player")
         {
             Player p = collision.GetComponent<Player>();
-            lvl.levelPassed = true;
+            lvl.GotKey();
             Destroy(gameObject);
         }
     }

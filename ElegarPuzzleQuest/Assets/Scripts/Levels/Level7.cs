@@ -20,8 +20,11 @@ public class Level7 : Level
     {
         doorTo6.InvisibleWall(true);
         doorTo8.InvisibleWall(true);
-        rogue.SetActive(true);
-        rogue.GetComponent<BaseAIController>().ChangeAIState(rogueStartState);
+        if (rogue)
+        {
+            rogue.SetActive(true);
+            rogue.GetComponent<BaseAIController>().ChangeAIState(rogueStartState);
+        }
         base.EnterNotPassedLevel();
     }
 

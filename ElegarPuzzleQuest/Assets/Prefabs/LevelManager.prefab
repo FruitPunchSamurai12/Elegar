@@ -43,3 +43,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee668f638c642248a33ea74fd681f66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectPositionsFileName: 
+  levelPassedFileName: 
+  levelsPassed: 000000000000000000000000000000000000
+  cameraStartingPositions:
+  - {x: 0, y: 0}
+  - {x: -45, y: 0}
+  - {x: -45, y: -10}
+  - {x: -75, y: 0}
+  - {x: -60, y: -20}
+  - {x: 0, y: 0}
+  - {x: 15, y: 0}
+  savePointsPositions:
+  - {x: 3.5, y: 0.5}
+  - {x: -45.5, y: 0}
+  - {x: -76, y: 0}
+  - {x: -62.5, y: -23.5}
+  - {x: 0, y: 1.25}
+  worldMapCavePositions:
+  - {x: -38.5, y: -8.5}
+  - {x: -76, y: 2}
+  level13CavePositions:
+  - {x: -27.4, y: -1}
+  - {x: -27.4, y: -9}
+  level14CavePosition: {x: -6, y: 2}
+  level15CavePosition: {x: 20, y: 2}
+  level16CavePositions:
+  - {x: 0, y: -3}
+  - {x: 0, y: 2.5}
+  level17CavePositions:
+  - {x: -25, y: -8.5}
+  - {x: -25, y: -0.75}
+  level4Positions:
+  - {x: 0, y: 0}
+  level5Positions:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  level7Positions:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  level9Positions:
+  - {x: 0, y: 0}
+  level15Positions:
+  - {x: 0, y: 0}

@@ -7,6 +7,6 @@ public class ActionChase : Action
 {
     public override void Act(BaseAIController controller)
     {
-        controller.target = TestManager.Instance.PlayerTransform().position;
+        controller.target = ElegarPuzzleQuestManager.Instance.PlayerTransform().position;
     }
 }

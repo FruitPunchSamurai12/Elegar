@@ -8,7 +8,7 @@ public class ActionLookAtPlayer : Action
     public override void Act(BaseAIController controller)
     {
         controller.ToggleFreezeMovement(true);
-        controller.target = TestManager.Instance.PlayerTransform().position;      
+        controller.target = ElegarPuzzleQuestManager.Instance.PlayerTransform().position;      
     }
 }
 

@@ -10,6 +10,16 @@ public class Level8 : Level
     [SerializeField]
     GameObject fireObstacle;
 
+    private void Start()
+    {
+        levelPassed = LevelManager.Instance.IsLevelPassed(ID);
+        if (levelPassed)
+        {
+            fireObstacle.SetActive(false);
+            doorTo9.InvisibleWall(false);
+        }
+    }
+
     private void Update()
     {
         if(fireObstacle)

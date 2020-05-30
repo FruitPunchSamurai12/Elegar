@@ -23,12 +23,7 @@ public class Level4 : Level
 
     [SerializeField]
     Animator fenceDoor;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+  
     // Update is called once per frame
     void Update()
     {

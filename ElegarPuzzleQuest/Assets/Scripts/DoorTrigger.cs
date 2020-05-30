@@ -43,7 +43,7 @@ public class DoorTrigger : MonoBehaviour
                 {
                     p.sliding = false;
                 }
-                TestManager.Instance.ChangeRoom(horizontal,positive, newPlayerPosition.localPosition);
+                ElegarPuzzleQuestManager.Instance.ChangeRoom(horizontal,positive, newPlayerPosition.localPosition);
                 currentLevel.ExitLevel(this);
                 nextLevel.EnterLevel(this);
             }

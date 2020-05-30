@@ -4,30 +4,19 @@ using UnityEngine;
 
 public class Gate : MonoBehaviour
 {
-    [SerializeField]
-    LightableAltar[] altars;
+
 
     [SerializeField]
     Animator animator;
 
     bool closed = true;
-    private void Update()
+
+    public void OpenGate()
     {
-        if(closed)
+        if (closed)
         {
-            bool success = true;
-            foreach(var altar in altars)
-            {
-                if(!altar.Lit())
-                {
-                    success = false;
-                }
-            }
-            if(success)
-            {
-                closed = false;
-                animator.SetTrigger("Open");
-            }
+            closed = false;
+            animator.SetTrigger("Open");
         }
     }
 }

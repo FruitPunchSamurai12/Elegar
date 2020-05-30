@@ -18,16 +18,22 @@ public class Level2 : Level
 
     protected override void EnterNotPassedLevel()
     {
-        BBEG.SetActive(true);
-        BaseAIController ai = BBEG.GetComponent<BaseAIController>();
-        ai.ChangeAIState(introductionState);
-        ai.aiWaypoint = firstWaypoint;
+        if (BBEG)
+        {
+            BBEG.SetActive(true);
+            BaseAIController ai = BBEG.GetComponent<BaseAIController>();
+            ai.ChangeAIState(introductionState);
+            ai.aiWaypoint = firstWaypoint;
+        }
         base.EnterNotPassedLevel();
     }
 
     protected override void EnterPassedLevel()
     {
-        BBEG.SetActive(false);
+        if (BBEG)
+        {
+            BBEG.SetActive(false);
+        }
     }
 
     public override void ExitLevel(DoorTrigger door)
@@ -37,7 +43,10 @@ public class Level2 : Level
             levelPassed = true;
             LevelManager.Instance.SetLevelPassed(levelPassed, ID);
         }
-        BBEG.SetActive(false);
-        
+        if (BBEG)
+        {
+            BBEG.SetActive(false);
+        }
+
     }
 }

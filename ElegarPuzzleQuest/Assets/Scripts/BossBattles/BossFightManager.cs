@@ -24,6 +24,10 @@ public class BossFightManager : MonoBehaviour
     float endValue = 1.1f;
     float timeLerpStarted;
     public float lerpDuration = 1f;
+
+    [SerializeField]
+    Level17 lvl;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,8 +37,9 @@ public class BossFightManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!altarsLit)
-        { bool success = true;
+        if (!lvl.levelPassed)
+        {
+            bool success = true;
             foreach (LightableAltar altar in altars)
             {
                 if (!altar.Lit())
@@ -44,7 +49,7 @@ public class BossFightManager : MonoBehaviour
             }
             if (success)
             {
-                altarsLit = success;
+                lvl.BatulaExtinguished();
                 timeLerpStarted = Time.time;
                 bossLight.SetActive(false);
                 bossFX.Stop();
@@ -53,6 +58,10 @@ public class BossFightManager : MonoBehaviour
         else
         {
             LerpLights();
+            foreach (LightableAltar altar in altars)
+            {
+                altar.Light();
+            }
         }       
     }
 
@@ -71,9 +80,12 @@ public class BossFightManager : MonoBehaviour
             if (percentageComplete >= 1f)
             {
                 lerpEnded = true;
-                foreach(GameObject enemy in enemies)
+                foreach (GameObject enemy in enemies)
                 {
-                    Destroy(enemy);
+                    if (enemy)
+                    {
+                        Destroy(enemy);
+                    }
                 }
                 dissolveM.SetFloat("_Threshold", 0);
             }

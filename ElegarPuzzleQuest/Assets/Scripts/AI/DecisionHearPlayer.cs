@@ -7,7 +7,7 @@ public class DecisionHearPlayer : Decision
 {
     public override bool Decide(BaseAIController controller)
     {
-        Vector2 playerPosition = TestManager.Instance.PlayerTransform().position;
+        Vector2 playerPosition = ElegarPuzzleQuestManager.Instance.PlayerTransform().position;
         float distance = Vector2.Distance(playerPosition, controller.transform.position);
         if(distance<controller.hearRange)
         {

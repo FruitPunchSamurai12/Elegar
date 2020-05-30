@@ -116,7 +116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9707675962714df499d9c0252ede8f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  elegar: {fileID: 0}
   fullHeart: {fileID: 21300000, guid: 5407bf0e7767bac46ae0d4f00de935ad, type: 2}
   halfHeart: {fileID: 21300000, guid: 3f34ea239a4a8cf4a9745080f265ee88, type: 2}
   emptyHeart: {fileID: 21300000, guid: b97ee85c09a449c4eb2d6574d8d57f17, type: 2}
@@ -137,6 +136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Heart
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640787758580541985, guid: 5a149ef050e1a4844b1874d65dfec1a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4888223792027179252, guid: 5a149ef050e1a4844b1874d65dfec1a0,
         type: 3}
@@ -275,6 +279,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heart (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3640787758580541985, guid: 5a149ef050e1a4844b1874d65dfec1a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4888223792027179252, guid: 5a149ef050e1a4844b1874d65dfec1a0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -411,6 +420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Heart (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640787758580541985, guid: 5a149ef050e1a4844b1874d65dfec1a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4888223792027179252, guid: 5a149ef050e1a4844b1874d65dfec1a0,
         type: 3}
@@ -549,6 +563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heart (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3640787758580541985, guid: 5a149ef050e1a4844b1874d65dfec1a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4888223792027179252, guid: 5a149ef050e1a4844b1874d65dfec1a0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -685,6 +704,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Heart (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640787758580541985, guid: 5a149ef050e1a4844b1874d65dfec1a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4888223792027179252, guid: 5a149ef050e1a4844b1874d65dfec1a0,
         type: 3}

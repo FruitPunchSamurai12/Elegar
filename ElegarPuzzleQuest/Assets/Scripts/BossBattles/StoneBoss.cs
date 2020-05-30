@@ -16,7 +16,7 @@ public class StoneBoss : MonoBehaviour
         {
             threw = true;
             GameObject f = Instantiate(throwRock, transform.position, Quaternion.identity);
-            f.GetComponent<ThrowingRock>().Initialize(TestManager.Instance.PlayerTransform().position);
+            f.GetComponent<ThrowingRock>().Initialize(ElegarPuzzleQuestManager.Instance.PlayerTransform().position);
         }
     }
 

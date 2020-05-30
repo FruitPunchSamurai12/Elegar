@@ -17,5 +17,6 @@ public class Level6 : Level
     {
         levelPassed = true;
         LevelManager.Instance.SetLevelPassed(levelPassed, ID);
+
     }
 }

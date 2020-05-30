@@ -66,6 +66,8 @@ public class Player : BaseCharacter
         {
             previousLocations[i] = Vector3.zero;
         }
+        ElegarPuzzleQuestManager.Instance.SetPlayer(this);
+        HUD.Instance.SetUpElegar(this);
     }
 
 

@@ -43,5 +43,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa0f6364aa7d8fc4daf3e3b48abbfe19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 4
+  levelPassed: 0
+  importantObjects:
+  - {fileID: 0}
+  importantObjectsStartingPositions:
+  - {x: -40, y: 0.24}
   button: {fileID: 0}
+  doorTo5: {fileID: 0}
+  doorTo7: {fileID: 0}
+  doorFrom7: {fileID: 0}
+  fireObstacle: {fileID: 0}
   fenceDoor: {fileID: 0}

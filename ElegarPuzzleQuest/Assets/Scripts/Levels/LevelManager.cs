@@ -12,12 +12,68 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     bool[] levelsPassed;
 
+    public Vector2[] cameraStartingPositions;
+    public Vector2[] savePointsPositions;
+
+    public Vector2[] worldMapCavePositions;
+    public Vector2[] level13CavePositions;
+    public Vector2 level14CavePosition;
+    public Vector2 level15CavePosition;
+    public Vector2[] level16CavePositions;
+    public Vector2[] level17CavePositions;
 
     public Vector2[] level4Positions;
     public Vector2[] level5Positions;
     public Vector2[] level7Positions;
     public Vector2[] level9Positions;
     public Vector2[] level15Positions;
+
+    public Vector2 GetCavePosition(int levelToGo,int previousLevel)
+    {
+        switch (levelToGo)
+        {
+            case 5:
+                return worldMapCavePositions[0];
+            case 8:
+                return worldMapCavePositions[1];
+            case 13:
+                if(previousLevel ==8)
+                {
+                    return level13CavePositions[0];
+                }
+                else if (previousLevel == 14)
+                {
+                    return level13CavePositions[1];
+                }
+                break;
+            case 14:
+                return level14CavePosition;
+            case 15:
+                return level15CavePosition;
+            case 16:
+                if (previousLevel == 15)
+                {
+                    return level16CavePositions[0];
+                }
+                else if (previousLevel == 17)
+                {
+                    return level16CavePositions[1];
+                }
+                break;
+            case 17:
+                if (previousLevel == 16)
+                {
+                    return level17CavePositions[0];
+                }
+                else if (previousLevel == 5)
+                {
+                    return level17CavePositions[1];
+                }
+                break;
+        }
+        return Vector2.zero;
+
+    }
 
     public bool IsLevelPassed(int currentLevel)
     {
@@ -27,6 +83,48 @@ public class LevelManager : MonoBehaviour
             return levelsPassed[index];
         }
         return false;
+    }
+
+    public Vector2 GetCameraStartingPosition(int lvl)
+    {
+        switch (lvl)
+        {
+            case 1:
+                return cameraStartingPositions[0];
+            case 4:
+                return cameraStartingPositions[1];
+            case 5:
+                return cameraStartingPositions[2];
+            case 8:
+                return cameraStartingPositions[3];
+            case 11:
+                return cameraStartingPositions[4];
+            case 14:
+                return cameraStartingPositions[5];
+            case 15:
+                return cameraStartingPositions[6];
+            default:
+                return Vector2.zero;
+        }
+    }
+
+    public Vector2 SavePointsPosition(int lvl)
+    {
+        switch (lvl)
+        {
+            case 1:
+                return savePointsPositions[0];
+            case 4:
+                return savePointsPositions[1];          
+            case 8:
+                return savePointsPositions[2];
+            case 11:
+                return savePointsPositions[3];
+            case 16:
+                return savePointsPositions[4];
+            default:
+                return Vector2.zero;
+        }
     }
 
     public void SetLevelPassed(bool passed, int currentLevel)
@@ -61,7 +159,7 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public Vector2[] GetImportantObjectsTransforms(int currentLevel)
+    public Vector2[] GetImportantObjectsPositions(int currentLevel)
     {
         switch(currentLevel)
         {

@@ -7,7 +7,7 @@ public class DecisionSeePlayer : Decision
 {
     public override bool Decide(BaseAIController controller)
     {
-        Vector2 playerPosition = TestManager.Instance.PlayerTransform().position;
+        Vector2 playerPosition = ElegarPuzzleQuestManager.Instance.PlayerTransform().position;
         Vector2 targetDir = playerPosition - (Vector2)controller.eyesPos.position;
         float angle = Vector2.Angle(targetDir, controller.CharacterDirection());
         float distance = Vector2.Distance(playerPosition,controller.eyesPos.position);

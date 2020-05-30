@@ -32,7 +32,7 @@ public class Rogue : MonoBehaviour
         if (!fired)
         {
             fired = true;
-            Vector2 playerpos = TestManager.Instance.PlayerTransform().position;
+            Vector2 playerpos = ElegarPuzzleQuestManager.Instance.PlayerTransform().position;
             Vector2 startPos = transform.position;
             float distance = Vector2.Distance(startPos, playerpos);
             Vector2 direction = (playerpos - startPos).normalized;
@@ -53,7 +53,7 @@ public class Rogue : MonoBehaviour
             Vector2 target4 = startPos + direction4 * distance;
 
             GameObject a = Instantiate(arrows, transform.position, Quaternion.identity);
-            a.GetComponent<Arrows>().Initialize(TestManager.Instance.PlayerTransform().position);
+            a.GetComponent<Arrows>().Initialize(ElegarPuzzleQuestManager.Instance.PlayerTransform().position);
             GameObject a1 = Instantiate(arrows, transform.position, Quaternion.identity);
             a1.GetComponent<Arrows>().Initialize(target1);
             GameObject a2 = Instantiate(arrows, transform.position, Quaternion.identity);

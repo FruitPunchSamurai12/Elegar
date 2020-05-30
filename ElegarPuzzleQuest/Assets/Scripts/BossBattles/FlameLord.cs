@@ -16,7 +16,7 @@ public class FlameLord : MonoBehaviour
         {
             fired = true;
             GameObject f = Instantiate(fireProjectile, transform.position, Quaternion.identity);
-            f.GetComponent<PapaFire>().Initialize(TestManager.Instance.PlayerTransform().position,true);
+            f.GetComponent<PapaFire>().Initialize(ElegarPuzzleQuestManager.Instance.PlayerTransform().position,true);
         }
     }
 

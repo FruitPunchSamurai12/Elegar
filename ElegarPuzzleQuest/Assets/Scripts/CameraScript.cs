@@ -6,8 +6,8 @@ using UnityEngine.Tilemaps;
 public class CameraScript : MonoBehaviour
 {
 
-    [SerializeField]
-    Transform startingPosition;
+   
+    public Vector2 startingPosition;
 
     Camera cam;
 
@@ -19,12 +19,18 @@ public class CameraScript : MonoBehaviour
 
     public float xOffset = 15f;
     public float yOffset = 10f;
+
+    private void Awake()
+    {
+        ElegarPuzzleQuestManager.Instance.SetCamera(this);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
-        cam = Camera.main;
-        Vector3 pos = startingPosition.position;//new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
+
+        cam = GetComponent<Camera>();
+        Vector3 pos = startingPosition;//new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
         cam.transform.position = new Vector3(pos.x, pos.y, -10f);
         startPosition = transform.position;
         endPosition = transform.position;

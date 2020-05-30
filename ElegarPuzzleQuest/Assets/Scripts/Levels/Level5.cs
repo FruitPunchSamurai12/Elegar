@@ -6,7 +6,13 @@ public class Level5 : Level
 {
     [SerializeField]
     DoorTrigger doorTo6;
-    
+
+    private void Start()
+    {
+        levelPassed = LevelManager.Instance.IsLevelPassed(ID);
+        EnterLevel();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")

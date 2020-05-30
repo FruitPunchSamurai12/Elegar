@@ -14,6 +14,18 @@ public class Level : MonoBehaviour
         levelPassed = LevelManager.Instance.IsLevelPassed(ID);
     }
 
+    public virtual void EnterLevel()
+    {
+        if (levelPassed)
+        {
+            EnterPassedLevel();
+        }
+        else
+        {
+            EnterNotPassedLevel();
+        }
+    }
+
     public virtual void EnterLevel(DoorTrigger door)
     {
         if(levelPassed)
@@ -33,14 +45,26 @@ public class Level : MonoBehaviour
 
     protected virtual void EnterPassedLevel()
     {
-
+        int i = 0;
+        Vector2[] pos = LevelManager.Instance.GetImportantObjectsPositions(ID);
+        foreach (GameObject obj in importantObjects)
+        {
+            if (obj && i<pos.Length)
+            {
+                obj.transform.position = pos[i];
+                i++;
+            }
+        }
     }
 
     protected void ActivateAllImportantObjects()
     {
-        foreach(GameObject obj in importantObjects)
+        foreach (GameObject obj in importantObjects)
         {
-            obj.SetActive(true);
+            if (obj)
+            {
+                obj.SetActive(true);
+            }
         }
     }
 
@@ -48,7 +72,10 @@ public class Level : MonoBehaviour
     {
         foreach (GameObject obj in importantObjects)
         {
-            obj.SetActive(false);
+            if (obj)
+            {
+                obj.SetActive(false);
+            }
         }
     }
 
@@ -57,8 +84,11 @@ public class Level : MonoBehaviour
         int i = 0;
         foreach (GameObject obj in importantObjects)
         {
-            obj.transform.position = importantObjectsStartingPositions[i];
-            i++;
+            if (obj)
+            {
+                obj.transform.position = importantObjectsStartingPositions[i];
+                i++;
+            }
         }
     }
 

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-    [SerializeField]
+
     Player elegar;
 
     [SerializeField]
@@ -40,10 +40,16 @@ public class HUD : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    public void SetUpElegar(Player p)
+    {
+        elegar = p;
         int numberOfHearts = elegar.maxLife / 2;
-        for(int i =0; i<hearts.Length;i++)
+        for (int i = 0; i < hearts.Length; i++)
         {
-            if(i<numberOfHearts)
+            if (i < numberOfHearts)
             {
                 hearts[i].enabled = true;
             }
@@ -57,8 +63,12 @@ public class HUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateHearts();
+        if (elegar)
+        {
+            UpdateHearts();
+        }
     }
+    
 
     void UpdateHearts()
     {
