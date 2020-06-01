@@ -64,6 +64,15 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
         cameraStartPosition = LevelManager.Instance.GetCameraStartingPosition(1);
     }
 
+    public void LoadGame()
+    {
+        state = GameStates.gameplay;
+        LevelManager.Instance.LoadGame();
+        LevelChanger.Instance.LoadLevel(LevelManager.Instance.playerLevelSave);
+        playerStartPosition = LevelManager.Instance.SavePointsPosition(LevelManager.Instance.playerLevelSave);
+        cameraStartPosition = LevelManager.Instance.GetCameraStartingPosition(LevelManager.Instance.playerLevelSave);
+    }
+
     public void EnterExitCave(int newLevel,int currentLevel)
     {
         if (newLevel == 5 || newLevel == 8)

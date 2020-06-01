@@ -34,6 +34,7 @@ public class Player : BaseCharacter
     public bool changingRoom = false;
     [SerializeField]
     private ElegarSpells spell = ElegarSpells.noSpell;
+    public int spellsUnlocked = 0;
     //push pull stuff
     public float pushPullRange = 3f;
     //water stuff

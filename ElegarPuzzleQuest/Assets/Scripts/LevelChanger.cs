@@ -61,6 +61,18 @@ public class LevelChanger : MonoBehaviour
         screenToLoadIndex = 5;
     }
 
+    public void LoadLevel(int lvl)
+    {
+        if(lvl<16)
+        {
+            WorldMap();
+        }
+        else if(lvl==16)
+        {
+            Level16();
+        }
+    }
+
     public void MainMenu()
     {
         animator.SetTrigger("FadeOut");

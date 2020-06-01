@@ -23,7 +23,14 @@ public class Level4 : Level
 
     [SerializeField]
     Animator fenceDoor;
-  
+
+    void Start()
+    {
+        levelPassed = LevelManager.Instance.IsLevelPassed(ID);
+        EnterLevel();
+    }
+
+
     // Update is called once per frame
     void Update()
     {

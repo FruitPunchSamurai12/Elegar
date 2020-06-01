@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Xml;
+using System.IO;
 
 public class LevelManager : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class LevelManager : MonoBehaviour
 
     public string objectPositionsFileName;
     public string levelPassedFileName;
+    public string playerStatsFileName;
 
     [SerializeField]
     bool[] levelsPassed;
@@ -27,6 +30,9 @@ public class LevelManager : MonoBehaviour
     public Vector2[] level7Positions;
     public Vector2[] level9Positions;
     public Vector2[] level15Positions;
+
+    public int playerLevelSave = 1;
+    public int playerSpellsUnlocked = 0;
 
     public Vector2 GetCavePosition(int levelToGo,int previousLevel)
     {
@@ -193,7 +199,164 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    void LoadPlayerStats()
+    {
+        XmlDocument xmlDocLevelPassed = new XmlDocument();
+        xmlDocLevelPassed.Load(playerStatsFileName);
+        XmlNode xmlNode = xmlDocLevelPassed.DocumentElement.ChildNodes[0].FirstChild;
+        playerLevelSave = int.Parse(xmlNode.Attributes["level"].Value);
+        playerSpellsUnlocked = int.Parse(xmlNode.Attributes["spells"].Value);
+    }
+
+    void LoadLevelsPassed()
+    {
+        XmlDocument xmlDocLevelPassed = new XmlDocument();
+        xmlDocLevelPassed.Load(levelPassedFileName);
+        for (int i = 0; i < levelsPassed.Length; i++)
+        {
+            XmlNode xmlNode = xmlDocLevelPassed.DocumentElement.ChildNodes[i].FirstChild;
+            int check = int.Parse(xmlNode.Attributes["lvl"].Value);
+            if (check == 0)
+            {
+                levelsPassed[i] = false;
+            }
+            else
+            {
+                levelsPassed[i] = true;
+            }
+        }
+
+    }
+
+    public void LoadGame()//this should return a bool
+    {
+        LoadPlayerStats();
+        LoadLevelsPassed();
+        LoadObjectsPositions();
+       
+    }
+
+    void LoadObjectsPositions()
+    {
+        XmlDocument xmlDocPositions = new XmlDocument();
+        xmlDocPositions.Load(objectPositionsFileName);
+        LoadLevel4Positions(xmlDocPositions.DocumentElement.ChildNodes[0].FirstChild);
+        LoadLevel5Positions(xmlDocPositions.DocumentElement.ChildNodes[1].FirstChild);
+        LoadLevel7Positions(xmlDocPositions.DocumentElement.ChildNodes[2].FirstChild);
+        LoadLevel9Positions(xmlDocPositions.DocumentElement.ChildNodes[3].FirstChild);
+        LoadLevel15Positions(xmlDocPositions.DocumentElement.ChildNodes[4].FirstChild);
+    }
+
+    void LoadLevel4Positions(XmlNode node0)
+    {
+        string[] temp;
+        temp = node0.Attributes["obj1"].Value.Split(':');
+        level4Positions[0] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+    }
+    void LoadLevel5Positions(XmlNode node1)
+    {
+        string[] temp;
+        temp = node1.Attributes["obj1"].Value.Split(':');
+        level5Positions[0] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+        temp = node1.Attributes["obj2"].Value.Split(':');
+        level5Positions[1] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+        temp = node1.Attributes["obj3"].Value.Split(':');
+        level5Positions[2] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+        temp = node1.Attributes["obj4"].Value.Split(':');
+        level5Positions[3] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+    }
+    void LoadLevel7Positions(XmlNode node2)
+    {
+        string[] temp;
+        temp = node2.Attributes["obj1"].Value.Split(':');
+        level7Positions[0] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+        temp = node2.Attributes["obj2"].Value.Split(':');
+        level7Positions[1] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+        temp = node2.Attributes["obj3"].Value.Split(':');
+        level7Positions[2] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+        temp = node2.Attributes["obj4"].Value.Split(':');
+        level7Positions[3] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+        temp = node2.Attributes["obj5"].Value.Split(':');
+        level7Positions[4] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+        temp = node2.Attributes["obj6"].Value.Split(':');
+        level7Positions[5] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+    }
+    void LoadLevel9Positions(XmlNode node3)
+    {
+        string[] temp;
+        temp = node3.Attributes["obj1"].Value.Split(':');
+        level9Positions[0] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+    }
+    void LoadLevel15Positions(XmlNode node4)
+    {
+        string[] temp;
+        temp = node4.Attributes["obj1"].Value.Split(':');
+        level15Positions[0] = new Vector2(float.Parse(temp[0]), float.Parse(temp[1]));
+    }
 
 
+    public void SaveGame()
+    {
+        SavePlayerStats();
+        SaveLevelPassedBooleans();
+        SaveObjectPositions();
+    }
+
+    void SavePlayerStats()
+    {
+        XmlDocument xmlDocPlayerStats = new XmlDocument();
+        xmlDocPlayerStats.Load(playerStatsFileName);
+        XmlNode xmlNode = xmlDocPlayerStats.DocumentElement.ChildNodes[0].FirstChild;
+        xmlNode.Attributes["level"].Value = playerLevelSave.ToString();
+        xmlNode.Attributes["spells"].Value = playerSpellsUnlocked.ToString();
+        xmlDocPlayerStats.Save(playerStatsFileName);
+    }
+
+    void SaveLevelPassedBooleans()
+    {
+        XmlDocument xmlDoc = new XmlDocument();
+        xmlDoc.Load(levelPassedFileName);
+        for (int i = 0; i < levelsPassed.Length; i++)
+        {
+            XmlNode xmlNode = xmlDoc.DocumentElement.ChildNodes[i].FirstChild;    
+            if (i < levelsPassed.Length)
+            {
+                if (levelsPassed[i])
+                {
+                    xmlNode.Attributes["lvl"].Value = 1.ToString();
+                }
+                else
+                {
+                    xmlNode.Attributes["lvl"].Value = 0.ToString();
+                }
+            }
+        }
+        xmlDoc.Save(levelPassedFileName);
+    }
+
+    void SaveObjectPositions()
+    {
+        XmlDocument xmlDocPositions = new XmlDocument();
+        xmlDocPositions.Load(objectPositionsFileName);
+        XmlNode xmlNode0 = xmlDocPositions.DocumentElement.ChildNodes[0].FirstChild;
+        XmlNode xmlNode1 = xmlDocPositions.DocumentElement.ChildNodes[1].FirstChild;
+        XmlNode xmlNode2 = xmlDocPositions.DocumentElement.ChildNodes[2].FirstChild;
+        XmlNode xmlNode3 = xmlDocPositions.DocumentElement.ChildNodes[3].FirstChild;
+        XmlNode xmlNode4 = xmlDocPositions.DocumentElement.ChildNodes[4].FirstChild;
+        xmlNode0.Attributes["obj1"].Value = level4Positions[0].x + ":" + level4Positions[0].y;
+        xmlNode1.Attributes["obj1"].Value = level5Positions[0].x + ":" + level5Positions[0].y;
+        xmlNode1.Attributes["obj2"].Value = level5Positions[1].x + ":" + level5Positions[1].y;
+        xmlNode1.Attributes["obj3"].Value = level5Positions[2].x + ":" + level5Positions[2].y;
+        xmlNode1.Attributes["obj4"].Value = level5Positions[3].x + ":" + level5Positions[3].y;
+        xmlNode2.Attributes["obj1"].Value = level7Positions[0].x + ":" + level7Positions[0].y;
+        xmlNode2.Attributes["obj2"].Value = level7Positions[1].x + ":" + level7Positions[1].y;
+        xmlNode2.Attributes["obj3"].Value = level7Positions[2].x + ":" + level7Positions[2].y;
+        xmlNode2.Attributes["obj4"].Value = level7Positions[3].x + ":" + level7Positions[3].y;
+        xmlNode2.Attributes["obj5"].Value = level7Positions[4].x + ":" + level7Positions[4].y;
+        xmlNode2.Attributes["obj6"].Value = level7Positions[5].x + ":" + level7Positions[5].y;
+        xmlNode3.Attributes["obj1"].Value = level9Positions[0].x + ":" + level9Positions[0].y;
+        xmlNode4.Attributes["obj1"].Value = level15Positions[0].x + ":" + level15Positions[0].y;
+        xmlDocPositions.Save(objectPositionsFileName);
+    }
 
 }

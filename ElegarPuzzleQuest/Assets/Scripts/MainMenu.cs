@@ -23,6 +23,6 @@ public class MainMenu : MonoBehaviour
 
     public void OnClickLoad()
     {
-
+        ElegarPuzzleQuestManager.Instance.LoadGame();
     }
 }

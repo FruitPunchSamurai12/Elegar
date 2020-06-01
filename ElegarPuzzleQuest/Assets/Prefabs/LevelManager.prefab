@@ -43,8 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee668f638c642248a33ea74fd681f66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPositionsFileName: 
-  levelPassedFileName: 
+  objectPositionsFileName: ObjectPositions.xml
+  levelPassedFileName: LevelPassed.xml
+  playerStatsFileName: ElegarStats.xml
   levelsPassed: 000000000000000000000000000000000000
   cameraStartingPositions:
   - {x: 0, y: 0}
@@ -92,3 +93,5 @@ MonoBehaviour:
   - {x: 0, y: 0}
   level15Positions:
   - {x: 0, y: 0}
+  playerLevelSave: 1
+  playerSpellsUnlocked: 0

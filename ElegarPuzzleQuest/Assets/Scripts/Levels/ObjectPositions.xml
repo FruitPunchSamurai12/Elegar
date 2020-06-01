@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<levels>
+<level>
+<Pos obj1 = "0.0:0.0"/>
+</level>
+<level>
+<Pos obj1 = "0.0:0.0" obj2 = "0.0:0.0" obj3 = "0.0:0.0" obj4 = "0.0:0.0"/>
+</level>
+<level>
+<Pos obj1 = "0.0:0.0" obj2 = "0.0:0.0" obj3 = "0.0:0.0" obj4 = "0.0:0.0" obj5 = "0.0:0.0" obj6 = "0.0:0.0"/>
+</level>
+<level>
+<Pos obj1 = "0.0:0.0"/>
+</level>
+<level>
+<Pos obj1 = "0.0:0.0"/>
+</level>
+</levels>
