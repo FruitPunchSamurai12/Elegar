@@ -34,6 +34,8 @@ public class LevelManager : MonoBehaviour
     public int playerLevelSave = 1;
     public int playerSpellsUnlocked = 0;
 
+ 
+
     public Vector2 GetCavePosition(int levelToGo,int previousLevel)
     {
         switch (levelToGo)
@@ -232,8 +234,7 @@ public class LevelManager : MonoBehaviour
     {
         LoadPlayerStats();
         LoadLevelsPassed();
-        LoadObjectsPositions();
-       
+        LoadObjectsPositions();      
     }
 
     void LoadObjectsPositions()
@@ -358,5 +359,8 @@ public class LevelManager : MonoBehaviour
         xmlNode4.Attributes["obj1"].Value = level15Positions[0].x + ":" + level15Positions[0].y;
         xmlDocPositions.Save(objectPositionsFileName);
     }
+
+
+   
 
 }

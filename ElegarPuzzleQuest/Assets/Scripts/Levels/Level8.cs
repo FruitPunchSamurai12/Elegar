@@ -15,8 +15,10 @@ public class Level8 : Level
         levelPassed = LevelManager.Instance.IsLevelPassed(ID);
         if (levelPassed)
         {
-            fireObstacle.SetActive(false);
-            doorTo9.InvisibleWall(false);
+            if (fireObstacle)
+            {
+                Destroy(fireObstacle);
+            }
         }
     }
 

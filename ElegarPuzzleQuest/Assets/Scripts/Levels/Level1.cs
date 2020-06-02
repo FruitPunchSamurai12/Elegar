@@ -21,7 +21,9 @@ public class Level1 : Level
             {
                 portal.SetActive(true);
                 rupertAppeared = true;
-                Invoke("RupertDialogue", 1f);
+                levelPassed = true;
+                LevelManager.Instance.SetLevelPassed(levelPassed, ID);
+               // Invoke("RupertDialogue", 1f);
             }
         }
     }
@@ -36,7 +38,6 @@ public class Level1 : Level
     {
         rupert.ExitRupert();
         Destroy(portal, 1f);
-        levelPassed = true;
-        LevelManager.Instance.SetLevelPassed(levelPassed, ID);
+        
     }
 }

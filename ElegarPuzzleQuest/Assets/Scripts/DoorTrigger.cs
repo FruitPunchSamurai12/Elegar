@@ -36,16 +36,19 @@ public class DoorTrigger : MonoBehaviour
         if(collision.tag == "Player")
         {
             Player p = collision.GetComponent<Player>();
-            if (p.inControl)
+            if (p.PlayerAlive())
             {
-                //Vector2 connectingRoomCenter = new Vector2(connectingRoom.CellToWorld(connectingRoom.origin).x + connectingRoom.CellToWorld(connectingRoom.size).x / 2f, connectingRoom.CellToWorld(connectingRoom.origin).y + connectingRoom.CellToWorld(connectingRoom.size).y / 2f);
-                if(p.sliding)
+                if (p.inControl)
                 {
-                    p.sliding = false;
+                    //Vector2 connectingRoomCenter = new Vector2(connectingRoom.CellToWorld(connectingRoom.origin).x + connectingRoom.CellToWorld(connectingRoom.size).x / 2f, connectingRoom.CellToWorld(connectingRoom.origin).y + connectingRoom.CellToWorld(connectingRoom.size).y / 2f);
+                    if (p.sliding)
+                    {
+                        p.sliding = false;
+                    }
+                    ElegarPuzzleQuestManager.Instance.ChangeRoom(horizontal, positive, newPlayerPosition.localPosition);
+                    currentLevel.ExitLevel(this);
+                    nextLevel.EnterLevel(this);
                 }
-                ElegarPuzzleQuestManager.Instance.ChangeRoom(horizontal,positive, newPlayerPosition.localPosition);
-                currentLevel.ExitLevel(this);
-                nextLevel.EnterLevel(this);
             }
         }
     }

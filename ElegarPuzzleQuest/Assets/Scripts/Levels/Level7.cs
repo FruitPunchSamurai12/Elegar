@@ -16,6 +16,9 @@ public class Level7 : Level
     [SerializeField]
     AIState rogueStartState;
 
+    [SerializeField]
+    GameObject spellScroll;
+
     protected override void EnterNotPassedLevel()
     {
         doorTo6.InvisibleWall(true);
@@ -25,6 +28,10 @@ public class Level7 : Level
             rogue.SetActive(true);
             rogue.GetComponent<BaseAIController>().ChangeAIState(rogueStartState);
         }
+        if (spellScroll)
+        {
+            spellScroll.SetActive(false);
+        }
         base.EnterNotPassedLevel();
     }
 
@@ -33,6 +40,10 @@ public class Level7 : Level
         if(rogue)
         {
             rogue.SetActive(false);
+        }
+        if (spellScroll)
+        {
+            spellScroll.SetActive(true);
         }
 
         base.EnterPassedLevel();
@@ -53,5 +64,9 @@ public class Level7 : Level
         doorTo8.InvisibleWall(false);
         SentImportantObjectsPositionsToLevelManager();
         LevelManager.Instance.SetLevelPassed(levelPassed, ID);
+        if (spellScroll)
+        {
+            spellScroll.SetActive(true);
+        }
     }
 }

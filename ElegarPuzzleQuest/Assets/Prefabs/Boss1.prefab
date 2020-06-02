@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9191326223648401579
 Transform:
   m_ObjectHideFlags: 0
@@ -122,15 +122,19 @@ MonoBehaviour:
   animator: {fileID: 9191326223648401578}
   rb2d: {fileID: 9191326223648401583}
   speed: 1200
+  col: {fileID: 0}
+  eyesPos: {fileID: 0}
   sightRange: 10
   hearRange: 5
   forcePower: 500
   damage: 1
-  state: {fileID: 11400000, guid: 1ff337ba2394dfb4a818f69b5089fd3f, type: 2}
+  state: {fileID: 11400000, guid: 319a1e3697551ff4392ac330595fa41b, type: 2}
   stateTime: 0
   target: {x: 0, y: 0}
   nextWaypointDistance: 0.5
   aiWaypoint: {fileID: 0}
+  dialogue: {fileID: 0}
+  dialogueBox: {fileID: 0}
   seeker: {fileID: 9191326223648401576}
 --- !u!50 &9191326223648401583
 Rigidbody2D:

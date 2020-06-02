@@ -48,8 +48,12 @@ MonoBehaviour:
   importantObjects:
   - {fileID: 0}
   importantObjectsStartingPositions:
-  - {fileID: 0}
+  - {x: -22.74, y: -0.04}
   BBEG: {fileID: 0}
   introductionState: {fileID: 11400000, guid: a38b40551d950684c9f5616f71688daa, type: 2}
+  caughtState: {fileID: 11400000, guid: d9f2a8fbbac43074a803cd351a1b94c2, type: 2}
+  leaveAfterCaughtState: {fileID: 11400000, guid: 4de38996ac8eb9041a990ca07d438b14,
+    type: 2}
+  player: {fileID: 0}
   firstWaypoint: {fileID: 0}
   doorTo3: {fileID: 0}

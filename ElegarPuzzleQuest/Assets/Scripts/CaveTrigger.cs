@@ -9,9 +9,12 @@ public class CaveTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if (collision.tag == "Player")
         {
-            ElegarPuzzleQuestManager.Instance.EnterExitCave(nextLevel, currentLevel);
+            if (collision.GetComponent<Player>().PlayerAlive())
+            {
+                ElegarPuzzleQuestManager.Instance.EnterExitCave(nextLevel, currentLevel);
+            }
         }
     }
 }

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: MoveState
   m_EditorClassIdentifier: 
   TimeLimit: 0
-  actions: []
+  actions:
+  - {fileID: 11400000, guid: 11b76948c513ab04baa2796d61cfb17f, type: 2}
   transitions:
   - decision: {fileID: 11400000, guid: 156ed8042df10e442a2ffc12bade2845, type: 2}
     trueState: {fileID: 11400000, guid: 1d2cf60a0c4125043916ebf48d9f3258, type: 2}

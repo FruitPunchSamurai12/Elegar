@@ -9,16 +9,25 @@ public class Rupert : MonoBehaviour
     public AIDialogueBox dialogue;
     public GameObject dialogueBox;
     public string dialogueText;
-
+    public float rupertDuration = 10f;
+    [SerializeField]
+    GameObject portal;
     private void Start()
     {
         dialogue.SetDialogue(dialogueText);
+        EnableDialogue();
     }
 
     public void ExitRupert()
     {
         dialogueBox.SetActive(false);
         rupertAnimator.SetTrigger("Exit");
+        Invoke("DeactivatePortal", 1f);
+    }
+
+    void DeactivatePortal()
+    {
+        portal.SetActive(false);
     }
 
     public void ExitPortal()
@@ -29,6 +38,8 @@ public class Rupert : MonoBehaviour
     public void EnableDialogue()
     {
         dialogueBox.SetActive(true);
+        Invoke("ExitRupert", rupertDuration);
     }
+
 
 }

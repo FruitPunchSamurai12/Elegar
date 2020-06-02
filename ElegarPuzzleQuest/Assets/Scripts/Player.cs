@@ -15,7 +15,6 @@ using UnityEngine;
 
 public class Player : BaseCharacter
 {
-    public int currentLife = 3;
     public int maxLife = 3;
     bool isDead = false;
     public bool isInvulnerable = false;
@@ -164,8 +163,13 @@ public class Player : BaseCharacter
 
     public void EquipSpell(ElegarSpells s)
     {
-        spell = s;
+        if ((int)s <= spellsUnlocked)
+        {
+            spell = s;
+            HUD.Instance.equippedSpellIndex = (int)s - 1;
+        }
     }
+
 
     void LerpPlayer()
     {
@@ -187,6 +191,15 @@ public class Player : BaseCharacter
         endPosition = new Vector2(transform.position.x + offset.x,transform.position.y + offset.y);
         inControl = false;
         changingRoom = true;
+    }
+
+    public void PickUpSpellBook(int spellLevel)
+    {
+        if(spellLevel > spellsUnlocked)
+        {
+            spellsUnlocked = spellLevel;
+            LevelManager.Instance.playerSpellsUnlocked = spellsUnlocked;
+        }
     }
 
     void Push()
@@ -253,7 +266,16 @@ public class Player : BaseCharacter
         }
     }
 
+    public bool PlayerAlive() { return !isDead; }
 
+    public void Die()
+    {
+        if (!isDead)
+        {
+            animator.SetTrigger("Die");            
+            isDead = true;
+        }
+    }
 
     public void FallToDeath()
     {
@@ -323,7 +345,7 @@ public class Player : BaseCharacter
 
     public void TakeDamage(int damageValue)
     {
-        currentLife -= damageValue;
+        HUD.Instance.currentHealth -= damageValue;
     }
 
     public void SlowPlayer(float duration)
@@ -365,5 +387,11 @@ public class Player : BaseCharacter
             renderer.enabled = true;
         }
     }
+
+    public void GetStunned()
+    {
+        animator.SetTrigger("Stun");
+    }
+
     
 }

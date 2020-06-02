@@ -107,6 +107,5 @@ public class Level : MonoBehaviour
         LevelManager.Instance.SetImportantObjectPositions(positions, ID);
     }
 
-
-
+   
 }

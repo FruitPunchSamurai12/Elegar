@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053ad87c2c5aaaa4db33cda1e5004640, type: 3}
   m_Name: Boss2Iddle
   m_EditorClassIdentifier: 
-  TimeLimit: 0.5
+  TimeLimit: 1
   actions:
   - {fileID: 11400000, guid: 9fc54ec7913dbf04489e98de08ae09d3, type: 2}
   transitions:

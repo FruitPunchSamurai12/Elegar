@@ -8,6 +8,8 @@ public class HUD : MonoBehaviour
 
     Player elegar;
 
+    public int currentHealth = 999;
+
     [SerializeField]
     Sprite fullHeart;
 
@@ -20,6 +22,10 @@ public class HUD : MonoBehaviour
 
     [SerializeField]
     Image[] hearts;
+
+    [SerializeField]
+    Button[] spells;
+    public int equippedSpellIndex;
 
 
     public static HUD Instance;
@@ -46,6 +52,11 @@ public class HUD : MonoBehaviour
     public void SetUpElegar(Player p)
     {
         elegar = p;
+        elegar.EquipSpell((ElegarSpells)(equippedSpellIndex + 1));
+        if(currentHealth>elegar.maxLife)
+        {
+            currentHealth = elegar.maxLife;
+        }
         int numberOfHearts = elegar.maxLife / 2;
         for (int i = 0; i < hearts.Length; i++)
         {
@@ -72,21 +83,22 @@ public class HUD : MonoBehaviour
 
     void UpdateHearts()
     {
-        int currentHp = elegar.currentLife;
-        if (currentHp == 0)
+        
+        if (currentHealth == 0)
         {
             for (int i = 0; i < hearts.Length; i++)
             {
                 hearts[i].sprite = emptyHeart;
+                elegar.Die();
             }
         }
         else
         {
             for (int i = 0; i < hearts.Length; i++)
             {
-                if (currentHp % 2 == 0)
+                if (currentHealth % 2 == 0)
                 {
-                    if (i < currentHp / 2)
+                    if (i < currentHealth / 2)
                     {
                         hearts[i].sprite = fullHeart;
                     }
@@ -97,11 +109,11 @@ public class HUD : MonoBehaviour
                 }
                 else
                 {
-                    if (i < currentHp / 2)
+                    if (i < currentHealth / 2)
                     {
                         hearts[i].sprite = fullHeart;
                     }
-                    else if (i == currentHp / 2)
+                    else if (i == currentHealth / 2)
                     {
                         hearts[i].sprite = halfHeart;
                     }

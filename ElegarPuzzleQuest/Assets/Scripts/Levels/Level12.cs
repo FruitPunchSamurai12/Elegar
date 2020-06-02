@@ -11,10 +11,17 @@ public class Level12 : Level
     [SerializeField]
     GameObject flameLord;
 
+    [SerializeField]
+    GameObject spellScroll;
+
     protected override void EnterNotPassedLevel()
     {
         doorTo11.InvisibleWall(true);
         flameLord.SetActive(true);
+        if (spellScroll)
+        {
+            spellScroll.SetActive(false);
+        }
     }
 
     protected override void EnterPassedLevel()
@@ -23,7 +30,10 @@ public class Level12 : Level
         {
             flameLord.SetActive(false);
         }
-
+        if (spellScroll)
+        {
+            spellScroll.SetActive(true);
+        }
         base.EnterPassedLevel();
     }
 
@@ -39,6 +49,10 @@ public class Level12 : Level
     {
         levelPassed = true;
         doorTo11.InvisibleWall(false);
+        if (spellScroll)
+        {
+            spellScroll.SetActive(true);
+        }
         LevelManager.Instance.SetLevelPassed(levelPassed, ID);
     }
 }

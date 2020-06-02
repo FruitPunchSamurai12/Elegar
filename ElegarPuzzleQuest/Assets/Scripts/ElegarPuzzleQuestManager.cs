@@ -127,6 +127,7 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
     {
         player = p;
         p.transform.position = playerStartPosition;
+        p.spellsUnlocked = LevelManager.Instance.playerSpellsUnlocked;
     }
 
     public void SetCamera(CameraScript c)

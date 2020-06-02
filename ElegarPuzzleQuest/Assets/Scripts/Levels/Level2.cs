@@ -11,10 +11,48 @@ public class Level2 : Level
     AIState introductionState;
 
     [SerializeField]
+    AIState caughtState;
+
+    [SerializeField]
+    AIState leaveAfterCaughtState;
+
+    [SerializeField]
+    Player player;
+    bool playerTookDamage = false;
+    bool playerHasControl = false;
+
+    [SerializeField]
     AIWaypoint firstWaypoint;
 
     [SerializeField]
     DoorTrigger doorTo3;
+
+    private void Update()
+    {
+        if(BBEG)
+        {
+            BaseAIController ai = BBEG.GetComponent<BaseAIController>();
+            if (ai.state == caughtState)
+            {
+                if (!playerTookDamage)
+                {
+                    player.TakeDamage(2);
+                    player.isInvulnerable = true;
+                    player.inControl = false;
+                    playerTookDamage = true;
+                    player.GetStunned();
+                }
+            }
+            else if (ai.state == leaveAfterCaughtState)
+            {
+                if (!playerHasControl)
+                {
+                    player.inControl = true;
+                    playerHasControl = true;
+                }
+            }
+        }
+    }
 
     protected override void EnterNotPassedLevel()
     {
@@ -49,4 +87,5 @@ public class Level2 : Level
         }
 
     }
+
 }
