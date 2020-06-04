@@ -24,9 +24,13 @@ public class HUD : MonoBehaviour
     Image[] hearts;
 
     [SerializeField]
-    Button[] spells;
+    Image[] spellImages;
+    [SerializeField]
+    Sprite[] unselectedImages;
+    [SerializeField]
+    Sprite[] selectedImages;
     public int equippedSpellIndex;
-
+    int spellLevel;
 
     public static HUD Instance;
 
@@ -53,6 +57,8 @@ public class HUD : MonoBehaviour
     {
         elegar = p;
         elegar.EquipSpell((ElegarSpells)(equippedSpellIndex + 1));
+        spellLevel = elegar.spellsUnlocked;
+        //number of hearts displayed
         if(currentHealth>elegar.maxLife)
         {
             currentHealth = elegar.maxLife;
@@ -69,6 +75,18 @@ public class HUD : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
+        //spells displayed
+        for(int i=0;i<spellImages.Length;i++)
+        {
+            if (i >= spellLevel)
+            {
+                spellImages[i].enabled = false;
+            }
+            else
+            {
+                spellImages[i].enabled = true;
+            }
+        }
     }
 
     // Update is called once per frame
@@ -77,9 +95,25 @@ public class HUD : MonoBehaviour
         if (elegar)
         {
             UpdateHearts();
+            UpdateSpells();
         }
     }
     
+    public void LearnedNewSpell(int sLevel)
+    {
+        spellLevel = sLevel;
+        for (int i = 0; i < spellImages.Length; i++)
+        {
+            if (i >= spellLevel)
+            {
+                spellImages[i].enabled = false;
+            }
+            else
+            {
+                spellImages[i].enabled = true;
+            }
+        }
+    }
 
     void UpdateHearts()
     {
@@ -126,4 +160,53 @@ public class HUD : MonoBehaviour
         }
     }
 
+    void UpdateSpells()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            elegar.EquipSpell(ElegarSpells.Push);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            elegar.EquipSpell(ElegarSpells.Pull);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            elegar.EquipSpell(ElegarSpells.Water);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            elegar.EquipSpell(ElegarSpells.Light);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            elegar.EquipSpell(ElegarSpells.Reflect);
+        }
+    }
+
+    public void PressSpellButton(int s)
+    {
+        if (elegar)
+        {
+            elegar.EquipSpell((ElegarSpells)s);
+        }
+    }
+
+    public void ChangeSpellImageOnEquipSpell()
+    {
+        for(int i = 0;i<spellImages.Length;i++)
+        {
+            if(i<spellLevel)
+            {
+                if(i==equippedSpellIndex)
+                {
+                    spellImages[i].sprite = selectedImages[i];
+                }
+                else
+                {
+                    spellImages[i].sprite = unselectedImages[i];
+                }
+            }
+        }
+    }
 }

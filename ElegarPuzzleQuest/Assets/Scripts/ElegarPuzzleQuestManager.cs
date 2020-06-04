@@ -49,7 +49,7 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
             case GameStates.mainMenu:
                 break;
             case GameStates.gameplay:
-                EquipSpell();
+         
                 break;
             case GameStates.gameOver:
                 break;
@@ -99,29 +99,7 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
         cameraStartPosition = LevelManager.Instance.GetCameraStartingPosition(newLevel);
     }
 
-    void EquipSpell()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            player.EquipSpell(ElegarSpells.Push);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            player.EquipSpell(ElegarSpells.Pull);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            player.EquipSpell(ElegarSpells.Water);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            player.EquipSpell(ElegarSpells.Light);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            player.EquipSpell(ElegarSpells.Reflect);
-        }
-    }
+   
 
     public void SetPlayer(Player p)
     {

@@ -167,6 +167,7 @@ public class Player : BaseCharacter
         {
             spell = s;
             HUD.Instance.equippedSpellIndex = (int)s - 1;
+            HUD.Instance.ChangeSpellImageOnEquipSpell();
         }
     }
 
@@ -199,6 +200,7 @@ public class Player : BaseCharacter
         {
             spellsUnlocked = spellLevel;
             LevelManager.Instance.playerSpellsUnlocked = spellsUnlocked;
+            HUD.Instance.LearnedNewSpell(spellsUnlocked);
         }
     }
 
