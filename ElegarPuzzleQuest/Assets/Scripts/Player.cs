@@ -286,6 +286,7 @@ public class Player : BaseCharacter
             animator.SetTrigger("FallDeath");
             rb2d.position = groundCheck.position;
             isDead = true;
+            HUD.Instance.GameOver();
         }
     }
 

@@ -127,10 +127,10 @@ MonoBehaviour:
   hearRange: 5
   forcePower: 500
   damage: 0
-  state: {fileID: 11400000, guid: f7d671193228efb4e980ad1a1c4f94de, type: 2}
+  state: {fileID: 11400000, guid: 89857bf6d7db4514d8e3eecba3ab47ae, type: 2}
   stateTime: 0
   target: {x: 0, y: 0}
-  nextWaypointDistance: 1.2
+  nextWaypointDistance: 0.7
   aiWaypoint: {fileID: 0}
   dialogue: {fileID: 0}
   dialogueBox: {fileID: 0}
@@ -176,7 +176,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 10
+  m_LinearDrag: 15
   m_AngularDrag: 5
   m_GravityScale: 0
   m_Material: {fileID: 0}

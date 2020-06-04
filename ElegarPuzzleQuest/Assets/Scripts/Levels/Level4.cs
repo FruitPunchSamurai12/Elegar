@@ -52,6 +52,7 @@ public class Level4 : Level
                 fenceDoor.SetTrigger("Open");
                 doorIsOpen = true;           
             }
+            doorTo5.InvisibleWall(false);
         }
         else
         {
@@ -60,6 +61,7 @@ public class Level4 : Level
                 fenceDoor.SetTrigger("Close");
                 doorIsOpen = false;
             }
+            doorTo5.InvisibleWall(true);
         }
     }
 

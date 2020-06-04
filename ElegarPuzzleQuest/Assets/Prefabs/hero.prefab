@@ -214,16 +214,15 @@ MonoBehaviour:
   animator: {fileID: 2619253654096979074}
   rb2d: {fileID: 2619253654096979085}
   speed: 5
-  currentLife: 8
   maxLife: 8
   isInvulnerable: 0
   renderer: {fileID: 2619253654096979081}
-  InvulnerabilityDuration: 2
+  InvulnerabilityDuration: 1.5
   sliding: 0
-  hasKey: 0
   inControl: 1
   changingRoom: 0
-  spell: 3
+  spell: 0
+  spellsUnlocked: 0
   pushPullRange: 3
   waterEffect: {fileID: 7581872139396413134, guid: 65bc2997d5b72fc4481318c83229590e,
     type: 3}
@@ -233,6 +232,7 @@ MonoBehaviour:
   lightAnimation: {fileID: 3651000334445268957, guid: 0913c0848a5af3641b0e47812ef02880,
     type: 3}
   lightAOE: 2
+  hideShadow: {fileID: 0}
   playerSlideDownCliffAnimation: {fileID: 4863498492099129805, guid: ad13af836f22e9942a9f871494778c24,
     type: 3}
   groundCheck: {fileID: 1539289658}

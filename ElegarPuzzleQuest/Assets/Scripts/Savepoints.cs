@@ -9,8 +9,11 @@ public class Savepoints : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
+            Player p = collision.GetComponent<Player>();
             LevelManager.Instance.playerLevelSave = ID;
-            LevelManager.Instance.playerSpellsUnlocked = collision.GetComponent<Player>().spellsUnlocked;
+            LevelManager.Instance.playerSpellsUnlocked = p.spellsUnlocked;
+            HUD.Instance.currentHealth = p.maxLife;
+            HUD.Instance.OnSaveGame();
             LevelManager.Instance.SaveGame();
         }
     }

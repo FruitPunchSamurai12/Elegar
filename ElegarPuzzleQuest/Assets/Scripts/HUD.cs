@@ -9,6 +9,25 @@ public class HUD : MonoBehaviour
     Player elegar;
 
     public int currentHealth = 999;
+    public int maxHealth = 999;
+
+    [SerializeField]
+    GameObject pauseMenu;
+
+    [SerializeField]
+    GameObject settingMenu;
+
+    [SerializeField]
+    GameObject gameOverMenu;
+
+    [SerializeField]
+    GameObject heartsBar;
+
+    [SerializeField]
+    GameObject spellbar;
+
+    [SerializeField]
+    GameObject gameSavedText;
 
     [SerializeField]
     Sprite fullHeart;
@@ -50,7 +69,9 @@ public class HUD : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        settingMenu.SetActive(false);
+        pauseMenu.SetActive(false);
+        gameOverMenu.SetActive(false);
     }
 
     public void SetUpElegar(Player p)
@@ -59,11 +80,12 @@ public class HUD : MonoBehaviour
         elegar.EquipSpell((ElegarSpells)(equippedSpellIndex + 1));
         spellLevel = elegar.spellsUnlocked;
         //number of hearts displayed
-        if(currentHealth>elegar.maxLife)
+        maxHealth = elegar.maxLife;
+        if(currentHealth>maxHealth)
         {
-            currentHealth = elegar.maxLife;
+            currentHealth = maxHealth;
         }
-        int numberOfHearts = elegar.maxLife / 2;
+        int numberOfHearts = maxHealth / 2;
         for (int i = 0; i < hearts.Length; i++)
         {
             if (i < numberOfHearts)
@@ -94,8 +116,15 @@ public class HUD : MonoBehaviour
     {
         if (elegar)
         {
+            spellbar.SetActive(true);
+            heartsBar.SetActive(true);
             UpdateHearts();
             UpdateSpells();
+        }
+        else
+        {
+            spellbar.SetActive(false);
+            heartsBar.SetActive(false);
         }
     }
     
@@ -124,6 +153,7 @@ public class HUD : MonoBehaviour
             {
                 hearts[i].sprite = emptyHeart;
                 elegar.Die();
+                GameOver();
             }
         }
         else
@@ -209,4 +239,71 @@ public class HUD : MonoBehaviour
             }
         }
     }
+
+    public void OnSaveGame()
+    {
+        StartCoroutine("ToggleGameSavedText");
+    }
+
+    IEnumerator ToggleGameSavedText()
+    {
+        gameSavedText.SetActive(true);
+        yield return new WaitForSeconds(2.5f);
+        gameSavedText.SetActive(false);
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+        ElegarPuzzleQuestManager.gamePaused = true;
+        settingMenu.SetActive(false);
+        pauseMenu.SetActive(true);
+        gameOverMenu.SetActive(false);
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        ElegarPuzzleQuestManager.gamePaused = false;
+        settingMenu.SetActive(false);
+        pauseMenu.SetActive(false);
+        gameOverMenu.SetActive(false);
+    }
+
+    public void GameOver()
+    {
+     
+        settingMenu.SetActive(false);
+        pauseMenu.SetActive(false);
+        gameOverMenu.SetActive(true);
+        ElegarPuzzleQuestManager.state = GameStates.gameOver;
+    }
+
+    public void OnClickLoad()
+    {
+        ElegarPuzzleQuestManager.Instance.LoadGame();        
+        currentHealth = maxHealth;
+        
+    }
+
+    public void OnClickSettings()
+    {
+        settingMenu.SetActive(true);
+        pauseMenu.SetActive(false);
+        gameOverMenu.SetActive(false);
+    }
+
+    public void OnClickBack()
+    {
+        settingMenu.SetActive(false);
+        pauseMenu.SetActive(true);
+        gameOverMenu.SetActive(false);
+    }
+
+    public void OnClickExit()
+    {
+        ResumeGame();
+        ElegarPuzzleQuestManager.Instance.GoToMainMenu();
+    }
+
 }

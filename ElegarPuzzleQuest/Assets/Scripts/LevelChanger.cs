@@ -32,6 +32,7 @@ public class LevelChanger : MonoBehaviour
     public void LoadAScene()
     {
         SceneManager.LoadScene(screenToLoadIndex);
+        HUD.Instance.ResumeGame();
     }
 
     public void WorldMap()

@@ -6,6 +6,7 @@ public enum GameStates
 {
     mainMenu,
     gameplay,
+    pause,
     gameOver
 }
 
@@ -18,6 +19,7 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
 
     public static ElegarPuzzleQuestManager Instance;
     public static GameStates state = GameStates.mainMenu;
+    public static bool gamePaused = false;
 
     Vector2 cameraStartPosition;
     Vector2 playerStartPosition;
@@ -49,11 +51,27 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
             case GameStates.mainMenu:
                 break;
             case GameStates.gameplay:
-         
+                    if(Input.GetKeyDown(KeyCode.Escape))
+                {
+                    if(gamePaused)
+                    {
+                        HUD.Instance.ResumeGame();
+                    }
+                    else
+                    {
+                        HUD.Instance.PauseGame();
+                    }
+                }
                 break;
             case GameStates.gameOver:
                 break;
         }       
+    }
+
+    public void GoToMainMenu()
+    {
+        state = GameStates.mainMenu;
+        LevelChanger.Instance.MainMenu();
     }
 
     public void StartNewGame()

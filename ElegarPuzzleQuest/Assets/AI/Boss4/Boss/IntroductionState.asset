@@ -15,7 +15,7 @@ MonoBehaviour:
   TimeLimit: 4
   actions:
   - {fileID: 11400000, guid: 9fc54ec7913dbf04489e98de08ae09d3, type: 2}
-  - {fileID: 11400000, guid: 388fe80c909e7a540889eae572e981e4, type: 2}
+  - {fileID: 11400000, guid: a7770f96aab393f4d841bd2225b64807, type: 2}
   - {fileID: 11400000, guid: 388fe80c909e7a540889eae572e981e4, type: 2}
   transitions:
   - decision: {fileID: 11400000, guid: c81ae46045b91e64b96678a5f5885291, type: 2}
