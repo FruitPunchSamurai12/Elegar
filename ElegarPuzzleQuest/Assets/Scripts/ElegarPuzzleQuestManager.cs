@@ -115,6 +115,7 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
         }
         playerStartPosition = LevelManager.Instance.GetCavePosition(newLevel, currentLevel);
         cameraStartPosition = LevelManager.Instance.GetCameraStartingPosition(newLevel);
+        AudioManager.Instance.PlayBGMusic(newLevel);
     }
 
    

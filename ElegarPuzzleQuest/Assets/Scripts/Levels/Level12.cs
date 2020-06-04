@@ -16,6 +16,7 @@ public class Level12 : Level
 
     protected override void EnterNotPassedLevel()
     {
+        AudioManager.Instance.PlayBGMusic("Boss");
         doorTo11.InvisibleWall(true);
         flameLord.SetActive(true);
         if (spellScroll)
@@ -47,6 +48,7 @@ public class Level12 : Level
 
     public void BossExploded()
     {
+        AudioManager.Instance.PlayBGMusic("Mountain");
         levelPassed = true;
         doorTo11.InvisibleWall(false);
         if (spellScroll)

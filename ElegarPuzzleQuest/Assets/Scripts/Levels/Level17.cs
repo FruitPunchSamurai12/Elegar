@@ -16,6 +16,7 @@ public class Level17 : Level
 
     protected override void EnterNotPassedLevel()
     {
+        AudioManager.Instance.PlayBGMusic("Boss");
         ActivateAllImportantObjects();
         if (spellScroll)
         {
@@ -35,6 +36,7 @@ public class Level17 : Level
 
     public void BatulaExtinguished()
     {
+        AudioManager.Instance.PlayBGMusic("Dungeon");
         levelPassed = true;
         if (spellScroll)
         {

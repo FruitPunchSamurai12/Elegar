@@ -64,12 +64,13 @@ public class LevelChanger : MonoBehaviour
 
     public void LoadLevel(int lvl)
     {
+        AudioManager.Instance.PlayBGMusic(lvl);
         if(lvl<16)
         {
             WorldMap();
         }
         else if(lvl==16)
-        {
+        {           
             Level16();
         }
     }

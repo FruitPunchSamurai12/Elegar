@@ -13,6 +13,7 @@ public class Level3 : Level
     GameObject spellScroll;
     protected override void EnterNotPassedLevel()
     {
+        AudioManager.Instance.PlayBGMusic("Boss");
         ActivateAllImportantObjects();
         doorTo2.InvisibleWall(true);
         if (spellScroll)
@@ -24,6 +25,7 @@ public class Level3 : Level
 
     protected override void EnterPassedLevel()
     {
+        AudioManager.Instance.PlayBGMusic("Forest");
         DeActivateAllImportantObjects();
         if(spellScroll)
         {
@@ -35,6 +37,7 @@ public class Level3 : Level
 
     public void BossDown()
     {
+        AudioManager.Instance.PlayBGMusic("Forest");
         levelPassed = true;
         LevelManager.Instance.SetLevelPassed(levelPassed, ID);
         doorTo2.InvisibleWall(false);

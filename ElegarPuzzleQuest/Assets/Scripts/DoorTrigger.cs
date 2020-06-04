@@ -46,6 +46,7 @@ public class DoorTrigger : MonoBehaviour
                         p.sliding = false;
                     }
                     ElegarPuzzleQuestManager.Instance.ChangeRoom(horizontal, positive, newPlayerPosition.localPosition);
+                    AudioManager.Instance.PlayBGMusic(nextLevel.ID);
                     currentLevel.ExitLevel(this);
                     nextLevel.EnterLevel(this);
                 }

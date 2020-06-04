@@ -13,6 +13,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AudioManager.Instance.PlayBGMusic("MainMenu");
         mainMenu.SetActive(true);
         settingsMenu.SetActive(false);
     }
@@ -26,6 +27,7 @@ public class MainMenu : MonoBehaviour
     public void OnClickNewGame()
     {
         ElegarPuzzleQuestManager.Instance.StartNewGame();
+        AudioManager.Instance.PlayBGMusic("Forest");
     }
 
     public void OnClickLoad()

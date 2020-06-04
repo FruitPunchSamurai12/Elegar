@@ -21,6 +21,7 @@ public class Level7 : Level
 
     protected override void EnterNotPassedLevel()
     {
+        AudioManager.Instance.PlayBGMusic("Boss");
         doorTo6.InvisibleWall(true);
         doorTo8.InvisibleWall(true);
         if (rogue)
@@ -59,6 +60,7 @@ public class Level7 : Level
 
     public void RogueDrowned()
     {
+        AudioManager.Instance.PlayBGMusic("Village");
         levelPassed = true;
         doorTo6.InvisibleWall(false);
         doorTo8.InvisibleWall(false);
