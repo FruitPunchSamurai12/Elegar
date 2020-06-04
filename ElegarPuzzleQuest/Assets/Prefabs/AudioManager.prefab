@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 937945919668719164}
   - component: {fileID: 6519036712326050086}
   - component: {fileID: 1495516149401340105}
+  - component: {fileID: 2194224284774476939}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bbcdfc6af0af44181c055687f04571, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BGMusic:
+  bgMusic:
   - name: MainMenu
     clip: {fileID: 8300000, guid: f90cf5ecd8fe25f488313ec5f1aec132, type: 3}
   - name: Forest
@@ -153,4 +154,126 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: caa538271a3b813468aa96ae318c983b, type: 3}
   - name: Boss
     clip: {fileID: 8300000, guid: 54f3cc6e2612f534f8a2ab72cf00c465, type: 3}
-  source: {fileID: 6519036712326050086}
+  soundEffects:
+  - name: Acid
+    clip: {fileID: 8300000, guid: f0824a1a41844c54baf3ff7b7f6f7be1, type: 3}
+  - name: ArrowFly
+    clip: {fileID: 8300000, guid: 842bb68ffccdbe245bdebf344114817e, type: 3}
+  - name: ArrowBreak
+    clip: {fileID: 8300000, guid: 48460f566f14dbe41aef122f9246057c, type: 3}
+  - name: Laugh
+    clip: {fileID: 8300000, guid: f9dece5ad124e984aa53552ed481c760, type: 3}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 8ccc30a2ec988bc4889dd7a1d8a123c7, type: 3}
+  - name: Altar
+    clip: {fileID: 8300000, guid: 9f2ef315b53eb034a957675f725627ff, type: 3}
+  - name: Item
+    clip: {fileID: 8300000, guid: 52da1a87de8cb3c4889671c572358e3f, type: 3}
+  - name: Wind
+    clip: {fileID: 8300000, guid: e186422b3062b004f92d1057198ff9a3, type: 3}
+  - name: Water
+    clip: {fileID: 8300000, guid: cfe7c4c9264b3ec4099d934c17634ceb, type: 3}
+  - name: Stone
+    clip: {fileID: 8300000, guid: 76b3786db90406e4a9f26574654bf78b, type: 3}
+  - name: Victory
+    clip: {fileID: 8300000, guid: aa1700c388e6dd14da7295b39c7258b7, type: 3}
+  - name: Light
+    clip: {fileID: 0}
+  bgSource: {fileID: 6519036712326050086}
+  fxSource: {fileID: 2194224284774476939}
+--- !u!82 &2194224284774476939
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404346971728923178}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

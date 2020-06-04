@@ -31,6 +31,7 @@ public class Key : MonoBehaviour
         {
             Player p = collision.GetComponent<Player>();
             lvl.GotKey();
+            AudioManager.Instance.PlaySoundEffect("Item");
             Destroy(gameObject);
         }
     }

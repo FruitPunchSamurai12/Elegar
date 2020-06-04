@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 9191326223648401578}
   rb2d: {fileID: 9191326223648401583}
-  speed: 1200
+  speed: 1300
   col: {fileID: 0}
   eyesPos: {fileID: 0}
   sightRange: 10

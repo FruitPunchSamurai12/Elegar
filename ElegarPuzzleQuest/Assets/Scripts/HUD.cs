@@ -306,4 +306,14 @@ public class HUD : MonoBehaviour
         ElegarPuzzleQuestManager.Instance.GoToMainMenu();
     }
 
+    public void BGVolumeSlider(float value)
+    {
+        AudioManager.Instance.ChangeBGVolume(value);
+    }
+
+    public void FXVolumeSlider(float value)
+    {
+        AudioManager.Instance.ChangeFXVolume(value);
+    }
+
 }

@@ -26,6 +26,7 @@ public class LightableAltar : Lightable
     {
         if (!lighted)
         {
+            AudioManager.Instance.PlaySoundEffect("Altar");
             lighted = true;
             animator.SetTrigger("Light");
         }

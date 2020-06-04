@@ -8,6 +8,9 @@ public class Level17 : Level
     [SerializeField]
     GameObject spellScroll;
 
+    [SerializeField]
+    AudioSource source;
+
     void Start()
     {
         levelPassed = LevelManager.Instance.IsLevelPassed(ID);
@@ -17,6 +20,9 @@ public class Level17 : Level
     protected override void EnterNotPassedLevel()
     {
         AudioManager.Instance.PlayBGMusic("Boss");
+        source.volume = AudioManager.fxVolume;
+        source.clip = AudioManager.Instance.GetSoundEffect("Laugh");
+        source.Play();
         ActivateAllImportantObjects();
         if (spellScroll)
         {
@@ -37,6 +43,9 @@ public class Level17 : Level
     public void BatulaExtinguished()
     {
         AudioManager.Instance.PlayBGMusic("Dungeon");
+        source.volume = AudioManager.fxVolume;
+        source.clip = AudioManager.Instance.GetSoundEffect("Victory");
+        source.Play();
         levelPassed = true;
         if (spellScroll)
         {

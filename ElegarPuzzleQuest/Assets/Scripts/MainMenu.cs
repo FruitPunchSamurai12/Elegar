@@ -51,4 +51,14 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void BGVolumeSlider(float value)
+    {
+        AudioManager.Instance.ChangeBGVolume(value);
+    }
+
+    public void FXVolumeSlider(float value)
+    {
+        AudioManager.Instance.ChangeFXVolume(value);
+    }
 }

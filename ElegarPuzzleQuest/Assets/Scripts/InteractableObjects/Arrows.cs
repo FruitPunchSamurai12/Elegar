@@ -9,16 +9,25 @@ public class Arrows : Projectile
 
     public float slowDuration = 5f;
 
+    [SerializeField]
+    AudioSource source;
 
     public override void Initialize(Vector2 target)
     {
         base.Initialize(target);
         animator.SetFloat("Horizontal", direction.x);
         animator.SetFloat("Vertical", direction.y);
+        source.volume = AudioManager.fxVolume;
+        source.clip = AudioManager.Instance.GetSoundEffect("ArrowFly");
+        source.Play();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        source.volume = AudioManager.fxVolume;
+        source.clip = AudioManager.Instance.GetSoundEffect("ArrowBreak");
+        source.Play();
         if (collision.tag == "Player")
         {
             if (!done)

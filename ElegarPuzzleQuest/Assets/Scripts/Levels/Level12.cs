@@ -14,9 +14,15 @@ public class Level12 : Level
     [SerializeField]
     GameObject spellScroll;
 
+    [SerializeField]
+    AudioSource source;
+
     protected override void EnterNotPassedLevel()
     {
         AudioManager.Instance.PlayBGMusic("Boss");
+        source.volume = AudioManager.fxVolume;
+        source.clip = AudioManager.Instance.GetSoundEffect("Laugh");
+        source.Play();
         doorTo11.InvisibleWall(true);
         flameLord.SetActive(true);
         if (spellScroll)
@@ -49,6 +55,9 @@ public class Level12 : Level
     public void BossExploded()
     {
         AudioManager.Instance.PlayBGMusic("Mountain");
+        source.volume = AudioManager.fxVolume;
+        source.clip = AudioManager.Instance.GetSoundEffect("Victory");
+        source.Play();
         levelPassed = true;
         doorTo11.InvisibleWall(false);
         if (spellScroll)

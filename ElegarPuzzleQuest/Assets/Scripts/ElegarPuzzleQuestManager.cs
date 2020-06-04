@@ -76,6 +76,8 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
 
     public void StartNewGame()
     {
+        LevelManager.Instance.ResetLevelsPassed();
+        LevelManager.Instance.playerSpellsUnlocked = 0;
         state = GameStates.gameplay;
         LevelChanger.Instance.WorldMap();
         playerStartPosition = LevelManager.Instance.SavePointsPosition(1);

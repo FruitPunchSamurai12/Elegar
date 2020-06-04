@@ -23,6 +23,7 @@ public class Plant : Waterable
     {
         if (!watered)
         {
+            AudioManager.Instance.PlaySoundEffect("Item");
             animator.SetTrigger("Water");
             watered = true;
             lvl.PlantGrew();

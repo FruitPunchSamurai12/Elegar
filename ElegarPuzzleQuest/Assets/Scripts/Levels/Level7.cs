@@ -19,6 +19,9 @@ public class Level7 : Level
     [SerializeField]
     GameObject spellScroll;
 
+    [SerializeField]
+    AudioSource source;
+
     protected override void EnterNotPassedLevel()
     {
         AudioManager.Instance.PlayBGMusic("Boss");
@@ -61,6 +64,10 @@ public class Level7 : Level
     public void RogueDrowned()
     {
         AudioManager.Instance.PlayBGMusic("Village");
+        AudioManager.Instance.PlaySoundEffect("Acid");
+        source.volume = AudioManager.fxVolume;
+        source.clip = AudioManager.Instance.GetSoundEffect("Victory");
+        source.Play();
         levelPassed = true;
         doorTo6.InvisibleWall(false);
         doorTo8.InvisibleWall(false);

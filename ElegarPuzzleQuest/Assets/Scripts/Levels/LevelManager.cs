@@ -93,6 +93,14 @@ public class LevelManager : MonoBehaviour
         return false;
     }
 
+    public void ResetLevelsPassed()
+    {
+        for(int i=0;i<levelsPassed.Length;i++)
+        {
+            levelsPassed[i] = false;
+        }
+    }
+
     public Vector2 GetCameraStartingPosition(int lvl)
     {
         switch (lvl)

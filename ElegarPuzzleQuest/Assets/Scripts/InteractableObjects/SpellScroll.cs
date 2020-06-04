@@ -21,7 +21,8 @@ public class SpellScroll : MonoBehaviour
         {
             Player p = collision.GetComponent<Player>();
             p.PickUpSpellBook(spellLevel);
-            if(portal)
+            AudioManager.Instance.PlaySoundEffect("Item");
+            if (portal)
             {
                 portal.SetActive(true);
             }

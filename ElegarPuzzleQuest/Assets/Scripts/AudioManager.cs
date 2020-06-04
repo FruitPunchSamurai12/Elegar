@@ -4,13 +4,21 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField]
-    Sound[] BGMusic;
+    Sound[] bgMusic;
 
     [SerializeField]
-    AudioSource source;
+    Sound[] soundEffects;
+
+    [SerializeField]
+    AudioSource bgSource;
+
+    [SerializeField]
+    AudioSource fxSource;
 
     string currentSongName;
     public static AudioManager Instance;
+    public static float bgVolume = 1f;
+    public static float fxVolume = 1f;
 
     private void Awake()
     {
@@ -23,6 +31,17 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void ChangeBGVolume(float value)
+    {
+        bgSource.volume = value;
+    }
+
+    public void ChangeFXVolume(float value)
+    {
+        fxSource.volume = value;
+        fxVolume = value;
     }
 
     public void PlayBGMusic(int levelID)
@@ -56,7 +75,7 @@ public class AudioManager : MonoBehaviour
     public void PlayBGMusic(string name)
     {
         Sound s = new Sound();
-        foreach (Sound sound in BGMusic)
+        foreach (Sound sound in bgMusic)
         {
             if (sound.name == name)
             {
@@ -67,9 +86,51 @@ public class AudioManager : MonoBehaviour
         if (s.name != currentSongName)
         {
             currentSongName = s.name;
-            source.clip = s.clip;
-            source.Play();
+            bgSource.clip = s.clip;
+            bgSource.Play();
         }
     }
 
+    public void PlaySoundEffect(string name,float delay = 0f)
+    {
+        Sound s = new Sound();
+        foreach (Sound sound in soundEffects)
+        {
+            if (sound.name == name)
+            {
+                s = sound;
+                break;
+            }
+        }
+        fxSource.clip = s.clip;
+        Invoke("FXSourcePlay", delay);
+    }
+
+    void FXSourcePlay()
+    {
+        fxSource.Play();
+    }
+
+    public AudioClip GetSoundEffect(string name)
+    {
+        Sound s = new Sound();
+        foreach (Sound sound in soundEffects)
+        {
+            if (sound.name == name)
+            {
+                s = sound;
+                break;
+            }
+        }
+        if(s != null)
+        {
+            return s.clip;
+        }
+        else
+        {
+            return null;
+        }
+    }
 }
+
+

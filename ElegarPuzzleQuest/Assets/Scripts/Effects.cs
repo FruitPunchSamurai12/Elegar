@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Effects : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string fxName;
+    [SerializeField]
+    AudioSource source;
 
-    // Update is called once per frame
-    void Update()
+    public void PlayFX()
     {
-        
+
+        source.clip = AudioManager.Instance.GetSoundEffect(fxName);
+        source.volume = AudioManager.fxVolume;
+        source.Play();
     }
 
     public void DestroyEffect()

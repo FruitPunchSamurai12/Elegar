@@ -106,6 +106,7 @@ public class ThrowingRock : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
         if (collision.tag == "Player")
         {
             if (!done)
@@ -119,12 +120,14 @@ public class ThrowingRock : MonoBehaviour
                     p.isInvulnerable = true;
                 }
                 animator.SetTrigger("Break");
+                AudioManager.Instance.PlaySoundEffect("Stone");
                 col.enabled = false;
             }
         }
         else if(collision.tag != "Switch")
         {
             animator.SetTrigger("Break");
+            AudioManager.Instance.PlaySoundEffect("Stone");
             col.enabled = false;
         }
     }

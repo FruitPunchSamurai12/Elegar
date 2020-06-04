@@ -19,6 +19,7 @@ public class Rogue : MonoBehaviour
         if(collision.collider.tag == "Movable")
         {
             animator.SetTrigger("Death");
+            AudioManager.Instance.PlaySoundEffect("Water", 0.5f);
         }
     }
 

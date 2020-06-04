@@ -11,6 +11,9 @@ public class Level3 : Level
 
     [SerializeField]
     GameObject spellScroll;
+
+    [SerializeField]
+    AudioSource source;
     protected override void EnterNotPassedLevel()
     {
         AudioManager.Instance.PlayBGMusic("Boss");
@@ -38,6 +41,9 @@ public class Level3 : Level
     public void BossDown()
     {
         AudioManager.Instance.PlayBGMusic("Forest");
+        source.volume = AudioManager.fxVolume;
+        source.clip = AudioManager.Instance.GetSoundEffect("Victory");
+        source.Play();
         levelPassed = true;
         LevelManager.Instance.SetLevelPassed(levelPassed, ID);
         doorTo2.InvisibleWall(false);
