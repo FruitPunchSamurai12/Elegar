@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//you need to move to level 5 to pass level 4. also in order to move to level 7 you need to extinguish the fire
 public class Level4 : Level
 {
     [SerializeField]
@@ -46,7 +47,7 @@ public class Level4 : Level
             doorFrom7.InvisibleWall(true);
         }
 
-        if (button.IsPressed())
+        if (button.IsPressed())//open the door to 5 when the button is pressed
         {
             if (!doorIsOpen)
             {
@@ -71,7 +72,7 @@ public class Level4 : Level
         if (door == doorTo5)
         {
             levelPassed = true;
-            SentImportantObjectsPositionsToLevelManager();
+            SentImportantObjectsPositionsToLevelManager();//save the rock's position
             LevelManager.Instance.SetLevelPassed(levelPassed, ID);
         }      
     }

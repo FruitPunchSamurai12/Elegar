@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///the player can save his progress by moving to one of these. also restores elegar's health
 public class Savepoints : MonoBehaviour
 {
     public int ID;

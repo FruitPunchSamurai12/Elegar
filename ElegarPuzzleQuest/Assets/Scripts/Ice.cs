@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///helper class to slide on ice on levels 14 and 15
+
 public class Ice : MonoBehaviour
 {
     private void OnTriggerStay2D(Collider2D collision)

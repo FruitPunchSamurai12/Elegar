@@ -10,6 +10,8 @@ public enum GameStates
     gameOver
 }
 
+///This guy is the GM. It might seem like he doesnt do much but he coordinates all the other managers and makes sure everything is set as should be
+
 public class ElegarPuzzleQuestManager : MonoBehaviour
 {
     [SerializeField]
@@ -51,7 +53,7 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
             case GameStates.mainMenu:
                 break;
             case GameStates.gameplay:
-                    if(Input.GetKeyDown(KeyCode.Escape))
+                    if(Input.GetKeyDown(KeyCode.Escape))//toggle pause
                 {
                     if(gamePaused)
                     {
@@ -93,7 +95,7 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
         cameraStartPosition = LevelManager.Instance.GetCameraStartingPosition(LevelManager.Instance.playerLevelSave);
     }
 
-    public void EnterExitCave(int newLevel,int currentLevel)
+    public void EnterExitCave(int newLevel,int currentLevel)//used to change to the correct screen after exiting/entering a cave
     {
         if (newLevel == 5 || newLevel == 8)
         {
@@ -122,22 +124,22 @@ public class ElegarPuzzleQuestManager : MonoBehaviour
 
    
 
-    public void SetPlayer(Player p)
+    public void SetPlayer(Player p)//the player calls this when a scene loads
     {
         player = p;
         p.transform.position = playerStartPosition;
         p.spellsUnlocked = LevelManager.Instance.playerSpellsUnlocked;
     }
 
-    public void SetCamera(CameraScript c)
+    public void SetCamera(CameraScript c)//the camera calls this when a scene loads
     {
         cam = c;
         cam.startingPosition = cameraStartPosition;
     }
 
-    public Transform PlayerTransform() { return player.transform; }
+    public Transform PlayerTransform() { return player.transform; }//used by ai mostly to get the player's position
 
-    public void ChangeRoom(bool horizontal, bool positive, Vector3 newPlayerPosition)
+    public void ChangeRoom(bool horizontal, bool positive, Vector3 newPlayerPosition)//called by the door trigger when the player collides with it
     {
         cam.ChangeRoom(horizontal, positive);
         player.ChangeRoom(newPlayerPosition);

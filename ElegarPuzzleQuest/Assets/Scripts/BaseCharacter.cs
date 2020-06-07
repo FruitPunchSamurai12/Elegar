@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///every character inherits from this
+///tbh the player doesnt share a lot in common with ai so this basecharacter might as well not exist
 public class BaseCharacter : MonoBehaviour
 {
     protected Vector3 direction = Vector3.down;
@@ -24,7 +26,7 @@ public class BaseCharacter : MonoBehaviour
             animator.SetFloat("Horizontal", direction.x);
             animator.SetFloat("Vertical", direction.y);
         }
-        animator.SetFloat("Speed", direction.sqrMagnitude);
+        animator.SetFloat("Speed", direction.sqrMagnitude);//the player uses that to change to move animation but not the ai
     }
 
     protected virtual void FixedUpdate()
@@ -46,17 +48,13 @@ public class BaseCharacter : MonoBehaviour
         return direction;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-       // direction = Vector3.zero;
-    }
 
-    public void SetAnimatorTrigger(string triggerName)
+    public void SetAnimatorTrigger(string triggerName)//used with ai actions to trigger an animation
     {
         animator.SetTrigger(triggerName);
     }
 
-    public void ToggleFreezeMovement(bool freeze)
+    public void ToggleFreezeMovement(bool freeze)//used with ai actions
     {
         if(freeze)
         {

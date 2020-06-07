@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///an altar you can light with the light spell. also has a light mask and provides vision underground
 public class LightableAltar : Lightable
 {
     [SerializeField]
@@ -32,7 +33,7 @@ public class LightableAltar : Lightable
         }
     }
 
-    public void ScaleLights()
+    public void ScaleLights()//that's for the 4th boss fight
     {
         lightEffect.transform.localScale *= 1.004f;
     }

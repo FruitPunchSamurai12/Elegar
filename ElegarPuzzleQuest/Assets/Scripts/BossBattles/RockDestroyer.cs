@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///NOT USED
 public class RockDestroyer : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)

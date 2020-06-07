@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//in order to pass level 5 you need to move to level 6. will also play the player slide down the cliff animation when the player is on top of the cliff
 public class Level5 : Level
 {
     [SerializeField]
@@ -30,7 +31,7 @@ public class Level5 : Level
         if (door == doorTo6)
         {
             levelPassed = true;
-            SentImportantObjectsPositionsToLevelManager();
+            SentImportantObjectsPositionsToLevelManager();//saves the position of the rocks
             LevelManager.Instance.SetLevelPassed(levelPassed, ID);
         }
     }

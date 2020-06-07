@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+///thats the main camera script. cameras on underground levels dont need it cause another scene loads when you exit the level
 public class CameraScript : MonoBehaviour
 {
 
-   
+   //where the camera will start. the LevelManager has that information
     public Vector2 startingPosition;
 
     Camera cam;
-
+    //these are stuff for lerp
     Vector2 startPosition;
     Vector2 endPosition;
     bool lerping = false;
@@ -28,9 +29,9 @@ public class CameraScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        //set the camera to it's position
         cam = GetComponent<Camera>();
-        Vector3 pos = startingPosition;//new Vector3(startTilemap.CellToWorld(startTilemap.origin).x + startTilemap.CellToWorld(startTilemap.size).x/2f, startTilemap.CellToWorld(startTilemap.origin).y + startTilemap.CellToWorld(startTilemap.size).y/2f,-10f);
+        Vector3 pos = startingPosition;
         cam.transform.position = new Vector3(pos.x, pos.y, -10f);
         startPosition = transform.position;
         endPosition = transform.position;
@@ -44,7 +45,7 @@ public class CameraScript : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (lerping)
+        if (lerping)//linear interpolation to move to the next room
         {
             float timeSinceStarted = Time.time - timeLerpStarted;
             float percentageComplete = timeSinceStarted / lerpDuration;
@@ -58,6 +59,7 @@ public class CameraScript : MonoBehaviour
         }
     }
 
+    //player moved through a door trigger. find the camera's end position and start lerp
     public void ChangeRoom(bool horizontal, bool positive)
     {
         int one = 1;

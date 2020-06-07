@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///The AI State class. Check the GDD on how AI works
+
 [CreateAssetMenu(menuName = "PluggableAI/State")]
 public class AIState : ScriptableObject
 {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///This guy is responsible for the 3rd boss fight against Flame Lord
 public class FlameLordBossBattle : MonoBehaviour
 {
     [SerializeField]
@@ -23,7 +24,7 @@ public class FlameLordBossBattle : MonoBehaviour
     public float lerpDuration = 1f;
 
     [SerializeField]
-    GameObject fence;
+    GameObject fence;//this blocks the player from moving between level 5 and level 12
 
     bool firesLit = false;
 
@@ -34,6 +35,7 @@ public class FlameLordBossBattle : MonoBehaviour
     [SerializeField]
     Level12 lvl;
 
+    //check if all big fires are lit and then start the boss dissolve animation
     private void Update()
     {
         if(!firesLit)
@@ -73,7 +75,7 @@ public class FlameLordBossBattle : MonoBehaviour
         return true;
     }
 
-    void TriggerExplosions()
+    void TriggerExplosions()//the explosions game objects are on scene inactive and i just activate them when it is time
     {
         if(explosionsIndex<explosions.Length)
         {

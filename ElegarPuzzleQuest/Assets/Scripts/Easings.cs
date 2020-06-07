@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Math = UnityEngine.Mathf;
- 
+
+//got that from https://github.com/acron0/Easings
+//its a collection of interpolation functions. Instead of just using lerp only these give me a huge variety of options
+//i use them in a lot of things, mostly projectile like stuff
+
+
 /// <summary>
-    /// Easing Functions enumeration
-    /// </summary>
-    public enum Functions
+/// Easing Functions enumeration
+/// </summary>
+public enum Functions
     {
         Linear,
         QuadraticEaseIn,

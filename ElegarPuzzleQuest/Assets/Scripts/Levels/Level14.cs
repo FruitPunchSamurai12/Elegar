@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//just need to get to level 15 to pass level 14
 public class Level14 : Level
 {
     [SerializeField]

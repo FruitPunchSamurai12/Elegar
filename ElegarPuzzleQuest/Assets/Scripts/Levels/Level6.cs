@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//you need to get the key to pass level 6
 public class Level6 : Level
 {
     [SerializeField]

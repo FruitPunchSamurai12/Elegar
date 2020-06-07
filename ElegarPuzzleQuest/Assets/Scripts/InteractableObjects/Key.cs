@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//the key in level 6. 
+
 public class Key : MonoBehaviour
 {
     [SerializeField]
-    float yLimit;
+    float yLimit;//this is here so the player doesnt push it off screen
+
 
     [SerializeField]
     Level6 lvl;

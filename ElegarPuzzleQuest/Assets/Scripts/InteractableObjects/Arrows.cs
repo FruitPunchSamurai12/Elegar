@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///the arrows rogue shoots
+///most of the functionality comes from the projectile class 
+///the arrows set the animator to play the correct animation and also slow elegar if they hit him
 public class Arrows : Projectile
 {
     [SerializeField]

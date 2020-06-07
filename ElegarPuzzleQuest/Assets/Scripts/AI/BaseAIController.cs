@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using Pathfinding;
 
+
+///all AI use this
 public class BaseAIController : BaseCharacter
 {
     public Collider2D col;
@@ -52,12 +54,12 @@ public class BaseAIController : BaseCharacter
 
     private void Start()
     {
-        InvokeRepeating("GeneratePath", 0f, 0.5f);
+        InvokeRepeating("GeneratePath", 0f, 0.5f);//pathfinding
     }
 
     protected override void Update()
     {
-        state.UpdateState(this);
+        state.UpdateState(this);//this is where the magic happens!
         stateTime += Time.deltaTime;
         //base.Update();
         
@@ -65,7 +67,7 @@ public class BaseAIController : BaseCharacter
 
     override protected void FixedUpdate()
     {
-        if(path == null)
+        if(path == null)//pathfinding stuff
         {
            return;
         }
@@ -78,17 +80,17 @@ public class BaseAIController : BaseCharacter
         else
         {
             reachedEndOfPath = false;
-        }
+        }//pathfinding stuff
 
         direction = ((Vector2)path.vectorPath[currentWaypoint] - rb2d.position).normalized;
         Vector2 force = direction * speed * Time.deltaTime;
-        rb2d.AddForce(force);       
+        rb2d.AddForce(force);    //i move them with add force to make them accelerate and deaccelerate when changing directions   
         Vector2 animationDirection = (target - rb2d.position).normalized;
         animator.SetFloat("Horizontal", animationDirection.x);
         animator.SetFloat("Vertical", animationDirection.y);       
-        animator.SetFloat("Speed", force.sqrMagnitude);
+        animator.SetFloat("Speed", force.sqrMagnitude);//this is not really used
         float distance = Vector2.Distance(rb2d.position, path.vectorPath[currentWaypoint]);
-        if (distance < nextWaypointDistance)
+        if (distance < nextWaypointDistance)//pathfinding stuff
         {
             currentWaypoint++;
         }
@@ -104,14 +106,14 @@ public class BaseAIController : BaseCharacter
         }
     }
 
-    void GeneratePath()
+    void GeneratePath()//pathfindind stuff
     {
        if (seeker.IsDone())
         {
             seeker.StartPath(rb2d.position, target, OnPathComplete);
         }
     }
-    void OnPathComplete(Path p)
+    void OnPathComplete(Path p)//pathfindind stuff
     {
         if(!p.error)
        {
@@ -120,6 +122,7 @@ public class BaseAIController : BaseCharacter
        }
     }
 
+    //this is for the bats. I either had to put it here or create different ai random movement action assets for each bat or else they would all choose the same position
     public void RandomMovement(float minX,float maxX,float minY,float maxY)
     {       
         if (stateTime > state.TimeLimit)
@@ -131,7 +134,7 @@ public class BaseAIController : BaseCharacter
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)//do damage and knock player back on collision
     {
         if(damage == 0)
         {

@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///this is the boulder that kills grog grog the first boss.
+///it triggers the animation to roll and also uses some easing functions for the movement
+///grog grog moves throughout the fight so the boulder needs to dynamically find where it will roll to
+
 public class RollingBoulder : MonoBehaviour
 {
     [SerializeField]

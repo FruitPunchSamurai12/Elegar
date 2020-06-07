@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///these are the rocks grog grog throws
+///they should inherit from projectile but i made this first and didnt refactor it
+///it works exactly like a projectile with 2 phases, the rock moves differently after it lands
+
 public class ThrowingRock : MonoBehaviour
 {
     [SerializeField]

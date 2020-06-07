@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///The first level. Just makes Rupert appear when the player walks out of the stairs
 public class Level1 : Level
 {
     [SerializeField]
@@ -23,21 +24,10 @@ public class Level1 : Level
                 rupertAppeared = true;
                 levelPassed = true;
                 LevelManager.Instance.SetLevelPassed(levelPassed, ID);
-               // Invoke("RupertDialogue", 1f);
+              
             }
         }
     }
 
-    void RupertDialogue()
-    {
-        rupert.EnableDialogue();
-        Invoke("RupertExit", rupertDuration);
-    }
 
-    void RupertExit()
-    {
-        rupert.ExitRupert();
-        Destroy(portal, 1f);
-        
-    }
 }

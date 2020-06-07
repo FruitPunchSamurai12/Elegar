@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+
+///Very important guy. Used as trigger colliders between levels. 
+///Not only moves the camera but also calls behavior for exiting and entering levels
 public class DoorTrigger : MonoBehaviour
 {
     public bool horizontal = false;
@@ -40,7 +43,6 @@ public class DoorTrigger : MonoBehaviour
             {
                 if (p.inControl)
                 {
-                    //Vector2 connectingRoomCenter = new Vector2(connectingRoom.CellToWorld(connectingRoom.origin).x + connectingRoom.CellToWorld(connectingRoom.size).x / 2f, connectingRoom.CellToWorld(connectingRoom.origin).y + connectingRoom.CellToWorld(connectingRoom.size).y / 2f);
                     if (p.sliding)
                     {
                         p.sliding = false;
@@ -54,11 +56,11 @@ public class DoorTrigger : MonoBehaviour
         }
     }
 
-    public void InvisibleWall(bool wall)
+    public void InvisibleWall(bool wall)//i use that for bosses or when fires block doors
     {
         if(wall)
         {
-            Invoke("MakeInvisibleWall", 1f);
+            Invoke("MakeInvisibleWall", 1f);//the delay is there cause when you move into a boss level the door becomes a wall before elegar passes through
         }
         else
         {

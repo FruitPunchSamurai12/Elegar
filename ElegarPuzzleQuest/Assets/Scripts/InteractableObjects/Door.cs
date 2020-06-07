@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//the door in level 6. straight forward
+
 public class Door : MonoBehaviour
 {
     [SerializeField]

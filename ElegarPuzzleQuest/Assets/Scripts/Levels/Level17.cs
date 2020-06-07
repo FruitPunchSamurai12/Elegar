@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///you need to light all altars to extinguish batula and pass level 17. if you re-enter the level all lights will be lit and batula and the bats will be deactivated
 public class Level17 : Level
 {
     // Start is called before the first frame update

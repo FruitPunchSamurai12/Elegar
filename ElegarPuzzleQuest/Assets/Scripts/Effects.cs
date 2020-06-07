@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///small helper class for some effect animations like the animations on elegar spells
 public class Effects : MonoBehaviour
 {
     public string fxName;

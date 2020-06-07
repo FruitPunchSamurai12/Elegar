@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//the manager for the rogue fight. doesnt do much just shows the bones after rogue dies and tells the level that it's been cleared
+
 public class RogueFightManager : MonoBehaviour
 {
     [SerializeField]

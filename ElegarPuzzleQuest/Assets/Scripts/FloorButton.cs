@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///floor button for puzzles. straight forward
 public class FloorButton : MonoBehaviour
 {
     [SerializeField]

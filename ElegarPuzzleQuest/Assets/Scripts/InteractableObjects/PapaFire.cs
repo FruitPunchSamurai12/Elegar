@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///Flame lord fire projectiles. It works as a projectile but its also a fire so it was weird. 
+///Spawns baby fires towards random directions when it lands. The baby fires use this same script but they dont spawn more fires
+
 public class PapaFire : Fire
 {
     [SerializeField]

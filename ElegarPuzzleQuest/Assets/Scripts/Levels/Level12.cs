@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///level 12 boss fight with flame lord. 
 public class Level12 : Level
 {
 
@@ -52,7 +54,7 @@ public class Level12 : Level
         }
     }
 
-    public void BossExploded()
+    public void BossExploded()//this is called when you beat the boss
     {
         AudioManager.Instance.PlayBGMusic("Mountain");
         source.volume = AudioManager.fxVolume;

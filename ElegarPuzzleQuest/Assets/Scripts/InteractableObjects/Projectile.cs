@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///a basic projectile class. hasnt been utilized properly. something to work on for the game's release!
+/// works with interpolation. can have two phases so the projectile can change the way it moves usually after it lands
+/// you can choose how long it will take for the projectile to complete the interpolation on both phases, the functions to interpolate it with
+/// also when to activate the projectile's collider
 public class Projectile : MonoBehaviour
 {
     [SerializeField]

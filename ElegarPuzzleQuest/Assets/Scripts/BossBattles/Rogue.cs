@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///Rogue is the 2nd boss. He just shoots arrows at you until you get too close
 public class Rogue : MonoBehaviour
 {
     [SerializeField]
@@ -16,7 +17,7 @@ public class Rogue : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Movable")
+        if(collision.collider.tag == "Movable")//he dies when you push a rock towards him
         {
             animator.SetTrigger("Death");
             AudioManager.Instance.PlaySoundEffect("Water", 0.5f);
@@ -29,7 +30,7 @@ public class Rogue : MonoBehaviour
     }
 
     public void FireArrow()
-    {
+    {//i need to find the end positions of the arrows and pass that in as they work with interpolation
         if (!fired)
         {
             fired = true;
@@ -38,7 +39,10 @@ public class Rogue : MonoBehaviour
             float distance = Vector2.Distance(startPos, playerpos);
             Vector2 direction = (playerpos - startPos).normalized;
             float angle = Mathf.Atan2(direction.y, direction.x);
-            //turn it into degrees
+            //i find the angle between rogue and the player
+            //turn it into degrees so i can play with it
+            //create 4 new angles and turn them back into radians
+            //use these angles to get new directions and multiply these by the distance the original arrow will travel and we get our targets
             angle = (180 / Mathf.PI) * angle;
             float angle1 = (angle-10f) * (Mathf.PI / 180f);
             float angle2 = (angle + 10f) * (Mathf.PI / 180f);

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//level 3 first boss fight against grog grog.
 public class Level3 : Level
 {
     
@@ -14,7 +16,7 @@ public class Level3 : Level
 
     [SerializeField]
     AudioSource source;
-    protected override void EnterNotPassedLevel()
+    protected override void EnterNotPassedLevel()//activate grog grog and play boss music
     {
         AudioManager.Instance.PlayBGMusic("Boss");
         ActivateAllImportantObjects();
@@ -38,7 +40,7 @@ public class Level3 : Level
 
 
 
-    public void BossDown()
+    public void BossDown()//called when all switches are pressed
     {
         AudioManager.Instance.PlayBGMusic("Forest");
         source.volume = AudioManager.fxVolume;

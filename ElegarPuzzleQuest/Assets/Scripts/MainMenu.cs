@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///The class for the main menu. has functionality for the buttons
+
 public class MainMenu : MonoBehaviour
 {
     [SerializeField]

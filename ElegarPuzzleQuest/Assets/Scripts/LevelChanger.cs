@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+///this guy handles all scene changes in the game. also has a fade in and fade out animation
+
 public class LevelChanger : MonoBehaviour
 {
     [SerializeField]
@@ -29,7 +32,7 @@ public class LevelChanger : MonoBehaviour
     // Start is called before the first frame update
 
 
-    public void LoadAScene()
+    public void LoadAScene()//this is called as an animation event at the end of fadeOut animation
     {
         SceneManager.LoadScene(screenToLoadIndex);
         HUD.Instance.ResumeGame();
@@ -62,7 +65,7 @@ public class LevelChanger : MonoBehaviour
         screenToLoadIndex = 5;
     }
 
-    public void LoadLevel(int lvl)
+    public void LoadLevel(int lvl)//load a scene when we know the level we are
     {
         AudioManager.Instance.PlayBGMusic(lvl);
         if(lvl<16)

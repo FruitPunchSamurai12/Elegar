@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//base class for objects affected by the water spell
 public class Waterable : MonoBehaviour
 {
     [SerializeField]

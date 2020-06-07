@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+///This guy handles all in game UI. 
+///HEARTS, SPELLS, PAUSE MENU, GAME OVER MENU
+///it also keeps check of elegar's stats and kills him if his health is 0
+///since it is a singleton it keeps elegar's stats after a scene change and sets him up afterwards
+
 public class HUD : MonoBehaviour
 {
 
@@ -50,6 +55,8 @@ public class HUD : MonoBehaviour
     Sprite[] selectedImages;
     public int equippedSpellIndex;
     int spellLevel;
+
+    bool godMode = false;
 
     public static HUD Instance;
 
@@ -114,7 +121,19 @@ public class HUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (elegar)
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            if(godMode)
+            {
+                godMode = false;
+            }
+            else
+            {
+                godMode = true;
+            }
+        }
+
+        if (elegar)//only show the ui while we have an elegar
         {
             spellbar.SetActive(true);
             heartsBar.SetActive(true);
@@ -146,44 +165,46 @@ public class HUD : MonoBehaviour
 
     void UpdateHearts()
     {
-        
-        if (currentHealth == 0)
+        if (!godMode)
         {
-            for (int i = 0; i < hearts.Length; i++)
+            if (currentHealth == 0)
             {
-                hearts[i].sprite = emptyHeart;
-                elegar.Die();
-                GameOver();
-            }
-        }
-        else
-        {
-            for (int i = 0; i < hearts.Length; i++)
-            {
-                if (currentHealth % 2 == 0)
+                for (int i = 0; i < hearts.Length; i++)
                 {
-                    if (i < currentHealth / 2)
-                    {
-                        hearts[i].sprite = fullHeart;
-                    }
-                    else
-                    {
-                        hearts[i].sprite = emptyHeart;
-                    }
+                    hearts[i].sprite = emptyHeart;
+                    elegar.Die();
+                    GameOver();
                 }
-                else
+            }
+            else
+            {
+                for (int i = 0; i < hearts.Length; i++)
                 {
-                    if (i < currentHealth / 2)
+                    if (currentHealth % 2 == 0)
                     {
-                        hearts[i].sprite = fullHeart;
-                    }
-                    else if (i == currentHealth / 2)
-                    {
-                        hearts[i].sprite = halfHeart;
+                        if (i < currentHealth / 2)
+                        {
+                            hearts[i].sprite = fullHeart;
+                        }
+                        else
+                        {
+                            hearts[i].sprite = emptyHeart;
+                        }
                     }
                     else
                     {
-                        hearts[i].sprite = emptyHeart;
+                        if (i < currentHealth / 2)
+                        {
+                            hearts[i].sprite = fullHeart;
+                        }
+                        else if (i == currentHealth / 2)
+                        {
+                            hearts[i].sprite = halfHeart;
+                        }
+                        else
+                        {
+                            hearts[i].sprite = emptyHeart;
+                        }
                     }
                 }
             }
@@ -251,6 +272,8 @@ public class HUD : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
         gameSavedText.SetActive(false);
     }
+
+    //Pause menu and game over menu stuff
 
     public void PauseGame()
     {

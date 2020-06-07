@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//the third boss Flame Lord
 public class FlameLord : MonoBehaviour
 {
     [SerializeField]
@@ -10,7 +11,7 @@ public class FlameLord : MonoBehaviour
 
     bool fired = false;
 
-    public void SpawnFire()
+    public void SpawnFire()//called from the animation as an animation event
     {
         if (!fired)
         {
@@ -20,7 +21,7 @@ public class FlameLord : MonoBehaviour
         }
     }
 
-    public void TimeToDie(Material dissolve)
+    public void TimeToDie(Material dissolve)//dies same way as batula
     {
         SpriteRenderer renderer = GetComponent<SpriteRenderer>();
         renderer.material = dissolve;

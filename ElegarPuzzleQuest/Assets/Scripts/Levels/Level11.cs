@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//you pass level 11 by moving to level 12
 public class Level11 : Level
 {
     [SerializeField]

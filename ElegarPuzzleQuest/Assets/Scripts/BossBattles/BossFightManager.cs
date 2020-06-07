@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///this guy handles the 4th boss fight against Batula the vampire
 public class BossFightManager : MonoBehaviour
 {
     [SerializeField]
@@ -29,7 +30,7 @@ public class BossFightManager : MonoBehaviour
     Level17 lvl;
 
 
-    // Update is called once per frame
+    //when all altars are lit the lights expand and batula and the bats get disintegrated
     void Update()
     {
         if (!lvl.levelPassed)
@@ -67,7 +68,7 @@ public class BossFightManager : MonoBehaviour
             float timeSinceStarted = Time.time - timeLerpStarted;
             float percentageComplete = timeSinceStarted / lerpDuration;
             float newT = Mathf.Lerp(startValue, endValue, percentageComplete);
-            dissolveM.SetFloat("_Threshold", newT);
+            dissolveM.SetFloat("_Threshold", newT);//that's the material the enemies have that makes them dissolve
             foreach (LightableAltar altar in altars)
             {
                 altar.ScaleLights();
@@ -82,7 +83,7 @@ public class BossFightManager : MonoBehaviour
                         Destroy(enemy);
                     }
                 }
-                dissolveM.SetFloat("_Threshold", 0);
+                dissolveM.SetFloat("_Threshold", 0);//i set it back to normal afterwards
             }
         }
     }

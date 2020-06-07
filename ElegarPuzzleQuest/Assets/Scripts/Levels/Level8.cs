@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//to pass level 8 you need to extinguish the fire
 public class Level8 : Level
 {
     [SerializeField]

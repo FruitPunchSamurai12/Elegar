@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//just need to get to level 16 to pass level 15
 public class Level15 : Level
 {
    

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///Thats a helper class for rupert to appear from a portal
+///the portal gets activated by another script, usually the level he is at and then this script starts running
+///it pretty much just calls all functions in an order 
 public class Rupert : MonoBehaviour
 {
     public Animator rupertAnimator;

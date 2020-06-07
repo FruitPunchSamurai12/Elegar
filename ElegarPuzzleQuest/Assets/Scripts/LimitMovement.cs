@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///helper class used on objects that i dont want to go through certain boundaries
+///the movable rocks for example shouldnt be crossing through levels
 public class LimitMovement : MonoBehaviour
 {
 

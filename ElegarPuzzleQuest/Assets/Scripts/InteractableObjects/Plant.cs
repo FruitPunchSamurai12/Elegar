@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//plant in level 10. straight forward
 public class Plant : Waterable
 {
     [SerializeField]

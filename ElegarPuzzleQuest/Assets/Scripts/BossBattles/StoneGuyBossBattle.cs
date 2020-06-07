@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///The guy responsible for the 1st boss battle against Grog Grog. Unleashes the boulder when all buttons are pressed and notifies level3 its been cleared
 public class StoneGuyBossBattle : MonoBehaviour
 {
     [SerializeField]

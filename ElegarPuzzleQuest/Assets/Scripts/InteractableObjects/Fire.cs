@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///fire set on the ground. The fires flame lord throws inherit from this
+
 public class Fire : Waterable
 {
     public float forcePower = 100f;

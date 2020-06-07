@@ -13,6 +13,8 @@ using UnityEngine;
     enumEND
 }
 
+///elegar's class. he has a looot going on
+
 public class Player : BaseCharacter
 {
     public int maxLife = 3;
@@ -23,14 +25,18 @@ public class Player : BaseCharacter
     public float InvulnerabilityDuration = 2f;
     float InvulnerabilityTimer = 0f;
 
+    //sliding stuff
     public bool sliding = false;
     Vector3 slidingDirection;
     private float noMovementThreshold = 0.0001f;
     private const int noMovementFrames = 2;
     Vector3[] previousLocations = new Vector3[noMovementFrames];
 
+    //change room stuff
     public bool inControl = true;
     public bool changingRoom = false;
+
+    //spells
     [SerializeField]
     private ElegarSpells spell = ElegarSpells.noSpell;
     public int spellsUnlocked = 0;
@@ -41,6 +47,7 @@ public class Player : BaseCharacter
     GameObject waterEffect;
     public float waterAOE = 1f;
     public float waterRange = 1f;
+    //light stuff
     [SerializeField]
     GameObject lightEffect;
     [SerializeField]
@@ -53,8 +60,9 @@ public class Player : BaseCharacter
     [SerializeField]
     GameObject playerSlideDownCliffAnimation;
 
-    public Transform groundCheck;
+    public Transform groundCheck;//used for pitfalls
 
+    //used to lerp when changing rooms
     Vector2 startPosition;
     Vector2 endPosition;
     float timeLerpStarted;
@@ -66,12 +74,12 @@ public class Player : BaseCharacter
         {
             previousLocations[i] = Vector3.zero;
         }
-        ElegarPuzzleQuestManager.Instance.SetPlayer(this);
-        HUD.Instance.SetUpElegar(this);
+        ElegarPuzzleQuestManager.Instance.SetPlayer(this);//position and spells unlocked
+        HUD.Instance.SetUpElegar(this);//health and spell equipped
     }
 
 
-    override protected void Update()
+    override protected void Update()//update takes input and deals with animations
     {
         if (!isDead)
         {
@@ -79,7 +87,7 @@ public class Player : BaseCharacter
             {
                 if (Input.GetKeyDown(KeyCode.Space) && spell != ElegarSpells.noSpell)
                 {
-                    animator.SetTrigger("Spell");
+                    animator.SetTrigger("Spell");//on space cast spell. the animation will call the CastSpell function
                 }
                 direction.x = Input.GetAxisRaw("Horizontal");
                 direction.y = Input.GetAxisRaw("Vertical");
@@ -93,7 +101,7 @@ public class Player : BaseCharacter
     }
 
     // Update is called once per frame
-    override protected void FixedUpdate()
+    override protected void FixedUpdate()//fixed update deals with movement and physics
     {
         if (!isDead)
         {
@@ -161,7 +169,7 @@ public class Player : BaseCharacter
         }
     }
 
-    public void EquipSpell(ElegarSpells s)
+    public void EquipSpell(ElegarSpells s)//called from hud when player presses 1-5 or one of the buttons
     {
         if ((int)s <= spellsUnlocked)
         {
@@ -172,7 +180,7 @@ public class Player : BaseCharacter
     }
 
 
-    void LerpPlayer()
+    void LerpPlayer()//used to move player between levels
     {
         float timeSinceStarted = Time.time - timeLerpStarted;
         float percentageComplete = timeSinceStarted / lerpDuration;
@@ -185,7 +193,7 @@ public class Player : BaseCharacter
         }
     }
 
-    public void ChangeRoom(Vector2 offset)
+    public void ChangeRoom(Vector2 offset)//used when change level starts
     {
         timeLerpStarted = Time.time;
         startPosition = transform.position;
@@ -204,9 +212,9 @@ public class Player : BaseCharacter
         }
     }
 
-    void Push()
+    void Push()//push targets the first target it hits in front of it.
     {
-        int layerMask = 1 << LayerMask.NameToLayer("Interactable");
+        int layerMask = 1 << LayerMask.NameToLayer("Interactable");//only targets interactable objects
         Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
         RaycastHit2D hit = Physics2D.Raycast(transform.position, castDirection, pushPullRange,layerMask);
         if (hit.collider != null)
@@ -219,7 +227,7 @@ public class Player : BaseCharacter
         }
     }
 
-    void Pull()
+    void Pull()//same as push
     {
         int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
@@ -234,7 +242,7 @@ public class Player : BaseCharacter
         }
     }
 
-    void Water()
+    void Water()//water targets all objects in a circle. also summons the water bomb effect
     {
         int layerMask = 1 << LayerMask.NameToLayer("Interactable");
         Vector2 castDirection = new Vector2(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
@@ -251,7 +259,7 @@ public class Player : BaseCharacter
     }
 
 
-    void Light()
+    void Light()//light targets all objects in a circle around elegar. also activates the light mask to see in underground areas
     {
         isLightOn = true;
         lightEffect.SetActive(true);
@@ -279,7 +287,7 @@ public class Player : BaseCharacter
         }
     }
 
-    public void FallToDeath()
+    public void FallToDeath()//used when falling down a cliff
     {
         if (!isDead)
         {
@@ -318,7 +326,7 @@ public class Player : BaseCharacter
         }
         sliding = true;
         Vector2 temp = new Vector2(direction.x, direction.y);
-        if (temp == Vector2.down || temp == Vector2.up || temp == Vector2.left || temp == Vector2.right)
+        if (temp == Vector2.down || temp == Vector2.up || temp == Vector2.left || temp == Vector2.right)//allow sliding only on 4 directions
         {
             slidingDirection = direction;
         }
@@ -351,7 +359,7 @@ public class Player : BaseCharacter
         HUD.Instance.currentHealth -= damageValue;
     }
 
-    public void SlowPlayer(float duration)
+    public void SlowPlayer(float duration)//used in level 7 when you get hit by arrows
     {
         speed = speed / 2f;
         Invoke("SpeedToNormal", duration);
@@ -362,11 +370,14 @@ public class Player : BaseCharacter
         speed = 2f * speed;
     }
 
+
+    //making animations that move elegar's position screwed up his movement for some reasons. 
+    //so the animation for sliding down the cliff is another game object which i instantiate at the time and place it there while also disabling the sprite renderer on elegar
     public void PlayerSlideDownTheCliff()
     {
         inControl = false;
         renderer.enabled = false;
-        transform.position = new Vector2(-43.14f, -10.21f);
+        transform.position = new Vector2(-43.14f, -10.21f);//i know it sucks to use magic numbers :/
         Destroy(Instantiate(playerSlideDownCliffAnimation), 1f);
         Invoke("ReOpenSpriteRenderer", 1f);
     }
@@ -377,7 +388,7 @@ public class Player : BaseCharacter
         inControl = true;
     }
 
-    public void HideInBush(bool hide)
+    public void HideInBush(bool hide)//used in level 2
     {
         if(hide)
         {
@@ -391,7 +402,7 @@ public class Player : BaseCharacter
         }
     }
 
-    public void GetStunned()
+    public void GetStunned()//used in level 2
     {
         animator.SetTrigger("Stun");
     }

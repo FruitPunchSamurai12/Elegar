@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//you need to light the altars to pass level 16
 public class Level16 : Level
 {
     [SerializeField]

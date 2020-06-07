@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///the gate in level 16
 public class Gate : MonoBehaviour
 {
 

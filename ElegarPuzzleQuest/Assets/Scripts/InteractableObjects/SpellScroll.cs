@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///teaches the player a new spell. always triggers rupert to appear afterwards to explain what that spell does
 public class SpellScroll : MonoBehaviour
 {
     public int spellLevel = 0;

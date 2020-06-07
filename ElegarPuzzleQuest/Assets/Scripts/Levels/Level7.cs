@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//level 7 boss fight against rogue. Need to defeat rogue to pass it
 public class Level7 : Level
 {
+    //the doors will be invisible walls
     [SerializeField]
     DoorTrigger doorTo6;
 
@@ -22,7 +24,7 @@ public class Level7 : Level
     [SerializeField]
     AudioSource source;
 
-    protected override void EnterNotPassedLevel()
+    protected override void EnterNotPassedLevel()//activate and set rogue and make the doors invisible walls
     {
         AudioManager.Instance.PlayBGMusic("Boss");
         doorTo6.InvisibleWall(true);
@@ -61,7 +63,7 @@ public class Level7 : Level
         }
     }
 
-    public void RogueDrowned()
+    public void RogueDrowned()//called when rogue is defeated
     {
         AudioManager.Instance.PlayBGMusic("Village");
         AudioManager.Instance.PlaySoundEffect("Acid");

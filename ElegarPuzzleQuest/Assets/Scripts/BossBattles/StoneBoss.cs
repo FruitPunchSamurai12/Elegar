@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///Grog Grog the first boss. Moves and throws rocks. The ThrowRock function is called from the animation as an animation event
+
 public class StoneBoss : MonoBehaviour
 {
     [SerializeField]

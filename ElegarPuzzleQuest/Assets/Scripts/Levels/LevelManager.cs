@@ -4,10 +4,15 @@ using UnityEngine;
 using System.Xml;
 using System.IO;
 
+///THIS GUY IS CALLED THE LEVEL MANAGER BUT HE IS ALSO THE SAVE MANAGER.
+///VERY IMPORTANT CLASS. HOLDS EVERYTHING THE GAME NEEDS TO CONNECT EACH LEVEL TO EACH OTHER
+///ALSO SAVES EVERYTHING THAT NEEDS TO BE REMEMBERED. LEVELS PASSED, IMPORTANT OBJECT POSITIONS AND ELEGAR'S STATS
+///THESE ARE RECORDED IN SEPARATE XML FILES WHEN THE PLAYER ENTERS A SAVEPOINT.
+///WHEN THE PLAYER LOADS THE GAME, THE LEVEL MANAGER GETS THE DATA FROM THESE XML FILES
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
-
+    //the xml files names
     public string objectPositionsFileName;
     public string levelPassedFileName;
     public string playerStatsFileName;
@@ -15,9 +20,10 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     bool[] levelsPassed;
 
-    public Vector2[] cameraStartingPositions;
+    public Vector2[] cameraStartingPositions;//there are certain levels the camera can start at
     public Vector2[] savePointsPositions;
 
+    //these are the cave's positions. need these when entering/exiting a cave to set elegar's position
     public Vector2[] worldMapCavePositions;
     public Vector2[] level13CavePositions;
     public Vector2 level14CavePosition;
@@ -25,18 +31,20 @@ public class LevelManager : MonoBehaviour
     public Vector2[] level16CavePositions;
     public Vector2[] level17CavePositions;
 
+    //these are the important objects. They usually get recorded when the player passes a level
     public Vector2[] level4Positions;
     public Vector2[] level5Positions;
     public Vector2[] level7Positions;
     public Vector2[] level9Positions;
     public Vector2[] level15Positions;
 
+    //the player's stats. in which save point he is and how many spells he knows
     public int playerLevelSave = 1;
     public int playerSpellsUnlocked = 0;
 
  
 
-    public Vector2 GetCavePosition(int levelToGo,int previousLevel)
+    public Vector2 GetCavePosition(int levelToGo,int previousLevel)//used to assign the correct position to elegar after he enters/exit a cave
     {
         switch (levelToGo)
         {
@@ -93,7 +101,7 @@ public class LevelManager : MonoBehaviour
         return false;
     }
 
-    public void ResetLevelsPassed()
+    public void ResetLevelsPassed()//used on new game
     {
         for(int i=0;i<levelsPassed.Length;i++)
         {
@@ -101,7 +109,7 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public Vector2 GetCameraStartingPosition(int lvl)
+    public Vector2 GetCameraStartingPosition(int lvl)//specific levels where the camera can start. cave exits/entrances, levels with save points
     {
         switch (lvl)
         {
@@ -208,6 +216,15 @@ public class LevelManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    ///THE LOAD AND SAVE FUNCTIONS. THEY SEEM COMPLICATED BUT ACTUALLY THEY ARE VERY STRAIGHT FORWARD IF YOU OPEN THE XML FILES AND SEE HOW THEY ARE WRITTEN
+    ///FOR THE POSITIONS I RECORD THE X AND Y VALUE OF THE OBJECT POSITION AND PUT A ":" BETWEEN.
+    ///WHEN I READ THE POSITIONS I USE string.Split(':') TO GET A STRING ARRAY BACK WHERE THE VALUE IN 0 INDEX IS THE X AND THE VALUE IN THE 1 INDEX IS THE Y
+    ///THE XML FILES ARE
+    ///ElegarStats.xml
+    ///LevelPassed.xml
+    ///ObjectPositions.xml
+
 
     void LoadPlayerStats()
     {

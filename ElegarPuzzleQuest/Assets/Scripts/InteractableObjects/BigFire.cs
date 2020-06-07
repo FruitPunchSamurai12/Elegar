@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///The big fires required to defeat flame lord
+///the get lit when flame lord's fires touch them and cant be watered
+
 public class BigFire : MonoBehaviour
 {
     [SerializeField]

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///a helper class to make objects move up and down in a frequency. used in the bats and batula
 public class Float : MonoBehaviour
 {
     public float frequency = 0.5f;

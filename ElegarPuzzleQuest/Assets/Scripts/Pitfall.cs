@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+///the pitfalls in dark areas. elegar dies if he falls down
 public class Pitfall : MonoBehaviour
 {
     Collider2D collider;
@@ -16,7 +18,7 @@ public class Pitfall : MonoBehaviour
         if(collision.tag == "Player")
         {
             Player player = collision.GetComponent<Player>();
-            if(collider.OverlapPoint(player.groundCheck.position))
+            if(collider.OverlapPoint(player.groundCheck.position))//we check for the ground position instead of just colliding 
             {
                 player.FallToDeath();
             }
